@@ -1,0 +1,21 @@
+# SmartPlay FPL Security Policy
+
+Contact: https://github.com/qazybekb/SmartPlayFPLProject/issues
+Expires: 2025-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://smartplayfpl.com/.well-known/security.txt
+
+# Our security policy
+# We take security seriously. If you find a vulnerability, please report it.
+
+# Scope
+# - smartplayfpl.com
+# - API endpoints at smartplayfpl-*.run.app
+
+# Out of scope
+# - Denial of service attacks
+# - Social engineering
+# - Physical attacks
+
+# Hall of Fame
+# We appreciate responsible disclosure and will credit researchers.

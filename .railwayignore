@@ -1,0 +1,53 @@
+# Frontend files (Railway only deploys backend)
+frontend/
+node_modules/
+
+# Development files
+*.md
+.git/
+.gitignore
+.DS_Store
+
+# ML training artifacts (not needed in production)
+backend/ml/plots/
+backend/ml/data/*.csv
+backend/ml/*.ipynb
+backend/ml/*_eda.py
+backend/ml/01_data_collection.py
+backend/ml/02_eda.py
+backend/ml/02b_advanced_eda.py
+backend/ml/02c_pipeline_improvements.py
+backend/ml/analyze_records.py
+backend/ml/regenerate_models.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+ml_venv/
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Logs
+*.log

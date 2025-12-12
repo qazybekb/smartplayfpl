@@ -1,0 +1,365 @@
+@prefix fpl: <http://fantasykg.org/ontology#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+# =============================================================
+# SHACL Shapes for FPL Squad Validation
+# SmartPlayFPL Knowledge Graph
+# =============================================================
+
+# =============================================================
+# HARD CONSTRAINTS - Squad is INVALID if any fail
+# =============================================================
+
+# 1. Budget Constraint - Total squad cost must be <= £100m
+fpl:BudgetConstraintShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "Budget Constraint" ;
+    rdfs:comment "Total squad cost must not exceed £100.0m" ;
+    sh:property [
+        sh:path fpl:totalCost ;
+        sh:maxInclusive 100.0 ;
+        sh:message "Squad budget exceeds £100.0m limit" ;
+        sh:severity sh:Violation ;
+    ] .
+
+# 2. Squad Size Constraint - Must have exactly 15 players
+fpl:SquadSizeConstraintShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "Squad Size Constraint" ;
+    rdfs:comment "Squad must contain exactly 15 players" ;
+    sh:property [
+        sh:path fpl:playerCount ;
+        sh:minCount 15 ;
+        sh:maxCount 15 ;
+        sh:message "Squad must have exactly 15 players" ;
+        sh:severity sh:Violation ;
+    ] .
+
+# 3. Goalkeeper Count - Exactly 2 GKPs
+fpl:GoalkeeperCountShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "Goalkeeper Count Constraint" ;
+    rdfs:comment "Squad must have exactly 2 goalkeepers" ;
+    sh:property [
+        sh:path fpl:goalkeeperCount ;
+        sh:minInclusive 2 ;
+        sh:maxInclusive 2 ;
+        sh:message "Squad must have exactly 2 goalkeepers" ;
+        sh:severity sh:Violation ;
+    ] .
+
+# 4. Defender Count - Exactly 5 DEFs
+fpl:DefenderCountShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "Defender Count Constraint" ;
+    rdfs:comment "Squad must have exactly 5 defenders" ;
+    sh:property [
+        sh:path fpl:defenderCount ;
+        sh:minInclusive 5 ;
+        sh:maxInclusive 5 ;
+        sh:message "Squad must have exactly 5 defenders" ;
+        sh:severity sh:Violation ;
+    ] .
+
+# 5. Midfielder Count - Exactly 5 MIDs
+fpl:MidfielderCountShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "Midfielder Count Constraint" ;
+    rdfs:comment "Squad must have exactly 5 midfielders" ;
+    sh:property [
+        sh:path fpl:midfielderCount ;
+        sh:minInclusive 5 ;
+        sh:maxInclusive 5 ;
+        sh:message "Squad must have exactly 5 midfielders" ;
+        sh:severity sh:Violation ;
+    ] .
+
+# 6. Forward Count - Exactly 3 FWDs
+fpl:ForwardCountShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "Forward Count Constraint" ;
+    rdfs:comment "Squad must have exactly 3 forwards" ;
+    sh:property [
+        sh:path fpl:forwardCount ;
+        sh:minInclusive 3 ;
+        sh:maxInclusive 3 ;
+        sh:message "Squad must have exactly 3 forwards" ;
+        sh:severity sh:Violation ;
+    ] .
+
+# 7. Team Limit - Max 3 players from any team
+fpl:TeamLimitShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "Team Limit Constraint" ;
+    rdfs:comment "Maximum 3 players from any single team" ;
+    sh:property [
+        sh:path fpl:maxPlayersPerTeam ;
+        sh:maxInclusive 3 ;
+        sh:message "Cannot have more than 3 players from the same team" ;
+        sh:severity sh:Violation ;
+    ] .
+
+# 8. Starter Count - Exactly 11 starters
+fpl:StarterCountShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "Starter Count Constraint" ;
+    rdfs:comment "Starting XI must have exactly 11 players" ;
+    sh:property [
+        sh:path fpl:starterCount ;
+        sh:minInclusive 11 ;
+        sh:maxInclusive 11 ;
+        sh:message "Starting XI must have exactly 11 players" ;
+        sh:severity sh:Violation ;
+    ] .
+
+# 9. Formation Constraints - Valid formations only
+# DEF starters: 3-5, MID starters: 2-5, FWD starters: 1-3
+fpl:FormationDefenderShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "Formation Defender Constraint" ;
+    rdfs:comment "Starting XI must have 3-5 defenders" ;
+    sh:property [
+        sh:path fpl:starterDefenderCount ;
+        sh:minInclusive 3 ;
+        sh:maxInclusive 5 ;
+        sh:message "Starting XI must have 3-5 defenders" ;
+        sh:severity sh:Violation ;
+    ] .
+
+fpl:FormationMidfielderShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "Formation Midfielder Constraint" ;
+    rdfs:comment "Starting XI must have 2-5 midfielders" ;
+    sh:property [
+        sh:path fpl:starterMidfielderCount ;
+        sh:minInclusive 2 ;
+        sh:maxInclusive 5 ;
+        sh:message "Starting XI must have 2-5 midfielders" ;
+        sh:severity sh:Violation ;
+    ] .
+
+fpl:FormationForwardShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "Formation Forward Constraint" ;
+    rdfs:comment "Starting XI must have 1-3 forwards" ;
+    sh:property [
+        sh:path fpl:starterForwardCount ;
+        sh:minInclusive 1 ;
+        sh:maxInclusive 3 ;
+        sh:message "Starting XI must have 1-3 forwards" ;
+        sh:severity sh:Violation ;
+    ] .
+
+# 10. Captain Constraint - Must have exactly 1 captain who is a starter
+fpl:CaptainConstraintShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "Captain Constraint" ;
+    rdfs:comment "Squad must have exactly 1 captain from starters" ;
+    sh:property [
+        sh:path fpl:captainCount ;
+        sh:minInclusive 1 ;
+        sh:maxInclusive 1 ;
+        sh:message "Squad must have exactly 1 captain" ;
+        sh:severity sh:Violation ;
+    ] .
+
+# 11. Vice-Captain Constraint
+fpl:ViceCaptainConstraintShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "Vice-Captain Constraint" ;
+    rdfs:comment "Squad must have exactly 1 vice-captain from starters" ;
+    sh:property [
+        sh:path fpl:viceCaptainCount ;
+        sh:minInclusive 1 ;
+        sh:maxInclusive 1 ;
+        sh:message "Squad must have exactly 1 vice-captain" ;
+        sh:severity sh:Violation ;
+    ] .
+
+# =============================================================
+# SOFT CONSTRAINTS - Warnings (squad is valid but not optimal)
+# =============================================================
+
+# W1. No Injured Starters Warning
+fpl:NoInjuredStartersWarningShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "No Injured Starters Warning" ;
+    rdfs:comment "Starting XI should not contain injured players" ;
+    sh:property [
+        sh:path fpl:injuredStarterCount ;
+        sh:maxInclusive 0 ;
+        sh:message "Warning: Starting XI contains injured or doubtful players" ;
+        sh:severity sh:Warning ;
+    ] .
+
+# W2. No Rotation Risk Starters Warning
+fpl:NoRotationRiskStartersWarningShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "No Rotation Risk Starters Warning" ;
+    rdfs:comment "Starting XI should not contain rotation risk players" ;
+    sh:property [
+        sh:path fpl:rotationRiskStarterCount ;
+        sh:maxInclusive 0 ;
+        sh:message "Warning: Starting XI contains players at rotation risk" ;
+        sh:severity sh:Warning ;
+    ] .
+
+# W3. No High Recurrence Risk Warning
+fpl:NoHighRecurrenceRiskWarningShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "No High Recurrence Risk Warning" ;
+    rdfs:comment "Squad should avoid injury-prone players" ;
+    sh:property [
+        sh:path fpl:highRecurrenceRiskCount ;
+        sh:maxInclusive 0 ;
+        sh:message "Info: Squad contains players with high injury recurrence risk" ;
+        sh:severity sh:Info ;
+    ] .
+
+# W4. Playing Bench Warning
+fpl:PlayingBenchWarningShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "Playing Bench Warning" ;
+    rdfs:comment "At least 1 bench outfield player should be nailed" ;
+    sh:property [
+        sh:path fpl:nailedBenchCount ;
+        sh:minInclusive 1 ;
+        sh:message "Info: No nailed bench players for auto-sub coverage" ;
+        sh:severity sh:Info ;
+    ] .
+
+# W5. Captain Quality Warning
+fpl:CaptainQualityWarningShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "Captain Quality Warning" ;
+    rdfs:comment "Captain should have high form (>=7)" ;
+    sh:property [
+        sh:path fpl:captainForm ;
+        sh:minInclusive 7.0 ;
+        sh:message "Info: Captain has form below 7.0" ;
+        sh:severity sh:Info ;
+    ] .
+
+# W6. Sell Urgent Warning
+fpl:SellUrgentWarningShape a sh:NodeShape ;
+    sh:targetClass fpl:Squad ;
+    rdfs:label "Sell Urgent Warning" ;
+    rdfs:comment "Squad should not contain players marked for urgent sale" ;
+    sh:property [
+        sh:path fpl:sellUrgentCount ;
+        sh:maxInclusive 0 ;
+        sh:message "Warning: Squad contains players you should sell urgently" ;
+        sh:severity sh:Warning ;
+    ] .
+
+# =============================================================
+# STRATEGY-SPECIFIC CONSTRAINTS
+# =============================================================
+
+# Template Squad Strategy
+fpl:TemplateSquadConstraintShape a sh:NodeShape ;
+    sh:targetClass fpl:TemplateSquad ;
+    rdfs:label "Template Squad Constraints" ;
+    rdfs:comment "Template squad specific requirements" ;
+    sh:property [
+        sh:path fpl:highOwnershipCount ;
+        sh:minInclusive 10 ;
+        sh:message "Template Squad should have at least 10 players with >10% ownership" ;
+        sh:severity sh:Warning ;
+    ] ;
+    sh:property [
+        sh:path fpl:minOwnership ;
+        sh:minInclusive 5.0 ;
+        sh:message "Template Squad should not have players below 5% ownership" ;
+        sh:severity sh:Warning ;
+    ] .
+
+# Premium & Punts Strategy
+fpl:PremiumPuntsConstraintShape a sh:NodeShape ;
+    sh:targetClass fpl:PremiumPuntsSquad ;
+    rdfs:label "Premium & Punts Constraints" ;
+    rdfs:comment "Premium & Punts squad specific requirements" ;
+    sh:property [
+        sh:path fpl:premiumAssetCount ;
+        sh:minInclusive 2 ;
+        sh:maxInclusive 3 ;
+        sh:message "Premium & Punts should have 2-3 premium players (£10m+)" ;
+        sh:severity sh:Warning ;
+    ] ;
+    sh:property [
+        sh:path fpl:budgetPlayerCount ;
+        sh:minInclusive 8 ;
+        sh:message "Premium & Punts should have at least 8 budget players (<£6m)" ;
+        sh:severity sh:Warning ;
+    ] .
+
+# Value Hunters Strategy
+fpl:ValueHuntersConstraintShape a sh:NodeShape ;
+    sh:targetClass fpl:ValueHuntersSquad ;
+    rdfs:label "Value Hunters Constraints" ;
+    rdfs:comment "Value Hunters squad specific requirements" ;
+    sh:property [
+        sh:path fpl:averagePointsPerMillion ;
+        sh:minInclusive 12.0 ;
+        sh:message "Value Hunters should have average pts/£m >= 12" ;
+        sh:severity sh:Warning ;
+    ] .
+
+# Form Riders Strategy
+fpl:FormRidersConstraintShape a sh:NodeShape ;
+    sh:targetClass fpl:FormRidersSquad ;
+    rdfs:label "Form Riders Constraints" ;
+    rdfs:comment "Form Riders squad specific requirements" ;
+    sh:property [
+        sh:path fpl:highFormStarterCount ;
+        sh:minInclusive 8 ;
+        sh:message "Form Riders should have at least 8 starters with form >= 5" ;
+        sh:severity sh:Warning ;
+    ] ;
+    sh:property [
+        sh:path fpl:captainForm ;
+        sh:minInclusive 7.0 ;
+        sh:message "Form Riders captain should have form >= 7" ;
+        sh:severity sh:Warning ;
+    ] .
+
+# Smart Differentials Strategy
+fpl:SmartDifferentialsConstraintShape a sh:NodeShape ;
+    sh:targetClass fpl:SmartDifferentialsSquad ;
+    rdfs:label "Smart Differentials Constraints" ;
+    rdfs:comment "Smart Differentials squad specific requirements" ;
+    sh:property [
+        sh:path fpl:differentialCount ;
+        sh:minInclusive 5 ;
+        sh:message "Smart Differentials should have at least 5 players with <10% ownership" ;
+        sh:severity sh:Warning ;
+    ] ;
+    sh:property [
+        sh:path fpl:differentialMinForm ;
+        sh:minInclusive 4.0 ;
+        sh:message "All differentials should have form >= 4" ;
+        sh:severity sh:Warning ;
+    ] .
+
+# =============================================================
+# PLAYER CONSTRAINTS (for individual player validation)
+# =============================================================
+
+fpl:PlayerShape a sh:NodeShape ;
+    sh:targetClass fpl:Player ;
+    rdfs:label "Player Constraints" ;
+    sh:property [
+        sh:path fpl:currentPrice ;
+        sh:minInclusive 3.9 ;
+        sh:maxInclusive 15.0 ;
+        sh:message "Player price must be between £3.9m and £15.0m" ;
+    ] ;
+    sh:property [
+        sh:path fpl:position ;
+        sh:in ("GKP" "DEF" "MID" "FWD") ;
+        sh:message "Player position must be GKP, DEF, MID, or FWD" ;
+    ] .
+

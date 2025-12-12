@@ -1,0 +1,73 @@
+{
+  "optimal_weights": {
+    "fixture_score": 0.0,
+    "form_score_xg": 0.0904071690504274,
+    "form_score_pts": 0.06580773378183412,
+    "nailedness_score": 0.17278089645473915,
+    "value_score": 0.0,
+    "ceiling_score": 0.0
+  },
+  "normalized_weights": {
+    "fixture_score": 0.0,
+    "form_score_xg": 0.2747973355476201,
+    "form_score_pts": 0.20002606089333835,
+    "nailedness_score": 0.5251766035590415,
+    "value_score": 0.0,
+    "ceiling_score": 0.0
+  },
+  "test_metrics": {
+    "MAE": 0.9155476729684197,
+    "R2": 0.22062871872286038,
+    "Spearman": 0.7547371665391867
+  },
+  "comparison_with_v2": {
+    "weighted_mae": 0.9155476729684197,
+    "v2_full_mae": 1.06,
+    "weighted_spearman": 0.7547371665391867,
+    "v2_full_spearman": 0.716
+  },
+  "all_methods_comparison": [
+    {
+      "Method": "Scipy (MAE)",
+      "MAE": 0.9155327828274157,
+      "R2": 0.2207369550260374,
+      "Spearman": 0.7547422316946033
+    },
+    {
+      "Method": "Diff Evolution",
+      "MAE": 0.9155476729684197,
+      "R2": 0.22062871872286038,
+      "Spearman": 0.7547371665391867
+    },
+    {
+      "Method": "Ridge (ML learned)",
+      "MAE": 1.0701929161219972,
+      "R2": 0.31215960285495425,
+      "Spearman": 0.7155078969244717
+    },
+    {
+      "Method": "Grid Search (MAE)",
+      "MAE": 4.238436364082917,
+      "R2": -7.394754616039075,
+      "Spearman": 0.7528480005242176
+    },
+    {
+      "Method": "Grid Search (Spearman)",
+      "MAE": 5.964533107377935,
+      "R2": -15.768163093764876,
+      "Spearman": 0.7548736157165894
+    },
+    {
+      "Method": "Equal Weights",
+      "MAE": 14.001931817809322,
+      "R2": -48.596710908309,
+      "Spearman": 0.709286883735419
+    },
+    {
+      "Method": "Scipy (Spearman)",
+      "MAE": 14.002174608774737,
+      "R2": -48.59914188909532,
+      "Spearman": 0.7092888280835516
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "stage1": {
+    "model": "random_forest",
+    "test_auc": 0.9499991790133929,
+    "test_f1": 0.8710968775020016,
+    "test_accuracy": 0.8933774834437086
+  },
+  "stage2": {
+    "model": "ridge",
+    "test_mae": 2.2461622835684003,
+    "test_rmse": 3.089481868360879,
+    "test_r2": 0.016040725211386775
+  },
+  "combined": {
+    "test_mae": 1.0919212868595558,
+    "test_rmse": 2.0600671368924703,
+    "baseline_mae": 1.574291439156386,
+    "improvement_pct": 30.640460863797713
+  }
+}

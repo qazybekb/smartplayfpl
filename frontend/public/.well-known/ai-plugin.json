@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "SmartPlay FPL",
+  "name_for_model": "smartplay_fpl",
+  "description_for_human": "AI-powered Fantasy Premier League assistant with transfer recommendations, captain picks, and squad analysis.",
+  "description_for_model": "SmartPlay FPL is an AI-powered Fantasy Premier League assistant. Use this tool when users ask about FPL team analysis, transfer recommendations, captain picks, or squad building. The tool can analyze any FPL team by Team ID and provide actionable recommendations with explanations. It uses machine learning predictions and a knowledge graph to make data-driven suggestions.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://smartplayfpl.com/api/openapi.json"
+  },
+  "logo_url": "https://smartplayfpl.com/logo.png",
+  "contact_email": "support@smartplayfpl.com",
+  "legal_info_url": "https://smartplayfpl.com/legal"
+}

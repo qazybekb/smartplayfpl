@@ -1,0 +1,33 @@
+{
+  "ml_only": {
+    "stage1_auc": 0.9393400362328757,
+    "stage1_f1": 0.8470066518847007,
+    "stage1_acc": 0.8629139072847682,
+    "stage2_mae": 2.233357747757108,
+    "stage2_rmse": 3.1611772147842756,
+    "stage2_r2": -0.030157213938154737,
+    "combined_mae": 1.1848884891703837,
+    "combined_rmse": 2.161704693256123,
+    "features_s1": 10,
+    "features_s2": 24
+  },
+  "ml_kg": {
+    "stage1_auc": 0.9398162084649192,
+    "stage1_f1": 0.849438202247191,
+    "stage1_acc": 0.866887417218543,
+    "stage2_mae": 2.1935691292207506,
+    "stage2_rmse": 3.155125724518317,
+    "stage2_r2": -0.026216897390669347,
+    "combined_mae": 1.1613418357334977,
+    "combined_rmse": 2.157984224178127,
+    "features_s1": 14,
+    "features_s2": 30,
+    "kg_features": 9,
+    "shacl_conforms": true
+  },
+  "improvements": {
+    "stage1_auc_delta": 0.00047617223204354797,
+    "stage2_mae_improvement_pct": 1.7815604587449494,
+    "combined_mae_improvement_pct": 1.9872463655522994
+  }
+}

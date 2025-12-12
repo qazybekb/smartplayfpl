@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 84% 4.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 84% 4.9%;
+  --primary: 160 84% 39%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 40% 96.1%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --accent: 210 40% 96.1%;
+  --accent-foreground: 222.2 47.4% 11.2%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 160 84% 39%;
+  --radius: 0.75rem;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #f8fafc;
+}
+
+/* Position badge colors */
+.badge-gkp { @apply bg-orange-500 text-white; }
+.badge-def { @apply bg-green-500 text-white; }
+.badge-mid { @apply bg-blue-500 text-white; }
+.badge-fwd { @apply bg-red-500 text-white; }
+
+/* FDR colors - WCAG AA compliant contrast ratios */
+.fdr-1 { @apply bg-[#0d6939] text-white; }  /* Very easy - deep green */
+.fdr-2 { @apply bg-[#2d9254] text-white; }  /* Easy - adjusted for contrast */
+.fdr-3 { @apply bg-[#9ca3af] text-gray-900; }  /* Medium - neutral gray */
+.fdr-4 { @apply bg-[#dc2626] text-white; }  /* Hard - accessible red */
+.fdr-5 { @apply bg-[#7f1d1d] text-white; }  /* Very hard - dark red */
+
+/* FDR hover states */
+.fdr-1:hover { @apply bg-[#0a5530]; }
+.fdr-2:hover { @apply bg-[#257a47]; }
+.fdr-3:hover { @apply bg-[#6b7280]; }
+.fdr-4:hover { @apply bg-[#b91c1c]; }
+.fdr-5:hover { @apply bg-[#6b1515]; }
+
+/* Card styles */
+.card {
+  @apply bg-white rounded-xl shadow-sm border border-gray-100;
+}
+
+.card-header {
+  @apply px-6 py-4 border-b border-gray-100;
+}
+
+.card-body {
+  @apply px-6 py-4;
+}
+
+/* Section header */
+.section-header {
+  @apply flex items-center gap-3 mb-4;
+}
+
+.section-icon {
+  @apply w-10 h-10 rounded-lg flex items-center justify-center;
+}
+
+.section-title {
+  @apply text-lg font-semibold text-gray-900;
+}
+
+.section-subtitle {
+  @apply text-sm text-gray-500;
+}
+
+/* Loading animation */
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Gradient backgrounds */
+.bg-gradient-hero {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 50%, #1e293b 100%);
+}
+
+.bg-gradient-card {
+  background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+}
+
+/* Smooth fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Staggered fade-in for lists */
+.animate-fadeIn-stagger > * {
+  opacity: 0;
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+.animate-fadeIn-stagger > *:nth-child(1) { animation-delay: 0.05s; }
+.animate-fadeIn-stagger > *:nth-child(2) { animation-delay: 0.1s; }
+.animate-fadeIn-stagger > *:nth-child(3) { animation-delay: 0.15s; }
+.animate-fadeIn-stagger > *:nth-child(4) { animation-delay: 0.2s; }
+.animate-fadeIn-stagger > *:nth-child(5) { animation-delay: 0.25s; }
+.animate-fadeIn-stagger > *:nth-child(6) { animation-delay: 0.3s; }
+
+/* Scale animation for buttons/cards */
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-scaleIn {
+  animation: scaleIn 0.2s ease-out forwards;
+}
+
+/* Slide-in from right */
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.animate-slideInRight {
+  animation: slideInRight 0.3s ease-out forwards;
+}
+
+/* Smooth hover lift effect for cards */
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.1), 0 4px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Smooth color transitions */
+.transition-colors-smooth {
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+
+/* Gradient shimmer effect for loading */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, #f1f5f9 0%, #e2e8f0 50%, #f1f5f9 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Bounce animation for notifications */
+@keyframes bounceIn {
+  0% { opacity: 0; transform: scale(0.3); }
+  50% { opacity: 1; transform: scale(1.05); }
+  70% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+
+.animate-bounceIn {
+  animation: bounceIn 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+/* Smooth tab transitions */
+.tab-transition {
+  transition: all 0.2s ease;
+}
+
+/* Focus ring styles */
+.focus-ring {
+  @apply focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2;
+}
+

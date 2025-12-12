@@ -1,0 +1,760 @@
+player_id,name,team,position,price,ownership,status,chance,news,nailedness_score,form_xg_score,form_pts_score,fixture_score,final_score,avg_minutes,avg_points,total_points,next_opponent,next_fdr,next_home,next_5_fdr,rank
+136,Thiago,BRE,FWD,6.9,29.5,a,,,8.67,8.9,9.9,7.13,8.77,78.0,6.6,80,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",1
+430,Haaland,MCI,FWD,15.0,73.0,a,100.0,,10.0,8.54,7.2,5.92,8.73,85.6,4.8,122,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",2
+414,Foden,MCI,MID,8.5,23.7,a,100.0,,9.92,7.18,10.0,5.92,8.65,84.8,9.8,77,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",3
+287,Pickford,EVE,GKP,5.5,10.5,a,,,10.0,0.02,9.3,5.65,8.09,90.0,6.2,66,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",4
+220,Sánchez,CHE,GKP,4.8,14.0,a,,,10.0,0.02,7.8,6.12,8.01,90.0,5.2,57,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",5
+36,Cash,AVL,DEF,4.7,8.2,a,100.0,,10.0,2.14,8.1,6.51,7.88,89.2,5.4,73,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",6
+314,Leno,FUL,GKP,4.9,1.5,a,,,10.0,0.0,3.0,8.1,7.88,90.0,2.0,42,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",6
+226,Chalobah,CHE,DEF,5.2,11.6,a,100.0,,10.0,0.34,9.9,6.12,7.85,90.0,6.6,82,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",8
+403,Gvardiol,MCI,DEF,5.8,6.3,a,100.0,,10.0,2.38,7.5,6.51,7.81,85.8,5.0,53,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",9
+101,Kelleher,BRE,GKP,4.5,7.6,a,100.0,,10.0,0.02,3.0,7.85,7.81,90.0,2.0,40,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",9
+291,Tarkowski,EVE,DEF,5.4,6.6,a,,,10.0,1.14,10.0,5.65,7.81,90.0,7.0,73,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",9
+317,Andersen,FUL,DEF,4.5,3.5,a,100.0,,10.0,0.58,5.4,8.1,7.8,90.0,3.6,54,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",12
+411,O’Reilly,MCI,DEF,5.2,7.5,a,100.0,,10.0,3.36,6.6,6.51,7.78,90.0,4.4,62,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",13
+408,Rúben,MCI,DEF,5.6,5.2,a,,,10.0,0.7,8.4,6.51,7.78,90.0,5.6,67,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",13
+736,Donnarumma,MCI,GKP,5.7,10.4,a,,,10.0,0.0,5.4,6.51,7.76,90.0,3.6,43,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",15
+318,Bassey,FUL,DEF,4.5,0.6,a,,,10.0,0.14,5.4,8.1,7.75,90.0,3.6,44,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",16
+600,Areola,WHU,GKP,4.3,2.1,a,,,10.0,0.0,5.7,6.11,7.69,90.0,3.8,32,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",17
+16,Saka,ARS,MID,10.1,18.8,a,100.0,,8.38,6.36,9.3,6.18,7.68,75.4,6.2,64,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",18
+407,Matheus N.,MCI,DEF,5.3,1.4,a,,,10.0,1.02,7.5,6.51,7.68,90.0,5.0,57,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",18
+1,Raya,ARS,GKP,6.0,34.3,a,,,10.0,0.0,4.2,6.8,7.67,90.0,2.8,66,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",20
+22,Merino,ARS,MID,6.0,3.7,a,,,8.93,4.9,9.9,6.18,7.66,80.4,6.6,51,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",21
+237,Enzo,CHE,MID,6.7,13.2,a,100.0,,10.0,5.34,6.3,5.56,7.61,88.4,4.2,66,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",22
+322,Tete,FUL,DEF,4.5,0.4,a,100.0,,9.0,0.48,7.2,8.1,7.61,81.0,4.8,47,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",22
+684,Thiaw,NEW,DEF,5.0,2.8,a,,,10.0,1.04,7.8,6.08,7.6,90.0,5.2,49,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",24
+242,Dewsbury-Hall,EVE,MID,5.0,6.3,a,100.0,,10.0,3.18,10.0,5.14,7.57,89.0,9.6,74,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",25
+502,Sels,NFO,GKP,4.7,7.6,a,,,10.0,0.04,5.7,5.71,7.57,90.0,3.8,40,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",25
+470,Dúbravka,BUR,GKP,4.0,33.7,a,100.0,,10.0,0.06,3.0,7.0,7.55,90.0,2.0,43,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",27
+292,Mykolenko,EVE,DEF,4.9,0.5,a,100.0,,10.0,1.24,8.1,5.65,7.54,90.0,5.4,38,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",28
+508,N.Williams,NFO,DEF,4.7,3.5,a,,,10.0,1.36,7.5,5.71,7.48,90.0,5.0,43,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",29
+67,Petrović,BOU,GKP,4.5,5.5,a,,,10.0,0.0,3.9,6.29,7.47,90.0,2.6,52,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",30
+253,Henderson,CRY,GKP,5.1,9.0,a,,,10.0,0.02,8.1,4.16,7.46,90.0,5.4,63,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",31
+113,Van den Berg,BRE,DEF,4.5,0.7,a,,,10.0,1.88,2.7,7.85,7.45,90.0,1.8,41,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",32
+151,Van Hecke,BHA,DEF,4.5,3.1,a,,,10.0,3.18,9.0,4.27,7.45,90.0,6.0,65,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",32
+224,Cucurella,CHE,DEF,6.2,23.1,a,,,10.0,1.6,6.0,6.12,7.39,90.0,4.0,63,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",34
+41,Pau,AVL,DEF,4.3,0.5,a,,,10.0,0.34,6.0,6.51,7.39,89.0,4.0,39,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",34
+38,Konsa,AVL,DEF,4.4,7.8,a,100.0,,10.0,0.74,5.7,6.51,7.38,90.0,3.8,46,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",36
+373,Virgil,LIV,DEF,6.0,24.8,a,,,10.0,0.72,4.8,6.92,7.37,90.0,3.2,56,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",37
+139,Verbruggen,BHA,GKP,4.4,5.0,a,,,10.0,0.0,7.2,4.27,7.36,90.0,4.8,44,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",38
+517,Anderson,NFO,MID,5.4,5.8,a,,,10.0,2.82,9.0,5.2,7.33,90.0,6.0,62,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",39
+191,Estève,BUR,DEF,3.9,11.5,a,,,10.0,0.14,4.8,7.0,7.33,90.0,3.2,41,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",39
+670,Roefs,SUN,GKP,4.7,8.1,a,,,10.0,0.04,3.0,6.2,7.31,90.0,2.0,64,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",41
+418,Doku,MCI,MID,6.6,9.5,a,,,9.19,4.44,7.8,5.92,7.3,78.2,5.2,59,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",42
+110,Kayode,BRE,DEF,4.5,0.5,a,,,10.0,0.82,2.4,7.85,7.3,87.0,1.6,38,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",42
+83,O.Dango,BRE,MID,6.0,1.2,a,100.0,,9.86,2.22,8.1,7.13,7.28,84.2,5.4,62,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",44
+531,Ballard,SUN,DEF,4.6,3.2,a,100.0,,10.0,0.36,5.7,6.2,7.25,90.0,3.8,58,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",45
+32,Martinez,AVL,GKP,5.1,3.4,a,100.0,,8.0,0.0,8.4,6.51,7.21,72.0,5.6,54,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",46
+236,Neto,CHE,MID,7.3,9.3,a,100.0,,8.69,4.84,8.1,5.56,7.17,78.2,5.4,70,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",47
+257,Lacroix,CRY,DEF,5.1,6.6,a,,,10.0,0.46,9.0,4.16,7.14,90.0,6.0,80,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",48
+515,Gibbs-White,NFO,MID,7.3,3.4,a,100.0,,10.0,2.84,7.5,5.2,7.11,88.2,5.0,55,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",49
+47,Rogers,AVL,MID,6.9,9.8,a,100.0,,10.0,1.86,8.4,5.91,7.11,89.0,5.6,61,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",49
+21,Rice,ARS,MID,7.1,22.3,a,100.0,,10.0,2.92,6.3,6.18,7.1,88.4,4.2,84,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",51
+505,Milenković,NFO,DEF,5.2,3.7,a,,,10.0,0.18,5.7,5.71,7.09,90.0,3.8,34,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",52
+714,Woltemade,NEW,FWD,7.5,23.5,a,,,9.97,3.68,6.3,5.53,7.09,85.2,4.2,56,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",52
+261,Richards,CRY,DEF,4.6,4.2,a,100.0,,10.0,0.64,8.4,4.16,7.07,88.4,5.6,72,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",54
+387,Szoboszlai,LIV,MID,6.6,5.6,a,,,10.0,3.5,4.8,6.29,7.04,90.0,3.2,59,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",55
+258,Mitchell,CRY,DEF,5.0,2.6,a,,,10.0,0.72,7.8,4.16,6.99,88.8,5.2,70,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",56
+603,Diouf,WHU,DEF,4.2,2.4,a,,,10.0,0.3,4.2,6.11,6.99,88.4,2.8,44,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",56
+609,Todibo,WHU,DEF,4.3,0.1,a,,,10.0,0.5,3.9,6.11,6.97,90.0,2.6,19,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",58
+74,Truffert,BOU,DEF,4.5,2.2,a,,,9.88,1.2,3.3,6.29,6.95,84.4,2.2,56,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",59
+547,E.Le Fée,SUN,MID,4.9,0.5,a,100.0,,9.52,2.9,7.2,5.64,6.94,81.2,4.8,56,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",60
+488,Bruno G.,NEW,MID,6.9,11.5,a,,,8.98,2.18,10.0,5.53,6.91,80.8,7.0,81,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",61
+610,Wan-Bissaka,WHU,DEF,4.2,5.3,a,100.0,,10.0,0.5,3.3,6.11,6.88,90.0,2.2,22,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",62
+374,Konaté,LIV,DEF,5.4,2.9,a,100.0,,9.2,0.26,4.2,6.92,6.87,82.8,2.8,52,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",63
+295,Keane,EVE,DEF,4.6,2.3,a,100.0,,8.0,0.78,10.0,5.65,6.87,72.0,7.0,76,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",63
+8,J.Timber,ARS,DEF,6.5,35.5,a,,,9.02,2.28,3.6,6.8,6.87,81.2,2.4,78,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",63
+694,Mukiele,SUN,DEF,4.2,5.9,a,,,10.0,0.84,2.7,6.2,6.85,90.0,1.8,56,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",66
+205,Cullen,BUR,MID,5.0,2.1,a,,,10.0,1.96,6.0,6.36,6.84,86.0,4.0,63,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",67
+329,Wilson,FUL,MID,5.2,1.0,a,100.0,,8.53,2.34,8.7,7.37,6.83,76.8,5.8,62,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",68
+106,Collins,BRE,DEF,4.9,1.1,a,,,8.36,2.16,3.3,7.85,6.83,75.2,2.2,41,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",68
+487,Barnes,NEW,MID,6.4,2.5,a,,,6.56,6.9,8.7,5.53,6.81,59.0,5.8,44,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",70
+565,Vicario,TOT,GKP,4.9,8.2,a,,,10.0,0.0,3.3,4.3,6.79,90.0,2.2,57,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",71
+716,Savona,NFO,DEF,4.5,0.2,a,,,9.0,1.3,6.0,5.71,6.79,81.0,4.0,30,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",71
+58,Kamara,AVL,MID,4.9,0.2,a,100.0,,9.74,0.8,8.7,5.91,6.78,83.2,5.8,50,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",73
+449,B.Fernandes,MUN,MID,9.0,19.5,a,,,8.0,5.25,6.6,5.7,6.76,72.0,4.4,67,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",74
+665,Perri,LEE,GKP,4.5,0.2,a,100.0,,10.0,0.0,3.0,4.38,6.76,90.0,2.0,25,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",74
+419,Grealish,EVE,MID,6.6,12.7,a,100.0,,10.0,1.94,6.6,5.14,6.75,86.2,4.4,62,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",76
+324,Iwobi,FUL,MID,6.4,1.3,a,,,10.0,1.62,4.8,7.37,6.73,88.4,3.2,54,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",77
+64,Watkins,AVL,FWD,8.5,6.9,a,100.0,,7.4,6.18,6.0,5.91,6.68,66.6,4.0,45,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",78
+84,Tavernier,BOU,MID,5.5,1.8,a,,,8.67,4.76,4.8,5.71,6.67,78.0,3.2,61,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",79
+160,Minteh,BHA,MID,6.3,10.1,a,,,9.88,2.06,6.6,4.74,6.66,84.4,4.4,69,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",80
+624,Bowen,WHU,FWD,7.5,5.5,a,,,10.0,2.0,6.6,5.55,6.64,90.0,4.4,66,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",81
+256,Muñoz,CRY,DEF,6.1,26.8,a,,,8.0,2.72,10.0,4.16,6.62,72.0,7.0,89,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",82
+173,Wieffer,BHA,MID,4.9,0.4,a,100.0,,10.0,1.84,6.3,4.74,6.62,90.0,4.2,54,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",82
+366,A.Becker,LIV,GKP,5.4,5.5,a,100.0,,8.0,0.0,3.6,6.92,6.62,72.0,2.4,32,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",82
+148,F.Kadıoğlu,BHA,DEF,4.4,0.2,a,,,9.79,1.12,5.1,4.27,6.56,83.6,3.4,33,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",85
+299,Ndiaye,EVE,MID,6.5,9.6,a,100.0,,10.0,1.74,5.7,5.14,6.56,85.8,3.8,71,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",85
+97,Evanilson,BOU,FWD,7.0,1.4,a,100.0,,8.0,5.54,4.5,5.71,6.51,72.0,3.0,38,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",87
+273,Wharton,CRY,MID,5.0,0.5,a,100.0,,9.32,1.88,7.5,4.62,6.48,79.4,5.0,48,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",88
+228,Gusto,CHE,DEF,4.9,1.6,a,100.0,,7.2,1.88,7.8,6.12,6.43,64.8,5.2,50,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",89
+303,Garner,EVE,MID,5.0,0.6,a,,,10.0,1.54,5.1,5.14,6.42,90.0,3.4,56,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",90
+423,N.Gonzalez,MCI,MID,5.9,0.1,a,100.0,,9.9,0.88,5.7,5.92,6.42,84.6,3.8,39,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",90
+708,M.Fernandes,WHU,MID,5.5,0.1,a,,,9.94,1.36,4.8,5.55,6.37,85.0,3.2,43,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",92
+725,Hincapie,ARS,DEF,5.4,0.3,a,100.0,,7.93,1.15,4.2,6.8,6.36,71.4,2.8,16,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",93
+337,Raúl,FUL,FWD,6.2,1.0,a,100.0,,8.89,3.16,4.5,7.37,6.36,80.0,3.0,39,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",93
+390,Gravenberch,LIV,MID,5.6,4.5,a,100.0,,10.0,0.46,4.8,6.29,6.28,90.0,3.2,66,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",95
+310,Barry,EVE,FWD,5.7,0.4,a,,,9.03,3.66,3.9,5.14,6.26,76.8,2.6,23,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",96
+169,Gomez,BHA,MID,4.9,0.3,a,100.0,,9.74,2.8,3.0,4.74,6.25,83.2,2.0,35,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",97
+668,Xhaka,SUN,MID,5.2,6.7,a,,,10.0,0.64,4.8,5.64,6.23,86.4,3.2,65,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",98
+260,Guéhi,CRY,DEF,5.2,36.0,a,100.0,,8.0,1.55,8.1,4.16,6.22,72.0,5.4,91,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",99
+293,O'Brien,EVE,DEF,4.9,0.4,a,,,7.8,0.54,6.3,5.65,6.21,70.2,4.2,48,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",100
+271,Kamada,CRY,MID,5.0,0.2,a,100.0,,9.92,1.48,4.5,4.62,6.2,84.8,3.0,44,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",101
+733,Lammens,MUN,GKP,5.1,1.9,a,,,8.0,0.0,2.1,6.26,6.19,72.0,1.4,22,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",102
+342,Bogle,LEE,DEF,4.4,0.2,a,100.0,,10.0,0.24,2.1,4.38,6.15,89.2,1.4,34,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",103
+384,Gakpo,LIV,MID,7.5,12.9,a,,,7.58,3.56,6.0,6.29,6.14,68.2,4.0,65,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",104
+82,Semenyo,BOU,MID,7.6,46.2,a,100.0,,8.0,5.28,2.4,5.71,6.14,72.0,1.6,83,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",104
+348,Rodon,LEE,DEF,4.1,5.7,a,100.0,,10.0,0.08,2.1,4.38,6.14,90.0,1.4,52,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",104
+330,Berge,FUL,MID,4.9,0.1,a,,,10.0,0.46,2.7,7.37,6.12,87.0,1.8,34,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",107
+416,Bernardo,MCI,MID,6.2,0.5,a,,,9.94,0.8,3.6,5.92,6.1,85.0,2.4,32,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",108
+569,Romero,TOT,DEF,5.0,3.9,a,100.0,,7.71,1.68,7.5,4.3,6.05,69.4,5.0,58,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",109
+266,Eze,ARS,MID,7.8,19.3,a,,,7.16,2.92,7.8,6.18,6.05,64.4,5.2,65,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",109
+552,Sadiki,SUN,MID,5.0,0.1,a,100.0,,10.0,0.58,3.6,5.64,6.03,86.2,2.4,34,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",111
+354,Ampadu,LEE,MID,4.9,0.1,a,100.0,,10.0,0.68,4.2,4.87,6.03,89.2,2.8,36,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",111
+712,Yeremy,CRY,MID,5.8,0.2,a,100.0,,7.42,4.5,5.7,4.62,6.01,66.8,3.8,33,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",113
+192,Hartman,BUR,DEF,4.0,1.0,a,,,7.78,0.55,2.1,7.0,5.97,70.0,1.4,42,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",114
+146,Dunk,BHA,DEF,4.5,1.1,a,,,9.0,0.12,4.2,4.27,5.97,81.0,2.8,37,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",114
+124,Henderson,BRE,MID,5.0,0.4,a,,,8.64,0.92,5.1,7.13,5.96,77.8,3.4,44,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",116
+532,Hume,SUN,DEF,4.5,0.3,a,,,8.51,0.42,1.5,6.2,5.96,76.6,1.0,45,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",116
+283,Mateta,CRY,FWD,8.0,27.4,a,,,8.16,4.1,3.9,4.62,5.95,73.4,2.6,61,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",118
+526,Igor Jesus,NFO,FWD,5.8,1.1,a,,,8.82,2.44,4.8,5.2,5.94,79.4,3.2,29,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",119
+541,Reinildo,SUN,DEF,4.0,4.0,a,100.0,,8.0,0.12,2.7,6.2,5.88,72.0,1.8,27,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",120
+452,Amad,MUN,MID,6.3,1.9,a,100.0,,8.0,3.15,4.2,5.7,5.87,72.0,2.8,43,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",121
+26,Zubimendi,ARS,MID,5.3,2.4,a,100.0,,9.24,0.96,3.6,6.18,5.87,83.2,2.4,55,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",121
+477,Livramento,NEW,DEF,4.9,3.4,a,100.0,,8.0,0.7,2.4,6.08,5.85,72.0,1.6,45,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",123
+476,Burn,NEW,DEF,5.1,8.3,a,100.0,,6.98,0.38,5.4,6.08,5.81,62.8,3.6,66,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",124
+54,McGinn,AVL,MID,5.4,0.7,a,,,8.88,0.82,4.8,5.91,5.81,75.4,3.2,43,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",124
+215,Flemming,BUR,FWD,5.3,0.5,a,,,6.51,4.6,5.7,6.36,5.8,58.6,3.8,39,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",126
+671,Wilson,WHU,FWD,5.8,0.9,a,,,6.71,3.34,8.1,5.55,5.79,60.4,5.4,42,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",127
+691,Calvert-Lewin,LEE,FWD,5.5,1.1,a,100.0,,5.67,5.52,7.2,4.87,5.77,51.0,4.8,48,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",128
+722,Florentino,BUR,MID,5.0,0.0,a,,,8.97,0.36,4.5,6.36,5.75,76.2,3.0,39,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",129
+443,Shaw,MUN,DEF,4.5,0.6,a,,,7.73,1.1,1.5,6.26,5.69,69.6,1.0,32,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",130
+119,Mbeumo,MUN,MID,8.4,31.0,a,,,8.0,2.85,3.3,5.7,5.66,72.0,2.2,64,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",131
+597,Richarlison,TOT,FWD,6.4,7.5,a,,,7.6,2.68,6.3,4.78,5.65,68.4,4.2,59,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",132
+727,Chukwueze,FUL,MID,5.3,0.4,a,100.0,,5.71,3.52,7.2,7.37,5.63,51.4,4.8,30,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",133
+145,De Cuyper,BHA,DEF,4.3,1.9,a,100.0,,6.53,2.72,7.5,4.27,5.62,58.8,5.0,40,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",134
+382,Wirtz,LIV,MID,8.0,6.7,a,100.0,,6.96,3.25,4.5,6.29,5.56,62.6,3.0,32,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",135
+178,Welbeck,BHA,FWD,6.6,10.6,a,,,7.8,2.96,4.5,4.74,5.55,70.2,3.0,58,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",136
+685,Diakité,BOU,DEF,4.4,0.4,a,100.0,,7.0,0.2,3.3,6.29,5.55,63.0,2.2,41,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",136
+328,Sessegnon,FUL,MID,5.4,0.7,a,100.0,,8.0,0.8,3.9,7.37,5.49,72.0,2.6,56,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",138
+121,Damsgaard,BRE,MID,5.8,0.6,a,,,7.58,2.06,3.3,7.13,5.49,68.2,2.2,42,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",138
+230,Fofana,CHE,DEF,4.4,0.3,a,100.0,,6.0,0.9,5.7,6.12,5.48,54.0,3.8,28,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",140
+582,Kudus,TOT,MID,6.5,16.4,a,100.0,,7.38,2.15,6.0,4.78,5.47,66.4,4.0,65,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",141
+693,Hutchinson,NFO,MID,5.4,0.1,a,,,6.33,3.56,6.3,5.2,5.46,57.0,4.2,26,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",142
+473,Hall,NEW,DEF,5.2,1.2,a,100.0,,6.56,1.84,3.3,6.08,5.45,59.0,2.2,20,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",143
+347,Gudmundsson,LEE,DEF,3.9,3.9,a,100.0,,8.27,1.04,2.1,4.38,5.45,74.4,1.4,33,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",143
+660,Stach,LEE,MID,4.8,1.4,a,100.0,,6.49,2.32,7.8,4.87,5.4,58.4,5.2,62,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",145
+371,Kerkez,LIV,DEF,5.6,3.0,a,,,6.2,0.78,3.0,6.92,5.4,55.8,2.0,30,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",145
+417,Cherki,MCI,MID,6.4,3.6,a,100.0,,5.16,4.34,7.2,5.92,5.37,46.4,4.8,43,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",147
+343,Struijk,LEE,DEF,4.3,0.2,a,100.0,,8.18,0.84,1.8,4.38,5.35,73.6,1.2,30,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",148
+37,Digne,AVL,DEF,4.5,2.0,a,100.0,,5.44,0.88,5.4,6.51,5.3,49.0,3.6,51,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",149
+568,Pedro Porro,TOT,DEF,5.4,14.7,a,,,7.73,1.28,2.7,4.3,5.3,69.6,1.8,53,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",149
+72,Senesi,BOU,DEF,5.0,19.0,d,75.0,Thigh injury - 75% chance of playing,5.52,2.48,4.5,6.29,5.29,66.2,3.0,71,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",151
+386,Mac Allister,LIV,MID,6.3,1.2,a,100.0,,7.73,1.86,2.7,6.29,5.29,69.6,1.8,33,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",151
+249,João Pedro,CHE,FWD,7.3,36.5,a,,,7.4,2.86,3.6,5.56,5.28,66.6,2.4,64,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",153
+457,Casemiro,MUN,MID,5.5,1.5,a,100.0,,6.84,2.28,5.1,5.7,5.27,61.6,3.4,59,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",154
+627,Johnstone,WOL,GKP,4.5,0.1,a,,,8.0,0.02,2.4,3.0,5.26,72.0,1.6,21,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",155
+575,Van de Ven,TOT,DEF,4.7,30.2,a,,,8.0,0.32,2.1,4.3,5.24,72.0,1.4,64,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",156
+453,Garnacho,CHE,MID,6.4,0.7,a,,,5.33,5.1,4.8,5.56,5.23,48.0,3.2,29,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",157
+669,Ndoye,NFO,MID,5.6,1.0,a,,,7.36,2.16,3.9,5.2,5.21,66.2,2.6,40,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",158
+674,Ramsdale,NEW,GKP,4.8,1.0,a,,,6.29,0.0,1.5,6.08,5.19,56.6,1.0,5,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",159
+606,Mavropanos,WHU,DEF,4.4,0.0,a,100.0,,6.0,1.57,3.3,6.11,5.18,54.0,2.2,28,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",160
+365,Nmecha,LEE,FWD,5.0,0.8,d,50.0,Hamstring injury - 50% chance of playing,3.22,7.07,6.6,4.87,5.05,58.0,4.4,37,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",161
+521,Sangaré,NFO,MID,4.9,0.1,a,,,7.38,0.92,4.8,5.2,5.05,66.4,3.2,29,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",161
+511,Morato,NFO,DEF,4.3,0.1,a,,,6.04,0.08,3.9,5.71,5.03,54.4,2.6,20,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",163
+225,James,CHE,DEF,5.6,8.4,a,100.0,,5.29,0.55,4.8,6.12,4.99,47.6,3.2,61,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",164
+605,Kilman,WHU,DEF,4.2,0.2,a,,,6.07,0.15,2.7,6.11,4.98,54.6,1.8,28,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",165
+637,Toti,WOL,DEF,4.3,0.1,a,100.0,,8.0,0.08,3.0,3.0,4.96,72.0,2.0,15,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",166
+724,Geertruida,SUN,DEF,4.5,0.0,a,,,6.24,0.12,1.8,6.2,4.95,56.2,1.2,15,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",167
+695,Tchatchoua,WOL,DEF,4.5,0.0,a,,,7.78,1.45,2.4,3.0,4.9,70.0,1.6,19,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",168
+11,White,ARS,DEF,5.3,0.7,a,100.0,,4.0,3.8,4.5,6.8,4.9,36.0,3.0,21,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",168
+683,Alderete,SUN,DEF,4.1,4.2,a,100.0,,6.0,0.97,1.5,6.2,4.88,54.0,1.0,50,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",170
+623,Potts,WHU,MID,4.4,0.7,a,100.0,,7.69,0.54,3.0,5.55,4.88,69.2,2.0,16,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",170
+129,Yarmoliuk,BRE,MID,5.0,0.1,a,100.0,,7.38,0.28,2.7,7.13,4.87,66.4,1.8,38,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",172
+85,Adams,BOU,MID,5.0,0.4,a,100.0,,7.31,0.3,4.2,5.71,4.85,65.8,2.8,49,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",173
+48,Tielemans,AVL,MID,5.9,0.6,a,100.0,,6.36,2.24,3.6,5.91,4.85,57.2,2.4,20,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",173
+344,Bijol,LEE,DEF,3.9,0.2,a,100.0,,6.22,0.52,4.5,4.38,4.84,56.0,3.0,20,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",175
+713,A.Jimenez,BOU,DEF,4.5,0.0,a,,,5.4,0.75,3.0,6.29,4.84,48.6,2.0,19,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",175
+436,De Ligt,MUN,DEF,5.0,3.4,d,75.0,Knock - 75% chance of playing,4.5,2.87,3.9,6.26,4.78,54.0,2.6,43,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",177
+90,Scott,BOU,MID,5.0,0.3,a,,,7.13,0.6,3.6,5.71,4.76,64.2,2.4,46,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",178
+717,Xavi,TOT,MID,6.5,1.1,a,,,5.69,2.46,5.7,4.78,4.75,51.2,3.8,37,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",179
+376,Gomez,LIV,DEF,4.9,0.2,a,100.0,,4.07,1.08,4.8,6.92,4.73,36.6,3.2,19,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",180
+646,Gomes,WOL,MID,5.3,0.1,a,100.0,,7.87,0.8,3.0,3.33,4.69,70.8,2.0,32,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",181
+108,Ajer,BRE,DEF,4.4,0.2,a,100.0,,4.76,0.07,1.2,7.85,4.68,42.8,0.8,23,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",182
+53,Malen,AVL,MID,5.1,1.0,a,,,3.67,4.9,6.0,5.91,4.66,33.0,4.0,46,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",183
+116,Hickey,BRE,DEF,4.0,0.4,a,100.0,,3.69,1.05,3.6,7.85,4.66,33.2,2.4,18,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",183
+20,Trossard,ARS,MID,6.9,0.8,d,75.0,Knock - 75% chance of playing,3.45,3.77,8.1,6.18,4.64,41.4,5.4,58,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",185
+643,André,WOL,MID,5.3,0.1,a,100.0,,8.0,0.35,3.0,3.33,4.64,72.0,2.0,34,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",185
+466,Zirkzee,MUN,FWD,5.8,0.6,a,100.0,,5.71,3.0,3.9,5.7,4.62,51.4,2.6,17,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",187
+59,Onana,AVL,MID,4.8,0.7,a,100.0,,5.53,0.6,6.9,5.91,4.56,49.8,4.6,38,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",188
+427,Reijnders,MCI,MID,5.3,14.0,a,,,4.2,4.73,3.6,5.92,4.5,37.8,2.4,46,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",189
+381,M.Salah,LIV,MID,14.0,18.5,a,,,5.0,4.23,1.5,6.29,4.48,45.0,1.0,57,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",190
+158,Georginio,BHA,MID,5.6,0.3,d,75.0,Head injury - 75% chance of playing,5.12,3.0,4.8,4.74,4.48,61.4,3.2,44,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",190
+654,Strand Larsen,WOL,FWD,6.2,1.0,a,100.0,,8.0,0.62,2.4,3.33,4.48,72.0,1.6,27,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",190
+490,Joelinton,NEW,MID,5.9,0.3,a,100.0,,6.87,0.26,3.3,5.53,4.48,61.8,2.2,31,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",190
+485,Gordon,NEW,MID,7.2,2.0,a,100.0,,2.18,7.53,5.1,5.53,4.46,19.6,3.4,29,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",194
+438,Mazraoui,MUN,DEF,4.9,0.2,a,100.0,,5.07,0.18,1.8,6.26,4.45,45.6,1.2,15,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",195
+574,Udogie,TOT,DEF,4.4,0.4,a,100.0,,6.38,0.4,1.5,4.3,4.43,57.4,1.0,13,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",196
+358,Tanaka,LEE,MID,4.8,0.2,a,100.0,,5.07,1.88,6.3,4.87,4.42,45.6,4.2,34,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",197
+39,Maatsen,AVL,DEF,4.2,0.4,a,,,4.53,2.47,1.2,6.51,4.42,40.8,0.8,10,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",197
+676,Ugochukwu,BUR,MID,5.0,0.1,a,100.0,,6.22,0.48,3.3,6.36,4.37,56.0,2.2,38,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",199
+497,L.Miley,NEW,MID,4.4,2.2,a,100.0,,4.62,2.35,5.7,5.53,4.35,41.6,3.8,32,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",200
+573,Spence,TOT,DEF,4.4,1.2,a,,,5.71,1.63,2.1,4.3,4.34,51.4,1.4,37,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",201
+232,Tosin,CHE,DEF,4.2,0.3,a,100.0,,4.0,1.05,3.9,6.12,4.32,36.0,2.6,27,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",202
+440,Dalot,MUN,DEF,4.4,1.0,d,75.0,Knock - 75% chance of playing,3.32,1.08,5.4,6.26,4.29,39.8,3.6,40,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",203
+726,Kolo Muani,TOT,FWD,6.9,0.4,a,100.0,,6.84,1.22,2.1,4.78,4.24,61.6,1.4,12,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",204
+661,Ekitiké,LIV,FWD,8.4,12.3,a,100.0,,4.69,2.4,5.1,6.29,4.22,42.2,3.4,55,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",205
+499,Isak,LIV,FWD,10.4,4.8,a,100.0,,5.0,2.65,3.6,6.29,4.21,45.0,2.4,22,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",206
+489,J.Murphy,NEW,MID,6.1,1.0,a,,,5.13,2.93,2.1,5.53,4.19,46.2,1.4,41,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",207
+698,Okafor,LEE,MID,5.5,0.1,a,100.0,,5.87,1.32,3.3,4.87,4.19,52.8,2.2,38,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",207
+560,Isidor,SUN,FWD,5.5,2.8,a,,,6.0,1.8,2.4,5.64,4.16,54.0,1.6,47,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",209
+190,Ekdal,BUR,DEF,4.0,0.9,a,,,4.0,0.35,1.5,7.0,4.16,36.0,1.0,25,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",209
+444,Yoro,MUN,DEF,4.3,1.5,a,,,4.58,0.18,1.2,6.26,4.14,41.2,0.8,27,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",211
+109,Henry,BRE,DEF,4.3,0.1,a,,,3.42,0.12,1.5,7.85,4.13,30.8,1.0,10,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",212
+73,Smith,BOU,DEF,4.4,0.2,a,100.0,,4.04,0.02,2.7,6.29,4.11,36.4,1.8,17,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",213
+319,Castagne,FUL,DEF,4.3,0.1,a,,,3.09,0.1,1.8,8.1,4.1,27.8,1.2,16,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",214
+200,Anthony,BUR,MID,5.4,3.3,a,100.0,,5.04,1.7,3.0,6.36,4.1,45.4,2.0,57,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",214
+474,Schär,NEW,DEF,5.3,1.7,a,100.0,,4.04,0.48,2.4,6.08,4.05,36.4,1.6,33,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",216
+210,Tchaouna,BUR,MID,4.9,0.0,a,,,5.78,0.55,2.4,6.36,4.05,52.0,1.6,28,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",216
+50,Buendía,AVL,MID,5.3,0.5,a,100.0,,3.89,2.04,6.0,5.91,4.05,35.0,4.0,48,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",216
+553,Talbi,SUN,MID,5.0,0.2,a,,,5.29,0.54,4.5,5.64,4.04,47.6,3.0,48,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",219
+735,Traoré,SUN,MID,5.5,0.1,a,,,5.4,0.43,4.2,5.64,4.01,48.6,2.8,25,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",220
+325,Smith Rowe,FUL,MID,5.6,0.5,a,100.0,,4.24,1.74,3.6,7.37,3.99,38.2,2.4,27,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",221
+506,Murillo,NFO,DEF,5.3,1.9,d,75.0,Hamstring injury - 75% chance of playing,3.0,1.05,5.4,5.71,3.98,36.0,3.6,30,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",222
+570,Danso,TOT,DEF,4.3,0.1,a,,,5.24,0.12,2.1,4.3,3.98,47.2,1.4,19,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",222
+631,Agbadou,WOL,DEF,4.3,0.2,a,100.0,,6.0,0.57,2.1,3.0,3.97,54.0,1.4,18,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",224
+372,Robertson,LIV,DEF,5.8,1.0,a,,,3.71,0.4,1.2,6.92,3.97,33.4,0.8,15,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",224
+585,Bentancur,TOT,MID,5.3,0.3,a,,,5.78,0.44,3.3,4.78,3.92,52.0,2.2,45,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",226
+441,Dorgu,MUN,DEF,4.1,2.4,a,,,3.53,0.88,2.4,6.26,3.92,31.8,1.6,19,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",226
+663,J.Arias,WOL,MID,5.0,0.2,a,,,4.04,5.63,1.2,3.33,3.91,36.4,0.8,23,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",228
+673,J.Palhinha,TOT,MID,5.5,1.6,a,,,5.6,0.32,3.9,4.78,3.9,50.4,2.6,61,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",229
+612,L.Paquetá,WHU,MID,5.9,1.5,a,100.0,,5.47,1.3,1.8,5.55,3.89,49.2,1.2,47,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",230
+697,Adli,BOU,MID,5.4,0.0,a,,,4.47,1.96,3.3,5.71,3.85,40.2,2.2,18,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",231
+335,King,FUL,MID,4.5,3.4,a,,,4.56,0.74,3.3,7.37,3.83,41.0,2.2,29,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",232
+682,Møller Wolfe,WOL,DEF,4.3,0.1,a,,,5.62,2.1,1.2,3.0,3.82,50.6,0.8,12,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",233
+731,Kevin,FUL,MID,5.8,0.1,a,100.0,,4.18,1.86,2.4,7.37,3.81,37.6,1.6,16,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",234
+167,Baleba,BHA,MID,4.7,1.8,a,,,5.8,0.2,2.7,4.74,3.78,52.2,1.8,23,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",235
+17,Ødegaard,ARS,MID,7.8,1.5,a,100.0,,4.73,1.43,1.8,6.18,3.69,42.6,1.2,19,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",236
+6,Saliba,ARS,DEF,6.0,11.1,d,75.0,Knock - 75% chance of playing,3.0,1.0,0.9,6.8,3.63,36.0,0.6,41,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",237
+81,Kluivert,BOU,MID,7.0,0.8,a,100.0,,4.96,0.68,2.4,5.71,3.62,44.6,1.6,24,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",238
+239,Gittens,CHE,MID,6.1,0.1,a,,,3.49,2.63,3.6,5.56,3.6,31.4,2.4,20,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",239
+388,C.Jones,LIV,MID,5.4,0.1,a,100.0,,4.96,0.62,1.8,6.29,3.6,44.6,1.2,19,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",239
+491,Tonali,NEW,MID,5.3,1.1,a,100.0,,4.73,0.46,3.3,5.53,3.57,42.6,2.2,39,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",241
+613,Souček,WHU,MID,5.7,0.3,a,100.0,,3.51,1.56,5.1,5.55,3.57,31.6,3.4,31,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",241
+593,P.M.Sarr,TOT,MID,4.7,1.3,a,100.0,,4.96,0.88,2.1,4.78,3.48,44.6,1.4,42,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",243
+718,S.Magassa,WHU,MID,5.0,0.0,a,,,4.07,0.75,4.2,5.55,3.48,36.6,2.8,19,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",243
+301,Alcaraz,EVE,MID,5.2,0.1,a,,,4.4,1.08,3.0,5.14,3.47,39.6,2.0,18,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",245
+486,Elanga,NEW,MID,6.6,3.1,a,,,4.49,0.66,3.0,5.53,3.46,40.4,2.0,25,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",246
+217,Foster,BUR,FWD,5.0,1.3,a,100.0,,5.04,0.92,1.8,6.36,3.45,45.4,1.2,34,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",247
+304,Iroegbunam,EVE,MID,4.8,0.0,a,100.0,,4.67,0.2,3.3,5.14,3.42,42.0,2.2,24,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",248
+350,Aaronson,LEE,MID,5.4,0.1,a,,,3.96,1.02,4.2,4.87,3.4,35.6,2.8,48,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",249
+455,Mount,MUN,MID,5.9,0.4,a,100.0,,3.67,1.58,3.3,5.7,3.39,33.0,2.2,32,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",250
+367,Mamardashvili,LIV,GKP,4.3,0.8,a,,,2.0,0.0,2.1,6.92,3.39,18.0,1.4,19,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",250
+166,Ayari,BHA,MID,4.9,0.2,d,75.0,Muscle injury - 75% chance of playing,4.5,0.73,3.0,4.74,3.37,54.0,2.0,36,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",252
+126,Jensen,BRE,MID,4.9,0.1,a,,,4.2,0.34,2.1,7.13,3.36,37.8,1.4,27,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",253
+52,J.Ramsey,NEW,MID,5.3,0.2,a,100.0,,3.89,2.4,1.2,5.53,3.36,35.0,0.8,7,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",253
+272,Lerma,CRY,MID,4.9,0.1,a,,,4.87,0.12,2.7,4.62,3.32,43.8,1.8,28,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",255
+100,Kroupi.Jr,BOU,FWD,4.6,4.1,a,,,4.04,2.15,1.8,5.71,3.31,36.4,1.2,35,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",256
+202,Bruun Larsen,BUR,MID,5.3,0.0,a,100.0,,4.04,1.06,1.8,6.36,3.31,36.4,1.2,21,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",256
+163,Hinshelwood,BHA,MID,5.1,0.0,a,100.0,,3.33,1.27,5.1,4.74,3.29,30.0,3.4,21,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",258
+111,Pinnock,BRE,DEF,4.3,0.1,a,100.0,,1.62,0.2,1.2,7.85,3.28,14.6,0.8,4,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",259
+519,Dominguez,NFO,MID,5.0,0.0,a,100.0,,4.27,1.04,2.1,5.2,3.27,38.4,1.4,8,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",260
+644,Bellegarde,WOL,MID,5.2,0.0,a,100.0,,5.04,0.5,2.4,3.33,3.25,45.4,1.6,19,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",261
+284,Nketiah,CRY,FWD,5.4,0.4,a,100.0,,3.82,1.9,3.3,4.62,3.25,34.4,2.2,19,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",261
+659,Walker-Peters,WHU,DEF,4.3,0.3,a,,,1.16,4.8,2.1,6.11,3.15,10.4,1.4,21,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",263
+730,Brobbey,SUN,FWD,5.5,0.2,a,,,3.89,0.54,4.5,5.64,3.15,35.0,3.0,23,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",263
+721,Milosavljević,BOU,DEF,4.5,0.0,d,50.0,Knee injury - 50% chance of playing,2.0,0.8,1.8,6.29,3.14,36.0,1.2,17,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",265
+450,Cunha,MUN,MID,7.9,3.7,a,100.0,,3.27,1.85,1.8,5.7,3.06,29.4,1.2,29,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",266
+586,Bergvall,TOT,MID,5.4,0.2,a,100.0,,3.38,1.9,2.1,4.78,3.03,30.4,1.4,31,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",267
+588,Odobert,TOT,MID,5.3,0.0,a,100.0,,3.53,0.64,3.6,4.78,3.01,31.8,2.4,24,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",268
+33,M.Bizot,AVL,GKP,4.3,0.4,a,,,2.0,0.0,0.3,6.51,3.0,18.0,0.2,8,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",269
+677,Guessand,AVL,MID,6.2,0.0,a,,,1.98,3.25,2.7,5.91,2.99,17.8,1.8,22,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",270
+246,Andrey Santos,CHE,MID,4.5,0.3,a,100.0,,3.84,0.23,2.4,5.56,2.98,34.6,1.6,14,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",271
+723,Canvot,CRY,DEF,4.5,0.0,a,,,2.49,0.3,3.9,4.16,2.98,22.4,2.6,14,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",271
+149,Igor,WHU,DEF,4.5,0.1,a,100.0,,2.16,0.0,1.2,6.11,2.98,19.4,0.8,6,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",271
+107,Lewis-Potter,BRE,DEF,4.8,0.3,a,,,0.98,0.2,0.9,7.85,2.95,8.8,0.6,24,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",274
+356,Gruev,LEE,MID,4.8,0.0,a,,,3.93,0.7,1.5,4.87,2.9,35.4,1.0,12,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",275
+238,Estêvão,CHE,MID,6.6,3.0,a,,,2.87,1.72,1.8,5.56,2.83,25.8,1.2,31,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",276
+580,Johnson,TOT,MID,6.6,2.6,a,,,3.96,0.4,1.2,4.78,2.78,35.6,0.8,31,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",277
+229,B.Badiashile,CHE,DEF,4.4,0.0,a,100.0,,2.0,0.0,0.0,6.12,2.73,18.0,0.0,0,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",278
+680,Broja,BUR,FWD,5.2,0.1,a,100.0,,3.11,1.42,1.8,6.36,2.73,28.0,1.2,10,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",278
+615,Summerville,WHU,MID,5.5,0.1,d,50.0,Knock - 50% chance of playing,1.7,3.0,2.4,5.55,2.71,30.6,1.6,26,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",280
+7,Calafiori,ARS,DEF,5.8,14.2,s,0.0,Suspended until 20 Dec,0.0,1.22,3.3,6.8,2.66,80.0,2.2,71,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",281
+252,Marc Guiu,CHE,FWD,4.2,7.0,a,100.0,,2.18,2.82,1.8,5.56,2.65,19.6,1.2,12,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",282
+10,Lewis-Skelly,ARS,DEF,5.1,1.5,a,,,1.11,0.07,0.6,6.8,2.64,10.0,0.4,8,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",283
+199,Worrall,BUR,DEF,3.9,0.2,a,,,1.0,0.1,0.3,7.0,2.6,9.0,0.2,5,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",284
+634,Mosquera,WOL,DEF,4.3,0.1,a,,,3.47,0.3,0.6,3.0,2.58,31.2,0.4,3,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",285
+86,Brooks,BOU,MID,5.0,0.2,a,100.0,,2.4,1.95,0.9,5.71,2.56,21.6,0.6,23,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",286
+709,Krejčí,WOL,DEF,4.5,0.0,d,75.0,Knock - 75% chance of playing,2.73,3.35,0.6,3.0,2.55,32.8,0.4,18,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",287
+302,Gana,EVE,MID,5.4,0.1,a,100.0,,2.27,1.6,2.4,5.14,2.55,20.4,1.6,40,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",287
+44,Bogarde,AVL,DEF,4.0,0.6,a,100.0,,0.8,0.04,1.5,6.51,2.54,7.2,1.0,20,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",289
+19,Martinelli,ARS,MID,6.8,0.9,a,100.0,,2.67,0.77,1.5,6.18,2.54,24.0,1.0,21,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",289
+18,Madueke,ARS,MID,6.8,0.6,a,100.0,,2.58,0.72,1.8,6.18,2.54,23.2,1.2,16,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",289
+375,Bradley,LIV,DEF,5.0,0.2,s,0.0,Suspended until 20 Dec,0.0,2.15,1.5,6.92,2.52,29.8,1.0,20,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",292
+332,Lukić,FUL,MID,5.0,0.1,a,100.0,,2.8,0.02,0.9,7.37,2.51,25.2,0.6,30,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",293
+591,Gray,TOT,MID,4.8,0.1,a,100.0,,3.38,0.13,1.2,4.78,2.45,30.4,0.8,8,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",294
+664,Lecomte,FUL,GKP,3.9,0.7,a,,,0.0,0.0,0.0,8.1,2.43,0.0,0.0,0,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",295
+315,Benda,FUL,GKP,4.0,0.0,u,0.0,Has joined Millwall on loan for the rest of the season.,0.0,0.0,0.0,8.1,2.43,0.0,0.0,0,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",295
+316,Robinson,FUL,DEF,4.9,0.4,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,8.1,2.43,0.0,0.0,3,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",295
+320,Diop,FUL,DEF,4.3,0.1,a,,,0.0,0.0,0.0,8.1,2.43,0.0,0.0,4,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",295
+321,J.Cuenca,FUL,DEF,4.3,0.0,a,,,0.0,0.0,0.0,8.1,2.43,0.0,0.0,7,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",295
+323,Amissah,FUL,DEF,3.8,0.1,a,,,0.0,0.0,0.0,8.1,2.43,0.0,0.0,0,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",295
+104,Eyestone,BRE,GKP,3.9,0.1,a,,,0.0,0.0,0.0,7.85,2.35,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",301
+187,Walker,BUR,DEF,4.4,1.4,s,0.0,Suspended until 20 Dec,0.0,0.3,1.5,7.0,2.35,90.0,1.0,34,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",301
+103,Cox,BRE,GKP,4.0,0.1,a,,,0.0,0.0,0.0,7.85,2.35,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",301
+118,Meghoma,BRE,DEF,4.0,0.0,u,0.0,Has joined Rangers on loan for the rest of the season.,0.0,0.0,0.0,7.85,2.35,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",301
+117,Ji-soo,BRE,DEF,3.9,0.1,u,0.0,has joined Kaiserslautern on loan for the rest of the season.,0.0,0.0,0.0,7.85,2.35,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",301
+115,Fredrick,BRE,DEF,4.0,0.1,u,0.0,has joined Dender on loan for the rest of the season.,0.0,0.0,0.0,7.85,2.35,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",301
+114,Arthur,BRE,DEF,3.9,0.2,a,100.0,,0.0,0.0,0.0,7.85,2.35,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",301
+112,Roerslev,BRE,DEF,4.5,0.0,u,0.0,Has joined Southampton permanently.,0.0,0.0,0.0,7.85,2.35,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",301
+105,Valdimarsson,BRE,GKP,3.9,0.7,a,,,0.0,0.0,0.0,7.85,2.35,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",301
+102,Balcombe,BRE,GKP,4.0,0.3,a,,,0.0,0.0,0.0,7.85,2.35,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",301
+447,Heaven,MUN,DEF,3.8,1.3,a,100.0,,1.0,0.0,0.0,6.26,2.33,9.0,0.0,4,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",311
+263,Clyne,CRY,DEF,3.8,0.5,a,,,1.69,2.2,0.6,4.16,2.32,15.2,0.4,3,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",312
+662,Mosquera,ARS,DEF,5.4,0.2,i,0.0,Ankle injury - Unknown return date,0.0,0.85,1.2,6.8,2.31,27.4,0.8,17,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",313
+125,Janelt,BRE,MID,4.9,0.0,a,100.0,,2.0,0.52,1.2,7.13,2.28,18.0,0.8,13,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",314
+198,Tuanzebe,BUR,DEF,3.9,1.6,i,0.0,Knock - Expected back 13 Dec,0.0,0.03,1.2,7.0,2.28,54.0,0.8,17,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",314
+409,Stones,MCI,DEF,5.4,0.7,a,100.0,,0.6,0.0,0.3,6.51,2.27,5.4,0.2,12,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",316
+405,Aké,MCI,DEF,5.3,0.6,a,,,0.47,0.0,0.6,6.51,2.25,4.2,0.4,12,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",317
+516,Hudson-Odoi,NFO,MID,5.7,0.6,a,100.0,,2.6,0.4,1.2,5.2,2.23,23.4,0.8,26,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",318
+77,Hill,BOU,DEF,4.0,0.7,a,,,0.62,0.0,0.3,6.29,2.21,5.6,0.2,18,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",319
+513,Abbott,NFO,DEF,3.9,0.2,a,,,1.0,0.0,0.3,5.71,2.21,9.0,0.2,1,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",319
+415,Savinho,MCI,MID,6.9,0.4,a,100.0,,1.89,1.1,1.2,5.92,2.19,17.0,0.8,19,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",321
+494,Willock,NEW,MID,5.0,0.1,a,100.0,,2.2,0.38,1.8,5.53,2.18,19.8,1.2,10,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",322
+120,Schade,BRE,MID,7.0,1.0,s,0.0,Suspended until 20 Dec,0.0,1.66,4.5,7.13,2.16,80.6,3.0,47,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",323
+442,Maguire,MUN,DEF,4.4,0.6,i,0.0,Hamstring injury - Unknown return date,0.0,0.0,1.8,6.26,2.15,14.2,1.2,33,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",324
+80,Soler,BOU,DEF,4.0,0.2,a,100.0,,0.44,0.0,0.3,6.29,2.13,4.0,0.2,2,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",325
+5,Gabriel,ARS,DEF,6.3,16.0,i,0.0,Thigh injury - Unknown return date,0.0,0.3,0.3,6.8,2.12,18.0,0.2,81,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",326
+706,Justin,LEE,DEF,3.9,0.2,a,,,1.58,0.0,0.6,4.38,2.11,14.2,0.4,6,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",327
+193,Humphreys,BUR,DEF,3.9,0.1,i,0.0,Muscle injury - Expected back 03 Jan,0.0,0.0,0.0,7.0,2.1,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",328
+189,Dodgson,BUR,DEF,4.0,0.0,u,0.0,Has joined Stockport County on loan for the rest of the season.,0.0,0.0,0.0,7.0,2.1,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",328
+183,Weiss,BUR,GKP,4.3,0.1,a,,,0.0,0.0,0.0,7.0,2.1,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",328
+185,Hladký,BUR,GKP,3.9,0.2,a,,,0.0,0.0,0.0,7.0,2.1,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",328
+184,Green,BUR,GKP,4.0,0.2,u,0.0,has joined FC Fredericia permanently.,0.0,0.0,0.0,7.0,2.1,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",328
+194,Jordan,BUR,DEF,4.0,0.1,i,0.0,Hamstring injury - Unknown return date,0.0,0.0,0.0,7.0,2.1,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",328
+196,Sambo,BUR,DEF,4.0,0.0,u,0.0,Has joined Sparta Rotterdam on loan for the rest of the season.,0.0,0.0,0.0,7.0,2.1,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",328
+197,Sonne,BUR,DEF,3.9,0.1,a,,,0.0,0.0,0.0,7.0,2.1,0.0,0.0,3,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",328
+188,Delcroix,BUR,DEF,3.8,0.3,a,,,0.0,0.0,0.0,7.0,2.1,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",328
+186,Roberts,BUR,DEF,4.4,0.0,i,0.0,Achilles injury - Unknown return date,0.0,0.0,0.0,7.0,2.1,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",328
+162,Gruda,BHA,MID,5.4,0.1,a,100.0,,2.24,0.75,1.2,4.74,2.09,20.2,0.8,23,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",338
+633,H.Bueno,WOL,DEF,4.4,0.1,a,100.0,,2.33,0.07,0.9,3.0,2.09,21.0,0.6,23,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",338
+469,Pope,NEW,GKP,5.1,6.9,i,0.0,Groin Injury - Expected back 26 Dec,0.0,0.0,1.8,6.08,2.09,33.2,1.2,55,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",338
+437,Martinez,MUN,DEF,4.8,0.1,a,100.0,,0.22,0.2,0.6,6.26,2.09,2.0,0.4,2,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",338
+377,Tsimikas,LIV,DEF,4.8,0.1,u,0.0,has joined AS Roma on loan for the rest of the season.,0.0,0.0,0.0,6.92,2.08,0.0,0.0,0,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",342
+410,Lewis,MCI,DEF,4.7,1.4,a,100.0,,0.18,0.0,0.3,6.51,2.08,1.6,0.2,16,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",342
+380,Ramsay,LIV,DEF,3.8,0.3,a,,,0.0,0.0,0.0,6.92,2.08,0.0,0.0,0,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",342
+379,R.Williams,LIV,DEF,3.8,0.2,a,,,0.0,0.0,0.0,6.92,2.08,0.0,0.0,0,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",342
+378,Nallo,LIV,DEF,3.8,0.3,a,100.0,,0.0,0.0,0.0,6.92,2.08,0.0,0.0,0,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",342
+692,Leoni,LIV,DEF,4.9,0.0,i,0.0,Knee injury - Expected back 01 Sep,0.0,0.0,0.0,6.92,2.08,0.0,0.0,0,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",342
+368,Pécsi,LIV,GKP,3.9,0.4,a,,,0.0,0.0,0.0,6.92,2.08,0.0,0.0,0,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",342
+369,Woodman,LIV,GKP,3.9,0.2,a,,,0.0,0.0,0.0,6.92,2.08,0.0,0.0,0,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",342
+370,Frimpong,LIV,DEF,5.7,4.6,i,0.0,Hamstring injury - Unknown return date,0.0,0.0,0.0,6.92,2.08,0.0,0.0,7,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",342
+195,Lucas Pires,BUR,DEF,3.8,0.2,s,0.0,Suspended until 20 Dec,0.0,0.55,-0.6,7.0,2.06,10.2,-0.4,-2,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",351
+15,Nichols,ARS,DEF,3.8,0.2,a,,,0.0,0.0,0.0,6.8,2.04,0.0,0.0,0,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",352
+3,Hein,ARS,GKP,4.0,0.2,u,0.0,Has joined Werder Bremen on loan for the rest of the season.,0.0,0.0,0.0,6.8,2.04,0.0,0.0,0,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",352
+14,Kacurri,ARS,DEF,3.9,0.1,u,0.0,has joined Morecambe on loan for the rest of the season.,0.0,0.0,0.0,6.8,2.04,0.0,0.0,0,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",352
+9,Kiwior,ARS,DEF,5.4,0.1,u,0.0,has joined Porto on loan for the rest of the season.,0.0,0.0,0.0,6.8,2.04,0.0,0.0,0,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",352
+2,Arrizabalaga,ARS,GKP,4.2,0.4,a,,,0.0,0.0,0.0,6.8,2.04,0.0,0.0,0,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",352
+759,Salmon,ARS,DEF,4.0,0.0,a,,,0.0,0.0,0.0,6.8,2.04,0.0,0.0,0,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",352
+4,Setford,ARS,GKP,3.9,0.2,a,,,0.0,0.0,0.0,6.8,2.04,0.0,0.0,0,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",352
+719,Lindelöf,AVL,DEF,4.5,0.0,a,100.0,,0.09,0.0,0.3,6.51,2.04,0.8,0.2,4,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",352
+13,Clarke,ARS,DEF,3.8,0.5,a,,,0.0,0.0,0.0,6.8,2.04,0.0,0.0,0,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",352
+642,Hee Chan,WOL,MID,5.7,0.1,a,100.0,,2.58,0.73,1.2,3.33,2.02,23.2,0.8,18,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",361
+235,Palmer,CHE,MID,10.3,9.9,a,100.0,,1.91,0.9,0.6,5.56,2.01,17.2,0.4,13,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",362
+475,Botman,NEW,DEF,4.9,0.4,i,0.0,Back injury - Expected back 14 Dec,0.0,0.0,1.2,6.08,2.0,20.6,0.8,32,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",363
+701,Rowe,AVL,DEF,4.0,0.1,u,0.0,has joined Annecy on loan for the rest of the season.,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",364
+34,Gauci,AVL,GKP,4.0,0.1,u,0.0,Has joined Port Vale on loan for the rest of the season.,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",364
+35,Marschall,AVL,GKP,4.0,0.0,u,0.0,Has joined Stevenage permanently.,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",364
+688,Wright,AVL,GKP,3.9,0.6,a,,,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",364
+703,Proctor,AVL,GKP,3.9,0.2,a,,,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",364
+182,Trafford,MCI,GKP,4.6,1.0,a,,,0.0,0.0,0.0,6.51,1.95,0.0,0.0,11,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",364
+399,Ederson M.,MCI,GKP,5.3,0.9,u,0.0,has joined Fenerbache permanently.,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",364
+42,A.García,AVL,DEF,3.9,0.2,a,100.0,,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",364
+710,Patterson,AVL,DEF,3.9,0.2,a,,,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",364
+45,Sousa,AVL,DEF,3.9,0.3,a,,,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",364
+412,Vitor Reis,MCI,DEF,5.0,0.0,u,0.0,Has joined Girona on loan for the rest of the season.,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",364
+400,Ortega Moreno,MCI,GKP,4.8,0.2,a,,,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",364
+404,Akanji,MCI,DEF,5.4,0.3,u,0.0,has joined Inter Milan on loan for the rest of the season.,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",364
+46,Yasin,AVL,DEF,4.0,0.1,u,0.0,has joined Anderlecht on loan for the rest of the season.,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",364
+757,Hollingshead,AVL,GKP,4.0,0.0,a,,,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",364
+402,Aït-Nouri,MCI,DEF,5.7,4.3,a,100.0,,0.0,0.0,0.0,6.51,1.95,0.0,0.0,11,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",364
+43,Alex Moreno,AVL,DEF,4.0,2.0,u,0.0,Has joined Girona permanently.,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",364
+401,Bettinelli,MCI,GKP,3.9,0.1,a,100.0,,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",364
+406,Khusanov,MCI,DEF,5.4,0.3,a,100.0,,0.0,0.0,0.0,6.51,1.95,0.0,0.0,11,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",364
+747,Mayers,WHU,DEF,4.0,0.0,a,,,0.16,0.0,0.3,6.11,1.95,1.4,0.2,1,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",364
+740,Mfuni,MCI,DEF,4.0,0.0,a,,,0.0,0.0,0.0,6.51,1.95,0.0,0.0,0,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",364
+40,Mings,AVL,DEF,4.3,0.6,i,0.0,Hamstring injury - Expected back 03 Jan,0.0,0.0,0.0,6.51,1.95,0.0,0.0,24,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",364
+250,Delap,CHE,FWD,6.2,1.0,d,25.0,Shoulder injury - 25% chance of playing,1.42,1.3,2.4,5.56,1.94,51.0,1.6,12,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",386
+584,Tel,TOT,MID,6.2,0.1,a,,,0.64,1.77,3.3,4.78,1.94,5.8,2.2,28,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",386
+456,Sancho,AVL,MID,5.8,0.2,a,100.0,,1.29,1.15,1.2,5.91,1.93,11.6,0.8,7,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",388
+206,Edwards,BUR,MID,4.7,0.1,a,,,0.93,1.7,0.9,6.36,1.93,8.4,0.6,5,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",388
+66,Neto,BOU,GKP,4.5,0.1,u,0.0,Has joined Botafogo permanently.,0.0,0.0,0.0,6.29,1.89,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",390
+79,Mepham,BOU,DEF,4.0,0.1,u,0.0,has joined West Bromwich Albion permanently.,0.0,0.0,0.0,6.29,1.89,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",390
+78,J.Araujo,BOU,DEF,3.8,0.7,a,100.0,,0.0,0.0,0.0,6.29,1.89,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",390
+71,Zabarnyi,BOU,DEF,5.0,0.0,u,0.0,Has joined Paris Saint-Germain permanently.,0.0,0.0,0.0,6.29,1.89,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",390
+76,Bevan,BOU,DEF,3.9,0.2,a,,,0.0,0.0,0.0,6.29,1.89,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",390
+75,Akinmboni,BOU,DEF,3.9,0.2,d,25.0,Muscle injury - 25% chance of playing,0.0,0.0,0.0,6.29,1.89,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",390
+143,Boscagli,BHA,DEF,4.2,0.1,a,,,1.16,0.45,0.3,4.27,1.89,10.4,0.2,1,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",390
+68,Dennis,BOU,GKP,4.0,0.9,a,,,0.0,0.0,0.0,6.29,1.89,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",390
+69,McKenna,BOU,GKP,4.0,0.2,a,,,0.0,0.0,0.0,6.29,1.89,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",390
+70,Paulsen,BOU,GKP,4.0,0.1,u,0.0,Has joined Lechia Gdansk on loan for the rest of the season.,0.0,0.0,0.0,6.29,1.89,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",390
+433,Harrison,MUN,GKP,4.0,0.0,u,0.0,On loan to Shrewsbury Town,0.0,0.0,0.0,6.26,1.88,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",400
+435,Mee,MUN,GKP,3.9,0.1,a,,,0.0,0.0,0.0,6.26,1.88,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",400
+445,Amass,MUN,DEF,4.0,0.1,u,0.0,has joined Sheffield Wednesday on loan for the rest of the season.,0.0,0.0,0.0,6.26,1.88,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",400
+439,D.Leon,MUN,DEF,4.2,0.1,a,,,0.0,0.0,0.0,6.26,1.88,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",400
+448,Malacia,MUN,DEF,3.8,0.4,a,,,0.0,0.0,0.0,6.26,1.88,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",400
+432,Onana,MUN,GKP,4.9,0.2,u,0.0,has joined Trabzonspor on loan for the rest of the season.,0.0,0.0,0.0,6.26,1.88,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",400
+446,Fredricson,MUN,DEF,3.8,0.1,a,,,0.0,0.0,0.0,6.26,1.88,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",400
+434,Heaton,MUN,GKP,3.9,0.3,a,,,0.0,0.0,0.0,6.26,1.88,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",400
+431,Bayindir,MUN,GKP,4.8,0.3,a,,,0.0,0.0,0.0,6.26,1.88,0.0,0.0,11,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",400
+530,Nna Noukeu,SUN,GKP,3.9,0.1,a,,,0.0,0.0,0.0,6.2,1.86,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",409
+534,Anderson,SUN,DEF,3.9,0.4,a,,,0.0,0.0,0.0,6.2,1.86,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",409
+529,Moore,SUN,GKP,3.9,0.4,a,,,0.0,0.0,0.0,6.2,1.86,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",409
+542,Seelt,SUN,DEF,4.0,0.1,u,0.0,has joined Wolfsburg on loan for the rest of the season.,0.0,0.0,0.0,6.2,1.86,0.0,0.0,2,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",409
+678,Masuaku,SUN,DEF,3.9,0.7,a,100.0,,0.0,0.0,0.0,6.2,1.86,0.0,0.0,1,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",409
+535,Cirkin,SUN,DEF,4.0,0.0,d,25.0,Lack of match fitness - 25% chance of playing,0.0,0.0,0.0,6.2,1.86,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",409
+536,Hjelde,SUN,DEF,4.0,0.0,d,25.0,Lack of match fitness - 25% chance of playing,0.0,0.0,0.0,6.2,1.86,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",409
+537,Huggins,SUN,DEF,4.0,0.1,u,0.0,has joined Wycombe Wanderers on loan for the rest of the season.,0.0,0.0,0.0,6.2,1.86,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",409
+538,Johnson,SUN,DEF,3.9,0.2,a,,,0.0,0.0,0.0,6.2,1.86,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",409
+528,Patterson,SUN,GKP,4.3,0.2,a,,,0.0,0.0,0.0,6.2,1.86,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",409
+533,Alese,SUN,DEF,4.0,0.0,i,0.0,Shoulder injury - Unknown return date,0.0,0.0,0.0,6.2,1.86,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",409
+540,Pembele,SUN,DEF,3.9,0.4,a,,,0.0,0.0,0.0,6.2,1.86,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",409
+478,Trippier,NEW,DEF,4.9,1.6,i,0.0,Hamstring injury - Expected back 26 Dec,0.0,0.3,0.0,6.08,1.85,18.0,0.0,30,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",421
+636,S.Bueno,WOL,DEF,4.4,0.1,a,,,2.0,0.0,0.3,3.0,1.84,18.0,0.2,25,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",422
+233,Acheampong,CHE,DEF,3.9,1.6,a,100.0,,0.0,0.0,0.0,6.12,1.83,0.0,0.0,27,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",423
+231,M.Sarr,CHE,DEF,4.5,0.0,u,0.0,Has joined RC Strasbourg on loan for the rest of the season.,0.0,0.0,0.0,6.12,1.83,0.0,0.0,0,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",423
+222,Penders,CHE,GKP,4.0,0.0,u,0.0,Has joined RC Strasbourg on loan for the rest of the season.,0.0,0.0,0.0,6.12,1.83,0.0,0.0,0,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",423
+227,Colwill,CHE,DEF,4.8,0.1,i,0.0,Anterior cruciate ligament - Unknown return date,0.0,0.0,0.0,6.12,1.83,0.0,0.0,0,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",423
+234,Anselmino,CHE,DEF,4.0,0.1,u,0.0,has joined Borussia Dortmund on loan for the rest of the season.,0.0,0.0,0.0,6.12,1.83,0.0,0.0,0,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",423
+221,Jörgensen,CHE,GKP,4.3,0.2,a,,,0.0,0.0,0.0,6.12,1.83,0.0,0.0,1,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",423
+672,Hato,CHE,DEF,4.7,0.2,a,,,0.0,0.0,0.0,6.12,1.83,0.0,0.0,3,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",423
+601,Foderingham,WHU,GKP,4.0,0.3,u,0.0,has joined Aris Limassol permanently.,0.0,0.0,0.0,6.11,1.83,0.0,0.0,0,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",423
+602,Hegyi,WHU,GKP,3.9,0.2,a,,,0.0,0.0,0.0,6.11,1.83,0.0,0.0,0,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",423
+604,Emerson,WHU,DEF,4.4,0.1,u,0.0,has joined Marseille permanently.,0.0,0.0,0.0,6.11,1.83,0.0,0.0,0,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",423
+679,Hermansen,WHU,GKP,4.3,0.2,a,,,0.0,0.0,0.0,6.11,1.83,0.0,0.0,9,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",423
+738,Fabianski,WHU,GKP,4.5,0.0,d,25.0,Back injury - 25% chance of playing,0.0,0.0,0.0,6.11,1.83,0.0,0.0,0,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",423
+223,Slonina,CHE,GKP,3.9,0.1,a,,,0.0,0.0,0.0,6.12,1.83,0.0,0.0,0,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",423
+752,Golambeckis,WHU,DEF,4.0,0.0,a,,,0.0,0.0,0.0,6.11,1.83,0.0,0.0,0,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",423
+607,N.Aguerd,WHU,DEF,4.4,0.0,u,0.0,has joined Marseille permanently.,0.0,0.0,0.0,6.11,1.83,0.0,0.0,3,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",423
+608,Scarles,WHU,DEF,4.3,0.0,i,0.0,Shoulder injury - Expected back 27 Dec,0.0,0.0,0.0,6.11,1.83,0.0,0.0,1,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",423
+611,Casey,WHU,DEF,4.0,0.1,u,0.0,Has joined Swansea City on loan for the rest of the season.,0.0,0.0,0.0,6.11,1.83,0.0,0.0,0,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",423
+482,Ashby,NEW,DEF,3.9,0.1,a,100.0,,0.0,0.0,0.0,6.08,1.82,0.0,0.0,0,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",440
+472,Odysseas,NEW,GKP,4.0,0.0,u,0.0,Has joined Sevilla on loan for the rest of the season.,0.0,0.0,0.0,6.08,1.82,0.0,0.0,0,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",440
+753,Ruddy,NEW,GKP,4.0,0.0,a,,,0.0,0.0,0.0,6.08,1.82,0.0,0.0,0,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",440
+484,Targett,NEW,DEF,4.0,0.2,u,0.0,has joined Middlesbrough on loan for the rest of the season.,0.0,0.0,0.0,6.08,1.82,0.0,0.0,0,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",440
+471,Gillespie,NEW,GKP,3.9,0.1,a,,,0.0,0.0,0.0,6.08,1.82,0.0,0.0,0,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",440
+480,Lascelles,NEW,DEF,4.3,0.1,a,,,0.0,0.0,0.0,6.08,1.82,0.0,0.0,1,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",440
+483,Pivas,NEW,DEF,3.8,0.4,a,,,0.0,0.0,0.0,6.08,1.82,0.0,0.0,0,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",440
+479,Krafth,NEW,DEF,4.3,0.0,i,0.0,Knee injury - Expected back 26 Dec,0.0,0.0,0.0,6.08,1.82,0.0,0.0,0,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",440
+481,A.Murphy,NEW,DEF,3.8,0.7,a,,,0.0,0.0,0.0,6.08,1.82,0.0,0.0,0,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",440
+539,O'Nien,SUN,DEF,4.0,0.1,s,0.0,Suspended until 01 Jan,0.0,0.0,-0.3,6.2,1.81,0.8,-0.2,-1,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",449
+351,Gnonto,LEE,MID,5.2,0.1,a,100.0,,1.78,0.2,1.5,4.87,1.8,16.0,1.0,11,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",450
+152,Veltman,BHA,DEF,4.3,0.1,a,100.0,,0.76,0.0,0.9,4.27,1.75,6.8,0.6,10,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",451
+294,Coleman,EVE,DEF,4.3,0.1,i,0.0,Hamstring injury - Unknown return date,0.0,0.0,0.3,5.65,1.74,1.8,0.2,3,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",452
+424,Bobb,MCI,MID,5.2,0.2,a,,,0.29,2.8,0.0,5.92,1.72,2.6,0.0,18,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",453
+715,John,NFO,GKP,4.0,0.3,a,,,0.0,0.0,0.0,5.71,1.71,0.0,0.0,0,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",454
+503,C.Miguel,NFO,GKP,4.0,0.1,u,0.0,Has joined Palmeiras permanently.,0.0,0.0,0.0,5.71,1.71,0.0,0.0,0,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",454
+675,Gunn,NFO,GKP,4.0,1.3,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,5.71,1.71,0.0,0.0,0,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",454
+504,Turner,NFO,GKP,4.0,0.1,u,0.0,Has joined Lyon permanently.,0.0,0.0,0.0,5.71,1.71,0.0,0.0,0,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",454
+507,Aina,NFO,DEF,4.7,2.1,i,0.0,Hamstring injury - Expected back 22 Dec,0.0,0.0,0.0,5.71,1.71,0.0,0.0,6,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",454
+510,Jair Cunha,NFO,DEF,4.3,0.1,a,,,0.0,0.0,0.0,5.71,1.71,0.0,0.0,3,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",454
+512,O.Richards,NFO,DEF,4.5,0.0,u,0.0,has joined Rio Ave on loan for the rest of the season.,0.0,0.0,0.0,5.71,1.71,0.0,0.0,0,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",454
+514,Boly,NFO,DEF,3.9,0.4,a,,,0.0,0.0,0.0,5.71,1.71,0.0,0.0,0,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",454
+729,Cuiabano,NFO,DEF,4.5,0.0,u,0.0,has joined Botafogo on loan for the rest of the season.,0.0,0.0,0.0,5.71,1.71,0.0,0.0,0,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",454
+12,Zinchenko,NFO,DEF,4.9,0.2,d,25.0,Lack of match fitness - 25% chance of playing,0.0,0.0,0.0,5.71,1.71,0.0,0.0,5,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",454
+385,Chiesa,LIV,MID,6.3,0.3,a,100.0,,0.73,1.37,0.6,6.29,1.71,6.6,0.4,21,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",454
+509,David Carmo,NFO,DEF,4.5,0.0,u,0.0,has joined Real Oviedo on loan for the rest of the season.,0.0,0.0,0.0,5.71,1.71,0.0,0.0,0,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",454
+297,Dixon,EVE,DEF,3.8,0.2,a,,,0.0,0.0,0.0,5.65,1.7,0.0,0.0,0,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",466
+705,Campbell,EVE,DEF,3.9,0.2,a,,,0.0,0.0,0.0,5.65,1.7,0.0,0.0,0,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",466
+98,Enes Ünal,BOU,FWD,5.4,0.0,a,100.0,,0.73,1.48,2.4,5.71,1.7,6.6,1.6,9,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",466
+667,Aznou,EVE,DEF,4.3,0.1,a,100.0,,0.0,0.0,0.0,5.65,1.7,0.0,0.0,0,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",466
+630,King,EVE,GKP,3.9,1.4,a,,,0.0,0.0,0.0,5.65,1.7,0.0,0.0,0,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",466
+298,Welch,EVE,DEF,3.8,0.1,a,,,0.0,0.0,0.0,5.65,1.7,0.0,0.0,0,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",466
+290,Branthwaite,EVE,DEF,5.3,0.1,i,0.0,Hamstring injury - Unknown return date,0.0,0.0,0.0,5.65,1.7,0.0,0.0,0,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",466
+296,Patterson,EVE,DEF,4.4,0.0,a,100.0,,0.0,0.0,0.0,5.65,1.7,0.0,0.0,0,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",466
+289,Tyrer,EVE,GKP,3.9,0.1,a,,,0.0,0.0,0.0,5.65,1.7,0.0,0.0,0,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",466
+288,Travers,EVE,GKP,4.4,0.1,a,,,0.0,0.0,0.0,5.65,1.7,0.0,0.0,0,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",466
+522,Yates,NFO,MID,4.7,0.1,d,75.0,Hamstring injury - 75% chance of playing,1.5,0.02,1.5,5.2,1.68,18.0,1.0,15,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",476
+413,Marmoush,MCI,MID,8.3,2.5,a,100.0,,0.91,0.73,1.2,5.92,1.66,8.2,0.8,15,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",477
+548,Mundle,SUN,MID,4.9,0.0,a,100.0,,0.98,1.3,0.3,5.64,1.66,8.8,0.2,1,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",477
+55,Barkley,AVL,MID,4.8,0.0,i,0.0,Knee injury - Expected back 07 Feb,0.0,1.03,3.3,5.91,1.64,10.6,2.2,15,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",479
+619,L.Guilherme,WHU,MID,4.9,0.0,a,100.0,,1.49,0.15,0.6,5.55,1.63,13.4,0.4,5,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",480
+311,Beto,EVE,FWD,5.1,2.7,a,,,1.36,0.78,1.5,5.14,1.58,12.2,1.0,25,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",481
+618,G.Rodriguez,WHU,MID,4.8,0.0,a,,,1.4,0.1,0.6,5.55,1.58,12.6,0.4,5,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",481
+209,Laurent,BUR,MID,4.8,0.0,a,,,1.02,0.1,0.6,6.36,1.53,9.2,0.4,17,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",483
+666,Gyökeres,ARS,FWD,8.8,10.4,a,100.0,,1.56,0.1,0.6,6.18,1.44,14.0,0.4,39,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",484
+543,Adingra,SUN,MID,5.0,0.4,a,,,1.0,0.03,0.9,5.64,1.44,9.0,0.6,16,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",484
+300,McNeil,EVE,MID,5.5,0.1,a,,,0.89,0.35,1.2,5.14,1.44,8.0,0.8,7,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",484
+87,Christie,BOU,MID,4.9,0.1,i,0.0,Knee injury - Expected back 26 Dec,0.0,1.9,0.6,5.71,1.42,14.4,0.4,17,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",487
+345,Bornauw,LEE,DEF,3.8,0.1,a,100.0,,0.04,0.0,0.6,4.38,1.42,0.4,0.4,2,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",487
+458,Mainoo,MUN,MID,4.6,0.4,a,100.0,,0.73,0.55,0.6,5.7,1.41,6.6,0.4,9,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",489
+267,Sarr,CRY,MID,6.5,4.0,i,0.0,Ankle injury - Unknown return date,0.0,1.57,2.1,4.62,1.4,43.4,1.4,50,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",490
+326,Adama,FUL,MID,5.1,0.1,a,,,0.36,0.2,0.6,7.37,1.4,3.2,0.4,12,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",490
+181,Kostoulas,BHA,FWD,4.8,0.3,a,,,1.02,1.1,0.9,4.74,1.4,9.2,0.6,10,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",490
+207,Hannibal,BUR,MID,4.8,0.1,s,0.0,Suspended until 30 Dec,0.0,0.85,1.5,6.36,1.39,25.4,1.0,22,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",493
+493,Longstaff,LEE,MID,4.9,0.5,i,0.0,Calf injury - Expected back 28 Dec,0.0,2.05,0.9,4.87,1.38,32.6,0.6,40,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",494
+732,Uche,CRY,FWD,5.5,0.0,a,,,0.8,1.45,0.6,4.62,1.35,7.2,0.4,5,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",495
+27,Nelson,BRE,MID,4.8,0.1,a,100.0,,0.36,0.1,0.6,7.13,1.35,3.2,0.4,3,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",495
+276,Devenny,CRY,MID,4.3,1.1,a,,,0.91,0.2,1.2,4.62,1.33,8.2,0.8,13,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",497
+331,Cairney,FUL,MID,4.8,0.0,a,100.0,,0.04,0.6,0.3,7.37,1.32,0.4,0.2,9,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",498
+339,Meslier,LEE,GKP,4.2,0.4,a,,,0.0,0.0,0.0,4.38,1.31,0.0,0.0,0,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",499
+340,Cairns,LEE,GKP,3.9,0.2,a,,,0.0,0.0,0.0,4.38,1.31,0.0,0.0,0,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",499
+341,Darlow,LEE,GKP,3.9,2.1,a,,,0.0,0.0,0.0,4.38,1.31,0.0,0.0,10,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",499
+346,Byram,LEE,DEF,3.9,0.2,a,,,0.0,0.0,0.0,4.38,1.31,0.0,0.0,1,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",499
+349,Schmidt,LEE,DEF,4.0,0.1,u,0.0,has joined Werder Bremen on loan for the rest of the season.,0.0,0.0,0.0,4.38,1.31,0.0,0.0,0,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",499
+750,Rowswell,TOT,DEF,4.0,0.0,a,,,0.0,0.0,0.0,4.3,1.29,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",504
+745,Byfield,TOT,DEF,4.0,0.0,a,,,0.0,0.0,0.0,4.3,1.29,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",504
+578,Vuskovic,TOT,DEF,3.9,0.4,u,0.0,has joined Hamburger SV on loan for the rest of the season.,0.0,0.0,0.0,4.3,1.29,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",504
+577,Takai,TOT,DEF,4.0,0.0,d,75.0,Lack of match fitness - 75% chance of playing,0.0,0.0,0.0,4.3,1.29,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",504
+720,Tolu,WOL,FWD,5.4,0.0,a,,,1.69,0.2,0.9,3.33,1.29,15.2,0.6,12,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",504
+576,Phillips,TOT,DEF,4.0,0.0,u,0.0,Has joined Stoke City on loan for the rest of the season.,0.0,0.0,0.0,4.3,1.29,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",504
+572,Dragusin,TOT,DEF,4.5,0.0,d,75.0,Lack of match fitness - 75% chance of playing,0.0,0.0,0.0,4.3,1.29,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",504
+571,Davies,TOT,DEF,4.3,0.1,a,100.0,,0.0,0.0,0.0,4.3,1.29,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",504
+567,Kinsky,TOT,GKP,3.9,1.9,a,,,0.0,0.0,0.0,4.3,1.29,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",504
+566,Austin,TOT,GKP,3.9,0.3,a,,,0.0,0.0,0.0,4.3,1.29,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",504
+144,Coppola,BHA,DEF,4.2,0.1,a,,,0.0,0.0,0.0,4.27,1.28,0.0,0.0,3,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",514
+141,Rushworth,BHA,GKP,4.0,0.0,u,0.0,Has joined Coventry City on loan for the rest of the season.,0.0,0.0,0.0,4.27,1.28,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",514
+147,Estupiñan,BHA,DEF,4.5,0.0,u,0.0,Has joined AC Milan permanently,0.0,0.0,0.0,4.27,1.28,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",514
+150,Lamptey,BHA,DEF,4.4,0.1,u,0.0,has joined Fiorentina permanently.,0.0,0.0,0.0,4.27,1.28,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",514
+153,Webster,BHA,DEF,4.4,0.0,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,4.27,1.28,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",514
+154,Cashin,BHA,DEF,4.0,0.0,u,0.0,Has joined Birmingham on loan for the rest of the season.,0.0,0.0,0.0,4.27,1.28,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",514
+155,Slater,BHA,DEF,4.0,0.1,u,0.0,has joined Harrogate Town on loan until January.,0.0,0.0,0.0,4.27,1.28,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",514
+156,Tasker,BHA,DEF,3.9,0.1,a,,,0.0,0.0,0.0,4.27,1.28,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",514
+140,McGill,BHA,GKP,4.0,0.3,a,,,0.0,0.0,0.0,4.27,1.28,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",514
+138,Steele,BHA,GKP,4.3,0.3,a,,,0.0,0.0,0.0,4.27,1.28,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",514
+142,Scherpen,BHA,GKP,4.0,0.0,u,0.0,Has joined Union SG permanently,0.0,0.0,0.0,4.27,1.28,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",514
+459,Ugarte,MUN,MID,4.7,0.1,a,,,0.69,0.05,0.6,5.7,1.27,6.2,0.4,14,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",525
+254,Benitez,CRY,GKP,4.0,0.3,a,100.0,,0.0,0.0,0.0,4.16,1.25,0.0,0.0,0,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",526
+255,Matthews,CRY,GKP,3.9,0.1,a,,,0.0,0.0,0.0,4.16,1.25,0.0,0.0,0,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",526
+259,Sosa,CRY,DEF,4.8,0.1,d,75.0,Knock - 75% chance of playing,0.0,0.0,0.0,4.16,1.25,0.0,0.0,1,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",526
+262,Chadi Riad,CRY,DEF,4.0,0.0,a,100.0,,0.0,0.0,0.0,4.16,1.25,0.0,0.0,0,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",526
+264,Holding,CRY,DEF,4.0,0.0,u,0.0,Has joined Colorado Rapids permanently.,0.0,0.0,0.0,4.16,1.25,0.0,0.0,0,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",526
+265,Kporha,CRY,DEF,4.0,0.0,i,0.0,Back injury - Unknown return date,0.0,0.0,0.0,4.16,1.25,0.0,0.0,0,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",526
+270,Hughes,CRY,MID,4.7,0.1,a,100.0,,0.76,0.02,1.2,4.62,1.22,6.8,0.8,17,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",532
+758,Mohamadou Kanté,WHU,MID,4.5,0.0,a,,,0.39,0.3,0.75,5.55,1.19,3.5,0.5,1,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",533
+336,Reed,FUL,MID,4.3,0.3,a,,,0.02,0.0,0.3,7.37,1.16,0.2,0.2,1,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",534
+621,Irving,WHU,MID,4.4,0.3,a,,,0.16,0.8,0.3,5.55,1.15,1.4,0.2,9,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",535
+353,James,LEE,MID,5.3,0.1,i,0.0,Hamstring injury - Expected back 07 Feb,0.0,1.07,0.9,4.87,1.13,16.0,0.6,13,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",536
+686,Ngumoha,LIV,MID,4.4,0.4,a,,,0.27,0.1,0.3,6.29,1.13,2.4,0.2,10,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",536
+88,Cook,BOU,MID,4.9,0.0,s,0.0,Suspended until 20 Dec,0.0,0.47,0.9,5.71,1.11,36.0,0.6,7,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",538
+334,Harris,FUL,MID,4.5,0.0,u,0.0,Has joined Oxford United on loan for the rest of the season.,0.0,0.0,0.0,7.37,1.1,0.0,0.0,0,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",539
+333,Godo,FUL,MID,4.5,0.0,u,0.0,has joined Strasbourg permanently.,0.0,0.0,0.0,7.37,1.1,0.0,0.0,0,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",539
+327,Andreas,FUL,MID,5.3,0.1,u,0.0,has joined Palmeiras permanently.,0.0,0.0,0.0,7.37,1.1,0.0,0.0,0,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",539
+625,Füllkrug,WHU,FWD,5.6,0.6,a,100.0,,0.62,0.5,0.6,5.55,1.08,5.6,0.4,12,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",542
+648,Munetsi,WOL,MID,5.4,0.1,d,25.0,Calf injury - 25% chance of playing,0.5,0.9,0.9,3.33,1.08,18.0,0.6,38,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",542
+131,Konak,BRE,MID,4.3,0.2,a,,,0.0,0.0,0.0,7.13,1.07,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",544
+130,Donovan,BRE,MID,4.4,0.1,a,,,0.0,0.0,0.0,7.13,1.07,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",544
+128,Onyeka,BRE,MID,4.8,0.1,a,,,0.0,0.0,0.0,7.13,1.07,0.0,0.0,12,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",544
+127,Nunes,BRE,MID,4.9,0.0,a,100.0,,0.0,0.0,0.0,7.13,1.07,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",544
+132,Maghoma,BRE,MID,4.5,0.0,a,100.0,,0.0,0.0,0.0,7.13,1.07,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",544
+122,Milambo,BRE,MID,5.2,0.0,i,0.0,Knee injury - Expected back 01 Jun,0.0,0.0,0.0,7.13,1.07,0.0,0.0,1,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",544
+133,Peart-Harris,BRE,MID,4.4,0.0,a,,,0.0,0.0,0.0,7.13,1.07,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",544
+134,Trevitt,BRE,MID,4.5,0.0,u,0.0,Has joined Wigan on loan for the rest of the season,0.0,0.0,0.0,7.13,1.07,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",544
+748,Dasilva,BRE,MID,4.9,0.0,i,0.0,Knee injury - Expected back 01 Jan,0.0,0.0,0.0,7.13,1.07,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",544
+123,Carvalho,BRE,MID,4.8,0.1,i,0.0,Anterior cruciate ligament - Unknown return date,0.0,0.0,0.0,7.13,1.07,0.0,0.0,13,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",544
+392,Endo,LIV,MID,4.9,0.1,a,100.0,,0.16,0.0,0.3,6.29,1.06,1.4,0.2,7,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",554
+638,Hoever,WOL,DEF,3.9,0.8,a,100.0,,0.2,0.0,0.3,3.0,1.03,1.8,0.2,6,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",555
+362,Piroe,LEE,FWD,5.0,0.4,a,100.0,,0.73,0.08,1.2,4.87,1.02,6.6,0.8,9,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",556
+707,Dibling,EVE,MID,5.3,0.0,a,,,0.31,0.05,0.6,5.14,1.01,2.8,0.4,5,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",557
+25,Nwaneri,ARS,MID,5.1,0.1,a,,,0.04,0.0,0.3,6.18,0.99,0.4,0.2,8,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",558
+737,Kusi-Asare,FUL,FWD,4.5,0.1,a,,,0.38,0.1,0.3,7.37,0.98,3.4,0.2,2,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",559
+203,Boateng,BUR,MID,4.8,0.0,a,,,0.0,0.0,0.0,6.36,0.95,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",560
+208,Koleosho,BUR,MID,5.0,0.0,u,0.0,Has joined Espanyol on loan for the rest of the season.,0.0,0.0,0.0,6.36,0.95,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",560
+214,Trésor,BUR,MID,4.4,0.1,a,,,0.0,0.0,0.0,6.36,0.95,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",560
+201,Benson,BUR,MID,5.4,0.0,u,0.0,has joined Swansea City on loan for the rest of the season.,0.0,0.0,0.0,6.36,0.95,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",560
+213,Banel,BUR,MID,4.5,0.0,a,,,0.0,0.0,0.0,6.36,0.95,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",560
+212,Adewumi,BUR,MID,4.5,0.0,u,0.0,Has joined Cercle Brugge on loan for the rest of the season.,0.0,0.0,0.0,6.36,0.95,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",560
+211,A.Ramsey,BUR,MID,4.4,1.8,u,0.0,has joined Leicester City on loan for the rest of the season.,0.0,0.0,0.0,6.36,0.95,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",560
+204,Churlinov,BUR,MID,4.9,0.0,u,0.0,has joined Kocaelispor  permanently.,0.0,0.0,0.0,6.36,0.95,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",560
+746,Morrison,LIV,MID,4.5,0.0,a,,,0.0,0.0,0.0,6.29,0.94,0.0,0.0,0,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",568
+396,Nyoni,LIV,MID,4.3,0.5,a,,,0.0,0.0,0.0,6.29,0.94,0.0,0.0,0,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",568
+395,Morton,LIV,MID,4.5,0.0,u,0.0,Has joined Lyon permanently.,0.0,0.0,0.0,6.29,0.94,0.0,0.0,0,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",568
+394,McConnell,LIV,MID,4.4,0.0,u,0.0,has joined Ajax on loan for the rest of the season.,0.0,0.0,0.0,6.29,0.94,0.0,0.0,0,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",568
+393,Bajcetic,LIV,MID,4.3,0.0,i,0.0,Hamstring injury - Unknown return date,0.0,0.0,0.0,6.29,0.94,0.0,0.0,0,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",568
+383,Luis Díaz,LIV,MID,8.0,0.0,u,0.0,Has joined Bayern Munch permanently.,0.0,0.0,0.0,6.29,0.94,0.0,0.0,0,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",568
+135,Wissa,NEW,FWD,7.3,0.5,a,100.0,,0.36,0.6,0.3,5.53,0.94,3.2,0.2,1,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",568
+749,Mané,WOL,FWD,4.5,0.0,a,,,0.93,0.13,0.9,3.33,0.93,8.4,0.6,3,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",575
+338,Muniz,FUL,FWD,5.4,0.8,i,0.0,Hamstring injury - Expected back 01 Jan,0.0,0.5,0.3,7.37,0.93,3.2,0.2,17,BUR,2,False,"[np.int64(2), np.int64(2), np.int64(2), np.int64(3), np.int64(4)]",575
+700,Dowman,ARS,MID,4.3,0.5,a,,,0.0,0.0,0.0,6.18,0.93,0.0,0.0,5,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",575
+23,Fábio Vieira,ARS,MID,5.4,0.0,u,0.0,has joined Hamburger on loan for the rest of the season.,0.0,0.0,0.0,6.18,0.93,0.0,0.0,0,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",575
+24,Nørgaard,ARS,MID,5.2,0.1,a,100.0,,0.0,0.0,0.0,6.18,0.93,0.0,0.0,2,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",575
+28,Kabia,ARS,MID,4.5,0.1,u,0.0,has joined Shrewsbury Town on loan for the rest of the season.,0.0,0.0,0.0,6.18,0.93,0.0,0.0,0,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",575
+29,Sambi,ARS,MID,4.5,0.1,u,0.0,has joined Hamburger permanently.,0.0,0.0,0.0,6.18,0.93,0.0,0.0,0,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",575
+711,Harriman-Annous,ARS,MID,4.5,0.0,a,,,0.0,0.0,0.0,6.18,0.93,0.0,0.0,0,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",575
+628,José Sá,WOL,GKP,4.3,1.0,a,,,0.0,0.0,0.0,3.0,0.9,0.0,0.0,5,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",583
+640,Pedro Lima,WOL,DEF,4.0,0.4,u,0.0,has joined Porto on loan for the rest of the season.,0.0,0.0,0.0,3.0,0.9,0.0,0.0,0,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",583
+641,Pond,WOL,DEF,3.9,1.3,a,,,0.0,0.0,0.0,3.0,0.9,0.0,0.0,0,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",583
+639,Meupiyou,WOL,DEF,4.0,0.0,u,0.0,On loan to FC Alverca,0.0,0.0,0.0,3.0,0.9,0.0,0.0,0,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",583
+241,Caicedo,CHE,MID,5.8,11.6,s,0.0,Suspended until 20 Dec,0.0,0.25,0.0,5.56,0.9,25.4,0.0,58,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",583
+629,Bentley,WOL,GKP,4.0,0.5,i,0.0,Ankle injury - Expected back 08 Dec,0.0,0.0,0.0,3.0,0.9,0.0,0.0,0,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",583
+632,Doherty,WOL,DEF,4.4,0.1,a,100.0,,0.0,0.0,0.0,3.0,0.9,0.0,0.0,2,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",583
+635,R.Gomes,WOL,DEF,4.4,0.1,i,0.0,Groin Injury - Expected back 17 Jan,0.0,0.0,0.0,3.0,0.9,0.0,0.0,13,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",583
+420,Gündoğan,MCI,MID,6.3,0.1,u,0.0,has joined Galatasaray permanently.,0.0,0.0,0.0,5.92,0.89,0.0,0.0,0,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",591
+702,Burrowes,AVL,MID,4.4,0.1,a,,,0.0,0.0,0.0,5.91,0.89,0.0,0.0,1,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",591
+754,George Hemmings,AVL,MID,4.5,0.0,a,,,0.0,0.0,0.0,5.91,0.89,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",591
+63,Young,AVL,MID,4.4,0.5,a,,,0.0,0.0,0.0,5.91,0.89,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",591
+389,Elliott,AVL,MID,5.3,0.2,a,100.0,,0.0,0.0,0.0,5.91,0.89,0.0,0.0,4,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",591
+62,Jimoh-Aloba,AVL,MID,4.5,0.1,a,,,0.0,0.0,0.0,5.91,0.89,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",591
+429,Phillips,MCI,MID,4.8,0.1,a,,,0.0,0.0,0.0,5.92,0.89,0.0,0.0,0,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",591
+421,Rodrigo,MCI,MID,6.3,0.4,i,0.0,Muscle injury - Unknown return date,0.0,0.0,0.0,5.92,0.89,0.0,0.0,12,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",591
+51,Iling Jr,AVL,MID,5.5,0.0,u,0.0,has joined West Bromwich Albion on loan for the rest of the season,0.0,0.0,0.0,5.91,0.89,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",591
+56,Barrenechea,AVL,MID,5.0,0.0,u,0.0,Season-long loan to Benfica,0.0,0.0,0.0,5.91,0.89,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",591
+742,McAidoo,MCI,MID,4.5,0.0,a,,,0.0,0.0,0.0,5.92,0.89,0.0,0.0,0,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",591
+739,Mukasa,MCI,MID,4.4,0.0,a,,,0.0,0.0,0.0,5.92,0.89,0.0,0.0,0,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",591
+49,Bailey,AVL,MID,5.5,0.1,u,0.0,Has joined AS Roma on loan for the rest of the season.,0.0,0.0,0.0,5.91,0.89,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",591
+57,Dobbin,AVL,MID,5.0,0.0,u,0.0,Has joined Preston North End on loan for the rest of the season.,0.0,0.0,0.0,5.91,0.89,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",591
+428,Nypan,MCI,MID,5.0,0.0,u,0.0,Has joined Middlesbrough on loan for the rest of the season.,0.0,0.0,0.0,5.92,0.89,0.0,0.0,0,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",591
+422,Kovačić,MCI,MID,5.9,0.0,i,0.0,Ankle injury - Unknown return date,0.0,0.0,0.0,5.92,0.89,0.0,0.0,1,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",591
+425,Echeverri,MCI,MID,5.4,0.0,u,0.0,Has joined Bayer Leverkusen on loan for the rest of the season.,0.0,0.0,0.0,5.92,0.89,0.0,0.0,0,CRY,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",591
+60,Broggio,AVL,MID,4.5,0.3,a,,,0.0,0.0,0.0,5.91,0.89,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",591
+61,Dendoncker,AVL,MID,4.5,0.1,u,0.0,Has joined Real Oviedo permanently.,0.0,0.0,0.0,5.91,0.89,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",591
+180,Tzimas,BHA,FWD,5.3,0.1,i,0.0,Knee injury - Unknown return date,0.0,0.3,2.1,4.74,0.88,10.6,1.4,16,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",610
+426,McAtee,NFO,MID,5.1,0.1,a,,,0.11,0.0,0.3,5.2,0.87,1.0,0.2,5,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",611
+92,Faivre,BOU,MID,4.5,0.1,u,0.0,has joined Al Taawoun permanently.,0.0,0.0,0.0,5.71,0.86,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",612
+89,Philip,BOU,MID,4.9,0.0,u,0.0,Has joined Midtjylland permanently.,0.0,0.0,0.0,5.71,0.86,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",612
+91,Sinisterra,BOU,MID,5.0,0.0,u,0.0,Has joined Cruzeiro on loan for the rest of the season.,0.0,0.0,0.0,5.71,0.86,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",612
+93,H.Traorè,BOU,MID,4.5,0.3,u,0.0,has joined Marseille on loan for the rest of the season.,0.0,0.0,0.0,5.71,0.86,0.0,0.0,4,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",612
+94,Sadi,BOU,MID,4.5,0.0,u,0.0,has joined Novi Pazar on loan for the rest of the season.,0.0,0.0,0.0,5.71,0.86,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",612
+95,Silcott-Duberry,BOU,MID,4.4,0.1,u,0.0,has joined Olympiakos permanently.,0.0,0.0,0.0,5.71,0.86,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",612
+96,Winterburn,BOU,MID,4.5,0.0,u,0.0,has joined Barnet on loan for the rest of the season.,0.0,0.0,0.0,5.71,0.86,0.0,0.0,1,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",612
+391,Gannon-Doak,BOU,MID,4.9,0.0,i,0.0,Hamstring injury - Unknown return date,0.0,0.0,0.0,5.71,0.86,0.0,0.0,7,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",612
+687,Rees-Dottin,BOU,MID,4.4,0.1,a,,,0.0,0.0,0.0,5.71,0.86,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",612
+756,DaCosta,BOU,MID,4.5,0.0,a,,,0.0,0.0,0.0,5.71,0.86,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",612
+555,Browne,SUN,MID,4.5,0.0,u,0.0,has joined Middlesbrough on loan for the rest of the season.,0.0,0.0,0.0,5.64,0.85,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",622
+755,Lacey,MUN,MID,4.5,0.0,a,,,0.0,0.0,0.0,5.7,0.85,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",622
+559,Triantis,SUN,MID,4.4,0.0,u,0.0,has joined Minnesota United permanently.,0.0,0.0,0.0,5.64,0.85,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",622
+558,Matete,SUN,MID,4.4,0.2,a,,,0.0,0.0,0.0,5.64,0.85,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",622
+556,Ekwah,SUN,MID,4.5,0.0,u,0.0,Has joined AS Saint-Etienne permanently.,0.0,0.0,0.0,5.64,0.85,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",622
+557,H.Jones,SUN,MID,4.4,0.1,a,,,0.0,0.0,0.0,5.64,0.85,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",622
+554,Ba,SUN,MID,4.3,0.5,a,,,0.0,0.0,0.0,5.64,0.85,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",622
+544,Diarra,SUN,MID,5.3,0.0,i,0.0,Groin Injury - Expected back 14 Dec,0.0,0.0,0.0,5.64,0.85,0.0,0.0,12,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",622
+451,Rashford,MUN,MID,7.0,0.0,u,0.0,Has joined Barcelona on loan for the rest of the season,0.0,0.0,0.0,5.7,0.85,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",622
+454,Antony,MUN,MID,5.9,0.1,u,0.0,has joined Real Betis permanently.,0.0,0.0,0.0,5.7,0.85,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",622
+460,Collyer,MUN,MID,4.5,0.0,u,0.0,Has joined West Bromwich Albion on loan for the rest of the season.,0.0,0.0,0.0,5.7,0.85,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",622
+461,Fitzgerald,MUN,MID,4.4,0.0,a,,,0.0,0.0,0.0,5.7,0.85,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",622
+462,J.Fletcher,MUN,MID,4.3,0.1,a,,,0.0,0.0,0.0,5.7,0.85,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",622
+463,Kone,MUN,MID,4.3,0.1,a,,,0.0,0.0,0.0,5.7,0.85,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",622
+352,Harrison,LEE,MID,5.1,0.1,a,100.0,,0.18,0.0,0.3,4.87,0.85,1.6,0.2,11,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",622
+551,Rigg,SUN,MID,4.8,0.0,a,,,0.0,0.0,0.0,5.64,0.85,0.0,0.0,8,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",622
+464,Moorhouse,MUN,MID,4.5,0.0,u,0.0,has joined Leyton Orient on loan for the rest of the season.,0.0,0.0,0.0,5.7,0.85,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",622
+545,Roberts,SUN,MID,5.4,0.0,u,0.0,has joined Birmingham City on loan for the rest of the season.,0.0,0.0,0.0,5.64,0.85,0.0,0.0,1,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",622
+546,Aleksić,SUN,MID,4.9,0.0,u,0.0,has joined Cracovia on loan for the rest of the season.,0.0,0.0,0.0,5.64,0.85,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",622
+549,Neil,SUN,MID,4.8,0.0,a,,,0.0,0.0,0.0,5.64,0.85,0.0,0.0,2,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",622
+550,Poveda,SUN,MID,4.8,0.0,a,,,0.0,0.0,0.0,5.64,0.85,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",622
+728,Röhl,EVE,MID,5.0,0.0,i,0.0,Hernia - Unknown return date,0.0,0.1,0.3,5.14,0.84,4.6,0.2,4,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",643
+616,Álvarez,WHU,MID,4.9,0.0,u,0.0,Has joined Fenerbahçe on loan for the rest of the season.,0.0,0.0,0.0,5.55,0.83,0.0,0.0,0,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",644
+614,Ward-Prowse,WHU,MID,5.6,0.2,a,,,0.0,0.0,0.0,5.55,0.83,0.0,0.0,11,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",644
+617,Cornet,WHU,MID,4.9,0.0,u,0.0,has joined Genoa on loan for the rest of the season.,0.0,0.0,0.0,5.55,0.83,0.0,0.0,0,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",644
+620,Earthy,WHU,MID,4.5,0.0,a,100.0,,0.0,0.0,0.0,5.55,0.83,0.0,0.0,0,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",644
+622,Orford,WHU,MID,4.4,0.1,u,0.0,has joined Stevenage on loan for the rest of the season.,0.0,0.0,0.0,5.55,0.83,0.0,0.0,0,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",644
+168,Buonanotte,CHE,MID,4.6,0.1,a,100.0,,0.0,0.0,0.0,5.56,0.83,0.0,0.0,1,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",644
+240,Nkunku,CHE,MID,5.9,0.1,u,0.0,has joined AC Milan permanently.,0.0,0.0,0.0,5.56,0.83,0.0,0.0,0,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",644
+248,Paez,CHE,MID,4.5,0.0,u,0.0,Has joined RC Strasbourg on loan for the rest of the season.,0.0,0.0,0.0,5.56,0.83,0.0,0.0,0,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",644
+243,George,CHE,MID,4.9,0.1,a,,,0.0,0.0,0.0,5.56,0.83,0.0,0.0,4,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",644
+245,Mudryk,CHE,MID,4.9,0.0,s,0.0,Suspended - unknown return date,0.0,0.0,0.0,5.56,0.83,0.0,0.0,0,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",644
+247,D.Essugo,CHE,MID,4.3,0.1,i,0.0,Thigh injury - Unknown return date,0.0,0.0,0.0,5.56,0.83,0.0,0.0,0,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",644
+689,Seung soo,NEW,MID,4.4,0.2,a,,,0.0,0.0,0.0,5.53,0.83,0.0,0.0,0,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",644
+244,Lavia,CHE,MID,4.9,0.0,i,0.0,Thigh injury - Unknown return date,0.0,0.0,0.0,5.56,0.83,0.0,0.0,4,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",644
+743,Emenalo,CHE,MID,4.5,0.0,a,,,0.0,0.0,0.0,5.56,0.83,0.0,0.0,0,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",644
+495,Hayden,NEW,MID,4.5,0.0,u,0.0,Has departed the club as a free agent.,0.0,0.0,0.0,5.53,0.83,0.0,0.0,0,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",644
+498,White,NEW,MID,4.5,0.0,u,0.0,Has joined Leyton Orient on loan for the rest of the season.,0.0,0.0,0.0,5.53,0.83,0.0,0.0,0,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",644
+496,Kuol,NEW,MID,4.4,0.0,u,0.0,has joined Sparta Prague permanently.,0.0,0.0,0.0,5.53,0.83,0.0,0.0,0,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",644
+492,Antoñito C.,NEW,MID,4.9,0.0,u,0.0,has joined KVC Westerlo on loan for the rest of the season.,0.0,0.0,0.0,5.53,0.83,0.0,0.0,0,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",644
+518,Jota,NFO,MID,5.4,0.0,u,0.0,has joined Besiktas on loan for the rest of the season.,0.0,0.0,0.0,5.2,0.78,0.0,0.0,1,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",662
+520,O'Brien,NFO,MID,5.0,0.0,u,0.0,Has joined Wrexham permanently.,0.0,0.0,0.0,5.2,0.78,0.0,0.0,0,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",662
+523,Da Silva Moreira,NFO,MID,4.5,0.1,u,0.0,has joined Rio Ave on loan for the rest of the season.,0.0,0.0,0.0,5.2,0.78,0.0,0.0,0,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",662
+524,Stamenic,NFO,MID,4.5,0.0,u,0.0,Has joined Swansea City permanently.,0.0,0.0,0.0,5.2,0.78,0.0,0.0,0,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",662
+699,Douglas Luiz,NFO,MID,4.9,0.0,i,0.0,Hamstring injury - Unknown return date,0.0,0.0,0.0,5.2,0.78,0.0,0.0,7,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",662
+734,Bakwa,NFO,MID,5.9,0.0,d,25.0,Lack of match fitness - 25% chance of playing,0.0,0.0,0.0,5.2,0.78,0.0,0.0,5,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",662
+308,Heath,EVE,MID,4.5,0.0,u,0.0,has joined Accrington on loan for the rest of the season.,0.0,0.0,0.0,5.14,0.77,0.0,0.0,0,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",668
+307,Ebere,EVE,MID,4.4,0.0,a,,,0.0,0.0,0.0,5.14,0.77,0.0,0.0,0,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",668
+306,Bates,EVE,MID,4.4,0.1,a,,,0.0,0.0,0.0,5.14,0.77,0.0,0.0,0,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",668
+305,Armstrong,EVE,MID,4.5,0.0,u,0.0,has joined Preston North End on loan for the rest of the season.,0.0,0.0,0.0,5.14,0.77,0.0,0.0,1,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",668
+309,Metcalfe,EVE,MID,4.5,0.0,u,0.0,Has joined Bradford City permanently.,0.0,0.0,0.0,5.14,0.77,0.0,0.0,0,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",668
+704,Onyango,EVE,MID,4.5,0.1,u,0.0,has joined Stockport County on loan for the rest of the season.,0.0,0.0,0.0,5.14,0.77,0.0,0.0,0,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",668
+650,Chirewa,WOL,MID,4.3,0.3,a,,,0.47,0.0,0.3,3.33,0.75,4.2,0.2,1,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",674
+361,Gyabi,LEE,MID,4.5,0.0,u,0.0,has joined Hull City permanently.,0.0,0.0,0.0,4.87,0.73,0.0,0.0,0,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",675
+360,Gelhardt,LEE,MID,4.5,0.0,u,0.0,Has joined Hull City on loan for the rest of the season.,0.0,0.0,0.0,4.87,0.73,0.0,0.0,0,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",675
+359,Crew,LEE,MID,4.5,0.0,u,0.0,Has joined Doncaster Rovers on loan for the rest of the season.,0.0,0.0,0.0,4.87,0.73,0.0,0.0,0,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",675
+357,Ramazani,LEE,MID,4.9,0.0,u,0.0,has joined Valencia on loan for the rest of the season.,0.0,0.0,0.0,4.87,0.73,0.0,0.0,0,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",675
+355,Greenwood,LEE,MID,4.9,0.0,u,0.0,has joined Pogon Szczecin permanently.,0.0,0.0,0.0,4.87,0.73,0.0,0.0,0,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",675
+592,Moore,TOT,MID,5.0,0.0,u,0.0,Has joined Rangers on loan for the rest of the season.,0.0,0.0,0.0,4.78,0.72,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",680
+595,Olusesi,TOT,MID,4.3,0.2,a,,,0.0,0.0,0.0,4.78,0.72,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",680
+579,Son,TOT,MID,8.5,0.1,u,0.0,Has joined Los Angeles FC permanently.,0.0,0.0,0.0,4.78,0.72,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",680
+581,Maddison,TOT,MID,6.8,0.1,i,0.0,Anterior cruciate ligament - Unknown return date,0.0,0.0,0.0,4.78,0.72,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",680
+583,Kulusevski,TOT,MID,6.4,0.0,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,4.78,0.72,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",680
+751,Akhamrich,TOT,MID,4.5,0.0,a,,,0.0,0.0,0.0,4.78,0.72,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",680
+587,Bissouma,TOT,MID,5.2,0.0,i,0.0,Ankle injury - Unknown return date,0.0,0.0,0.0,4.78,0.72,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",680
+589,Solomon,TOT,MID,5.4,0.0,u,0.0,has joined Villarreal CF on loan for the rest of the season.,0.0,0.0,0.0,4.78,0.72,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",680
+590,Bryan,TOT,MID,4.9,0.0,u,0.0,has joined Girona permanently.,0.0,0.0,0.0,4.78,0.72,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",680
+594,Min-hyeok,TOT,MID,4.5,0.0,u,0.0,Has joined Portsmouth on loan for the rest of the season.,0.0,0.0,0.0,4.78,0.72,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",680
+696,Kalimuendo,NFO,FWD,6.0,0.1,a,,,0.33,0.0,0.3,5.2,0.71,3.0,0.2,7,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",690
+744,Oriola,BHA,MID,4.5,0.0,a,,,0.0,0.0,0.0,4.74,0.71,0.0,0.0,1,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",690
+175,Knight,BHA,MID,4.5,0.1,a,,,0.0,0.0,0.0,4.74,0.71,0.0,0.0,1,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",690
+176,Mazilu,BHA,MID,4.5,0.0,u,0.0,has joined Dinamo Bucharest permanently.,0.0,0.0,0.0,4.74,0.71,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",690
+165,Sima,BHA,MID,5.4,0.0,u,0.0,has joined Lens permanently.,0.0,0.0,0.0,4.74,0.71,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",690
+174,Yalcouye,BHA,MID,5.0,0.0,u,0.0,Has joined Swansea City on loan for the rest of the season.,0.0,0.0,0.0,4.74,0.71,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",690
+137,Morgan,BRE,FWD,4.4,0.4,a,,,0.0,0.0,0.0,7.13,0.71,0.0,0.0,0,LEE,2,True,"[np.int64(2), np.int64(2), np.int64(3), np.int64(3), np.int64(3)]",690
+157,Mitoma,BHA,MID,6.1,1.8,d,50.0,Ankle injury - 50% chance of playing,0.0,0.0,0.0,4.74,0.71,0.0,0.0,20,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",690
+172,Watson,BHA,MID,4.8,0.0,a,100.0,,0.0,0.0,0.0,4.74,0.71,0.0,0.0,2,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",690
+159,March,BHA,MID,5.8,0.0,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,4.74,0.71,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",690
+161,Enciso,BHA,MID,5.4,0.0,u,0.0,has joined Strasbourg permanently.,0.0,0.0,0.0,4.74,0.71,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",690
+164,O'Riley,BHA,MID,5.5,0.4,u,0.0,has joined Marseille on loan for the rest of the season.,0.0,0.0,0.0,4.74,0.71,0.0,0.0,12,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",690
+177,Moran,BHA,MID,4.5,0.0,u,0.0,Has joined Los Angeles FC on loan for the rest of the season.,0.0,0.0,0.0,4.74,0.71,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",690
+171,Sarmiento,BHA,MID,4.9,0.0,u,0.0,has joined Cremonese on loan for the rest of the season.,0.0,0.0,0.0,4.74,0.71,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",690
+170,Milner,BHA,MID,4.9,0.1,i,0.0,Muscle injury - Unknown return date,0.0,0.0,0.0,4.74,0.71,0.0,0.0,15,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",690
+275,Ahamada,CRY,MID,4.4,0.0,a,,,0.0,0.0,0.0,4.62,0.69,0.0,0.0,0,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",705
+268,Doucouré,CRY,MID,4.9,0.0,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,4.62,0.69,0.0,0.0,0,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",705
+269,Esse,CRY,MID,4.7,0.1,a,,,0.0,0.0,0.0,4.62,0.69,0.0,0.0,1,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",705
+274,Agbinone,CRY,MID,4.4,0.0,a,,,0.0,0.0,0.0,4.62,0.69,0.0,0.0,0,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",705
+280,Ozoh,CRY,MID,4.5,0.0,u,0.0,Has joined Derby County on loan for the rest of the season.,0.0,0.0,0.0,4.62,0.69,0.0,0.0,0,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",705
+561,Mayenda,SUN,FWD,5.3,0.6,a,,,0.09,0.0,0.6,5.64,0.69,0.8,0.4,17,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",705
+277,Ebiowei,CRY,MID,4.5,0.0,u,0.0,Has joined Blackpool permanently.,0.0,0.0,0.0,4.62,0.69,0.0,0.0,0,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",705
+281,Rodney,CRY,MID,4.4,0.0,a,,,0.0,0.0,0.0,4.62,0.69,0.0,0.0,0,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",705
+278,J.Rak-Sakyi,CRY,MID,4.4,0.0,u,0.0,has joined Caykur Rizespor on loan for the rest of the season.,0.0,0.0,0.0,4.62,0.69,0.0,0.0,0,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",705
+690,Cardines,CRY,MID,4.4,0.3,a,100.0,,0.0,0.0,0.0,4.62,0.69,0.0,0.0,0,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",705
+282,Umeh,CRY,MID,4.5,0.0,u,0.0,has joined Portsmouth permanently.,0.0,0.0,0.0,4.62,0.69,0.0,0.0,0,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",705
+279,M.França,CRY,MID,4.5,0.0,u,0.0,Has joined CR Vasco da Gama on loan for the rest of the season.,0.0,0.0,0.0,4.62,0.69,0.0,0.0,0,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",705
+527,Awoniyi,NFO,FWD,5.2,0.3,d,25.0,Lack of match fitness - 25% chance of playing,0.17,0.0,0.3,5.2,0.64,6.2,0.2,4,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",717
+219,Obafemi,BUR,FWD,4.4,0.1,u,0.0,has joined VfL Bochum  on loan for the rest of the season.,0.0,0.0,0.0,6.36,0.64,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",717
+216,Amdouni,BUR,FWD,4.8,0.0,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,6.36,0.64,0.0,0.0,0,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",717
+218,Barnes,BUR,FWD,4.3,1.2,a,,,0.0,0.0,0.0,6.36,0.64,0.0,0.0,1,FUL,2,True,"[np.int64(2), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",717
+397,Darwin,LIV,FWD,6.5,0.1,u,0.0,Has joined Al-Hilal permanently.,0.0,0.0,0.0,6.29,0.63,0.0,0.0,0,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",721
+398,Danns,LIV,FWD,4.3,0.1,i,0.0,Hamstring injury - Unknown return date,0.0,0.0,0.0,6.29,0.63,0.0,0.0,0,BHA,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(2), np.int64(3)]",721
+30,Havertz,ARS,FWD,7.3,0.3,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,6.18,0.62,0.0,0.0,1,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",723
+31,G.Jesus,ARS,FWD,6.4,0.1,a,100.0,,0.0,0.0,0.0,6.18,0.62,0.0,0.0,0,WOL,2,True,"[np.int64(2), np.int64(3), np.int64(3), np.int64(3), np.int64(4)]",723
+681,Šeško,MUN,FWD,7.2,3.1,i,0.0,Knee injury - Expected back 15 Dec,0.0,0.0,0.3,5.7,0.61,6.4,0.2,31,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",725
+65,Redmond,AVL,FWD,4.5,0.3,u,0.0,has joined Huddersfield Town on loan for the rest of the season.,0.0,0.0,0.0,5.91,0.59,0.0,0.0,0,WHU,2,False,"[np.int64(2), np.int64(3), np.int64(3), np.int64(5), np.int64(2)]",726
+468,Wheatley,MUN,FWD,4.5,0.1,u,0.0,has joined Northampton Town on loan for the rest of the season.,0.0,0.0,0.0,5.7,0.57,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",727
+467,Obi,MUN,FWD,4.3,1.3,a,,,0.0,0.0,0.0,5.7,0.57,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",727
+465,Højlund,MUN,FWD,6.3,0.3,u,0.0,has joined Napoli on loan for the rest of the season.,0.0,0.0,0.0,5.7,0.57,0.0,0.0,0,BOU,3,True,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",727
+99,Adu-Adjei,BOU,FWD,4.4,0.2,u,0.0,has joined HNK Rijeka permanently.,0.0,0.0,0.0,5.71,0.57,0.0,0.0,0,MUN,3,False,"[np.int64(3), np.int64(2), np.int64(3), np.int64(3), np.int64(4)]",727
+564,Rusyn,SUN,FWD,4.4,0.1,u,0.0,has joined Arka on loan for the rest of the season.,0.0,0.0,0.0,5.64,0.56,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",731
+251,N.Jackson,CHE,FWD,6.5,0.1,u,0.0,has joined Bayern Munich on loan for the rest of the season.,0.0,0.0,0.0,5.56,0.56,0.0,0.0,0,EVE,2,True,"[np.int64(2), np.int64(4), np.int64(3), np.int64(3), np.int64(4)]",731
+626,Marshall,WHU,FWD,4.3,0.6,a,,,0.0,0.0,0.0,5.55,0.56,0.0,0.0,2,AVL,3,True,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(2)]",731
+563,Luís Hemir,SUN,FWD,4.4,0.1,u,0.0,has joined Moreirense on loan for the rest of the season.,0.0,0.0,0.0,5.64,0.56,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",731
+562,Abdullahi,SUN,FWD,4.3,0.4,a,,,0.0,0.0,0.0,5.64,0.56,0.0,0.0,0,NEW,3,True,"[np.int64(3), np.int64(3), np.int64(2), np.int64(4), np.int64(3)]",731
+500,Osula,NEW,FWD,5.4,0.2,i,0.0,Ankle injury - Unknown return date,0.0,0.0,0.0,5.53,0.55,0.0,0.0,18,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",736
+501,Neave,NEW,FWD,4.4,0.2,a,,,0.0,0.0,0.0,5.53,0.55,0.0,0.0,0,SUN,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(2), np.int64(3)]",736
+525,Wood,NFO,FWD,7.2,5.2,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,5.2,0.52,0.0,0.0,25,TOT,3,True,"[np.int64(3), np.int64(3), np.int64(4), np.int64(2), np.int64(3)]",738
+313,Sherif,EVE,FWD,4.4,0.1,u,0.0,has joined Rotherham United on loan for the rest of the season.,0.0,0.0,0.0,5.14,0.51,0.0,0.0,0,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",739
+312,Y.Chermiti,EVE,FWD,4.9,0.1,u,0.0,has joined Rangers permanently.,0.0,0.0,0.0,5.14,0.51,0.0,0.0,0,CHE,3,False,"[np.int64(3), np.int64(4), np.int64(2), np.int64(3), np.int64(3)]",739
+645,Fer López,WOL,MID,5.2,0.0,d,75.0,Knock - 75% chance of playing,0.0,0.0,0.0,3.33,0.5,0.0,0.0,7,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",741
+652,Gonzalez,WOL,MID,4.3,1.3,a,,,0.0,0.0,0.0,3.33,0.5,0.0,0.0,0,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",741
+653,Hodge,WOL,MID,4.5,0.0,u,0.0,Signed by CD Tondela,0.0,0.0,0.0,3.33,0.5,0.0,0.0,0,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",741
+651,Edozie,WOL,MID,4.3,0.4,a,,,0.0,0.0,0.0,3.33,0.5,0.0,0.0,0,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",741
+649,B.Traore,WOL,MID,5.0,0.0,u,0.0,Has joined FC Metz on loan for the rest of the season.,0.0,0.0,0.0,3.33,0.5,0.0,0.0,0,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",741
+647,Guedes,WOL,MID,5.5,0.0,u,0.0,Has joined Real Sociedad permanently.,0.0,0.0,0.0,3.33,0.5,0.0,0.0,0,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",741
+363,Bamford,LEE,FWD,4.9,0.4,u,0.0,has departed the club as a free agent.,0.0,0.0,0.0,4.87,0.49,0.0,0.0,0,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",747
+364,Mateo Joseph,LEE,FWD,5.0,0.0,u,0.0,Has joined RCD Mallorca on loan for the rest of the season.,0.0,0.0,0.0,4.87,0.49,0.0,0.0,0,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",747
+741,Gray,LEE,FWD,4.5,0.1,a,100.0,,0.0,0.0,0.0,4.87,0.49,0.0,0.0,0,BRE,3,False,"[np.int64(3), np.int64(3), np.int64(3), np.int64(4), np.int64(3)]",747
+598,Lankshear,TOT,FWD,4.5,0.0,u,0.0,Has joined Oxford United on loan for the rest of the season.,0.0,0.0,0.0,4.78,0.48,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",750
+599,Scarlett,TOT,FWD,4.3,0.6,a,,,0.0,0.0,0.0,4.78,0.48,0.0,0.0,0,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",750
+596,Solanke,TOT,FWD,7.2,0.9,i,0.0,Ankle injury - Unknown return date,0.0,0.0,0.0,4.78,0.48,0.0,0.0,2,NFO,3,False,"[np.int64(3), np.int64(4), np.int64(3), np.int64(3), np.int64(2)]",750
+179,Ferguson,BHA,FWD,5.5,0.0,u,0.0,Has joined AS Roma on loan for the rest of the season,0.0,0.0,0.0,4.74,0.47,0.0,0.0,0,LIV,4,False,"[np.int64(4), np.int64(2), np.int64(5), np.int64(2), np.int64(2)]",753
+286,Marsh,CRY,FWD,4.5,0.3,a,,,0.0,0.0,0.0,4.62,0.46,0.0,0.0,0,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",754
+285,Édouard,CRY,FWD,5.0,0.2,u,0.0,has joined RC Lens permanently.,0.0,0.0,0.0,4.62,0.46,0.0,0.0,1,MCI,4,True,"[np.int64(4), np.int64(3), np.int64(3), np.int64(2), np.int64(4)]",754
+656,Kalajdžić,WOL,FWD,4.9,0.1,u,0.0,has joined LASK on loan for the rest of the season.,0.0,0.0,0.0,3.33,0.33,0.0,0.0,1,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",756
+657,Chiwome,WOL,FWD,4.4,0.0,i,0.0,Knee injury - Unknown return date,0.0,0.0,0.0,3.33,0.33,0.0,0.0,0,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",756
+658,Fraser,WOL,FWD,4.3,1.8,a,,,0.0,0.0,0.0,3.33,0.33,0.0,0.0,0,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",756
+655,Fábio Silva,WOL,FWD,4.9,0.2,u,0.0,has joined Borussia Dortmund permanently.,0.0,0.0,0.0,3.33,0.33,0.0,0.0,0,ARS,5,False,"[np.int64(5), np.int64(3), np.int64(4), np.int64(3), np.int64(2)]",756

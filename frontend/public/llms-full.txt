@@ -1,0 +1,192 @@
+# SmartPlay FPL - Complete AI Context Document
+
+This document provides comprehensive context about SmartPlay FPL for AI assistants and language models.
+
+## Executive Summary
+
+SmartPlay FPL is a free, AI-powered Fantasy Premier League (FPL) assistant that analyzes FPL teams and provides data-driven recommendations. It combines machine learning predictions with a semantic knowledge graph to help FPL managers make better decisions.
+
+**Key Value Proposition**: Save hours of research time each gameweek while making more informed FPL decisions.
+
+---
+
+## Product Overview
+
+### What SmartPlay FPL Does
+
+1. **Team Analysis**: Enter your FPL Team ID to get a complete squad analysis
+2. **Transfer Recommendations**: AI identifies which players to sell and suggests replacements
+3. **Captain Picks**: Three options (Safe, Balanced, Differential) with reasoning
+4. **Lineup Optimization**: Suggests optimal formation and bench order
+5. **Crowd Insights**: Shows what Top 10k managers are doing
+6. **Squad Building**: Build a new team from scratch with AI assistance
+
+### Target Users
+
+- FPL managers who want data-driven insights
+- Players who lack time for extensive research
+- Newcomers who need guidance
+- Experienced players seeking an edge
+
+---
+
+## Technical Architecture
+
+### Frontend
+- **Framework**: Next.js 14 with App Router
+- **Styling**: Tailwind CSS
+- **Analytics**: Google Analytics 4 with custom event tracking
+- **Deployment**: Vercel
+
+### Backend
+- **Framework**: FastAPI (Python)
+- **ML Libraries**: scikit-learn, XGBoost, LightGBM
+- **Knowledge Graph**: RDFLib with OWL ontologies
+- **Deployment**: Google Cloud Run
+
+### Machine Learning Pipeline
+
+**Stage 1: Playing Time Prediction**
+- Model: Random Forest Classifier
+- Features: Historical appearances, team position, competition status
+- Output: Probability of starting (0-1)
+
+**Stage 2: Points Prediction**
+- Model: Ridge Regression
+- Features: Form, fixtures, xG, xA, historical performance
+- Output: Expected points for next gameweek
+
+### Knowledge Graph Architecture
+
+The knowledge graph models FPL as a semantic network:
+
+**Entities**:
+- Player (750+ instances)
+- Team (20 Premier League clubs)
+- Gameweek (38 per season)
+- Fixture
+- Performance record
+
+**Relationships**:
+- playsFor (Player -> Team)
+- hasFixture (Team -> Fixture)
+- scoredIn (Player -> Gameweek)
+- injuredStatus (Player -> Status)
+
+**Technologies**:
+- RDFLib for graph operations
+- OWL for ontology definition
+- SHACL for data validation
+- SPARQL for querying
+
+---
+
+## SmartPlay Score Formula
+
+The SmartPlay Score is a position-weighted composite metric:
+
+### Goalkeeper Score
+```
+Score = (0.3 × Save%) + (0.25 × CleanSheet%) + (0.2 × Form) + (0.15 × FixtureDifficulty) + (0.1 × Minutes%)
+```
+
+### Defender Score
+```
+Score = (0.25 × CleanSheet%) + (0.20 × Form) + (0.20 × FixtureDifficulty) + (0.15 × xG_xA) + (0.10 × Minutes%) + (0.10 × BPS)
+```
+
+### Midfielder Score
+```
+Score = (0.30 × Form) + (0.25 × xG_xA) + (0.20 × FixtureDifficulty) + (0.15 × Creativity) + (0.10 × Minutes%)
+```
+
+### Forward Score
+```
+Score = (0.35 × Form) + (0.25 × xG) + (0.20 × FixtureDifficulty) + (0.10 × Shots) + (0.10 × Minutes%)
+```
+
+---
+
+## API Reference
+
+### Team Analysis
+```
+GET /api/team/{team_id}
+```
+Returns complete team analysis including:
+- Current squad with predictions
+- Transfer recommendations
+- Captain suggestions
+- Risk alerts
+
+### Player Search
+```
+GET /api/players?position=MID&team=LIV&max_price=10.0
+```
+Returns filtered player list with stats and SmartPlay Scores.
+
+### Build Squad
+```
+POST /api/build/squad
+Body: { strategy: "balanced", budget: 100.0 }
+```
+Returns optimized 15-player squad.
+
+---
+
+## Data Sources
+
+SmartPlay FPL uses publicly available data:
+
+1. **Official FPL API**: Real-time player data, fixtures, prices
+2. **Historical Data**: 6+ seasons of FPL performance data
+3. **Advanced Stats**: xG, xA from public sources
+
+**Data Refresh Rate**: Every 15 minutes during active periods.
+
+---
+
+## Frequently Asked Questions
+
+**Q: How do I find my FPL Team ID?**
+A: Log into fantasy.premierleague.com, go to "Points", and look at the URL. The number after "/entry/" is your Team ID.
+
+**Q: Is SmartPlay FPL free?**
+A: Yes, completely free with no signup required.
+
+**Q: How accurate are the predictions?**
+A: Our playing time model correctly identifies starters ~75% of the time. Point predictions are best used for relative rankings rather than exact values.
+
+**Q: Does SmartPlay store my data?**
+A: No personal data is stored. Team IDs are only used to fetch public FPL data.
+
+**Q: How often is data updated?**
+A: Player data refreshes every 15 minutes. Predictions update daily.
+
+---
+
+## Contact & Support
+
+- **GitHub**: https://github.com/qazybekb/SmartPlayFPLProject
+- **Issues**: https://github.com/qazybekb/SmartPlayFPLProject/issues
+- **Creator**: Qazybek Beken (UC Berkeley)
+- **LinkedIn**: https://www.linkedin.com/in/qazybek-beken/
+
+---
+
+## Legal Disclaimer
+
+SmartPlay FPL is an independent project and is not affiliated with, endorsed by, or connected to the Premier League, Fantasy Premier League, or any football clubs. All recommendations are for informational purposes only and do not guarantee FPL success. Use at your own discretion.
+
+---
+
+## Version History
+
+- **v1.0** (Dec 2024): Initial release with team analysis, transfer engine, captain picks
+- **v1.1**: Added knowledge graph integration
+- **v1.2**: Added squad builder with 6 strategies
+- **v1.3**: Added crowd insights and Top 10k analysis
+
+---
+
+*Last updated: December 2024*

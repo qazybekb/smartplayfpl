@@ -1,0 +1,144 @@
+{
+  "features": [
+    "fixture_score",
+    "form_score_xg",
+    "form_score_pts",
+    "nailedness_score",
+    "value_score",
+    "ceiling_score",
+    "own_team_attack",
+    "own_team_defense_weakness",
+    "opp_attack_strength",
+    "opp_defense_weakness",
+    "team_value_rank",
+    "tag_in_form",
+    "tag_differential",
+    "tag_premium",
+    "tag_value_pick",
+    "tag_rotation_risk",
+    "tag_high_ownership",
+    "tag_captain_candidate",
+    "tag_budget_enabler",
+    "tag_fixture_proof",
+    "tag_home_specialist",
+    "tag_consistent",
+    "tag_haul_potential",
+    "price_m",
+    "is_home",
+    "xgi_last5",
+    "pts_last5",
+    "mins_last5",
+    "is_gkp",
+    "is_def",
+    "is_mid",
+    "is_fwd",
+    "fixture_x_form",
+    "fixture_x_nailed",
+    "form_x_nailed",
+    "premium_x_form",
+    "differential_x_fixture"
+  ],
+  "score_features": [
+    "fixture_score",
+    "form_score_xg",
+    "form_score_pts",
+    "nailedness_score",
+    "value_score",
+    "ceiling_score"
+  ],
+  "kg_team_features": [
+    "own_team_attack",
+    "own_team_defense_weakness",
+    "opp_attack_strength",
+    "opp_defense_weakness",
+    "team_value_rank"
+  ],
+  "kg_smart_tags": [
+    "tag_in_form",
+    "tag_differential",
+    "tag_premium",
+    "tag_value_pick",
+    "tag_rotation_risk",
+    "tag_high_ownership",
+    "tag_captain_candidate",
+    "tag_budget_enabler",
+    "tag_fixture_proof",
+    "tag_home_specialist",
+    "tag_consistent",
+    "tag_haul_potential"
+  ],
+  "raw_features": [
+    "price_m",
+    "is_home",
+    "xgi_last5",
+    "pts_last5",
+    "mins_last5"
+  ],
+  "position_features": [
+    "is_gkp",
+    "is_def",
+    "is_mid",
+    "is_fwd"
+  ],
+  "interaction_features": [
+    "fixture_x_form",
+    "fixture_x_nailed",
+    "form_x_nailed",
+    "premium_x_form",
+    "differential_x_fixture"
+  ],
+  "target": "points",
+  "test_results": {
+    "Ridge": {
+      "MAE": 1.0779992272398349,
+      "RMSE": 2.0557587413300795,
+      "R2": 0.30207446832413276,
+      "Spearman": 0.7121820022862964
+    },
+    "RandomForest": {
+      "MAE": 1.0479070716210088,
+      "RMSE": 2.069583339985932,
+      "R2": 0.2926560647923142,
+      "Spearman": 0.7170503378154572
+    },
+    "XGBoost": {
+      "MAE": 1.0855510234832764,
+      "RMSE": 2.135500824053049,
+      "R2": 0.24687987565994263,
+      "Spearman": 0.6980314010654536
+    },
+    "LightGBM": {
+      "MAE": 1.086337375677746,
+      "RMSE": 2.12469371165829,
+      "R2": 0.2544831564861918,
+      "Spearman": 0.6982657165315024
+    },
+    "Ensemble": {
+      "MAE": 1.0609231146106621,
+      "RMSE": 2.0780897106105374,
+      "R2": 0.2868294861734968,
+      "Spearman": 0.7136653007509898
+    }
+  },
+  "comparison": {
+    "v1": {
+      "MAE": 2.19,
+      "R2": -0.026,
+      "Spearman": 0.3
+    },
+    "v2": {
+      "MAE": 1.06,
+      "R2": 0.29,
+      "Spearman": 0.716
+    },
+    "v2_kg": {
+      "MAE": 1.0609231146106621,
+      "RMSE": 2.0780897106105374,
+      "R2": 0.2868294861734968,
+      "Spearman": 0.7136653007509898
+    },
+    "v1_to_v2_mae_improvement": 51.59817351598173,
+    "v2_to_v2kg_mae_improvement": -0.08708628402472444,
+    "total_mae_improvement": 51.556022163896706
+  }
+}

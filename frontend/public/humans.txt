@@ -1,0 +1,20 @@
+/* TEAM */
+Creator: Qazybek Beken
+Site: https://smartplayfpl.com
+Location: Berkeley, California, USA
+Education: UC Berkeley
+
+/* THANKS */
+Anthropic - For Claude AI assistance
+OpenAI - For GPT technology insights
+Fantasy Premier League - For the official API
+The FPL community - For feedback and testing
+
+/* SITE */
+Last update: 2024/12
+Standards: HTML5, CSS3, ES6+
+Components: Next.js 14, React 18, Tailwind CSS
+Backend: Python, FastAPI, RDFLib
+ML: scikit-learn, XGBoost, LightGBM
+Hosting: Vercel (Frontend), Google Cloud Run (Backend)
+Analytics: Google Analytics 4

@@ -1,0 +1,824 @@
+{
+  "step1": {
+    "total_players": 756,
+    "total_teams": 20,
+    "completed_gws": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "current_gw": 14,
+    "availability_distribution": {
+      "a": 516,
+      "u": 154,
+      "i": 56,
+      "d": 24,
+      "s": 6
+    },
+    "position_distribution": {
+      "MID": 337,
+      "DEF": 249,
+      "GKP": 87,
+      "FWD": 83
+    },
+    "player_info_columns": [
+      "id",
+      "web_name",
+      "first_name",
+      "second_name",
+      "team",
+      "element_type",
+      "status",
+      "chance_of_playing_next_round",
+      "chance_of_playing_this_round",
+      "news",
+      "news_added",
+      "now_cost",
+      "cost_change_start",
+      "cost_change_event",
+      "total_points",
+      "event_points",
+      "points_per_game",
+      "form",
+      "selected_by_percent",
+      "transfers_in",
+      "transfers_out",
+      "transfers_in_event",
+      "transfers_out_event",
+      "minutes",
+      "goals_scored",
+      "assists",
+      "clean_sheets",
+      "goals_conceded",
+      "own_goals",
+      "penalties_saved",
+      "penalties_missed",
+      "yellow_cards",
+      "red_cards",
+      "saves",
+      "bonus",
+      "bps",
+      "influence",
+      "creativity",
+      "threat",
+      "ict_index",
+      "ep_this",
+      "ep_next",
+      "position",
+      "team_name",
+      "team_full_name",
+      "value",
+      "selected_pct"
+    ],
+    "total_gw_records": 9573,
+    "gw_history_columns": [
+      "element",
+      "fixture",
+      "opponent_team",
+      "total_points",
+      "was_home",
+      "kickoff_time",
+      "team_h_score",
+      "team_a_score",
+      "round",
+      "modified",
+      "minutes",
+      "goals_scored",
+      "assists",
+      "clean_sheets",
+      "goals_conceded",
+      "own_goals",
+      "penalties_saved",
+      "penalties_missed",
+      "yellow_cards",
+      "red_cards",
+      "saves",
+      "bonus",
+      "bps",
+      "influence",
+      "creativity",
+      "threat",
+      "ict_index",
+      "clearances_blocks_interceptions",
+      "recoveries",
+      "tackles",
+      "defensive_contribution",
+      "starts",
+      "expected_goals",
+      "expected_assists",
+      "expected_goal_involvements",
+      "expected_goals_conceded",
+      "value",
+      "transfers_balance",
+      "selected",
+      "transfers_in",
+      "transfers_out",
+      "player_id"
+    ],
+    "validation_passed": true,
+    "validation_results": {
+      "teams_count": {
+        "passed": true,
+        "value": 20,
+        "expected": 20
+      },
+      "completed_gws_only": {
+        "passed": true,
+        "value": [
+          1,
+          13
+        ]
+      },
+      "min_records": {
+        "passed": true,
+        "value": 9573,
+        "expected": ">9000"
+      },
+      "all_positions": {
+        "passed": true,
+        "value": "{'GKP', 'MID', 'DEF', 'FWD'}"
+      },
+      "points_range": {
+        "passed": true,
+        "value": [
+          -3,
+          24
+        ]
+      },
+      "no_missing_critical": {
+        "passed": "True",
+        "value": "0"
+      }
+    }
+  },
+  "step2": {
+    "original_shape": "(9573, 48)",
+    "missing_cols_before": 0,
+    "missing_after_handling": "0",
+    "duplicates_found": "0",
+    "shape_after_dedup": "(9573, 48)",
+    "range_validation": {
+      "minutes": {
+        "expected": [
+          0,
+          90
+        ],
+        "actual": [
+          0,
+          90
+        ],
+        "valid": true
+      },
+      "goals_scored": {
+        "expected": [
+          0,
+          7
+        ],
+        "actual": [
+          0,
+          3
+        ],
+        "valid": true
+      },
+      "assists": {
+        "expected": [
+          0,
+          5
+        ],
+        "actual": [
+          0,
+          2
+        ],
+        "valid": true
+      },
+      "bonus": {
+        "expected": [
+          0,
+          3
+        ],
+        "actual": [
+          0,
+          3
+        ],
+        "valid": true
+      },
+      "yellow_cards": {
+        "expected": [
+          0,
+          2
+        ],
+        "actual": [
+          0,
+          1
+        ],
+        "valid": true
+      },
+      "red_cards": {
+        "expected": [
+          0,
+          1
+        ],
+        "actual": [
+          0,
+          1
+        ],
+        "valid": true
+      },
+      "saves": {
+        "expected": [
+          0,
+          20
+        ],
+        "actual": [
+          0,
+          10
+        ],
+        "valid": true
+      },
+      "own_goals": {
+        "expected": [
+          0,
+          3
+        ],
+        "actual": [
+          0,
+          2
+        ],
+        "valid": true
+      },
+      "penalties_saved": {
+        "expected": [
+          0,
+          3
+        ],
+        "actual": [
+          0,
+          1
+        ],
+        "valid": true
+      },
+      "penalties_missed": {
+        "expected": [
+          0,
+          2
+        ],
+        "actual": [
+          0,
+          1
+        ],
+        "valid": true
+      },
+      "clean_sheets": {
+        "expected": [
+          0,
+          1
+        ],
+        "actual": [
+          0,
+          1
+        ],
+        "valid": true
+      }
+    },
+    "all_ranges_valid": true,
+    "consistency_checks": {
+      "zero_mins_goals": 0,
+      "zero_mins_assists": 0,
+      "zero_mins_bonus": 0,
+      "non_gkp_saves": 0,
+      "zero_mins_clean_sheets": 0,
+      "zero_mins_goals_conceded": 0
+    },
+    "total_inconsistencies": 0,
+    "flag_stats": {
+      "played": "3977",
+      "played_full": "2663",
+      "was_starter": "2663",
+      "was_sub": "1314",
+      "got_return": "694",
+      "got_clean_sheet": "797"
+    },
+    "zero_mins_pct": 58.45607437584874,
+    "points_iqr": {
+      "Q1": 0.0,
+      "Q3": 1.0,
+      "IQR": 1.0,
+      "lower": -1.5,
+      "upper": 2.5
+    },
+    "outlier_stats": {
+      "hauls (10+ pts)": "183",
+      "big_hauls (15+ pts)": "32",
+      "blanks (0-1 pts)": "7286",
+      "stat_outliers": "1456"
+    },
+    "validation_passed": true,
+    "validation_results": {
+      "no_missing_critical": {
+        "passed": "True",
+        "value": "0"
+      },
+      "no_duplicates": {
+        "passed": "True",
+        "value": "0"
+      },
+      "minutes_range": {
+        "passed": "True"
+      },
+      "bonus_range": {
+        "passed": "True"
+      },
+      "flags_created": {
+        "passed": true
+      },
+      "logical_consistency": {
+        "passed": "True",
+        "value": "0"
+      }
+    }
+  },
+  "step3": {
+    "points_stats": {
+      "mean": 1.231693304084404,
+      "median": 0.0,
+      "std": 2.4231632307778366,
+      "skewness": 2.954046293947894,
+      "kurtosis": 10.617703229388482,
+      "min": -3,
+      "max": 24
+    },
+    "points_by_position": {
+      "mean": {
+        "DEF": 1.2933923490357255,
+        "FWD": 1.247846889952153,
+        "GKP": 0.7940379403794038,
+        "MID": 1.295678722404885
+      },
+      "median": {
+        "DEF": 0.0,
+        "FWD": 0.0,
+        "GKP": 0.0,
+        "MID": 0.0
+      },
+      "std": {
+        "DEF": 2.5988205798211785,
+        "FWD": 2.4884421828942798,
+        "GKP": 1.9270231730806888,
+        "MID": 2.376117394178299
+      },
+      "count": {
+        "DEF": 3163,
+        "FWD": 1045,
+        "GKP": 1107,
+        "MID": 4258
+      }
+    },
+    "playing_stats": {
+      "zero_minutes": "5596",
+      "zero_minutes_pct": 58.45607437584874,
+      "played_any": "3977",
+      "played_any_pct": 41.54392562415126,
+      "played_60_plus": "2663",
+      "played_60_plus_pct": 27.817820954768617,
+      "played_90": "1798",
+      "played_90_pct": 18.781991016400294
+    },
+    "mins_pts_correlation": 0.6753587329358407,
+    "mins_pts_correlation_played": 0.38977677029609825,
+    "avg_pts_by_bucket": {
+      "mean": {
+        "0": 0.02107481559536354,
+        "1-29": 1.3140877598152425,
+        "30-59": 1.1916010498687664,
+        "60-89": 3.567146282973621,
+        "90": 3.9510567296996664
+      },
+      "std": {
+        "0": 0.2143093851931471,
+        "1-29": 1.4062487012013036,
+        "30-59": 1.550053584268673,
+        "60-89": 3.0769912121668597,
+        "90": 3.2717482586376474
+      },
+      "count": {
+        "0": 5694,
+        "1-29": 866,
+        "30-59": 381,
+        "60-89": 834,
+        "90": 1798
+      }
+    },
+    "home_advantage": {
+      "all": 0.17894634981318203,
+      "played_only": 0.4653851990106368,
+      "home_avg": 1.321026282853567,
+      "away_avg": 1.142079933040385
+    },
+    "position_summary": {
+      "avg_pts": {
+        "DEF": 3.0416,
+        "FWD": 2.9172,
+        "GKP": 3.355,
+        "MID": 2.869
+      },
+      "avg_goals": {
+        "DEF": 0.0357,
+        "FWD": 0.2416,
+        "GKP": 0.0,
+        "MID": 0.0998
+      },
+      "avg_assists": {
+        "DEF": 0.0617,
+        "FWD": 0.0537,
+        "GKP": 0.0076,
+        "MID": 0.1144
+      },
+      "avg_cs": {
+        "DEF": 0.2097,
+        "FWD": 0.179,
+        "GKP": 0.2634,
+        "MID": 0.1903
+      },
+      "avg_bonus": {
+        "DEF": 0.1807,
+        "FWD": 0.3423,
+        "GKP": 0.1489,
+        "MID": 0.1997
+      },
+      "avg_mins": {
+        "DEF": 71.5636,
+        "FWD": 52.962,
+        "GKP": 89.3015,
+        "MID": 58.5601
+      },
+      "n_records": {
+        "DEF": 1345,
+        "FWD": 447,
+        "GKP": 262,
+        "MID": 1923
+      }
+    },
+    "top_correlations": {
+      "bps": 0.9412053209881519,
+      "bonus": 0.7391093546997045,
+      "minutes": 0.6753587329358455,
+      "goals_scored": 0.6391902261819558,
+      "clean_sheets": 0.5838345258309663,
+      "assists": 0.42972560959234296,
+      "selected": 0.30255438403377294,
+      "value": 0.28995375649544636,
+      "goals_conceded": 0.23648137350115078,
+      "saves": 0.14285257380576433
+    },
+    "correlation_matrix": {
+      "points": {
+        "points": 1.0,
+        "minutes": 0.6753587329358455,
+        "goals_scored": 0.6391902261819558,
+        "assists": 0.42972560959234296,
+        "bonus": 0.7391093546997045,
+        "bps": 0.9412053209881519,
+        "clean_sheets": 0.5838345258309663,
+        "goals_conceded": 0.23648137350115078,
+        "saves": 0.14285257380576433,
+        "yellow_cards": 0.07625494964385715,
+        "red_cards": -0.03768545150137355,
+        "own_goals": -0.023438921791803596,
+        "value": 0.28995375649544636,
+        "selected": 0.30255438403377294
+      },
+      "minutes": {
+        "points": 0.6753587329358455,
+        "minutes": 1.0,
+        "goals_scored": 0.22583750012101475,
+        "assists": 0.22799216460610974,
+        "bonus": 0.2891894876371458,
+        "bps": 0.6962033911077874,
+        "clean_sheets": 0.45839568603086805,
+        "goals_conceded": 0.657074483796387,
+        "saves": 0.23555510591746143,
+        "yellow_cards": 0.2823616383600161,
+        "red_cards": 0.025451928918943482,
+        "own_goals": 0.04720410115442362,
+        "value": 0.31483895078520935,
+        "selected": 0.38490194424775825
+      },
+      "goals_scored": {
+        "points": 0.6391902261819558,
+        "minutes": 0.22583750012101475,
+        "goals_scored": 1.0,
+        "assists": 0.06855622012709046,
+        "bonus": 0.6544235017122152,
+        "bps": 0.5960232404154765,
+        "clean_sheets": 0.13636331249980455,
+        "goals_conceded": 0.11055860434159759,
+        "saves": -0.024979530986128293,
+        "yellow_cards": 0.05986991586289423,
+        "red_cards": 0.005212150988512876,
+        "own_goals": -0.005808194270988378,
+        "value": 0.24106050516079397,
+        "selected": 0.17491233356931535
+      },
+      "assists": {
+        "points": 0.42972560959234296,
+        "minutes": 0.22799216460610974,
+        "goals_scored": 0.06855622012709046,
+        "assists": 1.0,
+        "bonus": 0.27324701078702385,
+        "bps": 0.38785295819457705,
+        "clean_sheets": 0.12442584393081878,
+        "goals_conceded": 0.11344267338396642,
+        "saves": -0.013611062426518482,
+        "yellow_cards": 0.05848656654882038,
+        "red_cards": -0.007274711729316498,
+        "own_goals": -0.005831002508882533,
+        "value": 0.12629656304751602,
+        "selected": 0.10617917463047748
+      },
+      "bonus": {
+        "points": 0.7391093546997045,
+        "minutes": 0.2891894876371458,
+        "goals_scored": 0.6544235017122152,
+        "assists": 0.27324701078702385,
+        "bonus": 1.0,
+        "bps": 0.6785996222132291,
+        "clean_sheets": 0.2928420136310884,
+        "goals_conceded": 0.05517856012993726,
+        "saves": 0.05148685737083932,
+        "yellow_cards": 0.013232464445933139,
+        "red_cards": -0.007978190748869745,
+        "own_goals": -0.006394871989982344,
+        "value": 0.18874629573095866,
+        "selected": 0.18477735012368016
+      },
+      "bps": {
+        "points": 0.9412053209881519,
+        "minutes": 0.6962033911077874,
+        "goals_scored": 0.5960232404154765,
+        "assists": 0.38785295819457705,
+        "bonus": 0.6785996222132291,
+        "bps": 1.0,
+        "clean_sheets": 0.551121994927068,
+        "goals_conceded": 0.24990698473379563,
+        "saves": 0.1804532906274852,
+        "yellow_cards": 0.10638206911501644,
+        "red_cards": -0.035333320677912644,
+        "own_goals": -0.02626019766318486,
+        "value": 0.2942501975877272,
+        "selected": 0.306801285885769
+      },
+      "clean_sheets": {
+        "points": 0.5838345258309663,
+        "minutes": 0.45839568603086805,
+        "goals_scored": 0.13636331249980455,
+        "assists": 0.12442584393081878,
+        "bonus": 0.2928420136310884,
+        "bps": 0.551121994927068,
+        "clean_sheets": 1.0,
+        "goals_conceded": -0.14876686738180173,
+        "saves": 0.07565038782892218,
+        "yellow_cards": 0.07847535141513241,
+        "red_cards": 0.006182645983302187,
+        "own_goals": -0.009883425467983096,
+        "value": 0.1859406400095869,
+        "selected": 0.21087173282952937
+      },
+      "goals_conceded": {
+        "points": 0.23648137350115078,
+        "minutes": 0.657074483796387,
+        "goals_scored": 0.11055860434159759,
+        "assists": 0.11344267338396642,
+        "bonus": 0.05517856012993726,
+        "bps": 0.24990698473379563,
+        "clean_sheets": -0.14876686738180173,
+        "goals_conceded": 1.0,
+        "saves": 0.17949085476471152,
+        "yellow_cards": 0.21020694942678678,
+        "red_cards": 0.059148299764749,
+        "own_goals": 0.07839466835688692,
+        "value": 0.1650818119528238,
+        "selected": 0.219755851653921
+      },
+      "saves": {
+        "points": 0.14285257380576433,
+        "minutes": 0.23555510591746143,
+        "goals_scored": -0.024979530986128293,
+        "assists": -0.013611062426518482,
+        "bonus": 0.05148685737083932,
+        "bps": 0.1804532906274852,
+        "clean_sheets": 0.07565038782892218,
+        "goals_conceded": 0.17949085476471152,
+        "saves": 1.0,
+        "yellow_cards": 0.012995842993304512,
+        "red_cards": -0.0008383753727792132,
+        "own_goals": 0.011189726362464342,
+        "value": -0.029275310396832916,
+        "selected": 0.14921790852234204
+      },
+      "yellow_cards": {
+        "points": 0.07625494964385715,
+        "minutes": 0.2823616383600161,
+        "goals_scored": 0.05986991586289423,
+        "assists": 0.05848656654882038,
+        "bonus": 0.013232464445933139,
+        "bps": 0.10638206911501644,
+        "clean_sheets": 0.07847535141513241,
+        "goals_conceded": 0.21020694942678678,
+        "saves": 0.012995842993304512,
+        "yellow_cards": 1.0,
+        "red_cards": -0.009380193447802313,
+        "own_goals": 0.017577571368548768,
+        "value": 0.06923201353538083,
+        "selected": 0.09096215987049773
+      },
+      "red_cards": {
+        "points": -0.03768545150137355,
+        "minutes": 0.025451928918943482,
+        "goals_scored": 0.005212150988512876,
+        "assists": -0.007274711729316498,
+        "bonus": -0.007978190748869745,
+        "bps": -0.035333320677912644,
+        "clean_sheets": 0.006182645983302187,
+        "goals_conceded": 0.059148299764749,
+        "saves": -0.0008383753727792132,
+        "yellow_cards": -0.009380193447802313,
+        "red_cards": 1.0,
+        "own_goals": -0.0013419175614272087,
+        "value": 0.008372162389505106,
+        "selected": 0.028607165188415214
+      },
+      "own_goals": {
+        "points": -0.023438921791803596,
+        "minutes": 0.04720410115442362,
+        "goals_scored": -0.005808194270988378,
+        "assists": -0.005831002508882533,
+        "bonus": -0.006394871989982344,
+        "bps": -0.02626019766318486,
+        "clean_sheets": -0.009883425467983096,
+        "goals_conceded": 0.07839466835688692,
+        "saves": 0.011189726362464342,
+        "yellow_cards": 0.017577571368548768,
+        "red_cards": -0.0013419175614272087,
+        "own_goals": 1.0,
+        "value": -0.013803193320623984,
+        "selected": 0.010354983511531286
+      },
+      "value": {
+        "points": 0.28995375649544636,
+        "minutes": 0.31483895078520935,
+        "goals_scored": 0.24106050516079397,
+        "assists": 0.12629656304751602,
+        "bonus": 0.18874629573095866,
+        "bps": 0.2942501975877272,
+        "clean_sheets": 0.1859406400095869,
+        "goals_conceded": 0.1650818119528238,
+        "saves": -0.029275310396832916,
+        "yellow_cards": 0.06923201353538083,
+        "red_cards": 0.008372162389505106,
+        "own_goals": -0.013803193320623984,
+        "value": 1.0,
+        "selected": 0.5006460952719988
+      },
+      "selected": {
+        "points": 0.30255438403377294,
+        "minutes": 0.38490194424775825,
+        "goals_scored": 0.17491233356931535,
+        "assists": 0.10617917463047748,
+        "bonus": 0.18477735012368016,
+        "bps": 0.306801285885769,
+        "clean_sheets": 0.21087173282952937,
+        "goals_conceded": 0.219755851653921,
+        "saves": 0.14921790852234204,
+        "yellow_cards": 0.09096215987049773,
+        "red_cards": 0.028607165188415214,
+        "own_goals": 0.010354983511531286,
+        "value": 0.5006460952719988,
+        "selected": 1.0
+      }
+    },
+    "validation_passed": true,
+    "validation_results": {
+      "zero_mins_pct": {
+        "passed": "True",
+        "value": 58.45607437584874,
+        "expected": "35-70%"
+      },
+      "avg_points": {
+        "passed": "True",
+        "value": 1.231693304084404,
+        "expected": "0.5-3.0"
+      },
+      "home_advantage": {
+        "passed": "True",
+        "value": 0.4653851990106368
+      },
+      "skewness": {
+        "passed": "True",
+        "value": 2.954046293947894,
+        "expected": ">1.0"
+      },
+      "mins_pts_corr": {
+        "passed": "True",
+        "value": 0.6753587329358407,
+        "expected": ">0.4"
+      },
+      "fwd_top_goals": {
+        "passed": "True",
+        "fwd": 0.10334928229665072,
+        "others": 0.028142589118198873
+      }
+    }
+  },
+  "step4": {
+    "vif_results": {
+      "feature": {
+        "0": "minutes",
+        "6": "bps",
+        "8": "goals_conceded",
+        "7": "clean_sheets",
+        "3": "goals_scored",
+        "5": "bonus",
+        "1": "value",
+        "4": "assists",
+        "2": "selected",
+        "9": "saves"
+      },
+      "vif": {
+        "0": 9.694143705981126,
+        "6": 7.982605947349993,
+        "8": 4.26941953116838,
+        "7": 2.6720728441646613,
+        "3": 2.54144391255555,
+        "5": 2.5201817449479864,
+        "1": 1.6879689446107349,
+        "4": 1.400500176920947,
+        "2": 1.3733082437066186,
+        "9": 1.1421595215495326
+      },
+      "status": {
+        "0": "\u26a1 MODERATE (5-10)",
+        "6": "\u26a1 MODERATE (5-10)",
+        "8": "\u2705 OK (<5)",
+        "7": "\u2705 OK (<5)",
+        "3": "\u2705 OK (<5)",
+        "5": "\u2705 OK (<5)",
+        "1": "\u2705 OK (<5)",
+        "4": "\u2705 OK (<5)",
+        "2": "\u2705 OK (<5)",
+        "9": "\u2705 OK (<5)"
+      }
+    },
+    "high_corr_pairs": [],
+    "anova": {
+      "f_stat": 2.466745669395888,
+      "p_value": 0.060337884674801716,
+      "significant": "False",
+      "eta_squared": 0.0018591690703319728
+    },
+    "ttest_home_away": {
+      "t_stat": 4.906618978517318,
+      "p_value": 9.637175389303828e-07,
+      "significant": "True",
+      "cohens_d": 0.15561035814236449,
+      "home_mean": 3.1984848484848483,
+      "away_mean": 2.7330996494742115
+    },
+    "autocorrelation": {
+      "lag1_mean": 0.029940032417011892,
+      "lag1_median": -0.003935964946049607,
+      "lag2_mean": -0.00045624015655590746,
+      "lag3_mean": -0.05546795012905496,
+      "n_players": 440
+    },
+    "validation_passed": false,
+    "validation_results": {
+      "max_vif": {
+        "passed": true,
+        "value": 9.694143705981126,
+        "expected": "<20"
+      },
+      "anova_significant": {
+        "passed": "False",
+        "value": 0.060337884674801716
+      },
+      "ttest_significant": {
+        "passed": "True",
+        "value": 9.637175389303828e-07
+      },
+      "positive_autocorr": {
+        "passed": "True",
+        "value": 0.029940032417011892
+      }
+    }
+  }
+}
