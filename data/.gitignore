@@ -1,0 +1,10 @@
+# OS
+.DS_Store
+
+__pycache__/
+*.pyc
+AUTOMATION.md
+AUDIT.md
+
+# Cached API data (auto-generated on first run)
+understat_team_matches.csv

@@ -1,0 +1,11 @@
+# Downloaded OpenFPL models (~722MB)
+models/
+
+# Generated outputs
+predictions.csv
+evaluation.csv
+verification_predictions.csv
+
+# Python
+__pycache__/
+*.pyc

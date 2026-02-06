@@ -1,0 +1,1602 @@
+fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_player_id,understat_first_name,understat_second_name,understat_web_name,confidence_level
+7645,Jagielka,Phil,Jagielka,DEF,587,Phil,Jagielka,Jagielka,HIGH
+9089,Foster,Ben,Foster,GK,803,Ben,Foster,Foster,HIGH
+14937,Ronaldo,Cristiano Ronaldo,dos Santos Aveiro,FWD,2371,Cristiano,Ronaldo,Ronaldo,HIGH
+15033,Morgan,Wes,Morgan,DEF,748,Wes,Morgan,Morgan,HIGH
+15157,Milner,James,Milner,MID,489,James,Milner,Milner,HIGH
+15749,Hart,Joe,Hart,GK,609,Joe,Hart,Hart,HIGH
+17349,Lennon,Aaron,Lennon,MID,593,Aaron,Lennon,Lennon,HIGH
+17601,Carson,Scott,Carson,GK,8158,Scott,Carson,Carson,HIGH
+17745,Schmeichel,Kasper,Schmeichel,GK,745,Kasper,Schmeichel,Schmeichel,HIGH
+17761,Tarkowski,James,Tarkowski,DEF,1665,James,Tarkowski,Tarkowski,HIGH
+17997,Bardsley,Phil,Bardsley,DEF,857,Phil,Bardsley,Bardsley,HIGH
+18073,Noble,Mark,Noble,MID,533,Mark,Noble,Noble,HIGH
+18499,McGovern,Michael,McGovern,GK,8022,Michael,McGovern,McGovern,HIGH
+18507,Diego Costa,Diego,Da Silva Costa,FWD,802,Diego,Costa,Costa,HIGH
+18867,Sharp,Billy,Sharp,FWD,7712,Billy,Sharp,Sharp,HIGH
+18892,Young,Ashley,Young,DEF,631,Ashley,Young,Young,HIGH
+18987,Snodgrass,Robert,Snodgrass,MID,1691,Robert,Snodgrass,Snodgrass,HIGH
+19188,Dann,Scott,Dann,DEF,512,Scott,Dann,Dann,HIGH
+19236,Ruddy,John,Ruddy,GK,785,John,Ruddy,Ruddy,HIGH
+19419,Cahill,Gary,Cahill,DEF,699,Gary,Cahill,Cahill,HIGH
+19624,Moutinho,João Filipe Iria,Santos Moutinho,MID,3422,João Filipe Iria,Santos Moutinho,Moutinho,HIGH
+20066,Hennessey,Wayne,Hennessey,GK,509,Wayne,Hennessey,Hennessey,HIGH
+20310,Caballero,Willy,Caballero,GK,624,Willy,Caballero,Caballero,HIGH
+20452,Long,Shane,Long,FWD,839,Shane,Long,Long,HIGH
+20467,Walcott,Theo,Walcott,MID,503,Theo,Walcott,Walcott,HIGH
+20480,Krul,Tim,Krul,GK,982,Tim,Krul,Krul,HIGH
+21205,Heaton,Tom,Heaton,GK,1651,Tom,Heaton,Heaton,HIGH
+27436,McGoldrick,David,McGoldrick,FWD,7711,David,McGoldrick,McGoldrick,HIGH
+27789,Fernandinho,Fernando,Luiz Rosa,MID,614,Fernando,Luiz Rosa,Fernandinho,HIGH
+28411,Navas,Keylor,Navas,GK,2243,Keylor,Navas,Navas,HIGH
+28690,Hernández,Pablo,Hernández Domínguez,MID,2164,Pablo,Hernández Domínguez,Hernández,HIGH
+32259,Randolph,Darren,Randolph,GK,540,Darren,Randolph,Randolph,HIGH
+36903,Bale,Gareth,Bale,MID,2251,Gareth,Bale,Bale,HIGH
+37096,Fabianski,Łukasz,Fabiański,GK,706,Lukasz,Fabianski,Fabianski,HIGH
+37339,El Mohamady,Ahmed,El Mohamady,DEF,1685,Ahmed,Elmohamady,Elmohamady,HIGH
+37402,Fuchs,Christian,Fuchs,DEF,749,Christian,Fuchs,Fuchs,HIGH
+37572,Agüero,Sergio,Agüero,FWD,619,Sergio,Agüero,Agüero,HIGH
+37642,Evans,Jonny,Evans,DEF,807,Jonny,Evans,Evans,HIGH
+37915,Lloris,Hugo,Lloris,GK,637,Hugo,Lloris,Lloris,HIGH
+38290,Rose,Danny,Rose,DEF,641,Danny,Rose,Rose,HIGH
+38533,Patrício,Rui Pedro,dos Santos Patrício,GK,6849,Rui Pedro,dos Santos Patrício,Patrício,HIGH
+38588,Berardi,Gaetano,Berardi,DEF,9423,Gaetano,Berardi,Berardi,HIGH
+38716,Peltier,Lee,Peltier,DEF,6822,Lee,Peltier,Peltier,HIGH
+39155,Lallana,Adam,Lallana,MID,486,Adam,Lallana,Lallana,HIGH
+39487,Pieters,Erik,Pieters,DEF,887,Erik,Pieters,Pieters,HIGH
+39790,Casilla,Francisco,Casilla Cortés,GK,2259,Francisco,Casilla Cortés,Casilla,HIGH
+40142,Carroll,Andy,Carroll,FWD,537,Andy,Carroll,Carroll,HIGH
+40145,Cork,Jack,Cork,MID,712,Jack,Cork,Cork,HIGH
+40146,Bertrand,Ryan,Bertrand,DEF,835,Ryan,Bertrand,Bertrand,HIGH
+40349,Begovic,Asmir,Begovic,GK,694,Asmir,Begović,Begović,HIGH
+40383,Forster,Fraser,Forster,GK,831,Fraser,Forster,Forster,HIGH
+40386,Basham,Chris,Basham,DEF,7704,Chris,Basham,Basham,HIGH
+40387,Gosling,Dan,Gosling,MID,462,Dan,Gosling,Gosling,HIGH
+40669,Ogbonna,Angelo,Ogbonna,DEF,528,Angelo,Ogbonna,Ogbonna,HIGH
+40720,Cavani,Edinson,Cavani,FWD,3294,Edinson,Cavani,Cavani,HIGH
+40784,Sakho,Mamadou,Sakho,DEF,485,Mamadou,Sakho,Sakho,HIGH
+40836,Guaita,Vicente,Guaita,GK,2190,Vicente,Guaita,Guaita,HIGH
+40845,Stephens,Dale,Stephens,MID,6051,Dale,Stephens,Stephens,HIGH
+41135,Ivanovic,Branislav,Ivanovic,DEF,682,Branislav,Ivanovic,Ivanovic,HIGH
+41270,David Luiz,David,Luiz Moreira Marinho,DEF,1676,David,Luiz,Luiz,HIGH
+41328,Azpilicueta,César,Azpilicueta,DEF,681,César,Azpilicueta,Azpilicueta,HIGH
+41338,Cathcart,Craig,Cathcart,DEF,581,Craig,Cathcart,Cathcart,HIGH
+41674,Long,Kevin,Long,DEF,1747,Kevin,Long,Long,HIGH
+41725,Deeney,Troy,Deeney,FWD,574,Troy,Deeney,Deeney,HIGH
+41733,Wijnaldum,Georginio,Wijnaldum,MID,771,Georginio,Wijnaldum,Wijnaldum,HIGH
+41823,Delph,Fabian,Delph,MID,876,Fabian,Delph,Delph,HIGH
+42427,Gibbs,Kieran,Gibbs,DEF,545,Kieran,Gibbs,Gibbs,HIGH
+43250,Cleverley,Tom,Cleverley,MID,596,Tom,Cleverley,Cleverley,HIGH
+43670,Mata,Juan,Mata,MID,554,Juan,Mata,Mata,HIGH
+44346,Giroud,Olivier,Giroud,FWD,502,Olivier,Giroud,Giroud,HIGH
+44683,Rodriguez,Jay,Rodriguez,FWD,844,Jay,Rodriguez,Rodriguez,HIGH
+44699,Barnes,Ashley,Barnes,FWD,4422,Ashley,Barnes,Barnes,HIGH
+45034,Perišić,Ivan,Perišić,DEF,448,Ivan,Perisic,Perisic,HIGH
+45124,A.Ayew,André,Ayew,MID,713,André,Ayew,Ayew,HIGH
+45268,Sissoko,Moussa,Sissoko,MID,772,Moussa,Sissoko,Sissoko,HIGH
+47247,Fleck,John,Fleck,MID,7709,John,Fleck,Fleck,HIGH
+47390,Taylor,Neil,Taylor,DEF,710,Neil,Taylor,Taylor,HIGH
+47431,Willian,Willian,Borges Da Silva,MID,700,Willian,Borges da Silva,Willian,HIGH
+48717,Reid,Winston,Reid,DEF,529,Winston,Reid,Reid,HIGH
+48760,Zanka,Mathias,Jorgensen,DEF,6030,Mathias,Jorgensen,Zanka,HIGH
+49262,Steele,Jason,Steele,GK,7235,Jason,Steele,Steele,HIGH
+49413,Tomkins,James,Tomkins,DEF,530,James,Tomkins,Tomkins,HIGH
+49440,Robson-Kanu,Hal,Robson-Kanu,FWD,1738,Hal,Robson-Kanu,Robson-Kanu,HIGH
+49944,Livermore,Jake,Livermore,MID,1689,Jake,Livermore,Livermore,HIGH
+49957,Grosicki,Kamil,Grosicki,MID,3231,Kamil,Grosicki,Grosicki,HIGH
+50093,Button,David,Button,GK,6843,David,Button,Button,HIGH
+50175,Welbeck,Danny,Welbeck,FWD,501,Danny,Welbeck,Welbeck,HIGH
+50229,Phillips,Matt,Phillips,MID,1737,Matt,Phillips,Phillips,HIGH
+50232,Shelvey,Jonjo,Shelvey,MID,769,Jonjo,Shelvey,Shelvey,HIGH
+50471,McArthur,James,McArthur,MID,633,James,McArthur,McArthur,HIGH
+50472,McCarthy,James,McCarthy,MID,589,James,McCarthy,McCarthy,HIGH
+51090,Thiago Silva,Thiago,Emiliano da Silva,DEF,3288,Thiago,Emiliano da Silva,Thiago Silva,HIGH
+51927,Mee,Ben,Mee,DEF,1654,Ben,Mee,Mee,HIGH
+51938,Albrighton,Marc,Albrighton,MID,753,Marc,Albrighton,Albrighton,HIGH
+51940,de Gea,David,de Gea,GK,546,David,De Gea Quintana,De Gea,HIGH
+51943,Hladký,Václav,Hladký,GKP,,,,,NONE
+52775,Nkoulou,Nicolas,Nkoulou,DEF,3387,Nicolas,N&#039;Koulou,N&#039;Koulou,HIGH
+54469,Smith,Adam,Smith,DEF,825,Adam,Smith,Smith,HIGH
+54484,Femenía,Francisco,Femenía Far,DEF,5043,Francisco,Femenía Far,Femenía,HIGH
+54694,Aubameyang,Pierre-Emerick,Aubameyang,FWD,318,Pierre-Emerick,Aubameyang,Aubameyang,HIGH
+54738,Kaminski,Thomas,Kaminski,GK,11712,Thomas,Kaminski,Kaminski,HIGH
+54861,Benteke,Christian,Benteke,FWD,606,Christian,Benteke,Benteke,HIGH
+55037,Kouyaté,Cheikhou,Kouyaté,DEF,532,Cheikhou,Kouyaté,Kouyaté,HIGH
+55422,Sigurdsson,Gylfi,Sigurdsson,MID,714,Gylfi,Sigurdsson,Sigurdsson,HIGH
+55459,Cresswell,Aaron,Cresswell,DEF,534,Aaron,Cresswell,Cresswell,HIGH
+55494,Ward,Joel,Ward,DEF,510,Joel,Ward,Ward,HIGH
+55605,Alderweireld,Toby,Alderweireld,DEF,639,Toby,Alderweireld,Alderweireld,HIGH
+55914,Cooper,Liam,Cooper,DEF,8816,Liam,Cooper,Cooper,HIGH
+56377,Yarmolenko,Andriy,Yarmolenko,MID,6274,Andriy,Yarmolenko,Yarmolenko,HIGH
+56872,Stanislas,Junior,Stanislas,MID,463,Junior,Stanislas,Stanislas,HIGH
+56917,Cook,Steve,Cook,DEF,458,Steve,Cook,Cook,HIGH
+56979,Henderson,Jordan,Henderson,MID,605,Jordan,Henderson,Henderson,HIGH
+56983,Ritchie,Matt,Ritchie,DEF,461,Matt,Ritchie,Ritchie,HIGH
+57127,Pukki,Teemu,Pukki,FWD,7696,Teemu,Pukki,Pukki,HIGH
+57134,Rondón,Salomón,Rondón,FWD,813,Salomón,Rondón,Rondón,HIGH
+57145,Fernández,Federico,Fernández,DEF,708,Federico,Fernández,Fernández,HIGH
+57328,Clyne,Nathaniel,Clyne,DEF,603,Nathaniel,Clyne,Clyne,HIGH
+57513,Lössl,Jonas,Lössl,GK,3468,Jonas,Lössl,Lössl,HIGH
+57531,Antonio,Michail,Antonio,FWD,531,Michail,Antonio,Antonio,HIGH
+58376,McCarthy,Alex,McCarthy,GK,635,Alex,McCarthy,McCarthy,HIGH
+58498,Ighalo,Odion,Ighalo,FWD,573,Odion,Ighalo,Ighalo,HIGH
+58621,Walker,Kyle,Walker,DEF,638,Kyle,Walker,Walker,HIGH
+58771,Colback,Jack,Colback,MID,767,Jack,Colback,Colback,HIGH
+58786,Kelly,Martin,Kelly,DEF,525,Martin,Kelly,Kelly,HIGH
+58822,Cédric,Cédric,Soares,DEF,847,Cédric,Alves Soares,Cédric,HIGH
+58845,Clark,Ciaran,Clark,DEF,875,Ciaran,Clark,Clark,HIGH
+59735,Darlow,Karl,Darlow,GK,780,Karl,Darlow,Darlow,HIGH
+59859,Gündogan,Ilkay,Gündogan,MID,314,Ilkay,Gündogan,Gündogan,HIGH
+59940,Bartley,Kyle,Bartley,DEF,964,Kyle,Bartley,Bartley,HIGH
+59949,Coleman,Séamus,Coleman,DEF,585,Seamus,Coleman,Coleman,HIGH
+59966,Lacazette,Alexandre,Lacazette,FWD,3277,Alexandre,Lacazette,Lacazette,HIGH
+60025,James,James,Rodríguez,MID,2249,James,Rodríguez,James,HIGH
+60232,Dawson,Craig,Dawson,DEF,804,Craig,Dawson,Dawson,HIGH
+60252,Townsend,Andros,Townsend,MID,775,Andros,Townsend,Townsend,HIGH
+60307,Gross,Pascal,Groß,MID,239,Pascal,Groß,Groß,HIGH
+60551,Westwood,Ashley,Westwood,MID,669,Ashley,Westwood,Westwood,HIGH
+60586,Gudmundsson,Johann Berg,Gudmundsson,MID,1663,Johann Berg,Gudmundsson,Gudmundsson,HIGH
+60689,Wood,Chris,Wood,FWD,4456,Chris,Wood,Wood,HIGH
+60706,Adrián,Adrián,San Miguel del Castillo,GK,527,Adrián,San Miguel del Castillo,Adrián,HIGH
+60914,Matip,Joel,Matip,DEF,332,Joel,Matip,Matip,HIGH
+61256,Casemiro,Carlos Henrique,Casimiro,MID,2248,Carlos Henrique,Casimiro,Casemiro,HIGH
+61366,De Bruyne,Kevin,De Bruyne,MID,447,Kevin,De Bruyne,De Bruyne,HIGH
+61558,Thiago,Thiago,Alcántara do Nascimento,MID,229,Thiago,Alcántara do Nascimento,Thiago,HIGH
+61600,Sawyers,Romaine,Sawyers,MID,8757,Romaine,Sawyers,Sawyers,HIGH
+61739,Le Marchand,Maxime,Le Marchand,DEF,3304,Maxime,Le Marchand,Marchand,HIGH
+61810,Jansson,Pontus,Jansson,DEF,1801,Pontus,Jansson,Jansson,HIGH
+61933,Duffy,Shane,Duffy,DEF,6047,Shane,Duffy,Duffy,HIGH
+62398,Matic,Nemanja,Matic,MID,697,Nemanja,Matic,Matic,HIGH
+62974,Lamela,Erik,Lamela,MID,644,Erik,Lamela,Lamela,HIGH
+63426,Stevens,Enda,Stevens,DEF,7707,Enda,Stevens,Stevens,HIGH
+66242,Pröpper,Davy,Pröpper,MID,6050,Davy,Pröpper,Pröpper,HIGH
+66588,Ayling,Luke,Ayling,DEF,8716,Luke,Ayling,Ayling,HIGH
+66749,Lukaku,Romelu,Lukaku Bolingoli,FWD,594,Romelu,Lukaku,Lukaku,HIGH
+66838,Tosun,Cenk,Tosun,FWD,6477,Cenk,Tosun,Tosun,HIGH
+66975,Milivojevic,Luka,Milivojevic,MID,5549,Luka,Milivojevic,Milivojevic,HIGH
+67089,Dúbravka,Martin,Dúbravka,GK,6532,Martin,Dubravka,Dubravka,HIGH
+68312,Shaqiri,Xherdan,Shaqiri,MID,888,Xherdan,Shaqiri,Shaqiri,HIGH
+68983,Lowton,Matthew,Lowton,DEF,1652,Matthew,Lowton,Lowton,HIGH
+69140,Mustafi,Shkodran,Mustafi,DEF,1699,Shkodran,Mustafi,Mustafi,HIGH
+69143,Kucka,Juraj,Kucka,MID,1123,Juraj,Kucka,Kucka,HIGH
+69752,Neto,Norberto,Murara Neto,GK,1297,Norberto,Murara Neto,Neto,HIGH
+71738,Stiepermann,Marco,Stiepermann,MID,7694,Marco,Stiepermann,Stiepermann,HIGH
+72147,M.Bizot,Marco,Bizot,GK,9614,Marco,Bizot,Bizot,HIGH
+72222,Klich,Mateusz,Klich,MID,4381,Mateusz,Klich,Klich,HIGH
+72681,Odoi,Denis,Odoi,DEF,7077,Denis,Odoi,Odoi,HIGH
+73314,Willian José,Willian José,Da Silva,FWD,2361,Willian,José,José,HIGH
+73426,Gray,Andre,Gray,FWD,1660,Andre,Gray,Gray,HIGH
+74208,Pogba,Paul,Pogba,MID,1740,Paul,Pogba,Pogba,HIGH
+74230,van Aanholt,Patrick,van Aanholt,DEF,730,Patrick,van Aanholt,Aanholt,HIGH
+74854,Moore,Simon,Moore,GKP,7715,,,,MEDIUM
+74944,Morsy,Sam,Morsy,MID,12748,Sam,Morsy,Morsy,HIGH
+75115,Wilson,Callum,Wilson,FWD,468,Callum,Wilson,Wilson,HIGH
+76306,Rupp,Lukas,Rupp,MID,62,Lukas,Rupp,Rupp,HIGH
+76357,Cairney,Tom,Cairney,MID,6835,Tom,Cairney,Cairney,HIGH
+76359,Jones,Phil,Jones,DEF,951,Phil,Jones,Jones,HIGH
+77777,Hegazi,Ahmed El-Sayed,Hegazy,DEF,3979,Ahmed,Hegazy,Hegazy,HIGH
+77794,Trippier,Kieran,Trippier,DEF,652,Kieran,Trippier,Trippier,HIGH
+77818,Shea,James,Shea,GK,11724,James,Shea,Shea,HIGH
+78007,King,Joshua,King,FWD,465,Joshua,King,King,HIGH
+78056,Romeu,Oriol,Romeu Vidal,MID,842,Oriol,Romeu Vidal,Romeu,HIGH
+78315,Robles,Joel,Robles,GK,584,Joel,Robles,Robles,HIGH
+78356,Austin,Charlie,Austin,FWD,848,Charlie,Austin,Austin,HIGH
+78607,McLean,Kenny,McLean,MID,7693,Kenny,McLean,McLean,HIGH
+78830,Kane,Harry,Kane,FWD,647,Harry,Kane,Kane,HIGH
+78916,Burn,Dan,Burn,DEF,7382,Dan,Burn,Burn,HIGH
+79602,Bentley,Daniel,Bentley,GK,11361,Daniel,Bentley,Bentley,HIGH
+79852,Steer,Jed,Steer,GK,4475,Jed,Steer,Steer,HIGH
+79934,Norwood,Oliver,Norwood,MID,7710,Oliver,Norwood,Norwood,HIGH
+80146,J.Ayew,Jordan,Ayew,MID,672,Jordan,Ayew,J.Ayew,HIGH
+80179,Forshaw,Adam,Forshaw,MID,1711,Adam,Forshaw,Forshaw,HIGH
+80201,Leno,Bernd,Leno,GK,181,Bernd,Leno,Leno,HIGH
+80226,Aurier,Serge,Aurier,DEF,3600,Serge,Aurier,Aurier,HIGH
+80607,Eriksen,Christian,Eriksen,MID,646,Christian,Eriksen,Eriksen,HIGH
+80801,Gana,Idrissa,Gueye,MID,668,Idrissa,Gueye,Gueye,MEDIUM
+80954,Rodrigo,Rodrigo,Moreno,FWD,2381,Rodrigo,Moreno,Rodrigo,HIGH
+81012,Fredericks,Ryan,Fredericks,DEF,6891,Ryan,Fredericks,Fredericks,HIGH
+81183,Vydra,Matej,Vydra,FWD,1017,Matej,Vydra,Vydra,HIGH
+81205,Orsic,Mislav,Orsic,MID,11298,Mislav,Orsic,Orsic,HIGH
+81441,Gillespie,Mark,Gillespie,GK,8729,Mark,Gillespie,Gillespie,HIGH
+81880,Chamberlain,Alex,Oxlade-Chamberlain,MID,966,Alex,Oxlade-Chamberlain,Chamberlain,HIGH
+82143,Foderingham,Wes,Foderingham,GK,8776,Wes,Foderingham,Foderingham,HIGH
+82263,Alonso,Marcos,Alonso,DEF,1621,Marcos,Alonso,Alonso,HIGH
+82403,Zaha,Wilfried,Zaha,MID,522,Wilfried,Zaha,Zaha,HIGH
+82514,Ream,Tim,Ream,DEF,7184,Tim,Ream,Ream,HIGH
+82691,Baldock,George,Baldock,DEF,7706,George,Baldock,Baldock,HIGH
+82738,Berry,Luke,Berry,MID,11722,Luke,Berry,Berry,HIGH
+83283,Redmond,Nathan,Redmond,MID,790,Nathan,Redmond,Redmond,HIGH
+83299,Dunk,Lewis,Dunk,DEF,6048,Lewis,Dunk,Dunk,HIGH
+83312,Gibson,Ben,Gibson,DEF,1707,Ben,Gibson,Gibson,HIGH
+83314,Hendrick,Jeff,Hendrick,MID,1746,Jeff,Hendrick,Hendrick,HIGH
+83427,Jack Robinson,Jack,Robinson,DEF,8286,Jack,Robinson,Robinson,HIGH
+83428,Hanley,Grant,Hanley,DEF,7690,Grant,Hanley,Hanley,HIGH
+84182,Areola,Alphonse,Areola,GK,2310,Alphonse,Areola,Areola,HIGH
+84450,Xhaka,Granit,Xhaka,MID,204,Granit,Xhaka,Xhaka,HIGH
+84583,Coutinho,Philippe,Coutinho Correia,MID,488,Philippe,Coutinho,Coutinho,HIGH
+84915,Hector,Michael,Hector,DEF,5274,Michael,Hector,Hector,HIGH
+84939,Ings,Danny,Ings,FWD,986,Danny,Ings,Ings,HIGH
+85242,Hourihane,Conor,Hourihane,MID,7721,Conor,Hourihane,Hourihane,HIGH
+85624,Kabasele,Christian,Kabasele,DEF,1725,Christian,Kabasele,Kabasele,HIGH
+85633,Sels,Matz,Sels,GK,6903,Matz,Sels,Sels,HIGH
+85955,Jorginho,Jorge Luiz,Frello Filho,MID,1389,Jorge Luiz,Frello Filho,Jorginho,HIGH
+85971,Son,Son,Heung-min,MID,453,Son,Heung-min,Son,HIGH
+86129,Koulibaly,Kalidou,Koulibaly,DEF,1376,Kalidou,Koulibaly,Koulibaly,HIGH
+86417,Schlupp,Jeffrey,Schlupp,MID,757,Jeffrey,Schlupp,Schlupp,HIGH
+86873,Lecomte,Benjamin,Lecomte,GKP,3451,,,,MEDIUM
+86881,Mendy,Nampalys,Mendy,MID,1785,Nampalys,Mendy,Mendy,HIGH
+86934,Lanzini,Manuel,Lanzini,MID,535,Manuel,Lanzini,Lanzini,HIGH
+87835,Doherty,Matt,Doherty,DEF,6852,Matt,Doherty,Doherty,HIGH
+87873,Dallas,Stuart,Dallas,MID,8718,Stuart,Dallas,Dallas,HIGH
+88248,Ortega Moreno,Stefan,Ortega Moreno,GK,8786,Stefan,Ortega Moreno,Ortega,HIGH
+88484,Sarabia,Pablo,Sarabia,MID,2199,Pablo,Sarabia,Sarabia,HIGH
+88894,Barkley,Ross,Barkley,MID,592,Ross,Barkley,Barkley,HIGH
+88900,Stephens,Jack,Stephens,DEF,1735,Jack,Stephens,Stephens,HIGH
+89068,Kurzawa,Layvin,Kurzawa,DEF,3298,Layvin,Kurzawa,Kurzawa,HIGH
+89076,Freuler,Remo,Freuler,MID,1488,Remo,Freuler,Freuler,HIGH
+89085,Chalobah,Nathaniel,Chalobah,MID,1677,Nathaniel,Chalobah,Chalobah,HIGH
+89335,Saúl,Saúl,Ñíguez,MID,2266,Saúl,Ñíguez,Ñíguez,HIGH
+89470,Hernández,Onel,Hernández,MID,7697,Onel,Hernández,Hernández,HIGH
+90105,Fraser,Ryan,Fraser,MID,1683,Ryan,Fraser,Fraser,HIGH
+90152,Varane,Raphaël,Varane,DEF,2245,Raphael,Varane,Varane,HIGH
+90517,Brady,Robbie,Brady,MID,789,Robbie,Brady,Brady,HIGH
+90585,Boly,Willy,Boly,DEF,6850,Willy,Boly,Boly,HIGH
+91046,Woodrow,Cauley,Woodrow,FWD,11721,Cauley,Woodrow,Woodrow,HIGH
+91047,S.Armstrong,Stuart,Armstrong,MID,6893,Stuart,Armstrong,S.Armstrong,HIGH
+91651,Kovačić,Mateo,Kovačić,MID,2254,Mateo,Kovacic,Kovacic,HIGH
+91889,Füllkrug,Niclas,Füllkrug,FWD,6098,Niclas,Füllkrug,Füllkrug,HIGH
+92217,Firmino,Roberto,Firmino,FWD,482,Roberto,Firmino,Firmino,HIGH
+92259,Kebano,Neeskens,Kebano,MID,6840,Neeskens,Kebano,Kebano,HIGH
+92371,Marí,Pablo,Marí,DEF,8380,Pablo,Marí Villar,Pablo Marí,LOW
+93100,Vestergaard,Jannik,Vestergaard,DEF,111,Jannik,Vestergaard,Vestergaard,HIGH
+93264,Dier,Eric,Dier,DEF,643,Eric,Dier,Dier,HIGH
+93284,Andone,Florin,Andone,FWD,4068,Florin,Andone,Andone,HIGH
+94147,Coady,Conor,Coady,DEF,6851,Conor,Coady,Coady,HIGH
+94245,Batshuayi,Michy,Batshuayi,FWD,1678,Michy,Batshuayi,Batshuayi,HIGH
+94926,Ladapo,Freddie,Ladapo,FWD,1778,Olayinka Fredrick Oladotun,Ladapo,Ladapo,MEDIUM
+95463,Ward,Danny,Ward,GK,473,Danny,Ward,Ward,HIGH
+95658,Maguire,Harry,Maguire,DEF,1687,Harry,Maguire,Maguire,HIGH
+95715,Lucas Moura,Lucas,Rodrigues Moura da Silva,MID,3293,Lucas,Rodrigues Moura da Silva,Lucas Moura,HIGH
+96784,Clark,Jordan,Clark,MID,12187,Jordan,Clark,Clark,HIGH
+96787,Elyounoussi,Mohamed,Elyounoussi,MID,6894,Mohamed,Elyounoussi,Elyounoussi,HIGH
+96994,De Cordova-Reid,Bobby,De Cordova-Reid,MID,6827,Bobby,De Cordova-Reid,De Cordova-Reid,HIGH
+97032,Virgil,Virgil,van Dijk,DEF,833,Virgil,van Dijk,Van Dijk,HIGH
+97299,Stones,John,Stones,DEF,586,John,Stones,Stones,HIGH
+97846,Cairns,Alex,Cairns,GKP,,,,,NONE
+98745,Bellerín,Héctor,Bellerín,DEF,492,Héctor,Bellerín,Bellerín,HIGH
+98747,Pope,Nick,Pope,GK,5552,Nick,Pope,Pope,HIGH
+98980,Martinez,Emiliano,Martínez Romero,GK,4401,Emiliano,Martínez Romero,Martínez,HIGH
+100649,Bernard,Bernard,Anício Caldeira Duarte,MID,7063,Bernard,Anício Caldeira Duarte,Bernard,HIGH
+101105,Bryan,Joe,Bryan,DEF,6834,Joe,Bryan,Bryan,HIGH
+101148,Lascelles,Jamaal,Lascelles,DEF,766,Jamaal,Lascelles,Lascelles,HIGH
+101178,Ward-Prowse,James,Ward-Prowse,MID,843,James,Ward-Prowse,Ward-Prowse,HIGH
+101184,Chambers,Calum,Chambers,DEF,508,Calum,Chambers,Chambers,HIGH
+101188,Digne,Lucas,Digne,DEF,1823,Lucas,Digne,Digne,HIGH
+101338,Sabitzer,Marcel,Sabitzer,MID,5248,Marcel,Sabitzer,Sabitzer,HIGH
+101394,Yokuslu,Okay,Yokuslu,MID,6932,Okay,Yokuslu,Yokuslu,HIGH
+101537,Felipe Anderson,Felipe Anderson,Pereira Gomes,MID,1208,Felipe,Anderson,Anderson,HIGH
+101582,Fred,Frederico,Rodrigues de Paula Santos,MID,6817,Frederico,Rodrigues de Paula Santos,Fred,HIGH
+101668,Vardy,Jamie,Vardy,FWD,755,Jamie,Vardy,Vardy,HIGH
+101982,Johnstone,Sam,Johnstone,GK,978,Sam,Johnstone,Johnstone,HIGH
+102057,Raúl,Raúl,Jiménez,FWD,4105,Raúl,Jiménez,Jiménez,MEDIUM
+102380,Rüdiger,Antonio,Rüdiger,DEF,1822,Antonio,Rüdiger,Rüdiger,HIGH
+102826,Mendy,Benjamin,Mendy,DEF,3389,Benjamin,Mendy,Mendy,HIGH
+103025,Mahrez,Riyad,Mahrez,MID,750,Riyad,Mahrez,Mahrez,HIGH
+103123,Haller,Sébastien,Haller,FWD,6144,Sébastien,Haller,Haller,HIGH
+103192,Zouma,Kurt,Zouma,DEF,935,Kurt,Zouma,Zouma,HIGH
+103914,Taylor,Charlie,Taylor,DEF,6044,Charlie,Taylor,Taylor,HIGH
+103955,Sterling,Raheem,Sterling,MID,618,Raheem,Sterling,Sterling,HIGH
+104047,Mpanzu,Pelly Ruddock,Mpanzu,MID,11716,Pelly,Ruddock Mpanzu,Mpanzu,HIGH
+104542,Karius,Loris,Karius,GK,37,Loris,Karius,Karius,HIGH
+104547,Gayle,Dwight,Gayle,FWD,743,Dwight,Gayle,Gayle,HIGH
+105377,Alioski,Ezgjan,Alioski,DEF,8722,Ezgjan,Alioski,Alioski,HIGH
+105666,Butland,Jack,Butland,GK,856,Jack,Butland,Butland,HIGH
+105717,Masuaku,Arthur,Masuaku,DEF,1760,Arthur,Masuaku,Masuaku,HIGH
+106468,Alex Moreno,Álex,Moreno Lopera,DEF,4120,Alexandre,Moreno Lopera,Álex Moreno,HIGH
+106606,Luongo,Massimo,Luongo,MID,12747,Massimo,Luongo,Luongo,HIGH
+106611,Keane,Michael,Keane,DEF,1653,Michael,Keane,Keane,HIGH
+106617,Bamford,Patrick,Bamford,FWD,822,Patrick,Bamford,Bamford,HIGH
+106618,Dummett,Paul,Dummett,DEF,853,Paul,Dummett,Dummett,HIGH
+106757,Locadia,Jürgen,Locadia,FWD,6542,Jürgen,Locadia,Locadia,HIGH
+106760,Shaw,Luke,Shaw,DEF,1006,Luke,Shaw,Shaw,HIGH
+106837,Praet,Dennis,Praet,MID,1234,Dennis,Praet,Praet,HIGH
+107265,Gunn,Angus,Gunn,GK,5544,Angus,Gunn,Gunn,HIGH
+107613,Saïss,Romain,Saïss,DEF,3491,Romain,Saïss,Saïss,HIGH
+108053,Townsend,Conor,Townsend,DEF,8905,Conor,Townsend,Townsend,HIGH
+108156,Engels,Björn,Engels,DEF,7152,Björn,Engels,Engels,HIGH
+108413,Hughes,Will,Hughes,MID,6104,Will,Hughes,Hughes,HIGH
+108416,Egan,John,Egan,DEF,7703,John,Egan,Egan,HIGH
+108796,Lockyer,Tom,Lockyer,DEF,11714,Tom,Lockyer,Lockyer,HIGH
+108813,Walton,Christian,Walton,GK,9251,Christian,Walton,Walton,HIGH
+108823,Dele,Bamidele,Alli,MID,645,Dele,Alli,Dele,HIGH
+109322,Lingard,Jesse,Lingard,MID,558,Jesse,Lingard,Lingard,HIGH
+109345,March,Solly,March,MID,6049,Solly,March,March,HIGH
+109434,Kongolo,Terence,Kongolo,DEF,6067,Terence,Kongolo,Kongolo,HIGH
+109528,Manquillo,Javier,Manquillo,DEF,1719,Javier,Manquillo Gaitán,Manquillo,HIGH
+109533,Emerson,Emerson,Palmieri dos Santos,DEF,1245,Emerson,Palmieri dos Santos,Emerson,HIGH
+109638,Bryan,Kean,Bryan,DEF,9163,Kean,Bryan,Bryan,HIGH
+109646,Tosin,Tosin,Adarabioyo,DEF,5590,Tosin,Adarabioyo,Tosin,HIGH
+109745,Arrizabalaga,Kepa,Arrizabalaga,GK,5061,Kepa,Arrizabalaga,Arrizabalaga,HIGH
+110504,Traoré,Bertrand,Traoré,MID,695,Bertrand,Traoré,Traoré,HIGH
+110735,Webster,Adam,Webster,DEF,7699,Adam,Webster,Webster,HIGH
+110979,Mané,Sadio,Mané,MID,838,Sadio,Mané,Mané,HIGH
+111234,Pickford,Jordan,Pickford,GK,741,Jordan,Pickford,Pickford,HIGH
+111291,Marçal,Fernando,Marçal,DEF,5708,Fernando,Marçal,Marçal,HIGH
+111317,Brooks,David,Brooks,MID,6820,David,Brooks,Brooks,HIGH
+111452,Odysseas,Odysseas,Vlachodimos,GK,375,Odysseas,Vlachodimos,Odysseas,HIGH
+111457,Kolasinac,Sead,Kolasinac,DEF,342,Sead,Kolasinac,Kolasinac,HIGH
+111478,Veltman,Joël,Veltman,DEF,8780,Joël,Veltman,Veltman,HIGH
+111773,Krafth,Emil,Krafth,DEF,1545,Emil,Krafth,Krafth,HIGH
+111782,Olsen,Robin,Olsen,GK,6962,Robin,Olsen,Olsen,HIGH
+111931,Ricardo,Ricardo,Barbosa Pereira,DEF,3303,Ricardo,Barbosa Pereira,Ricardo,HIGH
+112520,Palmer,Alex,Palmer,GK,1038,Alex,Palmer,Palmer,HIGH
+113564,Byram,Sam,Byram,DEF,902,Sam,Byram,Byram,HIGH
+114128,Jonny,Jonathan,Castro Otto,DEF,2280,Jonathan,Castro Otto,Jonny,HIGH
+114241,Toffolo,Harry,Toffolo,DEF,10758,Harry,Toffolo,Toffolo,HIGH
+114243,J.Murphy,Jacob,Murphy,MID,6063,Jacob,Murphy,Murphy,HIGH
+114283,Grealish,Jack,Grealish,MID,675,Jack,Grealish,Grealish,HIGH
+115382,Maupay,Neal,Maupay,FWD,3621,Neal,Maupay,Maupay,HIGH
+115556,Davies,Ben,Davies,DEF,660,Ben,Davies,Davies,HIGH
+115918,Rúnarsson,Rúnar Alex,Rúnarsson,GK,6875,Rúnar Alex,Rúnarsson,Rúnarsson,HIGH
+116216,Trossard,Leandro,Trossard,MID,7698,Leandro,Trossard,Trossard,HIGH
+116404,Felipe,Felipe Augusto,de Almeida Monteiro,DEF,7921,Felipe,,Felipe,HIGH
+116535,A.Becker,Alisson,Ramses Becker,GK,1257,Alisson,Ramses Becker,Alisson,MEDIUM
+116594,Kanté,N'Golo,Kanté,MID,751,N'Golo,Kanté,Kanté,HIGH
+116643,Fabinho,Fabio Henrique,Tavares,MID,3420,Fabio Henrique,Tavares,Fabinho,HIGH
+118342,Flekken,Mark,Flekken,GK,7047,Mark,Flekken,Flekken,HIGH
+118748,M.Salah,Mohamed,Salah,MID,1250,Mohamed,Salah,Salah,HIGH
+119471,Schär,Fabian,Schär,DEF,76,Fabian,Schär,Schär,HIGH
+119765,Allan,Allan,Marques Loureiro,MID,1379,Allan,Marques Loureiro,Allan,HIGH
+120202,Weghorst,Wout,Weghorst,FWD,7052,Wout,Weghorst,Weghorst,HIGH
+120250,André Gomes,André Filipe,Tavares Gomes,MID,2383,André,Tavares Gomes,André Gomes,HIGH
+120721,Mbabu,Kevin,Mbabu,DEF,983,Kevin,Mbabu,Mbabu,HIGH
+121145,João Cancelo,João,Cavaco Cancelo,DEF,2379,João,Cancelo,Cancelo,MEDIUM
+121160,Ederson M.,Ederson,Santana de Moraes,GK,6054,Ederson,Santana de Moraes,Ederson,HIGH
+121599,A.Doucoure,Abdoulaye,Doucouré,MID,1726,Abdoulaye,Doucouré,A.Doucouré,HIGH
+121709,Benitez,Walter,Benítez,GKP,5652,,,,MEDIUM
+122074,Bettinelli,Marcus,Bettinelli,GK,7076,Marcus,Bettinelli,Bettinelli,HIGH
+122411,Burgess,Cameron,Burgess,DEF,12755,Cameron,Burgess,Burgess,HIGH
+122775,Sanson,Morgan,Sanson,MID,3696,Morgan,Sanson,Sanson,HIGH
+122798,Robertson,Andrew,Robertson,DEF,1688,Andrew,Robertson,Robertson,HIGH
+122806,McGinn,John,McGinn,MID,7723,John,McGinn,McGinn,HIGH
+123354,Hause,Kortney,Hause,DEF,6859,Kortney,Hause,Hause,HIGH
+124165,Roberts,Patrick,Roberts,MID,925,Patrick,Roberts,Roberts,HIGH
+124183,Ziyech,Hakim,Ziyech,MID,8992,Hakim,Ziyech,Ziyech,HIGH
+126184,Aké,Nathan,Aké,DEF,579,Nathan,Aké,Aké,HIGH
+126187,Loftus-Cheek,Ruben,Loftus-Cheek,MID,688,Ruben,Loftus-Cheek,Loftus-Cheek,HIGH
+128295,Nørgaard,Christian,Nørgaard,MID,7083,Christian,Nørgaard,Nørgaard,HIGH
+128309,Lowe,Jamal,Lowe,MID,10865,Jamal,Lowe,Lowe,HIGH
+128340,Moore,Kieffer,Moore,FWD,10743,Kieffer,Moore,Moore,HIGH
+128389,Mitrović,Aleksandar,Mitrović,FWD,773,Aleksandar,Mitrovic,Mitrovic,HIGH
+130036,Tufan,Ozan,Tufan,MID,9957,Ozan,Tufan,Tufan,HIGH
+131304,Troost-Ekong,William,Troost-Ekong,DEF,6996,William,Troost-Ekong,Troost-Ekong,HIGH
+131897,Ryan,Mathew,Ryan,GK,2385,Mathew,Ryan,Ryan,HIGH
+132015,Højbjerg,Pierre-Emile,Højbjerg,MID,343,Pierre-Emile,Højbjerg,Højbjerg,HIGH
+133845,Marcondes,Emiliano,Marcondes,MID,10745,Emiliano,Marcondes,Marcondes,HIGH
+135363,Christensen,Andreas,Christensen,DEF,200,Andreas,Christensen,Christensen,HIGH
+135720,Danso,Kevin,Danso,DEF,5261,Kevin,Danso,Danso,HIGH
+138001,King,Tom,King,GK,12245,Tom,King,King,HIGH
+140200,Strakosha,Thomas,Strakosha,GK,1214,Thomas,Strakosha,Strakosha,HIGH
+140941,Perica,Stipe,Perica,FWD,1154,Stipe,Perica,Perica,HIGH
+141746,B.Fernandes,Bruno,Borges Fernandes,MID,1228,Bruno,Borges Fernandes,Fernandes,HIGH
+144485,Toney,Ivan,Toney,FWD,998,Ivan,Toney,Toney,HIGH
+146426,Ajayi,Oluwasemilogo Adesewo Ibidapo,Ajayi,DEF,4490,Semi,Ajayi,Ajayi,HIGH
+146610,O'Connell,Jack,O'Connell,DEF,7705,Jack,O&#039;Connell,O&#039;Connell,HIGH
+146941,Laporte,Aymeric,Laporte,DEF,2498,Aymeric,Laporte,Laporte,HIGH
+147611,Onuachu,Paul,Onuachu,FWD,11360,Paul,Onuachu,Onuachu,HIGH
+148225,Martial,Anthony,Martial,FWD,553,Anthony,Martial,Martial,HIGH
+148508,Trézéguet,Mahmoud Ahmed,Ibrahim Hassan,MID,7722,Mahmoud Ahmed,Ibrahim Hassan,Trézéguet,HIGH
+149065,José Sá,José,Malheiro de Sá,GK,9740,José,Malheiro de Sá,Sá,HIGH
+149484,Mings,Tyrone,Mings,DEF,1024,Tyrone,Mings,Mings,HIGH
+149519,Cornet,Maxwel,Cornet,MID,3278,Maxwel,Cornet,Cornet,HIGH
+149828,Slimani,Islam,Slimani,FWD,1682,Islam,Slimani,Slimani,HIGH
+149915,Llorente,Diego,Llorente,DEF,2163,Diego,Llorente,Llorente,HIGH
+149929,Burns,Wes,Burns,MID,12749,Wes,Burns,Burns,HIGH
+151086,Mario Jr.,Mario,Lemina,MID,1299,Mario,Lemina,Lemina,HIGH
+151119,Yedlin,DeAndre,Yedlin,DEF,727,DeAndre,Yedlin,Yedlin,HIGH
+151589,Dendoncker,Leander,Dendoncker,MID,7236,Leander,Dendoncker,Dendoncker,HIGH
+152551,Lerma,Jefferson,Lerma Solís,MID,2182,Jefferson,Lerma Solís,Lerma,HIGH
+152590,Telles,Alex Nicolao,Telles,DEF,1828,Alex,Telles,Telles,HIGH
+152760,Origi,Divock,Origi,FWD,484,Divock,Origi,Origi,HIGH
+152898,Davies,Ben,Davies,DEF,9318,Ben,Davies,Davies,HIGH
+153127,Hayden,Isaac,Hayden,MID,6062,Isaac,Hayden,Hayden,HIGH
+153133,Iwobi,Alex,Iwobi,MID,500,Alex,Iwobi,Iwobi,HIGH
+153256,Elneny,Mohamed Naser,El Sayed Elneny,MID,496,Mohamed,Elneny,Elneny,MEDIUM
+153366,Reed,Harrison,Reed,MID,910,Harrison,Reed,Reed,HIGH
+153673,Kenny,Jonjoe,Kenny,DEF,1084,Jonjoe,Kenny,Kenny,HIGH
+153682,Wilson,Harry,Wilson,MID,5596,Harry,Wilson,Wilson,HIGH
+153723,Lundstram,John,Lundstram,MID,7708,John,Lundstram,Lundstram,HIGH
+154043,Maitland-Niles,Ainsley,Maitland-Niles,MID,1750,Ainsley,Maitland-Niles,Maitland-Niles,HIGH
+154048,Mavididi,Stephy,Mavididi,MID,7484,Stephy,Mavididi,Mavididi,HIGH
+154131,Stacey,Jack,Stacey,DEF,7823,Jack,Stacey,Stacey,HIGH
+154138,Fosu,Tariqe,Fosu-Henry,MID,10092,Tariqe,Fosu-Henry,Fosu,HIGH
+154296,Palhinha,João,Palhinha Gonçalves,MID,10715,João,Palhinha,Palhinha,HIGH
+154506,Bachmann,Daniel,Bachmann,GK,1025,Daniel,Bachmann,Bachmann,HIGH
+154561,Raya,David,Raya Martin,GK,9676,David,Raya Martin,Raya,HIGH
+154566,Solanke,Dominic,Solanke-Mitchell,FWD,1679,Dominic,Solanke,Solanke,HIGH
+155197,Lowe,Max,Lowe,DEF,8918,Max,Lowe,Lowe,HIGH
+155405,Phillips,Kalvin,Phillips,MID,8719,Kalvin,Phillips,Phillips,HIGH
+155408,Cook,Lewis,Cook,MID,1789,Lewis,Cook,Cook,HIGH
+155503,Woodman,Freddie,Woodman,GK,852,Freddie,Woodman,Woodman,HIGH
+155511,Armstrong,Adam,Armstrong,FWD,4419,Adam,Armstrong,A.Armstrong,HIGH
+155529,Rodák,Marek,Rodák,GK,8704,Marek,Rodák,Rodák,HIGH
+155561,Augustinsson,Ludwig,Augustinsson,DEF,6083,Ludwig,Augustinsson,Augustinsson,HIGH
+155569,Amartey,Daniel,Amartey,DEF,759,Daniel,Amartey,Amartey,HIGH
+155651,Masina,Adam,Masina,DEF,1441,Adam,Masina,Masina,HIGH
+156074,Holding,Rob,Holding,DEF,1749,Rob,Holding,Holding,HIGH
+156658,Burke,Reece,Burke,DEF,1771,Reece,Burke,Burke,HIGH
+156683,Gollini,Pierluigi,Gollini,GK,1841,Pierluigi,Gollini,Gollini,HIGH
+156685,Rothwell,Joe,Rothwell,MID,561,Joe,Rothwell,Rothwell,HIGH
+156687,Pearson,Ben,Pearson,MID,10742,Ben,Pearson,Pearson,HIGH
+156689,Andreas,Andreas,Hoelgebaum Pereira,MID,922,Andreas,Hoelgebaum Pereira,Andreas,HIGH
+156700,Morris,Carlton,Morris,FWD,11717,Carlton,Morris,Morris,HIGH
+157668,Winks,Harry,Winks,MID,971,Harry,Winks,Winks,HIGH
+157775,Sema,Ken,Sema,MID,6841,Ken,Sema,Sema,HIGH
+157882,Minamino,Takumi,Minamino,MID,8239,Takumi,Minamino,Minamino,HIGH
+158499,Christie,Ryan,Christie,MID,10744,Ryan,Christie,Christie,HIGH
+158534,Walker-Peters,Kyle,Walker-Peters,DEF,885,Kyle,Walker-Peters,Walker-Peters,HIGH
+158983,Endo,Endo,Wataru,MID,8808,Wataru,Endo,Endo,LOW
+159506,Aina,Ola,Aina,DEF,725,Ola,Aina,Aina,HIGH
+159533,Adama,Adama,Traoré,MID,900,Adama,Traoré Diarra,Adama,HIGH
+160987,Gbamin,Jean-Philippe,Gbamin,MID,4764,Jean-Philippe,Gbamin,Gbamin,HIGH
+162651,Samir,Samir,Caetano de Souza Santos,DEF,1142,Samir,,Samir,HIGH
+164011,Diagne,Mbaye,Diagne,FWD,9290,Mbaye,Diagne,Diagne,HIGH
+164484,Steffen,Zack,Steffen,GK,7817,Zack,Steffen,Steffen,HIGH
+164511,Mina,Yerry,Mina,DEF,6521,Yerry,Mina,Mina,HIGH
+164555,Coufal,Vladimír,Coufal,DEF,8965,Vladimir,Coufal,Coufal,HIGH
+165153,Werner,Timo,Werner,MID,65,Timo,Werner,Werner,HIGH
+165183,Bell,Amari'i,Bell,DEF,11713,Amari&#039;i,Bell,Bell,HIGH
+165210,Jahanbakhsh,Alireza,Jahanbakhsh,MID,6842,Alireza,Jahanbakhsh,Jahanbakhsh,HIGH
+165659,Diego Carlos,Diego Carlos,Santos Silva,DEF,5712,Diego Carlos,Santos Silva,Diego Carlos,HIGH
+165808,Costa,Hélder Wander,Sousa de Azevedo e Costa,MID,3428,Hélder Wander,Sousa de Azevedo e Costa,Costa,HIGH
+165809,Bernardo,Bernardo,Veiga de Carvalho e Silva,MID,3635,Bernardo,Veiga de Carvalho e Silva,Bernardo,HIGH
+166324,Cavaleiro,Ivan Ricardo,Neves Abreu Cavaleiro,MID,3683,Ivan,Cavaleiro,Cavaleiro,HIGH
+166325,Cafú,Carlos,Ribeiro Dias,MID,5646,Cafú,,Cafú,HIGH
+166477,Castagne,Timothy,Castagne,DEF,6157,Timothy,Castagne,Castagne,HIGH
+166640,Balbuena,Fabián,Balbuena,DEF,6892,Fabián,Balbuena,Balbuena,HIGH
+166989,Tielemans,Youri,Tielemans,MID,5956,Youri,Tielemans,Tielemans,HIGH
+167074,Tete,Kenny,Tete,DEF,5973,Kenny,Tete,Tete,HIGH
+167191,Harness,Marcus,Myers-Harness,MID,12753,Marcus,Myers-Harness,Harness,HIGH
+167199,Thomas,Thomas,Partey,MID,2328,Thomas,Partey,Partey,MEDIUM
+167473,Izquierdo,José,Izquierdo,MID,6231,José,Izquierdo,Izquierdo,HIGH
+167512,O'Nien,Luke,O'Nien,DEF,14099,Luke,O&#039;Nien,O&#039;Nien,HIGH
+167522,Hugill,Jordan,Hugill,FWD,6526,Jordan,Hugill,Hugill,HIGH
+167767,Kenedy,Robert Kenedy,Nunes do Nascimento,DEF,689,Kenedy,,Kenedy,HIGH
+167878,Osborn,Ben,Osborn,MID,7714,Ben,Osborn,Osborn,HIGH
+167887,Laurent,Josh,Laurent,MID,13728,Josh,Laurent,Laurent,HIGH
+167888,Lumley,Joe,Lumley,GK,12762,Joe,Lumley,Lumley,HIGH
+168035,Onyedinma,Fred,Onyedinma,MID,12549,Fred,Onyedinma,Onyedinma,HIGH
+168090,Dahoud,Mahmoud,Dahoud,MID,205,Mahmoud,Dahoud,Dahoud,HIGH
+168281,McKenna,Scott,McKenna,DEF,10757,Scott,McKenna,McKenna,HIGH
+168399,Norris,Will,Norris,GK,7459,Will,Norris,Norris,HIGH
+168580,Pérez,Ayoze,Pérez,MID,770,Ayoze,Pérez,Pérez,HIGH
+168636,Enes Ünal,Enes,Ünal,FWD,6219,Enes,Ünal,Enes Ünal,HIGH
+168765,Onomah,Josh,Onomah,MID,661,Josh,Onomah,Onomah,HIGH
+168991,Philip,Philip,Billing,MID,6034,Philip,Billing,Billing,HIGH
+169187,Alexander-Arnold,Trent,Alexander-Arnold,DEF,1791,Trent,Alexander-Arnold,Alexander-Arnold,HIGH
+169359,Targett,Matt,Targett,DEF,884,Matt,Targett,Targett,HIGH
+169432,McBurnie,Oliver,McBurnie,FWD,1736,Oliver,McBurnie,McBurnie,HIGH
+169528,Robinson,Antonee,Robinson,DEF,8940,Antonee,Robinson,Robinson,HIGH
+169593,Matthews,Remi,Matthews,GK,9834,Remi,Matthews,Matthews,HIGH
+170137,Saint-Maximin,Allan,Saint-Maximin,FWD,101,Allan,Saint-Maximin,Saint-Maximin,HIGH
+171099,Kamara,Hassane,Kamara,DEF,3729,Hassane,Kamara,Kamara,HIGH
+171101,Lenglet,Clément,Lenglet,DEF,5050,Clement,Lenglet,Lenglet,HIGH
+171270,Dowell,Kieran,Dowell,MID,1032,Kieran,Dowell,Dowell,HIGH
+171287,Gomez,Joe,Gomez,DEF,987,Joseph,Gomez,Gomez,HIGH
+171314,Rúben,Rúben,Gato Alves Dias,DEF,8961,Rúben,Gato Alves Dias,Dias,MEDIUM
+171317,Neves,Rúben Diogo,da Silva Neves,MID,6853,Rúben,da Silva Neves,Neves,HIGH
+171422,Browne,Alan,Browne,MID,,,,,NONE
+171771,Bednarek,Jan,Bednarek,DEF,6042,Jan,Bednarek,Bednarek,HIGH
+171975,Callum Robinson,Callum,Robinson,FWD,4476,Callum,Robinson,Robinson,HIGH
+172453,Szmodics,Sam,Szmodics,MID,12752,Sam,Szmodics,Szmodics,HIGH
+172567,Cullen,Josh,Cullen,MID,1018,Josh,Cullen,Cullen,HIGH
+172632,Gray,Demarai,Gray,MID,762,Demarai,Gray,Gray,HIGH
+172649,Henderson,Dean,Henderson,GK,7702,Dean,Henderson,Henderson,HIGH
+172780,Maddison,James,Maddison,MID,6818,James,Maddison,Maddison,HIGH
+172782,Brownhill,Josh,Brownhill,MID,8323,Josh,Brownhill,Brownhill,HIGH
+172841,Benrahma,Saïd,Benrahma,MID,3585,Saïd,Benrahma,Benrahma,HIGH
+172850,Chilwell,Ben,Chilwell,DEF,782,Ben,Chilwell,Chilwell,HIGH
+172912,Amrabat,Sofyan,Amrabat,MID,7927,Sofyan,Amrabat,Amrabat,HIGH
+173268,Grbić,Ivo,Grbic,GK,8923,Ivo,Grbic,Grbic,HIGH
+173271,Caleta-Car,Duje,Caleta-Car,DEF,7007,Duje,Caleta-Car,Caleta-Car,HIGH
+173514,Success,Isaac,Success Ajayi,FWD,1724,Isaac,Success Ajayi,Success,HIGH
+173515,Iheanacho,Kelechi,Iheanacho,FWD,620,Kelechi,Iheanacho,Iheanacho,HIGH
+173807,Davies,Tom,Davies,MID,1042,Tom,Davies,Davies,HIGH
+173818,Broadhead,Nathan,Broadhead,MID,9406,Nathan,Broadhead,Broadhead,HIGH
+173821,Roberts,Tyler,Roberts,MID,1014,Tyler,Roberts,Roberts,HIGH
+173879,Abraham,Tammy,Abraham,FWD,702,Tammy,Abraham,Abraham,HIGH
+173904,Sánchez,Davinson,Sánchez,DEF,6249,Davinson,Sánchez,Sánchez,HIGH
+173954,Riedewald,Jairo,Riedewald,MID,6027,Jairo,Riedewald,Riedewald,HIGH
+174292,M.Asensio,Marco,Asensio,MID,2117,Marco,Asensio,Asensio,HIGH
+174310,Adebayo,Elijah,Adebayo,FWD,11718,Elijah,Adebayo,Adebayo,HIGH
+174592,Edwards,Marcus,Edwards,MID,13730,Marcus,Edwards,Edwards,HIGH
+174593,Edwards,Kyle,Edwards,MID,8758,Kyle,Edwards,Edwards,HIGH
+174594,Nmecha,Lukas,Nmecha,FWD,6544,Lukas,Nmecha,Nmecha,HIGH
+174874,Andersen,Joachim,Andersen,DEF,6314,Joachim,Andersen,Andersen,HIGH
+174932,Canós,Sergi,Canós,MID,1078,Sergi,Canós Tenés,Canós,HIGH
+175353,Dele-Bashiru,Ayotomiwa,Dele-Bashiru,MID,8162,Ayotomiwa,Dele-Bashiru,Dele-Bashiru,HIGH
+175592,Keita,Naby,Keita,MID,5247,Naby,Keita,Keita,HIGH
+175941,Whiteman,Alfie,Whiteman,GK,6397,Alfie,Whiteman,Whiteman,HIGH
+176296,Fletcher,Ashley,Fletcher,FWD,1675,Ashley,Fletcher,Fletcher,HIGH
+176297,Rashford,Marcus,Rashford,MID,556,Marcus,Rashford,Rashford,HIGH
+176413,Pulisic,Christian,Pulisic,MID,2662,Christian,Pulisic,Pulisic,HIGH
+176420,Furlong,Darnell,Furlong,DEF,4391,Darnell,Furlong,Furlong,HIGH
+177815,Calvert-Lewin,Dominic,Calvert-Lewin,FWD,5555,Dominic,Calvert-Lewin,Calvert-Lewin,HIGH
+178186,Bowen,Jarrod,Bowen,MID,1776,Jarrod,Bowen,Bowen,HIGH
+178301,Watkins,Ollie,Watkins,FWD,8865,Ollie,Watkins,Watkins,HIGH
+178304,Mousset,Lys,Mousset,FWD,1748,Lys,Mousset,Mousset,HIGH
+179018,Almirón,Miguel,Almirón Rejala,MID,7420,Miguel,Almirón Rejala,Almirón,HIGH
+179268,Cucurella,Marc,Cucurella Saseta,DEF,7134,Marc,Cucurella Saseta,Cucurella,HIGH
+179276,Normann,Mathias,Normann,MID,7470,Mathias,Normann,Normann,HIGH
+179456,Buur,Oskar,Buur,DEF,8227,Oskar,Buur,Buur,HIGH
+179458,Bruun Larsen,Jacob,Bruun Larsen,MID,5355,Jacob,Bruun Larsen,Larsen,HIGH
+179519,Mangala,Orel,Mangala,MID,6088,Orel,Mangala,Mangala,HIGH
+179830,Diangana,Grady,Diangana,MID,6651,Grady,Diangana,Diangana,HIGH
+180135,Longstaff,Sean,Longstaff,MID,7078,Sean,Longstaff,S.Longstaff,HIGH
+180151,Vlasic,Nikola,Vlasic,MID,6276,Nikola,Vlasic,Vlasic,HIGH
+180184,van de Beek,Donny,van de Beek,MID,8821,Donny,van de Beek,Van de Beek,HIGH
+180294,Grant,Karlan,Grant,FWD,7390,Karlan,Grant,Grant,HIGH
+180736,Chalobah,Trevoh,Chalobah,DEF,6615,Trevoh,Chalobah,Chalobah,HIGH
+180804,Tuanzebe,Axel,Tuanzebe,DEF,934,Axel,Tuanzebe,Tuanzebe,HIGH
+180974,Joelinton,Joelinton Cássio,Apolinário de Lira,MID,87,Joelinton Cássio,Apolinário de Lira,Joelinton,HIGH
+181284,Guedes,Gonçalo Manuel,Ganchinho Guedes,MID,5682,Gonçalo Manuel,Ganchinho Guedes,Guedes,HIGH
+182539,Ceballos,Daniel,Ceballos Fernández,MID,2446,Dani,Ceballos,Ceballos,HIGH
+183656,Dasilva,Josh,Dasilva,MID,10405,Josh,Dasilva,Dasilva,HIGH
+183751,Benson,Manuel Benson,Hedilazio,MID,11702,Benson,Manuel,Manuel,HIGH
+184029,Ødegaard,Martin,Ødegaard,MID,2517,Martin,Ødegaard,Ødegaard,HIGH
+184254,Vicario,Guglielmo,Vicario,GK,8858,Guglielmo,Vicario,Vicario,HIGH
+184341,Mount,Mason,Mount,MID,7768,Mason,Mount,Mount,HIGH
+184349,Sessegnon,Ryan,Sessegnon,DEF,6837,Ryan,Sessegnon,R.Sessegnon,HIGH
+184386,Bree,James,Bree,DEF,11359,James,Bree,Bree,HIGH
+184667,Lindelof,Victor,Lindelöf,DEF,6080,Victor,Lindelöf,Lindelöf,HIGH
+184704,Nakamba,Marvelous,Nakamba,MID,8040,Marvelous,Nakamba,Nakamba,HIGH
+184754,Hee Chan,Hwang,Hee-chan,MID,8845,Hwang,Hee-chan,Hwang,HIGH
+185253,Scarpa,Gustavo Henrique,Furtado Scarpa,MID,11284,Gustavo,Scarpa,Scarpa,HIGH
+185478,Jach,Jarosław,Jach,DEF,6621,Jarosław,Jach,Jach,HIGH
+189627,Giannoulis,Dimitris,Giannoulis,DEF,9745,Dimitris,Giannoulis,Giannoulis,HIGH
+191866,Ajer,Kristoffer,Ajer,DEF,9677,Kristoffer,Ajer,Ajer,HIGH
+192290,Roberts,Connor,Roberts,DEF,5568,Connor,Roberts,Roberts,HIGH
+192303,Zimmermann,Christoph,Zimmermann,DEF,7990,Christoph,Zimmermann,Zimmermann,HIGH
+192895,Tierney,Kieran,Tierney,DEF,8089,Kieran,Tierney,Tierney,HIGH
+193111,Cantwell,Todd,Cantwell,MID,7695,Todd,Cantwell,Cantwell,HIGH
+193204,Aribo,Joe,Aribo,MID,10766,Joe,Ayodele-Aribo,Aribo,HIGH
+193488,El Ghazi,Anwar,El Ghazi,MID,5612,Anwar,El Ghazi,El Ghazi,HIGH
+193645,Koch,Robin,Koch,DEF,6273,Robin,Koch,Koch,HIGH
+194010,Henry,Rico,Henry,DEF,9679,Rico,Henry,Henry,HIGH
+194164,Holgate,Mason,Holgate,DEF,985,Mason,Holgate,Holgate,HIGH
+194190,Souttar,Harry,Souttar,DEF,6329,Harry,Souttar,Souttar,HIGH
+194252,Bergwijn,Steven,Bergwijn,MID,8300,Steven,Bergwijn,Bergwijn,HIGH
+194634,Diogo J.,Diogo,Teixeira da Silva,MID,6854,Diogo,Teixeira da Silva,Diogo Jota,HIGH
+194794,Tomori,Fikayo,Tomori,DEF,703,Fikayo,Tomori,Tomori,HIGH
+194799,Lewis,Jamal,Lewis,DEF,7691,Jamal,Lewis,Lewis,HIGH
+195384,Merino,Mikel,Merino,MID,5304,Mikel,Merino,Merino,HIGH
+195473,Brewster,Rhian,Brewster,FWD,5569,Rhian,Brewster,Brewster,HIGH
+195480,Maja,Josh,Maja,FWD,5587,Josh,Maja,Maja,HIGH
+195546,Buendia,Emiliano,Buendía Stati,MID,2203,Emiliano,Buendía Stati,Buendía,HIGH
+195728,Kral,Alex,Kral,MID,8017,Alex,Kral,Kral,HIGH
+195735,Pépé,Nicolas,Pépé,MID,5656,Nicolas,Pépé,Pépé,HIGH
+195851,McTominay,Scott,McTominay,MID,5560,Scott,McTominay,McTominay,HIGH
+195864,Field,Sam,Field,MID,1013,Sam,Field,Field,HIGH
+195899,Scamacca,Gianluca,Scamacca,FWD,6253,Gianluca,Scamacca,Scamacca,HIGH
+196100,Hamer,Gustavo,Hamer,MID,11839,Gustavo,Hamer,Hamer,HIGH
+196411,Chaplin,Conor,Chaplin,MID,12750,Conor,Chaplin,Chaplin,HIGH
+197024,G.Rodríguez,Guido,Rodríguez,MID,8267,Guido,Rodríguez,G.Rodríguez,HIGH
+197030,Kamara,Aboubakar,Kamara,MID,4866,Aboubakar,Kamara,Kamara,HIGH
+197365,Bailly,Eric,Bailly,DEF,1739,Eric,Bailly,Bailly,HIGH
+197464,N.Phillips,Nathaniel,Phillips,DEF,8228,Nathaniel,Phillips,Phillips,HIGH
+197469,Choudhury,Hamza,Choudhury,MID,6418,Hamza,Choudhury,Choudhury,HIGH
+197937,Burke,Oliver,Burke,MID,5256,Oliver,Burke,Burke,HIGH
+198826,Godfrey,Ben,Godfrey,DEF,7689,Ben,Godfrey,Godfrey,HIGH
+198842,Ronan,Connor,Ronan,MID,10753,Connor,Ronan,Ronan,HIGH
+198849,Torreira,Lucas,Torreira,MID,1227,Lucas,Torreira di Pascua,Torreira,HIGH
+198869,White,Benjamin,White,DEF,7298,Benjamin,White,White,HIGH
+199056,Osho,Gabriel,Osho,DEF,12151,Gabriel,Osho,Osho,HIGH
+199170,Niakhaté,Moussa,Niakhaté,DEF,5989,Moussa,Niakhate,Niakhate,HIGH
+199249,Reguilón,Sergio,Reguilón,DEF,7187,Sergio,Reguilón,Reguilón,HIGH
+199584,Tanganga,Japhet,Tanganga,DEF,8222,Japhet,Tanganga,Tanganga,HIGH
+199598,Ampadu,Ethan,Ampadu,DEF,6369,Ethan,Ampadu,Ampadu,HIGH
+199670,Edouard,Odsonne,Edouard,FWD,3697,Odsonne,Edouard,Edouard,HIGH
+199796,Cash,Matty,Cash,DEF,8864,Matty,Cash,Cash,HIGH
+199798,Konsa,Ezri,Konsa Ngoyo,DEF,7726,Ezri,Konsa Ngoyo,Konsa,HIGH
+200088,Nlundulu,Daniel,N'Lundulu,FWD,7983,Daniel,N'Lundulu,Nlundulu,HIGH
+200089,Willock,Joe,Willock,MID,6630,Joe,Willock,Willock,HIGH
+200402,N.Semedo,Nélson,Cabral Semedo,DEF,6163,Nélson,Cabral Semedo,Semedo,HIGH
+200428,Lis,Mateusz,Lis,GK,11103,Mateusz,Lis,Lis,HIGH
+200439,Adams,Che,Adams,FWD,7700,Che,Adams,Adams,HIGH
+200600,Podence,Daniel,Castelo Podence,MID,8291,Daniel,Castelo Podence,Podence,HIGH
+200617,James,Daniel,James,MID,5595,Daniel,James,James,HIGH
+200641,Nelson,Reiss,Nelson,MID,6492,Reiss,Nelson,Nelson,HIGH
+200720,Kelleher,Caoimhin,Kelleher,GK,7904,Caoimhin,Kelleher,Kelleher,HIGH
+200785,Adams,Tyler,Adams,MID,7352,Tyler,Adams,Adams,HIGH
+200826,Lo Celso,Giovani,Lo Celso,MID,5681,Giovani,Lo Celso,Lo Celso,HIGH
+200834,Mukiele,Nordi,Mukiele,DEF,5659,Nordi,Mukiele,Mukiele,HIGH
+200878,Krovinovic,Filip,Krovinovic,MID,8966,Filip,Krovinovic,Krovinovic,HIGH
+201057,Kehrer,Thilo,Kehrer,DEF,2674,Thilo,Kehrer,Kehrer,HIGH
+201084,Fosu-Mensah,Timothy,Fosu-Mensah,DEF,549,Timothy,Fosu-Mensah,Fosu-Mensah,HIGH
+201410,Trusty,Auston,Trusty,DEF,11732,Auston,Trusty,Trusty,HIGH
+201440,Ui-jo,Hwang,Ui-jo,FWD,7746,Hwang,Ui-jo,Ui-jo,HIGH
+201595,Perri,Lucas Estella,Perri,GK,12369,Lucas,Perri,Perri,HIGH
+201658,Tavernier,Marcus,Tavernier,MID,10741,Marcus,Tavernier,Tavernier,HIGH
+201666,Barnes,Harvey,Barnes,MID,6681,Harvey,Barnes,Barnes,HIGH
+201895,Alderete,Omar,Alderete,DEF,8986,Omar,Alderete,Alderete,HIGH
+202641,Onana,André,Onana,GK,10913,André,Onana,Onana,HIGH
+202993,Bentancur,Rodrigo,Bentancur,MID,6108,Rodrigo,Bentancur,Bentancur,HIGH
+203325,Anguissa,André-Frank,Zambo Anguissa,MID,6434,Franck,Zambo,Zambo,HIGH
+203341,Ndidi,Wilfred,Ndidi,MID,5545,Wilfred,Ndidi,Ndidi,HIGH
+203368,Guilbert,Frédéric,Guilbert,DEF,3253,Frédéric,Guilbert,Guilbert,HIGH
+203389,Tella,Nathan,Tella,MID,8456,Nathan,Tella,Tella,HIGH
+204120,Boscagli,Olivier,Boscagli,DEF,3645,Olivier,Boscagli,Boscagli,HIGH
+204214,Estupiñan,Pervis,Estupiñán,DEF,5136,Pervis,Estupiñán,Estupiñán,HIGH
+204480,Rice,Declan,Rice,MID,5553,Declan,Rice,Rice,HIGH
+204580,Janelt,Vitaly,Janelt,MID,9680,Vitaly,Janelt,Janelt,HIGH
+204646,Malen,Donyell,Malen,MID,9749,Donyell,Malen,Malen,HIGH
+204676,Zeqiri,Andi,Zeqiri,FWD,9099,Andi,Zeqiri,Zeqiri,HIGH
+204716,Konaté,Ibrahima,Konaté,DEF,6326,Ibrahima,Konaté,Konaté,HIGH
+204727,M.Sarr,Malang,Sarr,DEF,5648,Malang,Sarr,Sarr,HIGH
+204814,Brereton Díaz,Ben,Brereton Díaz,MID,11815,Ben,Brereton,Brereton Díaz,HIGH
+204822,O.Richards,Omar,Richards,DEF,9675,Omar,Richards,Richards,HIGH
+204863,Manning,Ryan,Manning,DEF,13134,Ryan,Manning,Manning,HIGH
+204936,Donnarumma,Gianluigi,Donnarumma,GK,1116,Gianluigi,Donnarumma,Donnarumma,HIGH
+204968,Yates,Ryan,Yates,MID,11003,Ryan,Yates,Yates,HIGH
+205533,Nketiah,Eddie,Nketiah,FWD,6482,Eddie,Nketiah,Nketiah,HIGH
+205651,G.Jesus,Gabriel,Fernando de Jesus,FWD,5543,Gabriel,Fernando de Jesus,Jesus,HIGH
+205836,Ghoddos,Saman,Ghoddos,MID,7069,Saman,Ghoddos,Ghoddos,HIGH
+206325,Zinchenko,Oleksandr,Zinchenko,DEF,2958,Oleksandr,Zinchenko,Zinchenko,HIGH
+206915,Jones,Curtis,Jones,MID,6665,Curtis,Jones,Jones,HIGH
+207189,Berge,Sander,Berge,MID,8285,Sander,Berge,Berge,HIGH
+207270,Iversen,Daniel,Iversen,GK,10808,Daniel,Iversen,Iversen,HIGH
+207283,Jensen,Mathias,Jensen,MID,7166,Mathias,Jensen,Jensen,HIGH
+208706,Bruno G.,Bruno,Guimarães Rodriguez Moura,MID,8327,Bruno,Guimarães Rodriguez Moura,Bruno Guimarães,HIGH
+208904,Andersen,Mads Juel,Andersen,DEF,11715,Mads,Andersen,Andersen,HIGH
+208912,Worrall,Joe,Worrall,DEF,10756,Joe,Worrall,Worrall,HIGH
+208973,Sierralta,Francisco,Sierralta,DEF,7081,Francisco,Sierralta,Sierralta,HIGH
+209035,Panzo,Jonathan,Panzo,DEF,7247,Jonathan,Panzo,Panzo,HIGH
+209036,Guéhi,Marc,Guéhi,DEF,7603,Marc,Guéhi,Guéhi,HIGH
+209041,Angel,Angel,Gomes,MID,5598,,,,MEDIUM
+209042,Skipp,Oliver,Skipp,MID,7198,Oliver,Skipp,Skipp,HIGH
+209045,Richards,Taylor,Richards,MID,9735,Taylor,Richards,Richards,HIGH
+209046,Hudson-Odoi,Callum,Hudson-Odoi,MID,6456,Callum,Hudson-Odoi,Hudson-Odoi,HIGH
+209243,Sancho,Jadon,Sancho,MID,6345,Jadon,Sancho,Sancho,HIGH
+209244,Foden,Phil,Foden,MID,6055,Phil,Foden,Foden,HIGH
+209288,McGill,Tom,McGill,GKP,9319,,,,MEDIUM
+209289,Smith Rowe,Emile,Smith Rowe,MID,7230,Emile,Smith Rowe,Smith Rowe,HIGH
+209293,Hashioka,Daiki,Hashioka,DEF,12509,Daiki,Hashioka,Hashioka,HIGH
+209353,Cutrone,Patrick,Cutrone,FWD,4918,Patrick,Cutrone,Cutrone,HIGH
+209362,Bernardo,Bernardo,Fernandes Da Silva Junior,DEF,5245,Bernardo,Fernandes Da Silva Junior,Bernardo,HIGH
+209365,De Ligt,Matthijs,de Ligt,DEF,7902,Matthijs,de Ligt,De Ligt,HIGH
+209400,Kamada,Daichi,Kamada,MID,6145,Daichi,Kamada,Kamada,HIGH
+210156,Awoniyi,Taiwo,Awoniyi,FWD,7814,Taiwo,Awoniyi,Awoniyi,HIGH
+210407,Pereira,Matheus,Pereira,MID,7153,Matheus,Pereira,Pereira,HIGH
+210462,Sangaré,Ibrahim,Sangaré,MID,5722,Ibrahim,Sangaré,Sangaré,HIGH
+210494,N.Aguerd,Nayef,Aguerd,DEF,6935,Nayef,Aguerd,Aguerd,HIGH
+211975,Akanji,Manuel,Akanji,DEF,6490,Manuel,Akanji,Akanji,HIGH
+212314,Lukić,Saša,Lukić,MID,1537,Sasa,Lukic,Lukic,HIGH
+212319,Richarlison,Richarlison,de Andrade,FWD,6026,Richarlison,de Andrade,Richarlison,HIGH
+212325,Lees-Melou,Pierre,Lees-Melou,MID,5619,Pierre,Lees-Melou,Lees-Melou,HIGH
+212701,Zakaria,Denis,Zakaria,MID,6147,Denis,Zakaria,Zakaria,HIGH
+212721,Lyanco,Lyanco Evangelista,Silveira Neves Vojnovic,DEF,6252,Lyanco,,Lyanco,HIGH
+212723,Rashica,Milot,Rashica,MID,6523,Milot,Rashica,Rashica,HIGH
+213198,Nkunku,Christopher,Nkunku,MID,3300,Christopher,Nkunku,Nkunku,HIGH
+213345,Wesley,Wesley,Moraes,FWD,7724,Wesley,Moraes,Wesley,HIGH
+213482,Valery,Yan,Valery,DEF,7280,Yan,Valery,Valery,HIGH
+213687,Goode,Charlie,Goode,DEF,9687,Charlie,Goode,Goode,HIGH
+213999,Álvarez,Edson,Álvarez Velázquez,MID,11926,Edson,Álvarez Velázquez,Álvarez,HIGH
+214048,Kilman,Max,Kilman,DEF,7332,Max,Kilman,Kilman,HIGH
+214225,Rodon,Joe,Rodon,DEF,6377,Joe,Rodon,Rodon,HIGH
+214285,Tsimikas,Konstantinos,Tsimikas,DEF,8852,Konstantinos,Tsimikas,Tsimikas,HIGH
+214466,Smallbone,Will,Smallbone,MID,8224,Will,Smallbone,Smallbone,HIGH
+214470,Vokins,Jake,Vokins,DEF,8493,Jake,Vokins,Vokins,HIGH
+214572,Austin,Brandon,Austin,GK,8093,Brandon,Austin,Austin,HIGH
+214590,Wan-Bissaka,Aaron,Wan-Bissaka,DEF,5584,Aaron,Wan-Bissaka,Wan-Bissaka,HIGH
+214964,Edmundson,George,Edmundson,DEF,12947,George,Edmundson,Edmundson,HIGH
+215059,Sánchez,Robert,Sánchez,GK,9098,Robert,Sánchez,Sánchez,HIGH
+215136,N.Williams,Neco,Williams,DEF,8204,Neco,Williams,N.Williams,HIGH
+215379,Anderson,Elliot,Anderson,MID,9154,Elliot,Anderson,Anderson,HIGH
+215413,Dewsbury-Hall,Kiernan,Dewsbury-Hall,MID,9739,Kiernan,Dewsbury-Hall,Dewsbury-Hall,HIGH
+215439,Souček,Tomáš,Souček,MID,8288,Tomas,Soucek,Soucek,HIGH
+215460,Poveda,Ian Carlo,Poveda-Ocampo,MID,8723,Ian Carlo,Poveda-Ocampo,Poveda,HIGH
+215476,Sargent,Joshua,Sargent,FWD,7295,Joshua,Sargent,Sargent,HIGH
+215531,Radu,Ionuț,Radu,GK,1830,Ionut,Radu,Radu,HIGH
+215711,Bailey,Leon,Bailey,MID,5221,Leon,Bailey,Bailey,HIGH
+216051,Dalot,Diogo,Dalot Teixeira,DEF,7281,Diogo,Dalot Teixeira,Dalot,HIGH
+216054,Vinagre,Rúben Gonçalo,Silva Nascimento Vinagre,DEF,6856,Rúben,Vinagre,Vinagre,HIGH
+216055,Florentino,Florentino Ibrain,Morris Luís,MID,8969,Florentino,Luís,Luís,HIGH
+216058,Quina,Domingos,Quina,MID,5573,Domingos,Quina,Quina,HIGH
+216094,Frimpong,Jeremie,Frimpong,DEF,9328,Jeremie,Frimpong,Frimpong,HIGH
+216616,O'Shea,Dara,O'Shea,DEF,8756,Dara,O'Shea,O'Shea,HIGH
+216620,Forss,Marcus,Forss,FWD,9684,Marcus,Forss,Forss,HIGH
+216646,Wissa,Yoane,Wissa,FWD,5786,Yoane,Wissa,Wissa,HIGH
+217331,Surridge,Sam,Surridge,FWD,5602,Sam,Surridge,Surridge,HIGH
+217401,Benson,Josh,Benson,MID,7383,Josh,Benson,Benson,HIGH
+217487,Samatta,Mbwana Ally,Samatta,FWD,8287,Mbwana Ally,Samatta,Samatta,HIGH
+217593,Fornals,Pablo,Fornals,MID,2335,Pablo,Fornals Malla,Fornals,HIGH
+218023,Dunne,Jimmy,Dunne,DEF,8481,Jimmy,Dunne,Dunne,HIGH
+218031,Söyüncü,Çaglar,Söyüncü,DEF,5264,Çaglar,Söyüncü,Söyüncü,HIGH
+218218,Faes,Wout,Faes,DEF,8646,Wout,Faes,Faes,HIGH
+218328,Chukwueze,Samuel,Chukwueze,MID,7208,Samuel,Chukwueze,Chukwueze,HIGH
+218364,Sosa,Borna,Sosa,DEF,7075,Borna,Sosa,Sosa,HIGH
+218430,G.Montiel,Gonzalo,Montiel,DEF,9897,Gonzalo,Montiel,Montiel,HIGH
+218997,Simms,Ellis,Simms,FWD,8582,Ellis,Simms,Simms,HIGH
+219168,Isak,Alexander,Isak,FWD,5232,Alexander,Isak,Isak,HIGH
+219249,O'Riley,Matt,O'Riley,MID,13206,Matt,O'Riley,O'Riley,HIGH
+219279,Sugawara,Sugawara,Yukinari,DEF,12761,Sugawara,Yukinari,Sugawara,HIGH
+219352,Lookman,Ademola,Lookman,MID,5556,Ademola,Lookman,Lookman,HIGH
+219847,Havertz,Kai,Havertz,FWD,5220,Kai,Havertz,Havertz,HIGH
+219924,Diop,Issa,Diop,DEF,3203,Issa,Diop,Diop,HIGH
+219937,R.Williams,Rhys,Williams,DEF,9086,Rhys,Williams,R.Williams,HIGH
+219961,Raphinha,Raphael,Dias Belloli,MID,8026,Raphael,Dias Belloli,Raphinha,HIGH
+220037,Peacock-Farrell,Bailey,Peacock-Farrell,GK,8482,Bailey,Peacock-Farrell,Peacock-Farrell,HIGH
+220087,Wöber,Maximilian,Wöber,DEF,7366,Maximilian,Wöber,Wöber,HIGH
+220166,Navarro,Marc,Navarro,DEF,5085,Marc,Navarro,Navarro,HIGH
+220237,Botman,Sven,Botman,DEF,8635,Sven,Botman,Botman,HIGH
+220307,Danjuma,Arnaut,Danjuma,MID,8066,Arnaut,Danjuma Groeneveld,Groeneveld,HIGH
+220362,Disasi,Axel,Disasi,DEF,6885,Axel,Disasi,Disasi,HIGH
+220394,Doyle,Tommy,Doyle,MID,8496,Tommy,Doyle,Doyle,HIGH
+220566,Rodrigo,Rodrigo 'Rodri',Hernandez,MID,2496,Rodrigo,Hernandez,Rodri,MEDIUM
+220583,Woolfenden,Luke,Woolfenden,DEF,12746,Luke,Woolfenden,Woolfenden,HIGH
+220585,Downes,Flynn,Downes,MID,10845,Flynn,Downes,Downes,HIGH
+220598,Obafemi,Michael,Obafemi,FWD,6504,Michael,Obafemi,Obafemi,HIGH
+220627,Justin,James,Justin,DEF,7753,James,Justin,Justin,HIGH
+220684,Alese,Aji,Alese,DEF,10165,,,,MEDIUM
+220686,Mumba,Bali,Mumba,DEF,9747,Bali,Mumba,Mumba,HIGH
+220688,Greenwood,Mason,Greenwood,MID,7490,Mason,Greenwood,Greenwood,HIGH
+220695,Maghoma,Paris,Maghoma,MID,10053,Paris,Maghoma,Maghoma,HIGH
+220738,Molumby,Jayson,Molumby,MID,6350,Jayson,Molumby,Molumby,HIGH
+221239,Davis,Keinan,Davis,FWD,1053,Keinan,Davis,Davis,HIGH
+221389,John,John Victor,Maciel Furtado,GK,14017,John,Victor,Victor,HIGH
+221399,Harrison,Jack,Harrison,MID,8720,Jack,Harrison,Harrison,HIGH
+221466,Senesi,Marcos,Senesi,DEF,10864,Marcos,Senesi,Senesi,HIGH
+221610,Shackleton,Jamie,Shackleton,MID,8721,Jamie,Shackleton,Shackleton,HIGH
+221632,Romero,Cristian,Romero,DEF,7218,Cristian,Romero,Romero,HIGH
+221820,Martinez,Lisandro,Martínez,DEF,10802,Lisandro,Martínez,Martínez,HIGH
+222017,Coventry,Conor,Coventry,MID,7239,Conor,Coventry,Coventry,HIGH
+222018,Johnson,Ben,Johnson,DEF,6424,Ben,Johnson,Johnson,HIGH
+222531,Gibbs-White,Morgan,Gibbs-White,MID,6857,Morgan,Gibbs-White,Gibbs-White,HIGH
+222564,Trincão,Francisco,Machado Mota de Castro Trincão,MID,8934,Francisco,Machado Mota de Castro Trincão,Trincão,HIGH
+222625,Hirst,George,Hirst,FWD,8563,George,Hirst,Hirst,HIGH
+222627,J.Virginia,João,Neves Virgínia,GK,8366,João,Virgínia,Virgínia,MEDIUM
+222677,Chong,Tahith,Chong,MID,7439,Tahith,Chong,Chong,HIGH
+222683,Kluivert,Justin,Kluivert,MID,6963,Justin,Kluivert,Kluivert,HIGH
+222690,Malacia,Tyrell,Malacia,DEF,10803,Tyrell,Malacia,Malacia,HIGH
+222694,Struijk,Pascal,Struijk,DEF,8717,Pascal,Struijk,Struijk,HIGH
+223081,Klaesson,Kristoffer,Klaesson,GK,9700,Kristoffer,Klaesson,Klaesson,HIGH
+223094,Haaland,Erling,Haaland,FWD,8260,Erling,Haaland,Haaland,HIGH
+223175,M.Longstaff,Matthew,Longstaff,MID,8016,Matthew,Longstaff,M.Longstaff,HIGH
+223336,Neil,Dan,Neil,MID,13720,Dan,Neil,Neil,HIGH
+223340,Saka,Bukayo,Saka,MID,7322,Bukayo,Saka,Saka,HIGH
+223434,Igor,Igor Julio,dos Santos de Paulo,DEF,7943,Igor Julio,dos Santos de Paulo,Igor,HIGH
+223541,Chiesa,Federico,Chiesa,MID,1433,Federico,Chiesa,Chiesa,HIGH
+223723,Tomiyasu,Tomiyasu,Takehiro,DEF,7931,Takehiro,Tomiyasu,Tomiyasu,LOW
+223827,Ballard,Daniel,Ballard,DEF,13715,Dan,Ballard,Ballard,HIGH
+223911,Mepham,Chris,Mepham,DEF,7384,Chris,Mepham,Mepham,HIGH
+224024,L.Paquetá,Lucas,Tolentino Coelho de Lima,MID,7365,Lucas,Tolentino Coelho de Lima,Paquetá,HIGH
+224068,Turner,Matt,Turner,GK,10700,Matt,Turner,Turner,HIGH
+224117,Gyökeres,Viktor,Gyökeres,FWD,7254,Viktor,Gyokeres,Gyokeres,HIGH
+224209,Kristensen,Rasmus,Kristensen,DEF,10750,Rasmus,Kristensen,Kristensen,HIGH
+224444,Torres,Ferran,Torres,MID,6441,Ferran,Torres,Torres,HIGH
+224860,C.Soler,Carlos,Soler,MID,2478,Carlos,Soler,C.Soler,HIGH
+224967,Mykolenko,Vitalii,Mykolenko,DEF,10291,Vitalii,Mykolenko,Mykolenko,HIGH
+224995,Sinisterra,Luis,Sinisterra,MID,10866,Luis,Sinisterra Lucumí,Sinisterra,HIGH
+225295,Tetê,Mateus,Cardoso Lemos Martins,MID,10536,Tetê,,Tetê,HIGH
+225321,Ramsdale,Aaron,Ramsdale,GK,5603,Aaron,Ramsdale,Ramsdale,HIGH
+225702,Kalu,Samuel,Kalu,MID,6947,Samuel,Kalu,Kalu,HIGH
+225796,James,Reece,James,DEF,8067,Reece,James,James,HIGH
+225897,Ballo-Touré,Fodé,Ballo-Touré,DEF,5803,Fode,Toure,Toure,HIGH
+225902,B.Soumaré,Boubakary,Soumaré,MID,6310,Boubakary,Soumaré,Soumaré,HIGH
+226182,Bogle,Jayden,Bogle,DEF,9205,Jayden,Bogle,Bogle,HIGH
+226597,Gabriel,Gabriel,dos Santos Magalhães,DEF,5613,Gabriel,dos Santos Magalhães,Gabriel,HIGH
+226944,Kamara,Boubacar,Kamara,MID,5789,Boubacar,Kamara,Kamara,HIGH
+226956,Roerslev,Mads,Roerslev Rasmussen,DEF,9685,Mads,Roerslev Rasmussen,Roerslev,HIGH
+227127,Bissouma,Yves,Bissouma,MID,5609,Yves,Bissouma,Bissouma,HIGH
+227444,Milenković,Nikola,Milenković,DEF,6174,Nikola,Milenković,Milenković,HIGH
+227560,Etebo,Oghenekaro Peter,Etebo,MID,6538,Oghenekaro Peter,Etebo,Etebo,HIGH
+228044,Sørensen,Mads,Bech Sørensen,DEF,9683,Mads,Bech Sørensen,Bech,MEDIUM
+228286,Mendy,Edouard,Mendy,GK,6880,Edouard,Mendy,Mendy,HIGH
+228798,Ünder,Cengiz,Ünder,MID,6162,Cengiz,Ünder,Ünder,HIGH
+229164,Ogbene,Chiedozie,Ogbene,MID,11719,Chiedozie,Ogbene,Ogbene,HIGH
+229384,Irving,Andy,Irving,MID,12774,Andy,Irving,Irving,HIGH
+229600,Travers,Mark,Travers,GK,7582,Mark,Travers,Travers,HIGH
+230001,Mazraoui,Noussair,Mazraoui,DEF,10696,Noussair,Mazraoui,Mazraoui,HIGH
+230046,Douglas Luiz,Douglas Luiz,Soares de Paulo,MID,6122,Douglas Luiz,Soares de Paulo,Douglas Luiz,HIGH
+230127,Tau,Percy,Tau,MID,9249,Percy,Tau,Tau,HIGH
+230251,Dennis,Emmanuel,Dennis,FWD,9301,Emmanuel,Dennis,Dennis,HIGH
+230348,Stewart,Ross,Stewart,FWD,13060,Ross,Stewart,Stewart,HIGH
+230376,J.Arias,Jhon,Arias,MID,13741,Jhon,Arias,Arias,HIGH
+231057,Bellegarde,Jean-Ricner,Bellegarde,MID,7762,Jean-Ricner,Bellegarde,Bellegarde,HIGH
+231065,Pinnock,Ethan,Pinnock,DEF,9678,Ethan,Pinnock,Pinnock,HIGH
+231372,Ndombele,Tanguy,Ndombele,MID,5962,Tanguy,Ndombele,Ndombele,HIGH
+231416,F.Kadıoğlu,Ferdi,Kadioglu,DEF,13066,Ferdi,Kadioglu,F.Kadıoğlu,HIGH
+231480,S.Bueno,Santiago,Bueno,DEF,10945,Santiago,Bueno,S.Bueno,HIGH
+231747,Mateta,Jean-Philippe,Mateta,FWD,5735,Jean-Philippe,Mateta,Mateta,HIGH
+231899,Taylor,Jack,Taylor,MID,12754,Jack,Taylor,Taylor,HIGH
+232112,Ugarte,Manuel,Ugarte,MID,11766,Manuel,Ugarte,Ugarte,HIGH
+232185,I.Sarr,Ismaïla,Sarr,MID,5675,Ismaila,Sarr,Sarr,HIGH
+232223,Balogun,Folarin,Balogun,FWD,9690,Folarin,Balogun,Balogun,HIGH
+232228,H.Clarke,Harry,Clarke,DEF,13133,Harry,Clarke,Clarke,HIGH
+232247,Thompson,Dominic,Thompson,DEF,9915,Dominic,Thompson,Thompson,HIGH
+232351,Giles,Ryan,Giles,MID,7277,Ryan,John Giles,Giles,HIGH
+232356,Jenson Jones,Jenson,Jones,DEF,14276,,,,MEDIUM
+232391,Ngakia,Jeremy,Ngakia,DEF,8235,Jeremy,Ngakia,Ngakia,HIGH
+232413,Eze,Eberechi,Eze,MID,8706,Eberechi,Eze,Eze,HIGH
+232423,Ferguson,Nathan,Ferguson,DEF,6451,Nathan,Ferguson,Ferguson,HIGH
+232427,Harper,Rekeem,Harper,MID,5562,Rekeem,Harper,Harper,HIGH
+232571,Patterson,Anthony,Patterson,GKP,13721,,,,MEDIUM
+232620,Brunt,Lewis,Brunt,MID,10168,Lewis,Brunt,Brunt,HIGH
+232653,Ramsey,Jacob,Ramsey,MID,8941,Jacob,Ramsey,Ramsey,HIGH
+232787,Gallagher,Conor,Gallagher,MID,9040,Conor,Gallagher,Gallagher,HIGH
+232792,Lamptey,Tariq,Lamptey,DEF,8226,Tariq,Lamptey,Lamptey,HIGH
+232797,Ramsay,Kayne,Ramsay,DEF,7326,Kayne,Ramsay,Ramsay,HIGH
+232820,Anderson,Joe,Anderson,DEF,,,,,NONE
+232826,Gordon,Anthony,Gordon,MID,8150,Anthony,Gordon,Gordon,HIGH
+232859,Spence,Djed,Spence,DEF,10764,Djed,Spence,Spence,HIGH
+232881,Leshabela,Thakgalo,Leshabela,MID,9311,Thakgalo,Leshabela,Leshabela,HIGH
+232892,Bassey,Calvin,Bassey,DEF,11728,Calvin,Bassey,Bassey,HIGH
+232917,Muric,Arijanet,Muric,GK,7027,Arijanet,Muric,Muric,HIGH
+232928,Garner,James,Garner,MID,7438,James,Garner,Garner,HIGH
+232937,Williams,Brandon,Williams,DEF,8075,Brandon,Williams,B.Williams,HIGH
+232980,Aarons,Max,Aarons,DEF,7688,Max,Aarons,Aarons,HIGH
+233420,Renan Lodi,Renan Augusto,Lodi dos Santos,DEF,7891,Renan,Lodi,Lodi,HIGH
+233425,Connolly,Aaron,Connolly,FWD,7991,Aaron,Connolly,Connolly,HIGH
+233821,Ahmedhodžić,Anel,Ahmedhodžić,DEF,10386,Anel,Ahmedhodzic,Ahmedhodzic,HIGH
+233963,Mavropanos,Konstantinos,Mavropanos,DEF,6722,Konstantinos,Mavropanos,Mavropanos,HIGH
+234370,Roca,Marc,Roca Junqué,MID,5086,Marc,Roca,Roca,HIGH
+235382,Alzate,Steven,Alzate,MID,8020,Steven,Alzate,Alzate,HIGH
+235448,Balcombe,Ellery,Balcombe,GK,11985,Ellery,Balcombe,Balcombe,HIGH
+235530,Kelly,Lloyd,Kelly,DEF,8090,Lloyd,Kelly,Kelly,HIGH
+235546,Sørensen,Jacob,Sørensen,DEF,9748,Jacob,Sørensen,Sørensen,HIGH
+235674,Solomon,Manor,Solomon,MID,10716,Manor,Solomon,Solomon,HIGH
+235826,Piroe,Joël,Piroe,FWD,13835,Joël,Piroe,Piroe,HIGH
+240143,Diallo,Ibrahima,Diallo,MID,6736,Ibrahima,Diallo,Diallo,HIGH
+240299,Hodge,Joe,Hodge,MID,10755,Joseph,Hodge,Hodge,HIGH
+240514,Scherpen,Kjell,Scherpen,GK,9960,Kjell,Scherpen,Scherpen,HIGH
+240796,Fernández,Álvaro,Fernández,GK,5191,Álvaro,Fernández,Fernández,HIGH
+241157,E.Royal,Emerson,Leite de Souza Junior,DEF,7430,Emerson,Leite de Souza Junior,Emerson Royal,HIGH
+241231,Beyer,Jordan,Beyer,DEF,6557,Louis,Beyer,Beyer,HIGH
+241289,Wilmot,Ben,Wilmot,DEF,7216,Ben,Wilmot,Wilmot,HIGH
+241519,McKennie,Weston,McKennie,MID,5360,Weston,McKennie,McKennie,HIGH
+242058,Kean,Moise,Kean,FWD,1304,Moise,Kean,Kean,HIGH
+242166,Guendouzi,Mattéo,Guendouzi,MID,5759,Mattéo,Guendouzi,Guendouzi,HIGH
+242453,Brown,Jacob,Brown,FWD,11720,Jacob,Brown,Brown,HIGH
+242880,B.Badiashile,Benoît,Badiashile,DEF,7240,Benoît,Badiashile,Badiashile,HIGH
+242882,Diakité,Bafodé,Diakité,DEF,7268,Bafode,Diakite,Diakite,HIGH
+242898,Johnson,Brennan,Johnson,MID,10760,Brennan,Johnson,Johnson,HIGH
+243016,Mac Allister,Alexis,Mac Allister,MID,8379,Alexis,Mac Allister,Mac Allister,HIGH
+243298,Gakpo,Cody,Gakpo,FWD,11296,Cody,Gakpo,Gakpo,HIGH
+243345,O'Brien,Lewis,O'Brien,MID,10759,Lewis,O'Brien,O'Brien,HIGH
+243505,Moder,Jakub,Moder,MID,9284,Jakub,Moder,Moder,HIGH
+243526,Gudmundsson,Gabriel,Gudmundsson,DEF,9944,Gabriel,Gudmundsson,Gudmundsson,HIGH
+243557,Diaby,Moussa,Diaby,MID,6556,Moussa,Diaby,Diaby,HIGH
+243568,Gilmour,Billy,Gilmour,MID,7988,Billy,Gilmour,Gilmour,HIGH
+243571,Patterson,Nathan,Patterson,DEF,10292,Nathan,Patterson,Patterson,HIGH
+244042,Muniz,Rodrigo,Muniz Carvalho,FWD,10717,Rodrigo,Muniz Carvalho,Muniz,HIGH
+244085,Dembélé,Siriki,Dembélé,MID,10749,Siriki,Dembélé,Dembélé,HIGH
+244262,Doughty,Alfie,Doughty,DEF,11723,Alfie,Doughty,Doughty,HIGH
+244560,Perraud,Romain,Perraud,DEF,6500,Romain,Perraud,Perraud,HIGH
+244619,Thomas,Luke,Thomas,DEF,8562,Luke,Thomas,Thomas,HIGH
+244704,Viña,Matías,Viña,DEF,9892,Matias,Viña,Viña,HIGH
+244716,Cucho,Juan Camilo,Hernández Suárez,FWD,6954,Juan Camilo,Hernández Suárez,Cucho,HIGH
+244723,Mitchell,Tyrick,Mitchell,DEF,8214,Tyrick,Mitchell,Mitchell,HIGH
+244731,Luis Díaz,Luis,Díaz,MID,10408,Luis,Díaz,Luis Díaz,HIGH
+244845,Wood,Nathan,Wood-Gordon,DEF,12763,Nathan,Wood-Gordon,Wood,HIGH
+244850,Rogers,Morgan,Rogers,MID,12412,Morgan,Rogers,Rogers,HIGH
+244851,Palmer,Cole,Palmer,MID,8497,Cole,Palmer,Palmer,HIGH
+244856,Mengi,Teden,Mengi,DEF,12073,Teden,Mengi,Mengi,HIGH
+244858,Carvalho,Fábio,Freitas Gouveia Carvalho,MID,9501,Fábio,Freitas Gouveia Carvalho,Carvalho,HIGH
+244930,Mighten,Alex,Mighten,MID,10761,Alex,Mighten,Mighten,HIGH
+244954,Pau,Pau,Torres,DEF,6221,Pau,Torres,Pau,HIGH
+245414,Zaniolo,Nicolò,Zaniolo,MID,6686,Nicolo,Zaniolo,Zaniolo,HIGH
+245419,Daka,Patson,Daka,FWD,9738,Patson,Daka,Daka,HIGH
+245719,Harwood-Bellis,Taylor,Harwood-Bellis,DEF,8495,Taylor,Harwood-Bellis,Harwood-Bellis,HIGH
+245824,Vinicius,Carlos Vinícius,Alves Morais,FWD,7395,Carlos Vinícius,Alves Morais,Vinícius,HIGH
+245923,Cundle,Luke,Cundle,MID,8179,Luke,Cundle,Cundle,HIGH
+246265,Ndaba,Corrie,Ndaba,DEF,13876,Corrie,Ndaba,Ndaba,HIGH
+246301,J.Cuenca,Jorge,Cuenca Barreno,DEF,8489,Jorge,Cuenca Barreno,J.Cuenca,HIGH
+247245,Delcroix,Hannes,Delcroix,DEF,11998,Hannes,Delcroix,Delcroix,HIGH
+247348,Muñoz,Daniel,Muñoz,DEF,12408,Daniel,Muñoz,Muñoz,HIGH
+247412,Strand Larsen,Jørgen,Strand Larsen,FWD,11070,Jørgen,Strand Larsen,Strand Larsen,HIGH
+247632,Neto,Pedro,Lomba Neto,MID,6382,Pedro,Lomba Neto,Neto,HIGH
+247670,Taty,Valentín,Castellanos,FWD,10948,Valentín,Castellanos,Castellanos,HIGH
+247693,Kolo Muani,Randal,Kolo Muani,FWD,5743,Randal,Kolo Muani,Kolo Muani,HIGH
+247955,Geertruida,Lutsharel,Geertruida,DEF,13064,Lutsharel,Geertruida,Geertruida,HIGH
+248056,Tanaka,Tanaka,Ao,MID,13834,Ao,Tanaka,Tanaka,HIGH
+248164,Sinisalo,Viljami,Sinisalo,GK,9967,Viljami,Sinisalo,Sinisalo,HIGH
+248857,Madueke,Noni,Madueke,MID,11357,Noni,Madueke,Madueke,HIGH
+248859,Diallo,Amadou,Diallo,MID,12200,Amadou,Diallo,Diallo,HIGH
+248875,Doku,Jérémy,Doku,MID,8981,Jérémy,Doku,Doku,HIGH
+248937,Greenwood,Sam,Greenwood,FWD,9493,Sam,Greenwood,Greenwood,HIGH
+249231,Lewis-Potter,Keane,Lewis-Potter,MID,10809,Keane,Lewis-Potter,Lewis-Potter,HIGH
+250199,Dominguez,Nicolás,Domínguez,MID,8252,Nicolás,Domínguez,Dominguez,HIGH
+250604,Otasowie,Owen,Otasowie,MID,8180,Owen,Otasowie,Otasowie,HIGH
+250735,Churlinov,Darko,Churlinov,MID,7790,,,,MEDIUM
+421796,Tavares,Sidnei,Tavares,MID,9395,Sidnei,Tavares,Tavares,HIGH
+423649,Mwepu,Enock,Mwepu,MID,9734,Enock,Mwepu,Mwepu,HIGH
+424001,Vini Souza,Vini,de Souza Costa,MID,10872,Vinicius,Souza,Souza,HIGH
+424044,H.Traorè,Hamed,Traorè,MID,6986,Hamed,Traorè,H.Traorè,HIGH
+424876,Szoboszlai,Dominik,Szoboszlai,MID,9788,Dominik,Szoboszlai,Szoboszlai,HIGH
+427420,Reyna,Giovanni,Reyna,MID,8191,Giovanni,Reyna,Reyna,HIGH
+427623,C.Richards,Chris,Richards,DEF,8430,Chris,Richards,Richards,HIGH
+427637,Aaronson,Brenden,Aaronson,MID,10751,Brenden,Aaronson,Aaronson,HIGH
+428399,João Félix,João,Félix Sequeira,MID,7892,João,Félix Sequeira,João Félix,HIGH
+428580,Onyeka,Frank,Onyeka,MID,9681,Frank,Onyeka,Onyeka,HIGH
+428626,Placheta,Przemyslaw,Placheta,MID,10097,Przemyslaw,Placheta,Placheta,HIGH
+428971,Benda,Steven,Benda,GK,12735,Steven,Benda,Benda,HIGH
+429414,Kalajdžić,Saša,Kalajdžić,FWD,8812,Sasa,Kalajdzic,Kalajdžić,HIGH
+430367,Mumbongo,Joel,Mumbongo,FWD,8566,Joel,Mumbongo,Mumbongo,HIGH
+430871,Cunha,Matheus,Santos Carneiro Da Cunha,FWD,7080,Matheus,Santos Carneiro Da Cunha,Cunha,HIGH
+430992,Beck,Owen,Beck,DEF,10119,Owen,Beck,Beck,HIGH
+431131,Djenepo,Moussa,Djenepo,MID,7701,Moussa,Djenepo,Djenepo,HIGH
+431248,Krejčí,Ladislav,Krejcí,DEF,12721,Ladislav,Krejcí,Krejcí,HIGH
+431639,Flemming,Zian,Flemming,FWD,13729,Zian,Flemming,Flemming,HIGH
+432160,Baptiste,Shandon,Baptiste,MID,9914,Shandon,Baptiste,Baptiste,HIGH
+432422,Tonali,Sandro,Tonali,MID,7958,Sandro,Tonali,Tonali,HIGH
+432656,Garcia,Eric,Garcia,DEF,8045,Eric,Garcia,Garcia,HIGH
+432711,Egan-Riley,Conrad,Egan-Riley,DEF,10174,CJ,Egan-Riley,Egan-Riley,HIGH
+432714,McAtee,James,McAtee,MID,10126,James,McAtee,McAtee,HIGH
+432720,Trafford,James,Trafford,GK,9077,James,Trafford,Trafford,HIGH
+432735,Idah,Adam,Idah,FWD,8021,Adam,Idah,Idah,HIGH
+432830,Collins,Nathan,Collins,DEF,9733,Nathan,Collins,Collins,HIGH
+432931,Francois,Tyrese,Francois,MID,9552,Tyrese,Francois,Francois,HIGH
+432987,Jaros,Vítezslav,Jaros,GK,13103,Vítezslav,Jaros,Jaros,HIGH
+432990,Larouci,Yasser,Larouci,DEF,10041,Yasser,Larouci,Larouci,HIGH
+433036,Reijnders,Tijjani,Reijnders,MID,11965,Tijjani,Reijnders,Reijnders,HIGH
+433154,McNeil,Dwight,McNeil,MID,6756,Dwight,McNeil,McNeil,HIGH
+433312,Munetsi,Marshall,Munetsi,MID,7908,Marshall,Munetsi,Munetsi,HIGH
+433590,Drameh,Cody,Drameh,DEF,9499,Cody,Drameh,Drameh,HIGH
+433952,Ramazani,Largie,Ramazani,MID,10975,,,,MEDIUM
+433979,Archer,Cameron,Archer,FWD,9912,Cameron,Archer,Archer,HIGH
+434024,Gunnarsson,Patrik,Gunnarsson,GK,9688,Patrik,Gunnarsson,Gunnarsson,HIGH
+434044,Slicker,Cieran,Slicker,GK,10052,Cieran,Slicker,Slicker,HIGH
+434399,Reinildo,Reinildo,Mandava,DEF,7432,,Reinildo,Reinildo,HIGH
+434662,Dervişoğlu,Halil,Dervişoğlu,FWD,9686,Halil,Dervişoğlu,Dervişoğlu,HIGH
+434752,Bijol,Jaka,Bijol,DEF,6807,Jaka,Bijol,Bijol,HIGH
+435973,Foster,Lyle,Foster,FWD,7498,Lyle,Foster,Foster,HIGH
+435997,Okafor,Noah,Okafor,MID,11966,Noah,Okafor,Okafor,HIGH
+436234,Bryan,Bryan,Gil Salvatierra,MID,7338,Bryan,Gil Salvatierra,Bryan,HIGH
+436416,Mandas,Christos,Mandas,GKP,12043,,,,MEDIUM
+436680,Stolarczyk,Jakub,Stolarczyk,GK,13301,Jakub,Stolarczyk,Stolarczyk,HIGH
+436893,J.Araujo,Julián,Araujo Zúñiga,DEF,11745,Julián,Araujo Zúñiga,J.Araujo,HIGH
+437468,Sergio Gómez,Sergio,Gómez,DEF,6656,Sergio,Gómez,Gómez,HIGH
+437495,Meslier,Illan,Meslier,GK,8715,Illan,Meslier,Meslier,HIGH
+437499,Lacroix,Maxence,Lacroix,DEF,8853,Maxence,Lacroix,Lacroix,HIGH
+437505,Isidor,Wilson,Isidor,FWD,7148,Wilson,Isidor,Isidor,HIGH
+437626,Tavares,Nuno,Varela Tavares,DEF,9691,Nuno,Varela Tavares,Tavares,HIGH
+437688,Richards,Lewis,Richards,DEF,9082,Lewis,Richardson,Richardson,HIGH
+437730,Semenyo,Antoine,Semenyo,MID,11363,Antoine,Semenyo,Semenyo,HIGH
+437738,Bornauw,Sebastiaan,Bornauw,DEF,7791,Sebastiaan,Bornauw,Bornauw,HIGH
+437742,Sambi Lokonga,Albert,Sambi Lokonga,MID,9689,Albert,Sambi Lokonga,Sambi,HIGH
+437748,M.Trésor,Mike,Trésor,MID,12094,Mike,Trésor,Trésor,HIGH
+437753,Biancone,Giulian,Biancone,DEF,7282,Giulian,Biancone,Biancone,HIGH
+437757,Massengo,Han-Noah,Massengo,MID,7264,Han-Noah,Massengo,Massengo,HIGH
+437858,Vitinha,Vitor,Ferreira,MID,8777,Vitinha,,Vitinha,HIGH
+438098,Fábio Vieira,Fábio,Ferreira Vieira,MID,11007,Fábio,Ferreira Vieira,Fábio Vieira,HIGH
+438234,Marmoush,Omar,Marmoush,FWD,8393,Omar Khaled Mohamed Abd Elsala,Marmoush,Marmoush,MEDIUM
+438277,Kabak,Ozan,Kabak,DEF,7376,Ozan,Kabak,Kabak,HIGH
+438464,C.Doucouré,Cheick,Doucouré,MID,8666,Cheick,Doucouré,C.Doucouré,HIGH
+439135,Cashin,Eiran,Cashin,DEF,13459,Eiran,Cashin,Cashin,HIGH
+439485,Martin,Josh,Martin,MID,8455,Josh,Martin,Martin,HIGH
+439509,Tzolis,Christos,Tzolis,MID,9746,Christos,Tzolis,Tzolis,HIGH
+440089,Damsgaard,Mikkel,Damsgaard,MID,8859,Mikkel,Damsgaard,Damsgaard,HIGH
+440120,Chesters,Daniel,Chesters,MID,10424,Daniel,Chesters,Chesters,HIGH
+440148,Morton,Tyler,Morton,MID,10091,Tyler,Morton,Morton,HIGH
+440323,Broja,Armando,Broja,FWD,8384,Armando,Broja,Broja,HIGH
+440854,Kiwior,Jakub,Kiwior,DEF,10012,Jakub,Kiwior,Kiwior,HIGH
+440955,Rusyn,Nazarii,Rusyn,FWD,,,,,NONE
+440993,Ndiaye,Iliman,Ndiaye,FWD,9307,Iliman,Ndiaye,Ndiaye,HIGH
+441024,Ashby,Harrison,Ashby,DEF,10061,Harrison,Ashby,Ashby,HIGH
+441164,Pedro Porro,Pedro,Porro,DEF,6912,Pedro,Porro,Pedro Porro,HIGH
+441191,Livramento,Tino,Livramento,DEF,9512,Tino,Livramento,Livramento,HIGH
+441192,Sarmiento,Jeremy,Sarmiento Morante,MID,10036,Jeremy,Sarmiento Morante,Sarmiento,HIGH
+441240,Faivre,Romain,Faivre,MID,6420,Romain,Faivre,Faivre,HIGH
+441264,Brobbey,Brian,Brobbey,FWD,9789,Brian,Brobbey,Brobbey,HIGH
+441266,Gravenberch,Ryan,Gravenberch,MID,10697,Ryan,Gravenberch,Gravenberch,HIGH
+441271,Hoever,Ki-Jana,Hoever,DEF,8351,Ki-Jana,Hoever,Hoever,HIGH
+441302,Maatsen,Ian,Maatsen,DEF,11807,Ian,Maatsen,Maatsen,HIGH
+441428,Quansah,Jarell,Quansah,DEF,10187,Jarell,Quansah,Quansah,HIGH
+441455,Vitinho,Victor,da Silva,DEF,11700,Vitinho,,Vitinho,HIGH
+442335,Kayembe,Edo,Kayembe,MID,10290,Edo,Kayembe,Kayembe,HIGH
+443211,Norrington-Davies,Rhys,Norrington-Davies,DEF,12291,Rhys,Norrington-Davies,Norrington-Davies,HIGH
+443261,J.Clarke,Jack,Clarke,MID,13019,Jack,Clarke,J.Clarke,HIGH
+443296,Corbeanu,Theo,Corbeanu,MID,9209,Theo,Corbeanu,Corbeanu,HIGH
+443661,Olise,Michael,Olise,MID,9948,Michael,Olise,Olise,HIGH
+443967,Firpo,Héctor Junior,Firpo Adames,DEF,6485,Junior,Firpo Adames,Firpo,HIGH
+444102,Evanilson,Francisco Evanilson,de Lima Barbosa,FWD,12963,Francisco Evanilson,de Lima Barbosa,Evanilson,HIGH
+444145,Martinelli,Gabriel,Martinelli Silva,MID,7752,Gabriel,Martinelli Silva,Martinelli,HIGH
+444172,Dennis,Will,Dennis,GK,10748,Will,Dennis,Dennis,HIGH
+444180,Anthony,Jaidon,Anthony,MID,10746,Jaidon,Anthony,Anthony,HIGH
+444463,W.Fofana,Wesley,Fofana,DEF,7589,Wesley,Fofana,W.Fofana,HIGH
+444765,Van den Berg,Sepp,van den Berg,DEF,10721,Sepp,van den Berg,Van den Berg,HIGH
+444884,Elliott,Harvey,Elliott,MID,7546,Harvey,Elliott,Elliott,HIGH
+445044,Kulusevski,Dejan,Kulusevski,MID,6691,Dejan,Kulusevski,Kulusevski,HIGH
+445122,J.Timber,Jurriën,Timber,DEF,11707,Jurriën,Timber,J.Timber,HIGH
+445548,Offiah,Odeluga,Offiah,DEF,10453,Odeluga,Offiah,Offiah,HIGH
+446008,Mbeumo,Bryan,Mbeumo,MID,6552,Bryan,Mbeumo,Mbeumo,HIGH
+446281,Springett,Tony,Springett,MID,10525,Tony,Springett,Springett,HIGH
+447093,Tchaptchet,Allan,Tchaptchet,DEF,9257,Allan,Tchaptchet,Tchaptchet,HIGH
+447203,Darwin,Darwin,Núñez Ribeiro,FWD,10720,Darwin,Núñez Ribeiro,Darwin,HIGH
+447325,Tyrer,Harry,Tyrer,GKP,9411,,,,MEDIUM
+447715,Ramsey,Aaron,Ramsey,MID,9913,Aaron,Ramsey,Ramsey,HIGH
+447720,Samuels,Imari,Samuels,DEF,11571,Imari,Samuels,Samuels,HIGH
+447880,Wilson-Esbrand,Josh,Wilson-Esbrand,DEF,10005,Josh,Wilson-Esbrand,Wilson-Esbrand,HIGH
+447932,Zemura,Jordan,Zemura,DEF,10740,Jordan,Zemura,Zemura,HIGH
+448047,Enzo,Enzo,Fernández,MID,11356,Enzo,Fernández,Enzo,HIGH
+448089,J.Gomes,João Victor,Gomes da Silva,MID,11384,João Victor,Gomes da Silva,João Gomes,HIGH
+448104,Hincapie,Piero,Hincapié,DEF,9911,Piero,Hincapié,Hincapié,HIGH
+448487,Söndergaard,Andreas,Söndergaard,GK,9223,Andreas,Söndergaard,Söndergaard,HIGH
+448514,Aït-Nouri,Rayan,Aït-Nouri,DEF,6674,Rayan,Aït-Nouri,Aït-Nouri,HIGH
+448791,White,Harvey,White,MID,8458,Harvey,White,White,HIGH
+449027,Mamardashvili,Giorgi,Mamardashvili,GK,9693,Giorgi,Mamardashvili,Mamardashvili,HIGH
+449429,Greaves,Jacob,Greaves,DEF,12745,Jacob,Greaves,Greaves,HIGH
+449434,Elanga,Anthony,Elanga,MID,9524,Anthony,Elanga,Elanga,HIGH
+449781,Jankewitz,Alexandre,Jankewitz,MID,8511,Alexandre,Jankewitz,Jankewitz,HIGH
+449871,Onana,Amadou,Onana,MID,9667,Amadou,Onana,Onana,HIGH
+449988,Fábio Silva,Fábio,Silva,FWD,8778,Fabio,Silva,Fabio Silva,HIGH
+450070,Summerville,Crysencio,Summerville,MID,9492,Crysencio,Summerville,Summerville,HIGH
+450072,Sambo,Shurandy,Sambo,DEF,,,,,NONE
+450434,Undav,Deniz,Undav,FWD,10804,Deniz,Undav,Undav,HIGH
+450527,Salisu,Mohammed,Salisu,DEF,6923,Mohammed,Salisu,Salisu,HIGH
+450529,Bate,Lewis,Bate,MID,8544,Lewis,Bate,Bate,HIGH
+450535,Ebiowei,Malcolm,Ebiowei,MID,10698,Malcolm,Ebiowei,Ebiowei,HIGH
+450539,Peart-Harris,Myles,Peart-Harris,MID,10205,Myles,Peart-Harris,Peart-Harris,HIGH
+450542,Rak-Sakyi,Jesurun,Rak-Sakyi,MID,9461,Jesurun,Rak-Sakyi,Rak-Sakyi,HIGH
+450550,Stevens,Finley,Stevens,DEF,9916,Finley,Stevens,Stevens,HIGH
+451302,Bayindir,Altay,Bayindir,GK,12054,Altay,Bayindir,Altay,HIGH
+451340,Mitoma,Mitoma,Kaoru,MID,10806,Kaoru,Mitoma,Mitoma,LOW
+451432,David Carmo,David,Mota Veiga Teixeira do Carmo,DEF,,,,,NONE
+454667,Cajuste,Jens,Cajuste,MID,10301,Jens,Cajuste,Cajuste,HIGH
+455084,Davis,Leif,Davis,DEF,8919,Leif,Davis,Davis,HIGH
+456350,Bazunu,Gavin,Bazunu,GK,10765,Gavin,Bazunu,Bazunu,HIGH
+456512,Ndoye,Dan,Ndoye,MID,8662,Dan,Ndoye,Ndoye,HIGH
+456966,Watts,Caleb,Watts,MID,9256,Caleb,Watts,Watts,HIGH
+457569,Petrović,Đorđe,Petrović,GK,12032,Đorđe,Petrović,Petrović,HIGH
+458249,Zirkzee,Joshua,Zirkzee,FWD,8044,Joshua,Zirkzee,Zirkzee,HIGH
+458297,Ekwah,Pierre,Ekwah Elimby,MID,10284,,,,MEDIUM
+460028,Colwill,Levi,Colwill,DEF,10805,Levi,Colwill,Colwill,HIGH
+460029,Young-Coombes,Nathan,Young-Coombes,FWD,10150,Nathan,Young-Coombes,Young-Coombes,HIGH
+460842,Kudus,Mohammed,Kudus,MID,12027,Mohammed,Kudus,Kudus,HIGH
+461025,Butler-Oyedeji,Nathan,Butler-Oyedeji,FWD,11272,Nathan,Butler-Oyedeji,Butler-Oyedeji,HIGH
+461026,Campbell,Chem,Campbell,MID,9741,Chem,Campbell,Campbell,HIGH
+461096,Richardson,Lewis,Richardson,FWD,9082,Lewis,Richardson,Richardson,HIGH
+461188,Humphreys,Bashir,Humphreys,DEF,11243,Bashir,Humphreys,Humphreys,HIGH
+461195,Cirkin,Dennis,Cirkin,DEF,8537,Dennis,Cirkin,Cirkin,HIGH
+461199,Mundle,Romaine,Mundle,MID,11461,Romaine,Mundle,Mundle,HIGH
+461201,Craig,Matthew,Craig,MID,10579,Matthew,Craig,Craig,HIGH
+461358,J.Alvarez,Julián,Álvarez,FWD,10846,Julián,Álvarez,Álvarez,HIGH
+461416,Cannon,Tom,Cannon,FWD,11232,Thomas,Cannon,Cannon,HIGH
+461421,Dobbin,Lewis,Dobbin,MID,10027,Lewis,Dobbin,Dobbin,HIGH
+461446,Onyango,Tyler,Onyango,MID,9287,Tyler,Onyango,Onyango,HIGH
+461453,Warrington,Lewis,Warrington,MID,10775,Lewis,Warrington,Warrington,HIGH
+461484,White,Joe,White,MID,9959,Joe,White,White,HIGH
+461537,Mee,Dermot,Mee,GKP,12531,,,,MEDIUM
+461566,Fish,William,Fish,DEF,9557,William,Fish,Fish,HIGH
+461567,Dodgson,Owen,Dodgson,DEF,9827,,,,MEDIUM
+461584,Marcal,Wanya,Marçal-Madivádua,MID,11368,Wanya,Marçal-Madivadua,Marçal-Madivadua,HIGH
+461587,McAteer,Kasey,McAteer,MID,10166,Kasey,McAteer,McAteer,HIGH
+461682,B.Aguilera,Brandon,Aguilera Zamora,MID,12034,Brandon,Aguilera,Aguilera,HIGH
+462116,Todibo,Jean-Clair,Todibo,DEF,6816,Jean-Clair,Todibo,Todibo,HIGH
+462381,Marschall,Filip,Marschall,GK,10173,Filip,Marschall,Marschall,HIGH
+462387,Al-Hamadi,Ali,Al-Hamadi,FWD,12751,Ali,Al-Hamadi,Al-Hamadi,HIGH
+462424,Saliba,William,Saliba,DEF,6888,William,Saliba,Saliba,HIGH
+462492,Gauci,Joe,Gauci,GK,12445,Joe,Gauci,Gauci,HIGH
+462635,Gelhardt,Joe,Gelhardt,FWD,9339,Joe,Gelhardt,Gelhardt,HIGH
+463034,Delap,Liam,Delap,FWD,8868,Liam,Delap,Delap,HIGH
+463067,Georginio,Georginio,Rutter,MID,6937,Georginio,Rutter,Rutter,MEDIUM
+463210,Charles,Shea,Charles,MID,11594,Shea,Charles,Charles,HIGH
+463212,Forbs,Carlos Roberto,Forbs Borges,MID,13092,Carlos Roberto,Forbs Borges,Forbs,HIGH
+463748,Hein,Karl,Hein,GK,9692,Karl,Hein,Hein,HIGH
+463903,Lindstrøm,Jesper,Lindstrøm,MID,9752,Jesper,Lindstrøm,Lindstrøm,HIGH
+463936,Gittens,Jamie,Bynoe-Gittens,MID,10542,Jamie,Bynoe-Gittens,Bynoe-Gittens,HIGH
+463981,Hill,James,Hill,DEF,10747,James,Hill,Hill,HIGH
+464353,Davies,Harvey,Davies,GK,11028,Harvey,Davies,H.Davies,HIGH
+464618,McCarron,Liam,McCarron,MID,9933,Liam,McCarron,McCarron,HIGH
+465247,Lammens,Senne,Lammens,GK,14056,Senne,Lammens,Lammens,HIGH
+465351,Matheus N.,Matheus Luiz,Nunes,MID,11000,Matheus Luiz,Nunes,Matheus,HIGH
+465390,Kesler-Hayden,Kaine,Kesler-Hayden,DEF,9409,Kaine,Hayden,Hayden,MEDIUM
+465527,Hannibal,Hannibal,Mejbri,MID,9558,Hannibal,Mejbri,Mejbri,MEDIUM
+465572,Khadra,Reda,Khadra,MID,9250,Reda,Khadra,Khadra,HIGH
+465607,Ansu Fati,Anssumane,Fati Vieira,MID,7967,Anssumane,Fati,Fati,HIGH
+465642,Thiaw,Malick,Thiaw,DEF,8378,Malick,Thiaw,Thiaw,HIGH
+465680,Kalimuendo,Arnaud,Kalimuendo,FWD,8056,Arnaud,Kalimuendo Muinga,Kalimuendo Muinga,HIGH
+465694,N.Gonzalez,Nico,González,MID,9802,Nico,González,González,HIGH
+465702,Pembele,Timothée,Pembélé,DEF,8701,,,,MEDIUM
+465730,De Cuyper,Maxim,De Cuyper,DEF,13711,Maxim,De Cuyper,De Cuyper,HIGH
+465920,Mudryk,Mykhailo,Mudryk,MID,11305,Mykhailo,Mudryk,Mudryk,HIGH
+466052,Cherki,Rayan,Cherki,MID,8094,Mathis,Cherki,Cherki,HIGH
+466075,Calafiori,Riccardo,Calafiori,DEF,8129,Riccardo,Calafiori,Calafiori,HIGH
+466117,Ahamada,Naouirou,Ahamada,MID,9274,Naouirou,Ahamada,Ahamada,HIGH
+466404,Omobamidele,Andrew,Omobamidele,DEF,9833,Andrew,Omobamidele,Omobamidele,HIGH
+466525,Stach,Anton,Stach,MID,9910,Anton,Stach,Stach,HIGH
+467169,Antony,Antony Matheus,dos Santos,MID,11094,Antony Matheus,dos Santos,Antony,HIGH
+467189,Hermansen,Mads,Hermansen,GK,12910,Mads,Hermansen,Hermansen,HIGH
+467779,Wieffer,Mats,Wieffer,MID,12758,Mats,Wieffer,Wieffer,HIGH
+469130,Lucca,Lorenzo,Lucca,FWD,11936,,,,MEDIUM
+469142,Van Hecke,Jan Paul,van Hecke,DEF,10807,Jan Paul,van Hecke,Van Hecke,HIGH
+469247,Iling Jr,Samuel,Iling-Junior,MID,10616,Samuel,Iling-Junior,Iling Jr,HIGH
+469272,Tchaouna,Loum,Tchaouna,MID,9977,Loum,Tchaouna,Tchaouna,HIGH
+470294,Gyabi,Darko,Gyabi,MID,10752,Darko,Gyabi,Gyabi,HIGH
+470313,Woltemade,Nick,Woltemade,FWD,8117,Nick,Woltemade,Woltemade,HIGH
+470315,Netz,Luca,Netz,DEF,8401,,,,MEDIUM
+471471,Louza,Imrân,Louza,MID,7278,Imrân,Louza,Louza,HIGH
+471798,Slonina,Gabriel,Słonina,GKP,13854,,,,MEDIUM
+471848,Seriki,Femi,Seriki,MID,9540,Femi,Seriki,Seriki,HIGH
+472464,Shoretire,Shola,Shoretire,MID,9359,Shola,Shoretire,Shoretire,HIGH
+472713,Hickey,Aaron,Hickey,DEF,8942,Aaron,Hickey,Hickey,HIGH
+472739,Rushworth,Carl,Rushworth,GK,12760,Carl,Rushworth,Rushworth,HIGH
+472769,O’Reilly,Nico,O'Reilly,MID,11592,Nico,O'Reilly,O'Reilly,HIGH
+473341,Okoli,Caleb,Okoli,DEF,7333,Caleb,Okoli,Okoli,HIGH
+473342,McKinstry,Stuart,McKinstry,MID,10001,Stuart,McKinstry,McKinstry,HIGH
+474120,Enciso,Julio,Enciso,MID,11058,Julio,Enciso,Enciso,HIGH
+474907,Welch,Reece,Welch,DEF,9469,,,,MEDIUM
+475123,C.Miguel,Carlos Miguel,dos Santos Pereira,GK,12764,Carlos Miguel,dos Santos Pereira,C.Miguel,HIGH
+475168,João Pedro,João Pedro,Junqueira de Jesus,FWD,8272,João Pedro,Junqueira de Jesus,João Pedro,HIGH
+475480,Baker-Boaitey,Benicio,Baker-Boaitey,MID,12204,Benicio,Baker-Boaitey,Baker-Boaitey,HIGH
+476344,Duran,Jhon,Durán,FWD,11366,Jhon,Durán,Durán,HIGH
+476369,Kaboré,Issa,Kaboré,DEF,9619,Issa,Kaboré,Kaboré,HIGH
+476502,B.Traore,Boubacar,Traoré,MID,8119,Boubacar,Traoré,Traoré,HIGH
+476887,Bakwa,Dilane,Bakwa,MID,8920,Dilane,Bakwa,Bakwa,HIGH
+476888,Mara,Sékou,Mara,FWD,8970,Sékou,Mara,Mara,HIGH
+477064,Lewis,Rico,Lewis,DEF,10847,Rico,Lewis,Lewis,HIGH
+477386,Bella-Kotchap,Armel,Bella-Kotchap,DEF,9710,Armel,Bella-Kotchap,Bella-Kotchap,HIGH
+477424,Gvardiol,Joško,Gvardiol,DEF,9790,Joško,Gvardiol,Gvardiol,HIGH
+477547,Hjelde,Leo Fuhr,Hjelde,DEF,10028,Leo,Fuhr Hjelde,Hjelde,HIGH
+477555,Bobb,Oscar,Bobb,MID,11903,Oscar,Bobb,Bobb,HIGH
+477580,Zabarnyi,Illia,Zabarnyi,DEF,11486,Illia,Zabarnyi,Zabarnyi,HIGH
+477717,Estève,Maxime,Esteve,DEF,9487,Maxime,Estève,Estève,HIGH
+477851,Ba,Abdoullah,Ba,MID,,,,,NONE
+478028,Kayky,Kayky da Silva,Chagas,FWD,10203,Kayky,,Kayky,HIGH
+478912,Chukwuemeka,Carney,Chukwuemeka,MID,9356,Carney,Chukwuemeka,Chukwuemeka,HIGH
+478969,Ekdal,Hjalmar,Ekdal,DEF,11704,Hjalmar,Ekdal,Ekdal,HIGH
+479683,Marquinhos,Marcus,Oliveira Alencar,MID,11035,Marquinhos,,Marquinhos,HIGH
+480455,Branthwaite,Jarrad,Branthwaite,DEF,8476,Jarrad,Branthwaite,Branthwaite,HIGH
+481283,Wright,James,Wright,GKP,11488,,,,MEDIUM
+481405,Bidstrup,Mads,Bidstrup,MID,9682,Mads,Bidstrup,Bidstrup,HIGH
+481510,Kristiansen,Victor,Kristiansen,DEF,11367,Victor,Kristiansen,Kristiansen,HIGH
+481624,Jaden,Jaden,Philogene,MID,9415,Jaden,Philogene-Bidace,Philogene-Bidace,LOW
+481655,Zubimendi,Martín,Zubimendi Ibáñez,MID,7526,Martín,Zubimendi,Zubimendi,HIGH
+482158,Bergström,Lucas,Bergström,GK,11809,Lucas,Bergström,Bergström,HIGH
+482442,P.M.Sarr,Pape Matar,Sarr,MID,9021,Pape Matar,Sarr,Sarr,HIGH
+482609,Gusto,Malo,Gusto,DEF,9017,Malo,Gusto,Gusto,HIGH
+482769,Perrone,Máximo,Perrone,MID,11378,Máximo,Perrone,Perrone,HIGH
+482973,Igor Jesus,Igor Jesus,Maciel da Cruz,FWD,13778,Igor,Jesus,Jesus,HIGH
+483081,R.Gomes,Rodrigo,Martins Gomes,MID,12756,Rodrigo,Martins Gomes,R.Gomes,HIGH
+483364,Hegyi,Krisztián,Hegyi,GKP,11369,,,,MEDIUM
+483365,Rowe,Jonathan,Rowe,MID,10172,Jonathan,Rowe,Rowe,HIGH
+484420,E.Le Fée,Enzo,Le Fée,MID,8651,Enzo,Le Fée,Le Fée,HIGH
+485047,Morato,Felipe,Rodrigues da Silva,DEF,13068,Felipe,Rodrigues da Silva,Morato,HIGH
+485055,Kinsky,Antonín,Kinsky,GK,13348,Antonín,Kinsky,Kinsky,HIGH
+485337,Guessand,Evann,Guessand,MID,8006,Evann,Guessand,Guessand,HIGH
+485711,Šeško,Benjamin,Sesko,FWD,11974,Benjamin,Sesko,Sesko,HIGH
+486385,Beto,Norberto Bercique,Gomes Betuncal,FWD,9983,Norberto Bercique,Gomes Betuncal,Beto,HIGH
+486520,Gruev,Ilia,Gruev,MID,8000,Ilia,Gruev,Gruev,HIGH
+486672,Caicedo,Moisés,Caicedo Corozo,MID,9453,Moisés,Caicedo Corozo,Caicedo,HIGH
+486870,Alves,Frederik,Alves,DEF,9254,Frederik,Alves,Alves,HIGH
+487053,Udogie,Destiny,Udogie,DEF,8831,Destiny,Udogie,Udogie,HIGH
+487117,Ferguson,Evan,Ferguson,FWD,10177,Evan,Ferguson,Ferguson,HIGH
+487676,Hume,Trai,Hume,DEF,13713,Trai,Hume,Hume,HIGH
+487702,Koleosho,Luca,Koleosho,MID,10620,Luca,Koleosho,Koleosho,HIGH
+487818,Whitworth,Joseph,Whitworth,GK,11005,Joseph,Whitworth,Whitworth,HIGH
+487828,Forson,Omari,Forson,MID,12340,Omari,Forson,Forson,HIGH
+487836,Hackford,Antwoine,Hackford,FWD,9222,Antwoine,Hackford,Hackford,HIGH
+487837,Mubama,Divin,Mubama,FWD,11242,Divin,Mubama,Mubama,HIGH
+487838,Hall,Lewis,Hall,DEF,10216,Lewis,Hall,Hall,HIGH
+487968,Al-Dakhil,Ameen,Al-Dakhil,DEF,11699,Ameen,Al Dakhil,Dakhil,HIGH
+488024,Yeremy,Yéremy,Pino Santos,MID,9024,Yeremi,Pino,Pino,HIGH
+488213,Tolu,Tolu,Arokodare,FWD,8875,Tolu,Arokodare,Arokodare,HIGH
+488404,Pellistri,Facundo,Pellistri Rebollo,MID,9324,Facundo,Pellistri Rebollo,Pellistri,HIGH
+488439,Coulibaly,Woyo,Coulibaly,DEF,12782,Woyo,Coulibaly,Coulibaly,HIGH
+488464,Wiley,Caleb,Wiley,DEF,12837,Caleb,Wiley,Wiley,HIGH
+489571,Green,Etienne,Green,GKP,9294,,,,MEDIUM
+489580,Ramsay,Calvin,Ramsay,DEF,11214,,,,MEDIUM
+489639,Verbruggen,Bart,Verbruggen,GK,11711,Bart,Verbruggen,Verbruggen,HIGH
+489706,Devenny,Justin,Devenny,MID,13038,Justin,Devenny,Devenny,HIGH
+489888,Adli,Amine,Adli,MID,8211,Amine,Adli,Adli,HIGH
+490000,Nna Noukeu,Blondy,Nna Noukeu,GKP,,,,,NONE
+490094,Iroegbunam,Tim,Iroegbunam,MID,9554,Tim,Iroegbunam,Iroegbunam,HIGH
+490142,Potts,Freddie,Potts,MID,13724,Freddie,Potts,Potts,HIGH
+490145,Scarlett,Dane,Scarlett,FWD,9332,Dane,Scarlett,Scarlett,HIGH
+490146,Stansfield,Jay,Stansfield,FWD,10718,Jay,Stansfield,Stansfield,HIGH
+490150,Ndiweni,Michael,Ndiweni,FWD,12215,Michael,Ndiweni,Ndiweni,HIGH
+490503,Edozie,Samuel,Edozie,MID,10072,Samuel,Edozie,Edozie,HIGH
+490721,H.Bueno,Hugo,Bueno López,DEF,10140,Hugo,Bueno López,Bueno,HIGH
+490881,Collyer,Toby,Collyer,MID,12461,Toby,Collyer,Collyer,HIGH
+490885,Earthy,George,Earthy,MID,12474,George,Earthy,Earthy,HIGH
+491007,D.Essugo,Dário,Luís Essugo,MID,13094,,,,MEDIUM
+491012,Y. Chermiti,Youssef,Ramalho Chermiti,FWD,11984,Youssef,Ramalho Chermiti,Y. Chermiti,HIGH
+491279,Van de Ven,Micky,van de Ven,DEF,10050,Micky,van de Ven,Van de Ven,HIGH
+491287,Barrenechea,Enzo,Barrenechea,MID,11140,Enzo,Barrenechea,Barrenechea,HIGH
+491501,McConnell,James,McConnell,MID,11811,James,McConnell,McConnell,HIGH
+491557,Metcalfe,Jenson,Metcalfe,MID,12269,Jenson,Metcalfe,Metcalfe,HIGH
+491559,Price,Isaac,Price,MID,9470,Isaac,Price,Price,HIGH
+491598,Peupion,Cameron,Peupion,MID,11544,Cameron,Peupion,Peupion,HIGH
+491745,Campbell,Elijah,Campbell,DEF,12270,,,,MEDIUM
+491970,Clark,Bobby,Clark,MID,10997,Bobby,Clark,Clark,HIGH
+492066,Huggins,Niall,Huggins,FWD,9219,Niall,Huggins,Huggins,HIGH
+492368,Schmidt,Isaac,Schmidt,DEF,13974,,,,MEDIUM
+492373,Cresswell,Charlie,Cresswell,DEF,9220,Charlie,Cresswell,Cresswell,HIGH
+492776,Lembikisa,Dexter,Lembikisa,DEF,11233,Dexter,Lembikisa,Lembikisa,HIGH
+492777,Bradley,Conor,Bradley,DEF,10120,Conor,Bradley,Bradley,HIGH
+492831,Amdouni,Zeki,Amdouni,FWD,11701,Zeki,Amdouni,Amdouni,HIGH
+492859,Gnonto,Wilfried,Gnonto,FWD,11155,Wilfried,Gnonto,Gnonto,HIGH
+493105,Garnacho,Alejandro,Garnacho,MID,10552,Alejandro,Garnacho,Garnacho,HIGH
+493125,Dragusin,Radu,Drăgușin,DEF,9105,Radu,Dragusin,Drăgușin,HIGH
+493250,Amad,Amad,Diallo,MID,8127,Amad,Diallo,Amad,HIGH
+493362,Xavi,Xavi,Simons,MID,8700,Xavi,Simons,Simons,HIGH
+493837,Matete,Jay,Matete,MID,,,,,NONE
+493934,Baah,Kwadwo,Baah,MID,9846,Kwadwo,Baah,Baah,HIGH
+494041,Brierley,Ethan,Brierley,MID,11986,Ethan,Brierley,Brierley,HIGH
+494307,Alleyne,Max,Alleyne,DEF,13298,Max,Alleyne,Alleyne,HIGH
+494521,Truffert,Adrien,Truffert,DEF,8640,Adrien,Truffert,Truffert,HIGH
+494541,Doyle,Kamari,Doyle,MID,11582,Kamari,Doyle,Doyle,HIGH
+494543,Ballard,Dominic,Ballard,FWD,11583,Dominic,Ballard,Ballard,HIGH
+494595,Wirtz,Florian,Wirtz,MID,8397,Florian,Wirtz,Wirtz,HIGH
+494779,Grønbæk,Albert,Grønbæk,MID,12880,Albert,Grønbæk,Grønbæk,HIGH
+494960,Hartman,Quilindschy,Hartman,DEF,13727,Quilindschy,Hartman,Hartman,HIGH
+495024,Jay Robinson,Jay,Robinson,FWD,13582,Jay,Robinson,Robinson,HIGH
+495145,Paulsen,Alex,Paulsen,GKP,,,,,NONE
+495161,Stamenic,Marko,Stamenić,MID,,,,,NONE
+495542,Nkounkou,Niels,Nkounkou,DEF,8109,Niels,Nkounkou,Nkounkou,HIGH
+496178,Dixon,Roman,Dixon,DEF,12946,Roman,Dixon,Dixon,HIGH
+496179,Devine,Alfie,Devine,MID,9306,Alfie,Devine,Devine,HIGH
+496185,Gordon,Kaide,Gordon,MID,10118,Kaide,Gordon,Gordon,HIGH
+496208,Doak,Ben,Doak,MID,11231,Ben,Doak,Doak,HIGH
+496221,Wharton,Adam,Wharton,MID,12409,Adam,Wharton,Wharton,HIGH
+496228,Perkins,Sonny,Perkins,MID,10141,Sonny,Perkins,Perkins,HIGH
+496279,Heath,Isaac,Heath,MID,13457,,,,MEDIUM
+496661,Dibling,Tyler,Dibling,MID,10586,Tyler,Dibling,Dibling,HIGH
+496683,Kinsey,Max,Kinsey,DEF,11365,Max,Kinsey-Wellings,Kinsey-Wellings,MEDIUM
+497606,Chirewa,Tawanda,Chirewa,MID,12234,Tawanda,Chirewa,Chirewa,HIGH
+497894,Højlund,Rasmus,Højlund,FWD,11055,Rasmus,Højlund,Højlund,HIGH
+497949,Møller Wolfe,David,Møller Wolfe,DEF,13740,David,Møller Wolfe,Møller Wolfe,HIGH
+498016,Roefs,Robin,Roefs,GK,13712,Robin,Roefs,Roefs,HIGH
+498046,Oulad M'hand,Salah-Eddine,Oulad M'hand,MID,10351,Salah-Eddine,Oulad M'hand,Oulad M'hand,HIGH
+499167,Nichols,Josh,Nichols,DEF,13115,Josh,Nichols,Nichols,HIGH
+499169,Lewis-Skelly,Myles,Lewis-Skelly,MID,12272,Myles,Lewis-Skelly,Lewis-Skelly,HIGH
+499175,Nwaneri,Ethan,Nwaneri,MID,11132,Ethan,Nwaneri,Nwaneri,HIGH
+499300,Aznou,Adam,Aznou,DEF,12371,,,,MEDIUM
+499309,Marc Guiu,Marc,Guiu Paz,FWD,11633,Marc,Guiu Paz,Marc Guiu,HIGH
+499604,Rayan,Rayan Vitor,Simplício Rocha,MID,14395,,Rayan,Rayan,HIGH
+499716,Rowswell,James,Rowswell,DEF,14176,,,,MEDIUM
+499717,Meghoma,Jayden,Meghoma,DEF,13067,Jayden,Meghoma,Meghoma,HIGH
+499721,Moore,Mikey,Moore,MID,12603,Mikey,Moore,Moore,HIGH
+499724,Amo-Ameyaw,Samuel,Amo-Ameyaw,MID,11618,Samuel,Amo-Ameyaw,Amo-Ameyaw,HIGH
+499726,Olusesi,Callum,Olusesi,MID,13224,Callum,Olusesi,Olusesi,HIGH
+499857,Sharman-Lowe,Teddy,Sharman-Lowe,GKP,12561,,,,MEDIUM
+500016,Welington,Welington Damascena,Santos,DEF,13403,Welington Damascena,Santos,Welington,HIGH
+500040,Mosquera,Cristhian,Mosquera,DEF,10024,Cristhian,Mosquera,Mosquera,HIGH
+500058,Danns,Jayden,Danns,FWD,12455,Jayden,Danns,Danns,HIGH
+500151,Savona,Nicolò,Savona,DEF,12905,Nicolò,Savona,Savona,HIGH
+500696,Triantis,Nectarios,Triantis,MID,,,,,NONE
+500926,Edwards,Ronnie,Edwards,DEF,13239,Ronnie,Edwards,Edwards,HIGH
+501284,Olakigbe,Michael,Olakigbe,MID,11487,Michael,Olakigbe,Olakigbe,HIGH
+501770,Nelson,Ben,Nelson,DEF,10167,Ben,Nelson,Nelson,HIGH
+501837,Mosquera,Yerson,Mosquera,DEF,9958,Yerson,Mosquera Valdelamar,Mosquera,HIGH
+502222,Sosa,Ramón,Sosa,MID,13021,Ramón,Sosa,Sosa,HIGH
+502500,Thiago,Igor Thiago,Nascimento Rodrigues,FWD,13222,Igor Thiago,Nascimento Rodrigues,Thiago,HIGH
+502697,Alcaraz,Carlos,Alcaraz Durán,MID,11297,Carlos,Alcaraz,Alcaraz,HIGH
+502988,Imray,Danny,Imray,DEF,14355,,,,MEDIUM
+503139,Scott,Alex,Scott,MID,12149,Alex,Scott,Scott,HIGH
+503300,Cox,Matthew,Cox,GKP,10093,,,,MEDIUM
+503301,Hutchinson,Omari,Giraud-Hutchinson,MID,10348,Omari,Hutchinson,Hutchinson,HIGH
+503714,Ugochukwu,Lesley,Ugochukwu,MID,9451,Lesley,Ugochukwu,Ugochukwu,HIGH
+503724,Assignon,Lorenz,Assignon,DEF,8973,Lorenz,Assignon,Assignon,HIGH
+504198,Slimane,Anis,Slimane,MID,11730,Anis,Ben Slimane,Slimane,HIGH
+504296,Ebere,Coby,Ebere,MID,13462,,,,MEDIUM
+504598,Gore,Daniel,Gore,MID,11987,Daniel,Gore,Gore,HIGH
+504783,Kamaldeen,Kamaldeen,Sulemana,MID,9630,Kamaldeen,Sulemana,Kamaldeen,HIGH
+505079,McNally,Alfie,McNally,GKP,14308,,,,MEDIUM
+505187,Casadei,Cesare,Casadei,MID,10433,Cesare,Casadei,Casadei,HIGH
+507433,Valdimarsson,Hákon,Valdimarsson,GK,12595,Hákon,Valdimarsson,Valdimarsson,HIGH
+508395,Yarmoliuk,Yehor,Yarmoliuk,MID,11772,Yegor,Yarmoliuk,Yarmoliuk,HIGH
+508479,Jørgensen,Filip,Jørgensen,GK,9272,Filip,Jørgensen,Jørgensen,HIGH
+509291,André,André,Trindade da Costa Neto,MID,13022,André,Trindade da Costa Neto,André,HIGH
+509416,Ayari,Yasin,Ayari,MID,11385,Yasin,Ayari,Ayari,HIGH
+510281,Savinho,Sávio 'Savinho',Moreira de Oliveira,MID,11735,Sávio 'Savinho',Moreira de Oliveira,Sávio,HIGH
+510362,Toti,Toti António,Gomes,DEF,10293,Toti António,Gomes,Toti,HIGH
+510363,Chiquinho,Francisco Jorge,Tomás Oliveira,MID,10327,Francisco Jorge,Tomás Oliveira,Chiquinho,HIGH
+510500,Jota Silva,João Pedro,Ferreira Silva,MID,12766,João Pedro,Ferreira Silva,Jota Silva,HIGH
+510663,Ekitiké,Hugo,Ekitiké,FWD,8995,Hugo,Ekitike,Ekitike,HIGH
+511499,Tel,Mathys,Tel,MID,9780,Mathys,Tel,Tel,HIGH
+511783,Zaroury,Anass,Zaroury,MID,11703,Anass,Zaroury,Zaroury,HIGH
+512462,O'Brien,Jake,O'Brien,DEF,12014,Jake,O'Brien,O'Brien,HIGH
+513046,Danilo,Danilo,dos Santos de Oliveira,MID,11317,Danilo,dos Santos de Oliveira,Danilo,HIGH
+513418,Schade,Kevin,Schade,MID,9156,Kevin,Schade,Schade,HIGH
+513433,Gruda,Brajan,Gruda,MID,11310,Brajan,Gruda,Gruda,HIGH
+513466,Röhl,Merlin,Röhl,MID,11331,Merlin,Röhl,Röhl,HIGH
+513527,El Khannouss,Bilal,El Khannouss,MID,13020,Bilal,El Khannouss,El Khannouss,HIGH
+513588,Donley,Jamie,Donley,FWD,12118,Jamie,Donley,Donley,HIGH
+513834,Moran,Andrew,Moran,MID,11193,Andrew,Moran,Moran,HIGH
+514254,Gómez,Diego,Gómez,MID,13364,Diego,Gómez,Gómez,HIGH
+514277,Tauriainen,Jimi,Tauriainen,MID,12497,Jimi,Tauriainen,Tauriainen,HIGH
+514280,Gilchrist,Alfie,Gilchrist,DEF,11595,Alfie,Gilchrist,Gilchrist,HIGH
+514287,Swinkels,Sil,Swinkels,DEF,11393,Sil,Swinkels,Swinkels,HIGH
+514315,Sousa,Lino,da Cruz Sousa,DEF,11133,Lino,Sousa,Sousa,MEDIUM
+514356,Lavia,Roméo,Lavia,MID,10004,Roméo,Lavia,Lavia,HIGH
+514362,Ojinnaka,Temple,Ojinnaka,MID,12575,,,,MEDIUM
+514613,Johnson,Zak,Johnson,DEF,,,,,NONE
+515024,Harris,Luke,Harris,MID,10719,Luke,Harris,Harris,HIGH
+515046,Ellborg,Melker,Ellborg,GKP,,,,,NONE
+515501,Álvaro Fernández,Álvaro,Fernández,DEF,5191,Álvaro,Fernández,Fernández,HIGH
+515571,Larios,Juan,Larios López,DEF,11078,Juan,Larios López,Larios,HIGH
+515597,Bogarde,Lamare,Bogarde,DEF,10025,Lamare,Bogarde,Bogarde,HIGH
+515621,Chadi Riad,Chadi,Riad Dnanou,DEF,11167,Chadi,Riad Dnanou,Chadi Riad,HIGH
+516159,Zych,Oliwier,Zych,GK,11394,Oliwier,Zych,Zych,HIGH
+516211,Sima,Abdallah,Sima,MID,11046,,,,MEDIUM
+516234,Gray,Charlie,Gray,MID,14255,,,,MEDIUM
+516250,Wright,Jacob,Wright,MID,12427,Jacob,Wright,Wright,HIGH
+516875,Hollingshead,Ronnie,Hollingshead,GKP,14218,,,,MEDIUM
+516895,Mainoo,Kobbie,Mainoo,MID,11174,Kobbie,Mainoo,Mainoo,HIGH
+516939,Agbadou,Emmanuel,Agbadou,DEF,10856,Emmanuel,Agbadou,Agbadou,HIGH
+517052,N.Jackson,Nicolas,Jackson,FWD,10048,Nicolas,Jackson,N.Jackson,HIGH
+517179,Pond,Alfie,Pond,DEF,13117,Alfie,Pond,Pond,HIGH
+518030,Weiss,Max,Weiß,GKP,13731,,,,MEDIUM
+518335,Merrick,Max,Merrick,GKP,14317,,,,MEDIUM
+518438,Casey,Kaelan,Casey,DEF,11409,Kaelan,Casey,Casey,HIGH
+518442,Orford,Lewis,Orford,MID,12296,Lewis,Orford,Orford,HIGH
+518466,Kambwala,Willy,Kambwala,DEF,12275,Willy,Kambwala,Kambwala,HIGH
+518620,Ângelo,Ângelo Gabriel,Borges Damaceno,MID,11818,Ângelo Gabriel,Borges Damaceno,Ângelo,HIGH
+518906,Bevan,Owen,Bevan,DEF,11034,Owen,Bevan,Bevan,HIGH
+519198,Matos,Alex,Matos,MID,12086,Alex,Matos,Matos,HIGH
+519321,Dorrington,Alfie,Dorrington,DEF,12193,Alfie,Dorrington,Dorrington,HIGH
+519324,Cozier-Duberry,Amario,Cozier-Duberry,MID,11241,Amario,Cozier-Duberry,Cozier-Duberry,HIGH
+519327,Abbott,George,Abbott,MID,11509,George,Abbott,Abbott,HIGH
+519440,Lucky,Wellity,Lucky,DEF,14236,,,,MEDIUM
+519634,Seelt,Jenson,Seelt,DEF,13714,Jenson,Seelt,Seelt,HIGH
+519895,Sonne,Oliver,Sonne,DEF,13726,Oliver,Sonne,Sonne,HIGH
+519913,Fletcher,Tyler,Fletcher,MID,14272,,,,MEDIUM
+520295,D.D.Fofana,David Datro,Fofana,FWD,11295,David Datro,Fofana,D.D.Fofana,HIGH
+521966,Munroe,Finley,Munroe,DEF,12581,Finley,Munroe,Munroe,HIGH
+523700,Jebbison,Daniel,Jebbison,FWD,9509,Daniel,Jebbison,Jebbison,HIGH
+523705,Tchatchoua,Jackson,Tchatchoua,DEF,12113,Jackson,Tchatchoua,Tchatchoua,HIGH
+523957,T.Bénie,Bénie,Traoré,FWD,11729,Bénie,Traoré,Traoré,HIGH
+524180,Humphreys,Cameron,Humphreys,MID,1061,Cameron,Humphreys,Humphreys,HIGH
+530121,Silcott-Duberry,Zain,Silcott-Duberry,MID,13351,Zain,Silcott-Duberry,Silcott-Duberry,HIGH
+530318,Rodney,Kaden,Rodney,MID,11033,Kaden,Rodney,Rodney,HIGH
+530335,Pablo,Pablo Felipe,Pereira de Jesus,FWD,14290,,Pablo,Pablo,HIGH
+531170,Djiga,Nasser,Djiga,DEF,13463,Nasser,Djiga,Djiga,HIGH
+531363,Fraser,Nathan,Fraser,FWD,11210,Nathan,Fraser,Fraser,HIGH
+531442,A.Fatawu,Abdul,Fatawu,MID,12911,Abdul,Fatawu,A.Fatawu,HIGH
+531989,Ozoh,David,Ozoh,MID,11268,David,Ozoh,Ozoh,HIGH
+531997,Cartwright,Henry,Cartwright,MID,13273,Henry,Cartwright,Cartwright,HIGH
+532372,Arblaster,Oliver,Arblaster,MID,12449,Oliver,Arblaster,Arblaster,HIGH
+532529,Hinshelwood,Jack,Hinshelwood,MID,11269,Jack,Hinshelwood,Hinshelwood,HIGH
+532534,Alves,Will,Alves,MID,13302,Will,Alves,Alves,HIGH
+532535,Wilson-Brown,Thomas,Wilson-Brown,DEF,13304,Thomas,Wilson-Brown,Wilson-Brown,HIGH
+532605,Andrey Santos,Andrey,Nascimento dos Santos,MID,11808,Andrey,Nascimento dos Santos,Andrey Santos,HIGH
+533463,O.Dango,Dango,Ouattara,MID,9662,Dango,Ouattara,Ouattara,HIGH
+533710,Morgan,Iwan,Morgan,FWD,13472,,,,MEDIUM
+534392,Burstow,Mason,Burstow,FWD,11810,Mason,Burstow,Burstow,HIGH
+534836,Patterson,Travis,Patterson,DEF,11507,,,,MEDIUM
+535017,Eyestone,Julian,Eyestone,GKP,13408,,,,MEDIUM
+535301,Baleba,Carlos,Baleba,MID,10527,Carlos,Baleba,Baleba,HIGH
+535818,Adingra,Simon,Adingra,MID,11710,Simon,Adingra,Adingra,HIGH
+535928,Bajcetic,Stefan,Bajčetić Maquieira,MID,10723,Stefan,Bajcetic,Bajcetic,HIGH
+536109,Scarles,Ollie,Scarles,DEF,12358,Oliver,Scarles,Scarles,HIGH
+536119,Crew,Charlie,Crew,MID,,,,,NONE
+536134,Kyerematen,Rio,Kyerematen,MID,14409,,,,MEDIUM
+536241,Sherif,Martin,Sherif,FWD,13345,Martin,Sherif,Sherif,HIGH
+536661,Angulo,Nilson,Angulo,MID,,,,,NONE
+536694,M.França,Matheus,França de Oliveira,MID,12152,Matheus,França de Oliveira,Matheus França,HIGH
+536908,Veliz,Alejo,Véliz,FWD,12105,Alejo,Véliz,Veliz,HIGH
+536916,Buonanotte,Facundo,Buonanotte,MID,11362,Facundo,Buonanotte,Buonanotte,HIGH
+537043,Kesler Hayden,Kaine,Kesler Hayden,DEF,9409,Kaine,Hayden,Hayden,HIGH
+537403,Young,Kadan,Young,MID,11240,Kadan,Young,Kadan Young,HIGH
+538207,Osula,William,Osula,FWD,9556,William,Osula,Osula,HIGH
+538210,Brooks,Andre,Brooks,MID,11731,Andre,Brooks,Brooks,HIGH
+539721,McConville,Ruairi,McConville,DEF,13219,Ruairi,McConville,McConville,HIGH
+541462,Akinmboni,Matai,Akinmboni,DEF,13344,Matai,Akinmboni,Akinmboni,HIGH
+543158,Barco,Valentín,Barco,DEF,12498,Valentín,Barco,Barco,HIGH
+543295,Milambo,Antoni,Milambo,MID,13780,Antoni,Milambo,Milambo,HIGH
+544877,Kerkez,Milos,Kerkez,DEF,11709,Milos,Kerkez,Kerkez,HIGH
+545477,A.Murphy,Alex,Murphy,DEF,12199,Alex,Murphy,A.Murphy,HIGH
+545508,O'Brien-Whitmarsh,Joseph,O'Brien-Whitmarsh,MID,13258,Joseph,O'Brien-Whitmarsh,O'Brien-Whitmarsh,HIGH
+547027,Diarra,Habib,Diarra,MID,9767,Habib,Diarra,Diarra,HIGH
+547037,Fletcher,Jack,Fletcher,MID,13150,Jack,Fletcher,Fletcher,HIGH
+547410,H.Jones,Harrison,Jones,MID,13722,,,,MEDIUM
+547676,Fredricson,Tyler,Fredricson,DEF,13467,Tyler,Fredricson,Fredricson,HIGH
+547692,Rak-Sakyi,Samuel,Rak-Sakyi,MID,13286,Samuel,Rak-Sakyi,Rak-Sakyi,HIGH
+547701,Gray,Archie,Gray,MID,10184,Archie,Gray,Gray,HIGH
+547716,Parkinson,Ben,Parkinson,FWD,12198,Ben,Parkinson,Parkinson,HIGH
+547719,Miley,Lewis,Miley,MID,11386,Lewis,Miley,Miley,HIGH
+547720,Tasker,Charlie,Tasker,DEF,13570,,,,MEDIUM
+547801,Bates,Callum,Bates,MID,13204,Callum,Bates,Bates,HIGH
+548308,A.Phillips,Ashley,Phillips,DEF,12031,Ashley,Phillips,Phillips,HIGH
+549067,Abbott,Zach,Abbott,DEF,13306,Zach,Abbott,Abbott,HIGH
+549068,Kellyman,Omari,Kellyman,MID,11739,Omari,Kellyman,Kellyman,HIGH
+549074,Watson,Tom,Watson,MID,14029,Tom,Watson,Watson,HIGH
+549329,Lucas Pires,Lucas,Pires Silva,DEF,11824,Lucas,Pires,Pires,HIGH
+549344,Curtis,Sam,Curtis,DEF,12465,Sam,Curtis,Curtis,HIGH
+549640,Golding,Michael,Golding,MID,13606,Michael,Golding,Golding,HIGH
+549912,Talbi,Chemsdine,Talbi,MID,13717,Chemsdine,Talbi,Talbi,HIGH
+549939,Penders,Mike,Penders,GKP,13816,,,,MEDIUM
+550090,Coppola,Diego,Coppola,DEF,10169,Diego,Coppola,Coppola,HIGH
+550141,Mazilu,Adrian,Mazilu,MID,,,,,NONE
+550596,Sadi,Dominic,Sadi,MID,11300,Dominic,Sadi,Sadi,HIGH
+550615,George,Tyrique,George,MID,12573,Tyrique,George,George,HIGH
+550839,Odobert,Wilson,Odobert,MID,10822,Wilson,Odobert,Odobert,HIGH
+550864,Yoro,Leny,Yoro,DEF,10564,Leny,Yoro,Yoro,HIGH
+551153,Luís Hemir,Luís Hemir,Silva Semedo,FWD,,,,,NONE
+551206,Banel,Jaydon,Banel,MID,,,,,NONE
+551210,Hato,Jorrel,Hato,DEF,13776,Jorrel,Hato,Hato,HIGH
+551221,Setford,Tommy,Setford,GK,13011,Tommy,Setford,Setford,HIGH
+551226,M.Fernandes,Mateus Gonçalo,Espanha Fernandes,MID,12948,Mateus Gonçalo,Espanha Fernandes,M.Fernandes,HIGH
+551230,Renato Veiga,Renato,Palma Veiga,MID,11383,Renato,Palma Veiga,Renato Veiga,HIGH
+551232,Ribeiro,Rodrigo,Duarte Ribeiro,FWD,12418,Rodrigo,Ribeiro,Ribeiro,HIGH
+551483,A.Jimenez,Álex,Jiménez Sánchez,DEF,12168,Alejandro,Jiménez,Jiménez,HIGH
+552425,Peck,Sydie,Peck,MID,12251,Sydie,Peck,Peck,HIGH
+552427,Lankshear,Will,Lankshear,FWD,13127,Will,Lankshear,Lankshear,HIGH
+553299,Takai,Takai,Kōta,DEF,,,,,NONE
+553746,Shahar,Leo,Shahar,DEF,13572,,,,MEDIUM
+554194,Simpson-Pusey,Jahmai,Simpson-Pusey,DEF,13185,Jahmai,Simpson-Pusey,Simpson-Pusey,HIGH
+554197,Rigg,Chris,Rigg,MID,13719,Chris,Rigg,Rigg,HIGH
+554605,Huijsen,Dean,Huijsen,DEF,11943,Dean,Huijsen,Huijsen,HIGH
+556637,Oriola,Nehemiah,Oriola,MID,14127,Nehemiah,Oriola,Oriola,HIGH
+556639,Fitzgerald,Jayce,Fitzgerald,MID,13196,Jayce,Fitzgerald,Fitzgerald,HIGH
+559610,Bentt,Luka,Bentt,MID,14405,,,,MEDIUM
+559684,Moorhouse,Jack,Moorhouse,MID,13468,,,,MEDIUM
+559962,Jimoh,Jamaldeen,Jimoh,MID,13310,Jamaldeen,Jimoh,Jimoh,HIGH
+560248,Meupiyou,Bastien,Meupiyou,DEF,11775,Bastien,Meupiyou,Meupiyou,HIGH
+560262,Kroupi.Jr,Eli Junior,Kroupi,FWD,11504,Eli,Junior Kroupi,Junior Kroupi,HIGH
+560441,Cuiabano,Luis Eduardo,Soares da Silva,DEF,,,,,NONE
+560552,Kevin,Kevin,Santos Lopes de Macedo,MID,14030,,Kevin,Kevin,HIGH
+563324,Clarke,Brayden,Clarke,DEF,13607,,,,MEDIUM
+564406,Mayenda,Eliezer,Mayenda Dossou,FWD,13718,Eliezer,Mayenda,Mayenda,HIGH
+564505,Proctor,Sam,Proctor,GKP,12273,,,,MEDIUM
+564510,Kuol,Garang,Kuol,MID,,,,,NONE
+564940,S.Magassa,Soungoutou,Magassa,MID,10770,Soungoutou,Magassa,Magassa,HIGH
+565297,Mateo Joseph,Mateo Joseph,Fernández,FWD,11208,Mateo,Joseph,Joseph,HIGH
+565431,Marshall,Callum,Marshall,FWD,12359,Callum,Marshall,Marshall,HIGH
+565858,Cahill,Killian,Cahill,GK,13170,Killian,Cahill,Cahill,HIGH
+565863,Chambers,Sam,Chambers,MID,14306,,,,MEDIUM
+566164,Nypan,Sverre,Nypan,MID,,,,,NONE
+566213,Mfuni,Stephen,Mfuni,DEF,14054,,,,MEDIUM
+567119,Mheuka,Shumaira,Mheuka,FWD,13476,Shumaira,Mheuka,Mheuka,HIGH
+567121,Knight,Joe,Knight,MID,13399,Joe,Knight,Knight,HIGH
+568791,McKenna,Callan,McKenna,GK,12582,Callan,McKenna,McKenna,HIGH
+569014,Da Silva Moreira,Eric,da Silva Moreira,MID,12765,Eric,da Silva Moreira,Da Silva Moreira,HIGH
+569577,Rowe,Triston,Rowe,DEF,13869,,,,MEDIUM
+570241,Ji-soo,Kim,Ji-soo,DEF,12136,Ji-Soo,Kim,Kim Ji-Soo,LOW
+570526,Bergvall,Lucas,Bergvall,MID,12912,Lucas,Bergvall,Bergvall,HIGH
+572702,Lamadrid,Keiber,Lamadrid,MID,,,,,NONE
+573062,Godo,Martial,Godo,MID,11164,Martial,Godo,Godo,HIGH
+574398,Umeh-Chibueze,Franco,Umeh-Chibueze,MID,12454,Franco,Umeh-Chibueze,Umeh-Chibueze,HIGH
+574402,O’Mahony,Mark,O’Mahony,FWD,12205,Mark,O’Mahony,O’Mahony,HIGH
+574458,M.Sarr,Mamadou,Sarr,DEF,11253,,,,MEDIUM
+574799,Ajayi,Damola,Ajayi,MID,13363,Damola,Ajayi,Ajayi,HIGH
+575034,Wheatley,Ethan,Wheatley,FWD,12568,Ethan,Wheatley,Wheatley,HIGH
+575204,Echeverri,Claudio,Echeverri,MID,13649,Claudio,Echeverri,Echeverri,HIGH
+575458,Jair Cunha,Jair,Paula da Cunha Filho,DEF,13779,,Jair,Jair,HIGH
+575476,Murillo,Murillo,Santiago Costa dos Santos,DEF,12123,Murillo,Santiago Costa dos Santos,Murillo,HIGH
+575901,Soler,Julio,Soler,DEF,13474,Julio,Soler,Soler,HIGH
+576323,Adewumi,Oluwaseun,Adewumi,MID,,,,,NONE
+576620,Bendito Mantato,Bendito,Mantato,MID,14266,Bendito,Mantato,Mantato,HIGH
+576628,Lacey,Shea,Lacey,MID,14198,Shea,Lacey,Lacey,HIGH
+576637,Kukonki,Godwill,Kukonki,DEF,13259,Godwill,Kukonki,Kukonki,HIGH
+576756,Redmond,Zépiqueno,Redmond,FWD,,,,,NONE
+576980,Marsh,Zach,Marsh,FWD,13203,Zach,Marsh,Marsh,HIGH
+577016,Acheampong,Josh,Acheampong,DEF,12535,Josh,Acheampong,Acheampong,HIGH
+577114,L.Guilherme,Luis Guilherme,Lira dos Santos,MID,13026,Luis Guilherme,Lira dos Santos,L.Guilherme,HIGH
+577285,George Hemmings,George,Hemmings,MID,14193,George,Hemmings,Hemmings,HIGH
+577669,Sadiki,Noah,Sadiki,MID,13716,Noah,Sadiki,Sadiki,HIGH
+577725,King,Josh,King,MID,12410,Joshua,King,King,HIGH
+577731,Broggio,Ben,Broggio,MID,13221,Ben,Broggio,Broggio,HIGH
+577974,Amass,Harry,Amass,DEF,12559,Harry,Amass,Amass,HIGH
+578153,Khusanov,Abdukodir,Khusanov,DEF,11763,Abdukodir,Khusanov,Khusanov,HIGH
+578512,Pivas,Miodrag,Pivaš,DEF,,,,,NONE
+578545,Nedeljkovic,Kosta,Nedeljković,DEF,12775,Kosta,Nedeljković,Nedeljkovic,HIGH
+578614,Boateng,Enock,Agyei,MID,5563,,,,MEDIUM
+579075,Agbinone,Asher,Agbinone,MID,13039,Asher,Agbinone,Agbinone,HIGH
+580921,Heskey,Reigan,Heskey,MID,14254,,,,MEDIUM
+585472,Oné,Ryan,Oné,MID,12158,Ryan,Oné,Oné,HIGH
+586268,Pécsi,Ármin,Pécsi,GKP,,,,,NONE
+586309,Barry,Thierno,Barry,FWD,12916,Thierno,Barry,Barry,HIGH
+587178,Yasin,Yasin,Özcan,DEF,,,,,NONE
+588555,Harrison,Elyh,Harrison,GKP,13410,,,,MEDIUM
+588793,Kacurri,Maldini,Kacurri,DEF,13081,Maldini,Kacurri,Kacurri,HIGH
+588796,Kabia,Ismeal,Kabia,MID,13082,Ismeal,Kabia,Kabia,HIGH
+589100,Slater,Jacob,Slater,DEF,13238,Jacob,Slater,Slater,HIGH
+589114,Nelson,Zack,Nelson,MID,12188,Zack,Nelson,Nelson,HIGH
+589121,Sutherland,Ethan,Sutherland,MID,14284,,,,MEDIUM
+589507,Chiwome,Leon,Chiwome,FWD,12532,Leon,Chiwome,Chiwome,HIGH
+590012,Kporha,Caleb,Kporha,DEF,13130,Caleb,Kporha,Kporha,HIGH
+590014,Cardines,Rio,Cardines,MID,13777,,,,MEDIUM
+590035,Akhamrich,Yusuf,Akhamrich,MID,14175,,,,MEDIUM
+590039,Mukasa,Divine,Mukasa,MID,14055,Divine,Mukasa,Mukasa,HIGH
+590760,Adu-Adjei,Daniel,Adu-Adjei,FWD,11301,Daniel,Adu-Adjei,Adu-Adjei,HIGH
+591357,Trevitt,Ryan,Trevitt,MID,11146,Ryan,Trevitt,Trevitt,HIGH
+591384,King,George,King,DEF,14328,,,,MEDIUM
+591385,Amissah,Samuel,Amissah,DEF,13250,Samuel,Amissah,Amissah,HIGH
+591386,Nyoni,Treymaurice,Nyoni,MID,12203,Treymaurice,Nyoni,Nyoni,HIGH
+592031,Minteh,Yankuba,Minteh,MID,12759,Yankuba,Minteh,Minteh,HIGH
+592662,Yogane,Tony,Yogane,MID,13104,Tony,Yogane,Yogane,HIGH
+592736,King,Maeson,King,DEF,13287,Maeson,King,King,HIGH
+593001,Gonzalez,Enso,González,MID,12047,Enso,González,González,HIGH
+593174,Furo,Kaye,Furo,FWD,14356,,,,MEDIUM
+596042,Morrison,Kieran,Morrison,MID,14144,,,,MEDIUM
+596047,Obi,Chido,Obi-Martin,FWD,13466,Chido,Obi-Martin,Obi-Martin,HIGH
+596054,Edozie,Tom,Edozie,MID,13220,Tom,Edozie,Edozie,HIGH
+596777,Dorgu,Patrick,Dorgu,DEF,11944,Patrick,Dorgu,Dorgu,HIGH
+597320,Harry Howell,Harry,Howell,MID,13584,Harry,Howell,Howell,HIGH
+599303,Neave,Sean,Neave,FWD,13532,,,,MEDIUM
+600882,Gray,Harry,Gray,FWD,14073,,,,MEDIUM
+601956,Olagunju,Saheed,Olagunju,DEF,14257,,,,MEDIUM
+602903,Mayers,Ezra,Mayers,DEF,13247,Ezra,Mayers,Mayers,HIGH
+604211,Tutierov,Tymur,Tutierov,MID,14277,,,,MEDIUM
+604988,Simmonds,Freddie,Simmonds,DEF,13583,,,,MEDIUM
+605319,Rawlings,Luke,Rawlings,MID,14256,,,,MEDIUM
+606689,Donovan,Romelle,Donovan,MID,,,,,NONE
+606745,Heaven,Ayden,Heaven,DEF,13080,Ayden,Heaven,Heaven,HIGH
+606774,Rees-Dottin,Remy,Rees-Dottin,FWD,13307,Remy,Rees-Dottin,Rees-Dottin,HIGH
+606775,Winterburn,Ben,Winterburn,MID,13242,Ben,Winterburn,Winterburn,HIGH
+606798,A. Garcia,Andrés,García,DEF,13392,Andrés,García,A. Garcia,HIGH
+606921,Esse,Romain,Esse,MID,13387,Romain,Esse,Esse,HIGH
+607464,Kayode,Michael,Kayode,DEF,11281,Michael,Kayode,Kayode,HIGH
+608181,Tzimas,Stefanos,Tzimas,FWD,14028,Stefanos,Tzimas,Tzimas,HIGH
+609640,Amougou,Mathis,Amougou,MID,12808,Mathis,Amougou,Amougou,HIGH
+609873,Armstrong,Harrison,Armstrong,MID,12757,Harrison,Armstrong,Armstrong,HIGH
+610799,Vuskovic,Luka,Vušković,DEF,13725,,,,MEDIUM
+611011,Johnson,Joseph,Johnson,DEF,11980,Joseph,Johnson,Johnson,HIGH
+611134,Paez,Kendry,Páez Andrade,MID,13818,,,,MEDIUM
+611695,Yalcouye,Malick,Yalcouyé,MID,,,,,NONE
+611912,Emenalo,Landon,Emenalo,MID,14112,,,,MEDIUM
+611917,Williams-Barnett,Luca,Williams-Barnett,MID,13249,Luca,Williams-Barnett,Williams-Barnett,HIGH
+611920,Hardy,Malachi,Hardy,DEF,13225,Malachi,Hardy,Hardy,HIGH
+611922,Ngumoha,Rio,Ngumoha,MID,13692,Rio,Ngumoha,Ngumoha,HIGH
+611926,Nallo,Amara,Nallo,DEF,12534,Amara,Nallo,Nallo,HIGH
+611975,Abdullahi,Ahmed,Abdullahi,FWD,,,,,NONE
+612534,Fredrick,Benjamin,Fredrick,DEF,12397,,,,MEDIUM
+612855,I.Osman,Ibrahim,Osman,MID,13792,Ibrahim,Osman,I.Osman,HIGH
+613120,Brits,Spike,Brits,GK,13299,Spike,Brits,Brits,HIGH
+613467,Okoduwa,Wes,Okoduwa,DEF,12500,Wesley,Okoduwa,Okoduwa,HIGH
+613804,Diouf,El Hadji Malick,Diouf,DEF,13723,El,Hadji Malick Diouf,Hadji Malick Diouf,HIGH
+614574,Tóth.A,Alex,Tóth,MID,14374,Alex,Tóth,Tóth,HIGH
+616059,Porter,Jack,Porter,GK,13378,Jack,Porter,Porter,HIGH
+616065,Salmon,Marli,Salmon,DEF,14220,,,,MEDIUM
+616077,Dowman,Max,Dowman,MID,13872,Max,Dowman,Dowman,HIGH
+616221,Souza,João Victor,de Souza Menezes,DEF,14410,,,,MEDIUM
+616222,Vitor Reis,Vitor,de Oliveira Nunes dos Reis,DEF,13380,Vitor,de Oliveira Nunes dos Reis,Vitor Reis,HIGH
+616288,McAidoo,Ryan,McAidoo,MID,14097,,,,MEDIUM
+617054,Deivid,Deivid Washington,de Souza Eugênio,FWD,12033,Deivid Washington,de Souza Eugênio,Deivid,HIGH
+618027,Carroll,TJ,Carroll,DEF,14288,,,,MEDIUM
+618873,Kone,Sékou,Koné,MID,13469,,,,MEDIUM
+619146,Olabade Aluko,Olabade,Aluko,DEF,13586,Olabade,Aluko,Aluko,HIGH
+619536,Ridgeon,Seth,Ridgeon,MID,14270,,,,MEDIUM
+620408,Kayi Sanda,Joachim,Kayi-Sanda,DEF,13636,Joachim,Kayi-Sanda,Kayi Sanda,HIGH
+620487,Milosavljević,Veljko,Milosavljevic,DEF,14027,Veljko,Milosavljevic,Milosavljevic,HIGH
+622536,Arthur,Benjamin,Arthur,DEF,12533,Benjamin,Arthur,Arthur,HIGH
+622758,Anselmino,Aarón,Anselmino,DEF,13460,,,,MEDIUM
+623095,Yang,Min-Hyeok,Yang,MID,13362,Min-Hyeok,Yang,Yang,HIGH
+623110,Seung soo,Seung-Soo,Park,MID,13710,,,,MEDIUM
+624773,Estêvão,Estêvão,Almeida de Oliveira Gonçalves,MID,13775,,Estêvão,Estêvão,HIGH
+626464,G.Nunes,Gustavo,Nunes Fernandes Gomes,MID,13588,Gustavo,Nunes Fernandes Gomes,G.Nunes,HIGH
+626844,Aleksić,Milan,Aleksić,MID,,,,,NONE
+628204,Konak,Yunus Emre,Konak,MID,12633,Yunus,Konak,Konak,HIGH
+629068,Graham,Braiden,Graham,FWD,14283,,,,MEDIUM
+630664,Jake Evans,Jake,Evans,MID,13585,Jake,Evans,Evans,HIGH
+630699,Mohamadou Kanté,Mohamadou,Kanté,MID,14219,Mohamadou,Kanté,Kanté,HIGH
+631106,Casey,Ben,Casey,FWD,14285,,,,MEDIUM
+631786,Kusi-Asare,Jonah,Kusi-Asare,FWD,13262,Jonah,Kusi-Asare,Kusi-Asare,HIGH
+632822,Harris,Archie,Harris,DEF,13300,Archie,Harris,Harris,HIGH
+640108,Antoñito C.,Antoñito,Cordero Campillo,MID,,,,,NONE
+640419,Byfield,Jun'ai,Byfield,DEF,14134,Jun&#039;ai,Byfield,Byfield,HIGH
+641221,Pedro Lima,Pedro,Cardoso de Lima,DEF,13156,Pedro,Cardoso de Lima,Pedro Lima,HIGH
+643135,Fer López,Fer,López González,MID,13200,Fernando,López,López,HIGH
+643426,Benamar,Dean,Benamar,DEF,14278,,,,MEDIUM
+643473,Golambeckis,Airidas,Golambeckis,DEF,14179,,,,MEDIUM
+645618,Burrowes,Bradley,Burrowes,MID,13870,Bradley,Burrowes,Burrowes,HIGH
+646243,Harriman-Annous,Andre,Harriman-Annous,MID,14000,,,,MEDIUM
+647671,Mané,Mateus,Mané,FWD,13484,Mateus,Mané,Mané,HIGH
+647681,Leoni,Giovanni,Leoni,DEF,13031,,,,MEDIUM
+647850,Kostoulas,Charalampos,Kostoulas,FWD,14118,Charalampos,Kostoulas,Kostoulas,HIGH
+647960,Pimlott,Oliver,Pimlott,MID,14282,,,,MEDIUM
+649208,Monga,Jeremy,Monga,MID,13579,Jeremy,Monga,Monga,HIGH
+651426,Canvot,Jaydee,Canvot,DEF,13091,Jaydee,Canvot,Canvot,HIGH
+653481,Alysson,Alysson Edward Franco,da Rocha dos Santos,MID,,,,,NONE
+658013,Stevens,Charlie,Stevens,MID,14367,,,,MEDIUM
+660392,Uche,Christantus,Uche,FWD,12726,Christantus,Uche,Uche,HIGH
+661712,D.Leon,Diego,León Blanco,DEF,14057,,,,MEDIUM
+664015,Leon Routh,Leon,Routh,DEF,14265,,,,MEDIUM
+666607,Alabi,Sam,Alabi,MID,14273,,,,MEDIUM
+672492,Drakes-Thomas,Joél,Drakes-Thomas,MID,14263,Joél,Drakes-Thomas,Drakes-Thomas,HIGH
+678552,DaCosta,Malcom,DaCosta,MID,14215,,,,MEDIUM
+685628,Abbey,Jerome,Abbey,MID,14394,,,,MEDIUM
+699989,Jocelin.T,Djiamgone Jocelin Ta,Bi,MID,,,,,NONE
+704232,Brierley,George,Brierley,MID,14292,,,,MEDIUM
