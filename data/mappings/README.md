@@ -7,8 +7,19 @@ Golden-record CSVs that link FPL player/club IDs to Understat IDs. These mapping
 | File | Rows | Description |
 |---|---|---|
 | `players_golden_record.csv` | ~1,601 | FPL player code → Understat player ID mapping |
-| `clubs_golden_record.csv` | ~28 | FPL club → Understat team mapping |
+| `clubs_golden_record.csv` | 30 | FPL club → Understat team mapping, current for 2026-27 |
 | `update_golden_records.py` | Script | Fetches latest data from 3 sources and updates both CSVs |
+
+> **Promoted clubs break this file every August.** Three clubs go up each
+> season and are absent from the previous season's club mapping, so any join
+> keyed on it silently drops their players — or fails outright, depending on how
+> strict your pipeline is. This is the single most reliable way to break an FPL
+> data pipeline, and it happens on a schedule.
+>
+> `clubs_golden_record.csv` here now includes **Coventry City** and **Hull City**
+> for 2026-27. If you are reading this in a later season, run
+> `update_golden_records.py` before trusting it, and assert that every club in
+> the current FPL bootstrap has a row.
 
 ## players_golden_record.csv
 

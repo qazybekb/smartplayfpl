@@ -1,0 +1,9 @@
+{
+  "multibucket_weight": 0.75,
+  "direct_weight": 0.25,
+  "excluded_positions": [
+    "GKP"
+  ],
+  "formula": "GKP = v11; DEF/MID/FWD = 0.75 * v11_multibucket_xpts + 0.25 * direct_xpts",
+  "output_clip_min": 0.0
+}

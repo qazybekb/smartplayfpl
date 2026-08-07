@@ -23,4 +23,18 @@ This repo is a self-contained, public-friendly release of the prediction models 
 - Includes:
   - `models/openfpl_model/` — OpenFPL inference wrapper (downloads upstream models on first run)
   - `models/smartplay_model/` — SmartPlay v9 pre-trained XGBoost weights + runner
+  - `models/smartplay_model/v12/` — the direct-blend head of v12, the model currently
+    running in production, plus its exact blend formula and feature order
   - `data/smartplay_data.csv` — training/evaluation dataset (Git LFS)
+  - `data/mappings/` — FPL ↔ Understat golden records, current for 2026-27
+  - `evaluation/` — published walk-forward accuracy, so the site's claims can be checked
+
+Two things in here are worth reading before you build on them, because both are
+easy to get wrong and neither is obvious:
+
+- **`expected_points` mixes sources that are not interchangeable.** It is the
+  natural baseline to benchmark a model against, and pooling its three regimes
+  produces a comparison that is quietly wrong. See `data/README.md`.
+- **Accuracy depends entirely on which players you score.** The same projections
+  give MAE 0.98 over the whole pool and ≈2.35 over players who actually started.
+  See `evaluation/README.md`.
