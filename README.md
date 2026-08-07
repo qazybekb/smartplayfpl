@@ -61,6 +61,18 @@ from smartplay_model.v12 import load_v12
 predictions = load_v12().predict(feature_df)   # adds pred, pred_multibucket, pred_direct
 ```
 
+## Solve a squad
+
+The optimiser is here too, in `solver/` — the same MILP that runs the site.
+
+```bash
+python solver/example.py --season 2025-26 --gameweek 30
+```
+
+A wildcard from scratch: dataset in, v12 projections, best legal 15 on £100.0m,
+no account needed. See [`solver/README.md`](solver/README.md) for the rules it
+models and the interface.
+
 ## Check it yourself
 
 ```bash
@@ -90,6 +102,7 @@ This repo is a self-contained, public-friendly release of the prediction models 
   - `data/smartplay_data.csv` — training/evaluation dataset (Git LFS)
   - `data/mappings/` — FPL ↔ Understat golden records, current for 2026-27
   - `evaluation/` — published walk-forward accuracy, so the site's claims can be checked
+  - `solver/` — the MILP squad optimiser behind the site, with a runnable example
 
 Two things in here are worth reading before you build on them, because both are
 easy to get wrong and neither is obvious:

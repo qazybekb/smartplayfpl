@@ -7,9 +7,9 @@ name: validate
 # until someone refreshes it.
 on:
   push:
-    paths: ["data/**", "validate.py", ".github/workflows/validate.yml"]
+    paths: ["data/**", "solver/**", "validate.py", ".github/workflows/validate.yml"]
   pull_request:
-    paths: ["data/**", "validate.py"]
+    paths: ["data/**", "solver/**", "validate.py"]
   schedule:
     - cron: "0 6 * * 1"      # Mondays, 06:00 UTC
   workflow_dispatch:
@@ -27,8 +27,12 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - run: pip install pandas
+      - run: pip install pandas pytest highspy
 
       # Fails if a promoted club or a new signing has no mapping, if the
       # dataset has duplicate keys, or if a completed season stops short.
       - run: python validate.py
+
+      # The solver ships publicly, so it is held to the same bar: the MILP is
+      # exercised against fixed cases with known-good solutions.
+      - run: python -m pytest solver/tests -q
