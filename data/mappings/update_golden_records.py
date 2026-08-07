@@ -74,7 +74,7 @@ def fetch_chrismusson_map() -> pd.DataFrame:
     return df
 
 
-def fetch_fpl_bootstrap() -> tuple[pd.DataFrame, pd.DataFrame]:
+def fetch_fpl_bootstrap() -> tuple[pd.DataFrame, pd.DataFrame, list[dict]]:
     """Fetch current FPL players and teams from bootstrap-static."""
     log.info("Fetching FPL bootstrap-static …")
     resp = requests.get(FPL_BOOTSTRAP_URL, timeout=30)
@@ -100,7 +100,10 @@ def fetch_fpl_bootstrap() -> tuple[pd.DataFrame, pd.DataFrame]:
     )
     log.info(f"  → {len(teams)} teams")
 
-    return players, teams
+    return players, teams, data.get("events", [])
+
+
+US_COLUMNS = ["understat_player_id", "player_name", "team_title"]
 
 
 def fetch_understat_players(season: str) -> pd.DataFrame:
@@ -108,18 +111,45 @@ def fetch_understat_players(season: str) -> pd.DataFrame:
 
     Combines both to maximise coverage — new signings appear in the current
     season, while players who left appear in the previous one.
+
+    A season with no data is skipped rather than fatal. Understat publishes a
+    season only once it kicks off, so between late May and the opening weekend
+    the current season is simply empty — which is exactly when you most need to
+    run this, because that is when the new signings and promoted squads land.
+    Crashing here left the golden record frozen for the whole pre-season.
+
+    If neither season returns anything the result is empty, and callers fall
+    back to the ChrisMusson ID map alone; those rows are marked MEDIUM
+    confidence, which already means "ID known, not seen in the current
+    Understat season".
     """
     us = UnderstatClient()
     all_dfs = []
 
     for s in [season, str(int(season) - 1)]:
         log.info(f"Fetching Understat EPL player data (season={s}) …")
-        raw = us.league(league="EPL").get_player_data(season=s)
-        df = pd.DataFrame(raw)[["id", "player_name", "team_title"]]
-        df = df.rename(columns={"id": "understat_player_id"})
+        try:
+            raw = us.league(league="EPL").get_player_data(season=s)
+        except Exception as exc:  # network, or a season the API rejects outright
+            log.warning(f"  → season {s} unavailable ({type(exc).__name__}), skipping")
+            continue
+
+        df = pd.DataFrame(raw)
+        if df.empty or not {"id", "player_name", "team_title"}.issubset(df.columns):
+            log.warning(f"  → season {s} returned no player data, skipping (not yet published?)")
+            continue
+
+        df = df[["id", "player_name", "team_title"]].rename(columns={"id": "understat_player_id"})
         df["understat_player_id"] = df["understat_player_id"].astype(int)
         log.info(f"  → {len(df)} players")
         all_dfs.append(df)
+
+    if not all_dfs:
+        log.warning(
+            "No Understat season returned data. Falling back to the ID map alone; "
+            "new mappings will be MEDIUM confidence until Understat publishes."
+        )
+        return pd.DataFrame(columns=US_COLUMNS)
 
     # Deduplicate — prefer the current season's record
     combined = pd.concat(all_dfs, ignore_index=True)
@@ -129,17 +159,38 @@ def fetch_understat_players(season: str) -> pd.DataFrame:
 
 
 def fetch_understat_teams(season: str) -> pd.DataFrame:
-    """Fetch Understat team list for the given season."""
-    log.info(f"Fetching Understat EPL team data (season={season}) …")
+    """Fetch Understat team list, falling back to the previous season.
+
+    Same pre-season problem as the player fetch: an unpublished season comes
+    back as an empty list rather than the usual id-keyed dict, so indexing it
+    raised AttributeError and took the whole run down. Falling back one season
+    keeps club names resolvable; the promoted sides are absent either way until
+    Understat publishes, which is why clubs_golden_record is maintained by hand
+    each August.
+    """
     us = UnderstatClient()
-    raw = us.league(league="EPL").get_team_data(season=season)
-    rows = [
-        {"understat_name": v["title"], "understat_team_id": int(v["id"])}
-        for v in raw.values()
-    ]
-    df = pd.DataFrame(rows)
-    log.info(f"  → {len(df)} teams")
-    return df
+
+    for s in [season, str(int(season) - 1)]:
+        log.info(f"Fetching Understat EPL team data (season={s}) …")
+        try:
+            raw = us.league(league="EPL").get_team_data(season=s)
+        except Exception as exc:
+            log.warning(f"  → season {s} unavailable ({type(exc).__name__}), skipping")
+            continue
+
+        if not isinstance(raw, dict) or not raw:
+            log.warning(f"  → season {s} returned no team data, skipping (not yet published?)")
+            continue
+
+        df = pd.DataFrame([
+            {"understat_name": v["title"], "understat_team_id": int(v["id"])}
+            for v in raw.values()
+        ])
+        log.info(f"  → {len(df)} teams")
+        return df
+
+    log.warning("No Understat season returned team data; club names left as-is.")
+    return pd.DataFrame(columns=["understat_name", "understat_team_id"])
 
 
 # ---------------------------------------------------------------------------
@@ -155,15 +206,34 @@ def split_understat_name(name: str) -> tuple[str, str]:
     return parts[0], parts[1]
 
 
-def current_understat_season() -> str:
+def current_understat_season(now: datetime | None = None) -> str:
     """Return the Understat season code for today's date.
 
     Understat uses the starting year: '2024' means 2024-25.
     The PL season starts in August, so Aug-Dec → current year,
     Jan-Jul → previous year.
     """
-    now = datetime.now()
+    now = now or datetime.now()
     return str(now.year if now.month >= 8 else now.year - 1)
+
+
+def understat_season_from_fpl_events(
+    events: list[dict],
+    fallback_now: datetime | None = None,
+) -> str:
+    """Use FPL's published deadlines as the season boundary when available."""
+    deadlines = []
+    for event in events:
+        raw = event.get("deadline_time") if isinstance(event, dict) else None
+        if not raw or not isinstance(raw, str):
+            continue
+        try:
+            deadlines.append(datetime.fromisoformat(raw.replace("Z", "+00:00")))
+        except ValueError:
+            continue
+    if deadlines:
+        return str(min(deadlines).year)
+    return current_understat_season(fallback_now)
 
 
 # ---------------------------------------------------------------------------
@@ -345,14 +415,19 @@ def update_clubs(
         "ipswich": "ipswich town",
         "luton": "luton town",
         "sheffield utd": "sheffield united",
+        "coventry city": "coventry",
+        "hull city": "hull",
     }
 
+    result = existing.copy()
+    if "understat_team_id" in result.columns:
+        # CSV blanks may infer an Arrow string column under pandas 3. Keep the
+        # column assignable when a newly discovered numeric Understat ID lands.
+        result["understat_team_id"] = result["understat_team_id"].astype(object)
     new_rows = []
+    backfilled = 0
     for _, ft in fpl_teams.iterrows():
         code = int(ft["fpl_team_code"])
-        if code in existing_codes:
-            continue
-
         fpl_name = ft["club_name"]
         fpl_lower = fpl_name.lower()
 
@@ -362,6 +437,22 @@ def update_clubs(
             us_key = NAME_FIXES.get(fpl_lower, fpl_lower)
 
         us_info = us_lookup.get(us_key, {})
+
+        if code in existing_codes:
+            matches = result.index[result["fpl_team_code"].astype(int) == code]
+            if len(matches) == 0:
+                continue
+            idx = matches[0]
+            result.at[idx, "club_name"] = fpl_name
+            result.at[idx, "club_short"] = ft["club_short"]
+
+            current_us_name = result.at[idx, "understat_name"]
+            missing_us_name = pd.isna(current_us_name) or not str(current_us_name).strip()
+            if missing_us_name and us_info:
+                result.at[idx, "understat_name"] = us_info["understat_name"]
+                result.at[idx, "understat_team_id"] = us_info["understat_team_id"]
+                backfilled += 1
+            continue
 
         new_rows.append(
             {
@@ -374,11 +465,9 @@ def update_clubs(
         )
 
     if new_rows:
-        result = pd.concat([existing, pd.DataFrame(new_rows)], ignore_index=True)
-        log.info(f"  Clubs: {len(new_rows)} new added")
-    else:
-        result = existing.copy()
-        log.info("  Clubs: no new teams")
+        result = pd.concat([result, pd.DataFrame(new_rows)], ignore_index=True)
+
+    log.info(f"  Clubs: {len(new_rows)} new added, {backfilled} Understat mappings backfilled")
 
     return result
 
@@ -404,12 +493,11 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    season = args.season or current_understat_season()
-    log.info(f"Season: {season} ({'auto-detected' if not args.season else 'manual'})")
-
     # ── Fetch all sources ──
     cm_map = fetch_chrismusson_map()
-    fpl_players, fpl_teams = fetch_fpl_bootstrap()
+    fpl_players, fpl_teams, fpl_events = fetch_fpl_bootstrap()
+    season = args.season or understat_season_from_fpl_events(fpl_events)
+    log.info(f"Season: {season} ({'FPL event deadlines' if not args.season else 'manual'})")
     us_players = fetch_understat_players(season)
     us_teams = fetch_understat_teams(season)
 
