@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "SmartPlayFPL: open dataset and expected-points model for Fantasy Premier League"
+message: "If you use this dataset or model, please cite it."
+type: dataset
+authors:
+  - name: "SmartPlay"
+    website: "https://smartplayfpl.com"
+repository-code: "https://github.com/qazybekb/smartplayfpl"
+url: "https://smartplayfpl.com/under-the-hood"
+license: CC-BY-NC-4.0
+keywords:
+  - fantasy premier league
+  - fpl
+  - football analytics
+  - expected points
+  - xgboost
+references:
+  - type: software
+    title: "SmartPlay v12 model weights"
+    url: "https://huggingface.co/Qazybek/smartplay-fpl-v12"
+  - type: data
+    title: "Fantasy-Premier-League"
+    authors:
+      - name: "Vaastav Anand"
+    url: "https://github.com/vaastav/Fantasy-Premier-League"
+    notes: "Historical FPL data used in building this dataset."
+  - type: software
+    title: "OpenFPL"
+    authors:
+      - name: "Daniel Groos"
+    url: "https://github.com/daniegr/OpenFPL"
+    notes: "The feature engineering this dataset extends."

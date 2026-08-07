@@ -13,6 +13,33 @@ The site also includes fixture difficulty ratings, side-by-side player compariso
 
 For full technical details on the prediction pipeline, solver, and accuracy benchmarks, see [How It Works](https://smartplayfpl.com/under-the-hood). For our transparency principles and strict no-gambling policy, see [Ethics](https://smartplayfpl.com/ethics).
 
+## What is unusual about this repo
+
+The FPL open-source community has excellent **data**. It has almost no published
+**models**, and essentially no published **evaluation**.
+
+[vaastav/Fantasy-Premier-League](https://github.com/vaastav/Fantasy-Premier-League)
+is the canonical historical dataset and this project is built on it.
+[olbauday/FPL-Core-Insights](https://github.com/olbauday/FPL-Core-Insights)
+carries 2026/27 with Elo ratings, cup and friendly coverage, and updates twice a
+day. If you want FPL data, start with one of those — both are better at that job
+than we are, and we are not trying to compete with them.
+
+What is not out there is a trained points model you can download and run,
+together with an honest account of where it fails. That is what this repo and
+the linked model weights are for:
+
+- **[The v12 model on Hugging Face](https://huggingface.co/Qazybek/smartplay-fpl-v12)** —
+  the weights actually generating the projections on the site, with a worked
+  inference example.
+- **`evaluation/`** — the walk-forward numbers behind those projections,
+  including the parts that do not flatter us: a ranking metric that did not
+  improve, a headline error figure inflated by players who never played, and six
+  gameweeks missing from the suite.
+- **`data/`** — the merged FPL + Understat training table, and a documented trap
+  in the FPL projection column that will silently corrupt any benchmark built
+  on it.
+
 ## This Repository
 
 This repo is a self-contained, public-friendly release of the prediction models and training dataset that power the site.
@@ -23,8 +50,10 @@ This repo is a self-contained, public-friendly release of the prediction models 
 - Includes:
   - `models/openfpl_model/` — OpenFPL inference wrapper (downloads upstream models on first run)
   - `models/smartplay_model/` — SmartPlay v9 pre-trained XGBoost weights + runner
-  - `models/smartplay_model/v12/` — the direct-blend head of v12, the model currently
-    running in production, plus its exact blend formula and feature order
+  - `models/smartplay_model/v12/` — v12's direct-blend heads, blend formula and feature
+    order; the full weights are on
+    [Hugging Face](https://huggingface.co/Qazybek/smartplay-fpl-v12) because the
+    base is ~316 MB and would burn the LFS quota for everyone cloning this repo
   - `data/smartplay_data.csv` — training/evaluation dataset (Git LFS)
   - `data/mappings/` — FPL ↔ Understat golden records, current for 2026-27
   - `evaluation/` — published walk-forward accuracy, so the site's claims can be checked
