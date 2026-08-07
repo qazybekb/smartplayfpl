@@ -148,6 +148,11 @@ def main():
         "--data", default=None,
         help="Path to smartplay_data.csv (default: ../data/smartplay_data.csv)",
     )
+    parser.add_argument(
+        "--model", default="v9", choices=["v9", "v12"],
+        help="v9 ships with this repo; v12 is the model running in production and "
+             "pulls its ~316 MB base from Hugging Face on first use (default: v9)",
+    )
     parser.add_argument("--season", default="2025-26", help="Target season (default: 2025-26)")
     parser.add_argument("--gw-start", type=int, default=1, help="First gameweek (default: 1)")
     parser.add_argument("--gw-end", type=int, default=24, help="Last gameweek (default: 24)")
@@ -204,8 +209,13 @@ def main():
         sys.exit(1)
 
     # Step 4: Prediction
-    print("\nLoading SmartPlay v9 models...")
-    predictor = SmartPlayPredictor(models_dir)
+    if args.model == "v12":
+        from .v12 import load_v12
+        print("\nLoading SmartPlay v12 (fetching base weights if not cached)...")
+        predictor = load_v12()
+    else:
+        print("\nLoading SmartPlay v9 models...")
+        predictor = SmartPlayPredictor(models_dir)
     print(f"  Feature columns: {len(predictor.feature_cols)}")
 
     print("Running inference...")

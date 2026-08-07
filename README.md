@@ -40,6 +40,39 @@ the linked model weights are for:
   in the FPL projection column that will silently corrupt any benchmark built
   on it.
 
+## Run the production model
+
+Not a toy re-implementation — the weights actually serving the site.
+
+```bash
+git lfs pull                                  # dataset lives in LFS
+pip install -r requirements.txt huggingface_hub
+
+cd models
+python -m smartplay_model.run --model v12 --season 2025-26 --gw-start 30 --gw-end 38
+```
+
+The base weights (~316 MB) download from Hugging Face on first use and cache.
+`--model v9` runs the smaller model committed to this repo, no download needed.
+Both share one feature pipeline and one runner.
+
+```python
+from smartplay_model.v12 import load_v12
+predictions = load_v12().predict(feature_df)   # adds pred, pred_multibucket, pred_direct
+```
+
+## Check it yourself
+
+```bash
+python validate.py
+```
+
+Verifies the things that actually break: unmapped players after a transfer
+window, promoted clubs missing from the club record, duplicate dataset keys,
+unknown `expected_points_source` values, and completed seasons that stop short
+of GW38. CI runs it on every change to `data/` and again every Monday — mapping
+rot follows the calendar, not commits.
+
 ## This Repository
 
 This repo is a self-contained, public-friendly release of the prediction models and training dataset that power the site.

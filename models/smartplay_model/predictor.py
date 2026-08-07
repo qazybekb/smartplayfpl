@@ -51,11 +51,22 @@ class SmartPlayPredictor:
         result_df = predictor.predict(feature_df)
     """
 
-    def __init__(self, models_dir: Path | str) -> None:
+    def __init__(self, models_dir: Path | str, ext: str = ".json") -> None:
+        """Args:
+            models_dir: directory holding the per-position model files.
+            ext: model file extension. v9 ships ``.json``; the v12 base on
+                Hugging Face ships ``.ubj``, which is the same trees in
+                XGBoost's binary encoding and roughly a third smaller.
+        """
         models_dir = Path(models_dir)
 
         # Feature column order (251 features)
-        with open(models_dir / "feature_cols.json") as f:
+        feature_path = models_dir / "feature_cols.json"
+        if not feature_path.exists():
+            # The Hugging Face layout keeps the feature order beside the blend
+            # heads rather than the base weights.
+            feature_path = models_dir.parent / "blend" / "feature_cols.json"
+        with open(feature_path) as f:
             self.feature_cols: List[str] = json.load(f)
 
         # Bucket calibration parameters per position
@@ -70,21 +81,21 @@ class SmartPlayPredictor:
 
         for pos in POSITIONS:
             clf = xgb.XGBClassifier()
-            clf.load_model(models_dir / f"p60_{pos}.json")
+            clf.load_model(models_dir / f"p60_{pos}{ext}")
             self.p60[pos] = clf
 
             reg = xgb.XGBRegressor()
-            reg.load_model(models_dir / f"non60_{pos}.json")
+            reg.load_model(models_dir / f"non60_{pos}{ext}")
             self.non60[pos] = reg
 
             bcl = xgb.XGBClassifier()
-            bcl.load_model(models_dir / f"bucket_{pos}.json")
+            bcl.load_model(models_dir / f"bucket_{pos}{ext}")
             self.bucket[pos] = bcl
 
             self.bucketreg[pos] = {}
             for k in range(4):
                 breg = xgb.XGBRegressor()
-                breg.load_model(models_dir / f"bucketreg_{pos}_{k}.json")
+                breg.load_model(models_dir / f"bucketreg_{pos}_{k}{ext}")
                 self.bucketreg[pos][k] = breg
 
     def predict(self, df: pd.DataFrame) -> pd.DataFrame:
