@@ -50,7 +50,7 @@ Each instance consists of 115 columns grouped into:
 | FPL expected | 5 | `expected_goals`, `expected_assists`, `expected_goal_involvements`, `xP` |
 | FPL ICT index | 4 | `ict_index`, `influence`, `creativity`, `threat` |
 | FPL market data | 5 | `value`, `selected`, `transfers_in`, `transfers_out` |
-| FPL pre-deadline predictions | 3 | `expected_points_pre_deadline`, `expected_points` |
+| FPL projections (see Q13 — mixed provenance) | 3 | `expected_points_pre_deadline`, `expected_points`, `expected_points_source` |
 | Pipeline snapshot | 8 | `cache_price`, `cache_ownership_pct`, `cache_form`, `cache_status` |
 | Understat player | 13 | `us_xG`, `us_xA`, `us_npxG`, `us_shots`, `us_key_passes`, `us_xGChain` |
 | Understat team match | 7 | `us_team_xG`, `us_team_xGA`, `us_ppda`, `us_deep` |
@@ -100,6 +100,7 @@ Evaluation metrics are Spearman correlation (ranking quality) and MAE (point pre
 - **Double gameweeks:** Players who play two fixtures in one gameweek have two separate rows. Models must handle this correctly.
 - **Column redundancy:** Some columns are near-duplicates kept for compatibility (e.g., `is_home` vs `was_home`, `gameweek` vs `GW`, `team_name` vs `team`, `player_name` vs `name`).
 - **Promoted team distribution shift:** Newly promoted teams have no historical Understat season-level stats in their first season, causing NaN in `team_xG_avg` etc. for early gameweeks.
+- **`expected_points` mixes incompatible sources.** This column is FPL's own projection and is the natural baseline to benchmark a model against, which makes the following a trap rather than a footnote. It is assembled from three regimes recorded in `expected_points_source`: `fplcache_ep_next` (read from the FPL API by our pipeline), `vaastav_xP` (mirrored from a third-party archive), and `imputed_0` (a placeholder, not a projection). The two real sources measure very differently. In 2024-25 only GW20-24 use `fplcache_ep_next` while the surrounding gameweeks use `vaastav_xP`; scoring each gameweek's projection against actual points for players who started (60+ minutes) gives a mean Spearman of **0.512** on the `vaastav_xP` gameweeks and **0.217** on the `fplcache_ep_next` ones — same season, same players, consecutive weeks. We have not established which represents a genuine pre-deadline projection; the likely cause is a difference in capture time relative to the deadline, and the mirror's capture time cannot be verified. Segment by `expected_points_source` before scoring, and never compare a model measured on one source against a baseline measured on the other. Two related hazards: 2025-26 GW25 stores a single constant value for every player, so rank correlation is `NaN` and one such gameweek will poison a season-wide average; and a genuine `0.0` is a real projection for a player FPL does not expect to feature, so exclude `imputed_0` by source rather than by dropping zeros.
 
 **14. Is the dataset self-contained, or does it link to or otherwise rely on external resources?**
 

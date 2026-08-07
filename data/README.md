@@ -45,6 +45,48 @@ Each row represents **one player in one fixture**. The dataset contains ~115 col
 
 Each row is unique on `(season, fixture, fpl_code)`.
 
+### ⚠️ `expected_points` is not one series — segment by `expected_points_source`
+
+`expected_points` holds FPL's own projection for a player's gameweek, which
+makes it the obvious baseline to benchmark a model against. It is assembled
+from three different regimes, and **they are not interchangeable**. Pooling
+them produces a benchmark that is wrong in ways that are easy to miss, so
+always group by `expected_points_source` before scoring anything.
+
+| `expected_points_source` | What it is | Seasons |
+|---|---|---|
+| `fplcache_ep_next` | `ep_next` read from the FPL API and stored by our pipeline | 2024-25 GW20-24, most of 2025-26 GW7+ |
+| `vaastav_xP` | The `xP` column mirrored from [vaastav/Fantasy-Premier-League](https://github.com/vaastav/Fantasy-Premier-League) | 2020-21 through 2023-24, plus gaps elsewhere |
+| `imputed_0` | **Placeholder, not a projection.** Filter these out | scattered in 2025-26 |
+
+The two real sources measure very differently. 2024-25 gives a clean natural
+experiment, because only GW20-24 use `fplcache_ep_next` and the surrounding
+gameweeks use `vaastav_xP`. Scoring each gameweek's projection against actual
+points, on players who started (60+ minutes):
+
+| Gameweeks | Source | Mean Spearman |
+|---|---|---|
+| GW15-19, GW25-30 | `vaastav_xP` | **0.512** |
+| GW20-24 | `fplcache_ep_next` | **0.217** |
+
+Same season, same players, consecutive gameweeks. We have not established
+which figure represents a genuine pre-deadline projection — the likely
+difference is *when* each was captured relative to the deadline, and the
+`vaastav_xP` capture time cannot be verified from the mirror. Treat neither as
+ground truth for "how good is FPL's projection", and never compare a model
+scored on one source against a baseline scored on the other.
+
+Two further traps in the same column:
+
+- **A constant gameweek.** 2025-26 GW25 stores one repeated value for every
+  player, so rank correlation is undefined and returns `NaN`. One such
+  gameweek will silently poison a season-wide average. Guard with
+  `nunique() >= 3` per gameweek.
+- **Zero is a real projection.** FPL publishes `0.0` for players it does not
+  expect to feature. Dropping zeros removes the easy non-returners from the
+  baseline's population while leaving them in your model's, which flatters
+  your model. Drop `imputed_0` rows by source; keep genuine zeros.
+
 ## update_smartplay_data.py
 
 Incrementally appends missing gameweeks to `smartplay_data.csv`.

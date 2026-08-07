@@ -1,6 +1,6 @@
 # SmartPlayFPL — Public Release
 
-Open models and dataset behind **[SmartPlay](https://smartplayfpl.com)**, a free AI-powered Fantasy Premier League analytics platform.
+Open models and dataset behind **[SmartPlay](https://smartplayfpl.com)**, an AI-powered Fantasy Premier League analytics platform. The site is a one-time payment with no subscription and no auto-renewal; everything in this repository is free to use under the licence below.
 
 ## The Website
 
