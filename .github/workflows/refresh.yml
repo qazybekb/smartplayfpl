@@ -1,27 +1,22 @@
-name: refresh data
+name: refresh mappings
 
-# The dataset and the mappings go stale on the calendar, not on commits. Three
-# clubs are promoted every August and their squads are absent from the previous
-# season's golden record until someone refreshes it; the gameweek data is a
-# week behind from the moment a gameweek finishes.
+# Mappings rot on the calendar rather than on commits: three clubs are promoted
+# every August and their squads are absent from the previous season's golden
+# record until someone refreshes it, and every transfer window adds signings.
 #
-# Runs after each typical gameweek settles (Tue/Fri) plus daily through the
-# transfer windows, when the mappings move fastest.
+# Only the mappings are refreshed here. They are small CSVs tracked normally in
+# git. The training dataset lives on Hugging Face precisely so that automated
+# refreshes do not add a 92 MB copy to this repository every run.
 on:
   schedule:
-    - cron: "0 5 * * 2,5"
+    - cron: "0 5 * * 2"
   workflow_dispatch:
-    inputs:
-      mappings_only:
-        description: "Refresh mappings only, skip the gameweek data"
-        type: boolean
-        default: false
 
 permissions:
   contents: write
 
 concurrency:
-  group: refresh-data
+  group: refresh-mappings
   cancel-in-progress: false
 
 jobs:
@@ -29,8 +24,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          lfs: true
 
       - uses: actions/setup-python@v5
         with:
@@ -39,34 +32,28 @@ jobs:
 
       - run: pip install pandas requests understatapi
 
+      # Understat publishes a season only once it kicks off, so pre-season runs
+      # fall back to the ChrisMusson ID map and mark new rows MEDIUM. Expected,
+      # not a failure.
       - name: Refresh FPL <-> Understat mappings
         working-directory: data/mappings
         run: python update_golden_records.py
 
-      # Understat only publishes a season once it kicks off, so between late
-      # May and the opening weekend the update falls back to the ID map alone
-      # and marks new rows MEDIUM. That is expected, not a failure.
-      - name: Refresh gameweek data
-        if: ${{ !inputs.mappings_only }}
-        working-directory: data
-        run: python update_smartplay_data.py
-
-      # Never commit a dataset that fails its own checks — a broken push here
-      # is worse than a stale file, because it looks maintained.
-      - name: Validate before committing
-        run: python validate.py
+      # Never commit mappings that fail their own checks. A broken automated
+      # push is worse than a stale file, because it still looks maintained.
+      - name: Validate
+        run: python validate.py --quick
 
       - name: Commit if anything changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- data/; then
+          if git diff --quiet -- data/mappings/; then
             echo "No changes."
             exit 0
           fi
-          git add data/
-          git commit -m "Automated refresh: gameweek data and golden records
+          git add data/mappings/
+          git commit -m "Automated refresh: FPL <-> Understat golden records
 
-          Ran by .github/workflows/refresh.yml. Validated by validate.py before
-          committing, so a failing dataset is never pushed."
+          Ran by .github/workflows/refresh.yml, validated before committing."
           git push

@@ -1,10 +1,7 @@
 name: validate
 
-# The dataset and mappings are the product here, so they get the same
-# treatment code would. The scheduled run matters more than the push run:
-# mappings rot on the calendar, not on commits — three clubs are promoted
-# every August and their players are absent from last season's golden record
-# until someone refreshes it.
+# Public repositories get unlimited free Actions minutes on standard runners,
+# and nothing here touches Git LFS, so this costs nothing to run.
 on:
   push:
     paths: ["data/**", "solver/**", "validate.py", ".github/workflows/validate.yml"]
@@ -13,14 +10,17 @@ on:
   schedule:
     - cron: "0 6 * * 1"      # Mondays, 06:00 UTC
   workflow_dispatch:
+    inputs:
+      full:
+        description: "Also download the dataset and check it (92 MB)"
+        type: boolean
+        default: false
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          lfs: true
 
       - uses: actions/setup-python@v5
         with:
@@ -29,10 +29,17 @@ jobs:
 
       - run: pip install pandas pytest highspy
 
-      # Fails if a promoted club or a new signing has no mapping, if the
-      # dataset has duplicate keys, or if a completed season stops short.
-      - run: python validate.py
+      # The mapping checks are the ones that rot on the calendar — promoted
+      # clubs and transfer-window signings — and they need no dataset. The
+      # full-CSV pass is opt-in so routine runs pull nothing large.
+      - run: python validate.py --quick
 
-      # The solver ships publicly, so it is held to the same bar: the MILP is
-      # exercised against fixed cases with known-good solutions.
+      - name: Full dataset check
+        if: ${{ inputs.full }}
+        run: |
+          pip install huggingface_hub
+          python data/download.py
+          python validate.py
+
+      # The solver ships publicly, so it is held to the same bar.
       - run: python -m pytest solver/tests -q

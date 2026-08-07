@@ -13,40 +13,38 @@ The site also includes fixture difficulty ratings, side-by-side player compariso
 
 For full technical details on the prediction pipeline, solver, and accuracy benchmarks, see [How It Works](https://smartplayfpl.com/under-the-hood). For our transparency principles and strict no-gambling policy, see [Ethics](https://smartplayfpl.com/ethics).
 
-## What is unusual about this repo
+## What is in here
 
-The FPL open-source community has excellent **data**. It has almost no published
-**models**, and essentially no published **evaluation**.
+Everything behind the projections on the site, in the order you would want it:
 
-[vaastav/Fantasy-Premier-League](https://github.com/vaastav/Fantasy-Premier-League)
-is the canonical historical dataset and this project is built on it.
-[olbauday/FPL-Core-Insights](https://github.com/olbauday/FPL-Core-Insights)
-carries 2026/27 with Elo ratings, cup and friendly coverage, and updates twice a
-day. If you want FPL data, start with one of those — both are better at that job
-than we are, and we are not trying to compete with them.
+- **The model.** v12's full weights are on
+  [Hugging Face](https://huggingface.co/Qazybek/smartplay-fpl-v12); the blend
+  heads, feature order and a loader live in `models/`. The smaller v9 model is
+  committed here in full and needs no download.
+- **The solver.** `solver/` holds the mixed-integer program that turns those
+  projections into a squad — lineup, captain, transfers and chips over a
+  multi-gameweek horizon, subject to every FPL rule.
+- **The evaluation.** `evaluation/` publishes the walk-forward numbers behind
+  the projections, and leads with the parts that do not flatter them: a ranking
+  metric that did not improve, a headline error figure inflated by players who
+  never played, and six gameweeks missing from the suite.
+- **The data.** The merged FPL + Understat training table on
+  [Hugging Face](https://huggingface.co/datasets/Qazybek/smartplay-fpl-dataset),
+  with the FPL ↔ Understat golden records and the refresh tooling in `data/`.
+  `data/README.md` documents a trap in the FPL projection column that will
+  quietly corrupt any benchmark built on it.
 
-What is not out there is a trained points model you can download and run,
-together with an honest account of where it fails. That is what this repo and
-the linked model weights are for:
-
-- **[The v12 model on Hugging Face](https://huggingface.co/Qazybek/smartplay-fpl-v12)** —
-  the weights actually generating the projections on the site, with a worked
-  inference example.
-- **`evaluation/`** — the walk-forward numbers behind those projections,
-  including the parts that do not flatter us: a ranking metric that did not
-  improve, a headline error figure inflated by players who never played, and six
-  gameweeks missing from the suite.
-- **`data/`** — the merged FPL + Understat training table, and a documented trap
-  in the FPL projection column that will silently corrupt any benchmark built
-  on it.
+You can download the model that serves the site, run it on the data it was
+trained on, feed the output to the same optimiser, and check the accuracy
+claims yourself.
 
 ## Run the production model
 
 Not a toy re-implementation — the weights actually serving the site.
 
 ```bash
-git lfs pull                                  # dataset lives in LFS
 pip install -r requirements.txt huggingface_hub
+python data/download.py                       # fetches the dataset (92 MB)
 
 cd models
 python -m smartplay_model.run --model v12 --season 2025-26 --gw-start 30 --gw-end 38
@@ -90,19 +88,25 @@ rot follows the calendar, not commits.
 This repo is a self-contained, public-friendly release of the prediction models and training dataset that power the site.
 
 - Start here: `models/README.md`
-- Git LFS required (for `data/smartplay_data.csv`)
-- License: CC BY-NC 4.0 (see `LICENSE`)
-- Includes:
-  - `models/openfpl_model/` — OpenFPL inference wrapper (downloads upstream models on first run)
-  - `models/smartplay_model/` — SmartPlay v9 pre-trained XGBoost weights + runner
-  - `models/smartplay_model/v12/` — v12's direct-blend heads, blend formula and feature
-    order; the full weights are on
-    [Hugging Face](https://huggingface.co/Qazybek/smartplay-fpl-v12) because the
-    base is ~316 MB and would burn the LFS quota for everyone cloning this repo
-  - `data/smartplay_data.csv` — training/evaluation dataset (Git LFS)
-  - `data/mappings/` — FPL ↔ Understat golden records, current for 2026-27
-  - `evaluation/` — published walk-forward accuracy, so the site's claims can be checked
-  - `solver/` — the MILP squad optimiser behind the site, with a runnable example
+- Licence: CC BY-NC 4.0 (see `LICENSE`)
+- No Git LFS. The two large artefacts are on Hugging Face, so cloning is fast
+  and neither we nor you pay bandwidth for them.
+
+| Path | What it holds |
+|---|---|
+| `models/smartplay_model/` | v9 weights and runner, committed in full |
+| `models/smartplay_model/v12/` | v12 blend heads, formula, feature order, loader |
+| `models/openfpl_model/` | OpenFPL inference wrapper |
+| `solver/` | The MILP squad optimiser, with a runnable example |
+| `evaluation/` | Walk-forward accuracy behind the published projections |
+| `data/mappings/` | FPL ↔ Understat golden records, current for 2026-27 |
+| `data/download.py` | Fetches the training dataset |
+| `validate.py` | Integrity checks, also run weekly in CI |
+
+| Hosted on Hugging Face | |
+|---|---|
+| [v12 weights](https://huggingface.co/Qazybek/smartplay-fpl-v12) | ~316 MB |
+| [Training dataset](https://huggingface.co/datasets/Qazybek/smartplay-fpl-dataset) | 92 MB |
 
 Two things in here are worth reading before you build on them, because both are
 easy to get wrong and neither is obvious:

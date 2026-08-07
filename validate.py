@@ -101,12 +101,13 @@ def check_live_squad_coverage() -> None:
 
 def check_dataset(quick: bool) -> None:
     print("\ndataset")
-    check("smartplay_data.csv exists", DATA.exists(), str(DATA))
     if not DATA.exists():
+        note("smartplay_data.csv absent — run `python data/download.py` to check it")
         return
+    check("smartplay_data.csv exists", True, str(DATA))
     if DATA.stat().st_size < 1_000_000:
-        check("smartplay_data.csv is not a git-lfs pointer", False,
-              "run `git lfs pull`")
+        check("smartplay_data.csv looks complete", False,
+              "run `python data/download.py`")
         return
     if quick:
         note("skipped full-CSV checks (--quick)")
