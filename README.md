@@ -2,6 +2,12 @@
 
 Open models and dataset behind **[SmartPlay](https://smartplayfpl.com)**, an AI-powered Fantasy Premier League analytics platform. The site is a one-time payment with no subscription and no auto-renewal; everything in this repository is free to use under the licence below.
 
+> **Solver moved:** the maintained, production-synchronized optimiser now lives
+> in [qazybekb/smartplayfpl-solver](https://github.com/qazybekb/smartplayfpl-solver).
+> It is an installable Apache-2.0 Python package with a CLI, offline demo, public
+> FPL team loader and its own CI. The `solver/` directory here is retained only
+> as a historical snapshot so old links and experiments keep working.
+
 ## The Website
 
 [smartplayfpl.com](https://smartplayfpl.com) gives FPL managers two things:
@@ -21,9 +27,9 @@ Everything behind the projections on the site, in the order you would want it:
   [Hugging Face](https://huggingface.co/Qazybek/smartplay-fpl-v12); the blend
   heads, feature order and a loader live in `models/`. The smaller v9 model is
   committed here in full and needs no download.
-- **The solver.** `solver/` holds the mixed-integer program that turns those
-  projections into a squad — lineup, captain, transfers and chips over a
-  multi-gameweek horizon, subject to every FPL rule.
+- **The solver.** The maintained optimiser has moved to the standalone
+  [SmartPlay Solver repository](https://github.com/qazybekb/smartplayfpl-solver).
+  The bundled `solver/` directory is a historical snapshot.
 - **The evaluation.** `evaluation/` publishes the walk-forward numbers behind
   the projections, and leads with the parts that do not flatter them: a ranking
   metric that did not improve, a headline error figure inflated by players who
@@ -61,15 +67,20 @@ predictions = load_v12().predict(feature_df)   # adds pred, pred_multibucket, pr
 
 ## Solve a squad
 
-The optimiser is here too, in `solver/` — the same MILP that runs the site.
+Use the maintained standalone repository — the exact production core, packaged
+for local use:
 
 ```bash
-python solver/example.py --season 2025-26 --gameweek 30
+git clone https://github.com/qazybekb/smartplayfpl-solver.git
+cd smartplayfpl-solver
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -e .
+smartplay-solver demo
 ```
 
-A wildcard from scratch: dataset in, v12 projections, best legal 15 on £100.0m,
-no account needed. See [`solver/README.md`](solver/README.md) for the rules it
-models and the interface.
+The standalone package can load a public FPL team, consume your own projection
+CSV/JSON, build a squad from scratch and export a complete multi-gameweek plan.
 
 ## Check it yourself
 
@@ -97,7 +108,7 @@ This repo is a self-contained, public-friendly release of the prediction models 
 | `models/smartplay_model/` | v9 weights and runner, committed in full |
 | `models/smartplay_model/v12/` | v12 blend heads, formula, feature order, loader |
 | `models/openfpl_model/` | OpenFPL inference wrapper |
-| `solver/` | The MILP squad optimiser, with a runnable example |
+| `solver/` | Historical Solver snapshot; use [smartplayfpl-solver](https://github.com/qazybekb/smartplayfpl-solver) for the maintained release |
 | `evaluation/` | Walk-forward accuracy behind the published projections |
 | `data/mappings/` | FPL ↔ Understat golden records, current for 2026-27 |
 | `data/download.py` | Fetches the training dataset |

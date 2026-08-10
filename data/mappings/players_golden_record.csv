@@ -1486,6 +1486,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 551499,Munoz,Victor,Munoz,MID,13279,,,,MEDIUM
 552425,Peck,Sydie,Peck,MID,12251,Sydie,Peck,Peck,HIGH
 552427,Lankshear,Will,Lankshear,FWD,13127,Will,Lankshear,Lankshear,HIGH
+552946,Hjertø-Dahl,Jens,Hjertø-Dahl,MID,,,,,NONE
 553299,Takai,Takai,Kōta,DEF,14279,,,,MEDIUM
 553746,Shahar,Leo,Shahar,DEF,13572,,,,MEDIUM
 553783,Zambrano,Óscar,Zambrano,MID,,,,,NONE
@@ -1601,6 +1602,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 606921,Esse,Romain,Esse,MID,13387,Romain,Esse,Esse,HIGH
 607464,Kayode,Michael,Kayode,DEF,11281,Michael,Kayode,Kayode,HIGH
 608181,Tzimas,Stefanos,Tzimas,FWD,14028,Stefanos,Tzimas,Tzimas,HIGH
+608227,Stroud,Elliot,Stroud,MID,,,,,NONE
 609640,Amougou,Mathis,Amougou,MID,12808,Mathis,Amougou,Amougou,HIGH
 609873,Armstrong,Harrison,Armstrong,MID,12757,Harrison,Armstrong,Armstrong,HIGH
 610799,Vuskovic,Luka,Vušković,DEF,13725,,,,MEDIUM
@@ -1671,6 +1673,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 660392,Uche,Christantus,Uche,FWD,12726,Christantus,Uche,Uche,HIGH
 661712,D.Leon,Diego,León Blanco,DEF,14057,,,,MEDIUM
 661800,McCarthy,Cathal,McCarthy,DEF,,,,,NONE
+661888,Yirenkyi,Caleb,Yirenkyi,MID,,,,,NONE
 664015,Leon Routh,Leon,Routh,DEF,14265,,,,MEDIUM
 666607,Alabi,Sam,Alabi,MID,14273,,,,MEDIUM
 672492,Drakes-Thomas,Joél,Drakes-Thomas,MID,14263,Joél,Drakes-Thomas,Drakes-Thomas,HIGH
