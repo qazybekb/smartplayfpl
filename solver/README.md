@@ -1,5 +1,11 @@
 # solver
 
+> **Historical snapshot — no longer maintained here.** The current production
+> Solver, installable CLI, documentation and tests are in
+> [qazybekb/smartplayfpl-solver](https://github.com/qazybekb/smartplayfpl-solver).
+> This directory remains available for reproducibility of the older combined
+> public release.
+
 The squad optimiser behind [smartplayfpl.com](https://smartplayfpl.com). Given
 expected points per player per gameweek, it picks the squad, the starting
 eleven, the captain and the transfers that maximise projected points over a
