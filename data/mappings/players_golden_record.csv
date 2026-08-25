@@ -252,7 +252,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 93100,Vestergaard,Jannik,Vestergaard,DEF,111,Jannik,Vestergaard,Vestergaard,HIGH
 93264,Dier,Eric,Dier,DEF,643,Eric,Dier,Dier,HIGH
 93284,Andone,Florin,Andone,FWD,4068,Florin,Andone,Andone,HIGH
-93605,Meunier,Thomas,Meunier,DEF,5680,,,,MEDIUM
+93605,Meunier,Thomas,Meunier,DEF,5680,Thomas,Meunier,Meunier,HIGH
 94147,Coady,Conor,Coady,DEF,6851,Conor,Coady,Coady,HIGH
 94245,Batshuayi,Michy,Batshuayi,FWD,1678,Michy,Batshuayi,Batshuayi,HIGH
 94926,Ladapo,Freddie,Ladapo,FWD,1778,Olayinka Fredrick Oladotun,Ladapo,Ladapo,MEDIUM
@@ -389,7 +389,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 146610,O'Connell,Jack,O'Connell,DEF,7705,Jack,O&#039;Connell,O&#039;Connell,HIGH
 146941,Laporte,Aymeric,Laporte,DEF,2498,Aymeric,Laporte,Laporte,HIGH
 147611,Onuachu,Paul,Onuachu,FWD,11360,Paul,Onuachu,Onuachu,HIGH
-147675,Akpom,Chuba,Akpom,FWD,1790,,,,MEDIUM
+147675,Akpom,Chuba,Akpom,FWD,1790,Chuba,Akpom,Akpom,HIGH
 148225,Martial,Anthony,Martial,FWD,553,Anthony,Martial,Martial,HIGH
 148508,Trézéguet,Mahmoud Ahmed,Ibrahim Hassan,MID,7722,Mahmoud Ahmed,Ibrahim Hassan,Trézéguet,HIGH
 149065,José Sá,José,Malheiro de Sá,GK,9740,José,Malheiro de Sá,Sá,HIGH
@@ -444,7 +444,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 158983,Endo,Endo,Wataru,MID,8808,Wataru,Endo,Endo,LOW
 159506,Aina,Ola,Aina,DEF,725,Ola,Aina,Aina,HIGH
 159533,Adama,Adama,Traoré,MID,900,Adama,Traoré Diarra,Adama,HIGH
-160817,McNair,Paddy,McNair,DEF,559,,,,MEDIUM
+160817,McNair,Paddy,McNair,DEF,559,Paddy,McNair,McNair,HIGH
 160987,Gbamin,Jean-Philippe,Gbamin,MID,4764,Jean-Philippe,Gbamin,Gbamin,HIGH
 162651,Samir,Samir,Caetano de Souza Santos,DEF,1142,Samir,,Samir,HIGH
 164011,Diagne,Mbaye,Diagne,FWD,9290,Mbaye,Diagne,Diagne,HIGH
@@ -475,7 +475,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 167888,Lumley,Joe,Lumley,GK,12762,Joe,Lumley,Lumley,HIGH
 168035,Onyedinma,Fred,Onyedinma,MID,12549,Fred,Onyedinma,Onyedinma,HIGH
 168090,Dahoud,Mahmoud,Dahoud,MID,205,Mahmoud,Dahoud,Dahoud,HIGH
-168144,Grimes,Matt,Grimes,MID,1045,,,,MEDIUM
+168144,Grimes,Matt,Grimes,MID,1045,Matt,Grimes,Grimes,HIGH
 168281,McKenna,Scott,McKenna,DEF,10757,Scott,McKenna,McKenna,HIGH
 168399,Norris,Will,Norris,GK,7459,Will,Norris,Norris,HIGH
 168580,Pérez,Ayoze,Pérez,MID,770,Ayoze,Pérez,Pérez,HIGH
@@ -510,6 +510,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 173271,Caleta-Car,Duje,Caleta-Car,DEF,7007,Duje,Caleta-Car,Caleta-Car,HIGH
 173514,Success,Isaac,Success Ajayi,FWD,1724,Isaac,Success Ajayi,Success,HIGH
 173515,Iheanacho,Kelechi,Iheanacho,FWD,620,Kelechi,Iheanacho,Iheanacho,HIGH
+173774,Elvedi,Nico,Elvedi,DEF,,,,,NONE
 173807,Davies,Tom,Davies,MID,1042,Tom,Davies,Davies,HIGH
 173818,Broadhead,Nathan,Broadhead,MID,9406,Nathan,Broadhead,Broadhead,HIGH
 173821,Roberts,Tyler,Roberts,MID,1014,Tyler,Roberts,Roberts,HIGH
@@ -641,7 +642,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 204120,Boscagli,Olivier,Boscagli,DEF,3645,Olivier,Boscagli,Boscagli,HIGH
 204214,Estupiñan,Pervis,Estupiñán,DEF,5136,Pervis,Estupiñán,Estupiñán,HIGH
 204480,Rice,Declan,Rice,MID,5553,Declan,Rice,Rice,HIGH
-204561,Schlager,Xaver,Schlager,MID,7783,,,,MEDIUM
+204561,Schlager,Xaver,Schlager,MID,7783,Xaver,Schlager,Schlager,HIGH
 204580,Janelt,Vitaly,Janelt,MID,9680,Vitaly,Janelt,Janelt,HIGH
 204646,Malen,Donyell,Malen,MID,9749,Donyell,Malen,Malen,HIGH
 204676,Zeqiri,Andi,Zeqiri,FWD,9099,Andi,Zeqiri,Zeqiri,HIGH
@@ -969,6 +970,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 433312,Munetsi,Marshall,Munetsi,MID,7908,Marshall,Munetsi,Munetsi,HIGH
 433590,Drameh,Cody,Drameh,DEF,9499,Cody,Drameh,Drameh,HIGH
 433952,Ramazani,Largie,Ramazani,MID,10975,,,,MEDIUM
+433969,Suzuki,Zion,Suzuki,GKP,,,,,NONE
 433979,Archer,Cameron,Archer,FWD,9912,Cameron,Archer,Archer,HIGH
 434024,Gunnarsson,Patrik,Gunnarsson,GK,9688,Patrik,Gunnarsson,Gunnarsson,HIGH
 434044,Slicker,Cieran,Slicker,GK,10052,Cieran,Slicker,Slicker,HIGH
@@ -1092,7 +1094,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 461025,Butler-Oyedeji,Nathan,Butler-Oyedeji,FWD,11272,Nathan,Butler-Oyedeji,Butler-Oyedeji,HIGH
 461026,Campbell,Chem,Campbell,MID,9741,Chem,Campbell,Campbell,HIGH
 461096,Richardson,Lewis,Richardson,FWD,9082,Lewis,Richardson,Richardson,HIGH
-461102,Thomas,Bobby,Thomas,DEF,8483,,,,MEDIUM
+461102,Thomas,Bobby,Thomas,DEF,8483,Bobby,Thomas,Thomas,HIGH
 461188,Humphreys,Bashir,Humphreys,DEF,11243,Bashir,Humphreys,Humphreys,HIGH
 461195,Cirkin,Dennis,Cirkin,DEF,8537,Dennis,Cirkin,Cirkin,HIGH
 461199,Mundle,Romaine,Mundle,MID,11461,Romaine,Mundle,Mundle,HIGH
@@ -1119,6 +1121,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 463067,Georginio,Georginio,Rutter,MID,6937,Georginio,Rutter,Rutter,MEDIUM
 463210,Charles,Shea,Charles,MID,11594,Shea,Charles,Charles,HIGH
 463212,Forbs,Carlos Roberto,Forbs Borges,MID,13092,Carlos Roberto,Forbs Borges,Forbs,HIGH
+463726,Dedić,Amar,Dedic,DEF,,,,,NONE
 463748,Hein,Karl,Hein,GK,9692,Karl,Hein,Hein,HIGH
 463903,Lindstrøm,Jesper,Lindstrøm,MID,9752,Jesper,Lindstrøm,Lindstrøm,HIGH
 463936,Gittens,Jamie,Bynoe-Gittens,MID,10542,Jamie,Bynoe-Gittens,Bynoe-Gittens,HIGH
@@ -1223,6 +1226,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 487837,Mubama,Divin,Mubama,FWD,11242,Divin,Mubama,Mubama,HIGH
 487838,Hall,Lewis,Hall,DEF,10216,Lewis,Hall,Hall,HIGH
 487968,Al-Dakhil,Ameen,Al-Dakhil,DEF,11699,Ameen,Al Dakhil,Dakhil,HIGH
+487992,Ruggeri,Matteo,Ruggeri,DEF,,,,,NONE
 488024,Yeremy,Yéremy,Pino Santos,MID,9024,Yeremi,Pino,Pino,HIGH
 488213,Tolu,Tolu,Arokodare,FWD,8875,Tolu,Arokodare,Arokodare,HIGH
 488404,Pellistri,Facundo,Pellistri Rebollo,MID,9324,Facundo,Pellistri Rebollo,Pellistri,HIGH
@@ -1367,7 +1371,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 514315,Sousa,Lino,da Cruz Sousa,DEF,11133,Lino,Sousa,Sousa,MEDIUM
 514356,Lavia,Roméo,Lavia,MID,10004,Roméo,Lavia,Lavia,HIGH
 514362,Ojinnaka,Temple,Ojinnaka,MID,12575,,,,MEDIUM
-514514,Koumas,Lewis,Koumas,MID,12434,,,,MEDIUM
+514514,Koumas,Lewis,Koumas,MID,12434,Lewis,Koumas,Koumas,HIGH
 514613,Johnson,Zak,Johnson,DEF,,,,,NONE
 515024,Harris,Luke,Harris,MID,10719,Luke,Harris,Harris,HIGH
 515046,Ellborg,Melker,Ellborg,GKP,14425,Melker,Ellborg,Ellborg,HIGH
@@ -1401,7 +1405,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 519913,Fletcher,Tyler,Fletcher,MID,14272,Tyler,Fletcher,Fletcher,HIGH
 520295,D.D.Fofana,David Datro,Fofana,FWD,11295,David Datro,Fofana,D.D.Fofana,HIGH
 521966,Munroe,Finley,Munroe,DEF,12581,Finley,Munroe,Munroe,HIGH
-522047,Muharemović,Tarik,Muharemović,DEF,13879,,,,MEDIUM
+522047,Muharemović,Tarik,Muharemović,DEF,13879,Tarik,Muharemovic,Muharemovic,HIGH
 523700,Jebbison,Daniel,Jebbison,FWD,9509,Daniel,Jebbison,Jebbison,HIGH
 523705,Tchatchoua,Jackson,Tchatchoua,DEF,12113,Jackson,Tchatchoua,Tchatchoua,HIGH
 523957,T.Bénie,Bénie,Traoré,FWD,11729,Bénie,Traoré,Traoré,HIGH
@@ -1437,10 +1441,11 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 536916,Buonanotte,Facundo,Buonanotte,MID,11362,Facundo,Buonanotte,Buonanotte,HIGH
 537043,Kesler Hayden,Kaine,Kesler Hayden,DEF,9409,Kaine,Hayden,Hayden,HIGH
 537403,Young,Kadan,Young,MID,11240,Kadan,Young,Kadan Young,HIGH
+538007,David,Promise,David,FWD,,,,,NONE
 538207,Osula,William,Osula,FWD,9556,William,Osula,Osula,HIGH
 538210,Brooks,Andre,Brooks,MID,11731,Andre,Brooks,Brooks,HIGH
 538638,Bindon,Tyler,Bindon,DEF,,,,,NONE
-539142,Amenda,Aurèle,Amenda,DEF,12955,,,,MEDIUM
+539142,Amenda,Aurèle,Amenda,DEF,12955,Aurèle,Amenda,Amenda,HIGH
 539721,McConville,Ruairi,McConville,DEF,13219,Ruairi,McConville,McConville,HIGH
 540324,Belloumi,Mohamed,Belloumi,MID,,,,,NONE
 541462,Akinmboni,Matai,Akinmboni,DEF,13344,Matai,Akinmboni,Akinmboni,HIGH
@@ -1455,6 +1460,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 547037,Fletcher,Jack,Fletcher,MID,13150,Jack,Fletcher,Fletcher,HIGH
 547410,H.Jones,Harrison,Jones,MID,13722,,,,MEDIUM
 547676,Fredricson,Tyler,Fredricson,DEF,13467,Tyler,Fredricson,Fredricson,HIGH
+547686,De Fougerolles,Luc,De Fougerolles,DEF,12172,,,,MEDIUM
 547692,Rak-Sakyi,Samuel,Rak-Sakyi,MID,13286,Samuel,Rak-Sakyi,Rak-Sakyi,HIGH
 547701,Gray,Archie,Gray,MID,10184,Archie,Gray,Gray,HIGH
 547716,Parkinson,Ben,Parkinson,FWD,12198,Ben,Parkinson,Parkinson,HIGH
@@ -1487,7 +1493,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 551262,Markelo,Jahnoah,Markelo,FWD,,,,,NONE
 551466,García,Gonzalo,García,FWD,,,,,NONE
 551483,A.Jimenez,Álex,Jiménez Sánchez,DEF,12168,Alejandro,Jiménez,Jiménez,HIGH
-551499,Munoz,Victor,Munoz,MID,13279,,,,MEDIUM
+551499,Munoz,Victor,Munoz,MID,13279,Víctor,Muñoz,Muñoz,HIGH
 552425,Peck,Sydie,Peck,MID,12251,Sydie,Peck,Peck,HIGH
 552427,Lankshear,Will,Lankshear,FWD,13127,Will,Lankshear,Lankshear,HIGH
 552946,Hjertø-Dahl,Jens,Hjertø-Dahl,MID,,,,,NONE
@@ -1501,6 +1507,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 556637,Oriola,Nehemiah,Oriola,MID,14127,Nehemiah,Oriola,Oriola,HIGH
 556639,Fitzgerald,Jayce,Fitzgerald,MID,13196,Jayce,Fitzgerald,Fitzgerald,HIGH
 557012,Walle Egeli,Sindre,Walle Egeli,FWD,,,,,NONE
+559152,Gozo,Zavier,Gozo,MID,,,,,NONE
 559610,Bentt,Luka,Bentt,MID,14405,,,,MEDIUM
 559684,Moorhouse,Jack,Moorhouse,MID,13468,,,,MEDIUM
 559962,Jimoh,Jamaldeen,Jimoh,MID,13310,Jamaldeen,Jimoh,Jimoh,HIGH
@@ -1529,7 +1536,9 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 570241,Ji-soo,Kim,Ji-soo,DEF,12136,Ji-Soo,Kim,Kim Ji-Soo,LOW
 570526,Bergvall,Lucas,Bergvall,MID,12912,Lucas,Bergvall,Bergvall,HIGH
 570794,Khalaili,Anan,Khalaili,DEF,,,,,NONE
+571380,Lynch,Luka,Lynch,MID,,,,,NONE
 571779,Palacios,César,Palacios,MID,,,,,NONE
+572584,Ouattara,Abdoul,Ouattara,DEF,,,,,NONE
 572702,Lamadrid,Keiber,Lamadrid,MID,14504,,,,MEDIUM
 573062,Godo,Martial,Godo,MID,11164,Martial,Godo,Godo,HIGH
 574398,Umeh-Chibueze,Franco,Umeh-Chibueze,MID,12454,Franco,Umeh-Chibueze,Umeh-Chibueze,HIGH
@@ -1584,6 +1593,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 592031,Minteh,Yankuba,Minteh,MID,12759,Yankuba,Minteh,Minteh,HIGH
 592662,Yogane,Tony,Yogane,MID,13104,Tony,Yogane,Yogane,HIGH
 592736,King,Maeson,King,DEF,13287,Maeson,King,King,HIGH
+592740,Cresswell,Alfie,Cresswell,MID,14625,,,,MEDIUM
 593001,Gonzalez,Enso,González,MID,12047,Enso,González,González,HIGH
 593117,Quenda,Geovany,Quenda,MID,,,,,NONE
 593174,Furo,Kaye,Furo,FWD,14356,Kaye,Furo,Furo,HIGH
@@ -1601,7 +1611,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 604988,Simmonds,Freddie,Simmonds,DEF,13583,,,,MEDIUM
 605319,Rawlings,Luke,Rawlings,MID,14256,,,,MEDIUM
 606689,Donovan,Romelle,Donovan,MID,14217,Romelle,Donovan,Donovan,HIGH
-606702,Jacquet,Jeremy,Jacquet,DEF,11545,,,,MEDIUM
+606702,Jacquet,Jeremy,Jacquet,DEF,11545,Jérémy,Jacquet,Jacquet,HIGH
 606745,Heaven,Ayden,Heaven,DEF,13080,Ayden,Heaven,Heaven,HIGH
 606774,Rees-Dottin,Remy,Rees-Dottin,FWD,13307,Remy,Rees-Dottin,Rees-Dottin,HIGH
 606775,Winterburn,Ben,Winterburn,MID,13242,Ben,Winterburn,Winterburn,HIGH
@@ -1613,7 +1623,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 608227,Stroud,Elliot,Stroud,MID,,,,,NONE
 609640,Amougou,Mathis,Amougou,MID,12808,Mathis,Amougou,Amougou,HIGH
 609873,Armstrong,Harrison,Armstrong,MID,12757,Harrison,Armstrong,Armstrong,HIGH
-610799,Vuskovic,Luka,Vušković,DEF,13725,,,,MEDIUM
+610799,Vuskovic,Luka,Vušković,DEF,13725,Luka,Vuskovic,Vuskovic,HIGH
 611011,Johnson,Joseph,Johnson,DEF,11980,Joseph,Johnson,Johnson,HIGH
 611134,Paez,Kendry,Páez Andrade,MID,13818,,,,MEDIUM
 611665,Touré,Bazoumana,Touré,MID,13427,,,,MEDIUM
@@ -1652,6 +1662,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 624773,Estêvão,Estêvão,Almeida de Oliveira Gonçalves,MID,13775,,Estêvão,Estêvão,HIGH
 626464,G.Nunes,Gustavo,Nunes Fernandes Gomes,MID,13588,Gustavo,Nunes Fernandes Gomes,G.Nunes,HIGH
 626844,Aleksić,Milan,Aleksić,MID,14478,,,,MEDIUM
+627221,Cherif,Sidiki,Cherif,FWD,,,,,NONE
 628204,Konak,Yunus Emre,Konak,MID,12633,Yunus,Konak,Konak,HIGH
 629068,Graham,Braiden,Graham,FWD,14283,,,,MEDIUM
 629397,Andrews,Kaine,Andrews,MID,,,,,NONE
@@ -1659,7 +1670,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 630699,Mohamadou Kanté,Mohamadou,Kanté,MID,14219,Mohamadou,Kanté,Kanté,HIGH
 631106,Casey,Ben,Casey,FWD,14285,,,,MEDIUM
 631786,Kusi-Asare,Jonah,Kusi-Asare,FWD,13262,Jonah,Kusi-Asare,Kusi-Asare,HIGH
-632794,Bamba,Aladji,Bamba,MID,13214,,,,MEDIUM
+632794,Bamba,Aladji,Bamba,MID,13214,Aladji,Bamba,Bamba,HIGH
 632822,Harris,Archie,Harris,DEF,13300,Archie,Harris,Harris,HIGH
 636852,Steur,Sean,Steur,MID,,,,,NONE
 640108,Antoñito C.,Antoñito,Cordero Campillo,MID,,,,,NONE
@@ -1668,6 +1679,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 643135,Fer López,Fer,López González,MID,13200,Fernando,López,López,HIGH
 643426,Benamar,Dean,Benamar,DEF,14278,,,,MEDIUM
 643473,Golambeckis,Airidas,Golambeckis,DEF,14179,,,,MEDIUM
+643970,Lienou,Jayden,Lienou,DEF,14619,,,,MEDIUM
 645618,Burrowes,Bradley,Burrowes,MID,13870,Bradley,Burrowes,Burrowes,HIGH
 646243,Harriman-Annous,Andre,Harriman-Annous,MID,14000,,,,MEDIUM
 647671,Mané,Mateus,Mané,FWD,13484,Mateus,Mané,Mané,HIGH
