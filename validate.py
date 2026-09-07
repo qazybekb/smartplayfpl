@@ -67,6 +67,38 @@ def check_mappings() -> None:
     note(f"{with_id}/{len(players)} players carry an Understat id")
 
 
+def unmapped_detail(missing: list[dict], live_total: int,
+                    team_names: dict[int, str]) -> str:
+    """Name every unmapped player, not just count them.
+
+    This check went red four weeks running with nothing in the log but
+    "23 of 654 unmapped", which meant querying the FPL API by hand before you
+    could tell whether the gap was a promoted club's squad or one deadline-day
+    signing. Print the rows instead, most-owned first: ownership is what decides
+    whether a missing mapping is a curiosity or a hole in everybody's data.
+    """
+    head = f"{len(missing)} of {live_total} unmapped"
+    if not missing:
+        return head
+
+    def owned(element: dict) -> float:
+        try:
+            return float(element.get("selected_by_percent") or 0)
+        except (TypeError, ValueError):
+            return 0.0
+
+    lines = [
+        "    {:<8}  {:<24}  {:<18}  {:>5.1f}% owned".format(
+            element["code"],
+            element.get("web_name") or "?",
+            team_names.get(element.get("team"), "?"),
+            owned(element),
+        )
+        for element in sorted(missing, key=owned, reverse=True)
+    ]
+    return "\n".join([head + ":", *lines])
+
+
 def check_live_squad_coverage() -> None:
     """The seasonal killer: promoted clubs and new signings with no mapping.
 
@@ -88,10 +120,10 @@ def check_live_squad_coverage() -> None:
     club_names = {r["fpl_club_name"] if "fpl_club_name" in r else next(iter(r.values()))
                   for r in csv.DictReader(CLUBS.open())}
 
-    live_players = [str(e["code"]) for e in boot["elements"]]
-    missing = [c for c in live_players if c not in mapped]
+    team_names = {t["id"]: t["name"] for t in boot["teams"]}
+    missing = [e for e in boot["elements"] if str(e["code"]) not in mapped]
     check("every current FPL player has a mapping row",
-          not missing, f"{len(missing)} of {len(live_players)} unmapped")
+          not missing, unmapped_detail(missing, len(boot["elements"]), team_names))
 
     live_clubs = {t["name"] for t in boot["teams"]}
     missing_clubs = sorted(live_clubs - club_names)

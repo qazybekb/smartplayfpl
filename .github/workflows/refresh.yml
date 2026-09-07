@@ -23,9 +23,9 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -41,6 +41,12 @@ jobs:
 
       # Never commit mappings that fail their own checks. A broken automated
       # push is worse than a stale file, because it still looks maintained.
+      #
+      # This step is also the repository's weekly mapping gate. validate.yml
+      # used to carry a Monday 06:00 schedule that ran a day *before* this
+      # refresh and failed on every player added in between; see the comment at
+      # the top of validate.yml. Do not delete this step assuming a scheduled
+      # validation still covers it.
       - name: Validate
         run: python validate.py --quick
 
