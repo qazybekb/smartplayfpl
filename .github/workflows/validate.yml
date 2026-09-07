@@ -2,13 +2,28 @@ name: validate
 
 # Public repositories get unlimited free Actions minutes on standard runners,
 # and nothing here touches Git LFS, so this costs nothing to run.
+#
+# There is deliberately no `schedule:` here, and adding one back is a mistake.
+# The live-coverage check fails on every player FPL has added since the last
+# mapping refresh, and that refresh is .github/workflows/refresh.yml on
+# Tuesdays at 05:00 UTC, which runs `validate.py --quick` on its own result
+# before it commits. A Monday 06:00 schedule therefore asked the question one
+# day before the answer existed, and went red every single week it ran:
+# 2026-08-17, 2026-08-24, 2026-08-31 and 2026-09-07 (the last on 23 of 654 live
+# players, with every other check passing).
+#
+# Re-scheduling to Tuesday 06:00 would not fix it. GitHub delays scheduled runs
+# under load, and these two workflows have already drifted by hours: the 06:00
+# Monday validation started at 11:11 UTC on 2026-09-07, and the 05:00 Tuesday
+# refresh started at 09:47 UTC on 2026-09-01. No pair of cron expressions can
+# order them. The weekly mapping check is the refresh's own validation step,
+# which by construction runs after the data it is checking. What is left here
+# are the triggers that have an actual commit to check.
 on:
   push:
     paths: ["data/**", "solver/**", "validate.py", ".github/workflows/validate.yml"]
   pull_request:
     paths: ["data/**", "solver/**", "validate.py"]
-  schedule:
-    - cron: "0 6 * * 1"      # Mondays, 06:00 UTC
   workflow_dispatch:
     inputs:
       full:
@@ -20,9 +35,9 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
