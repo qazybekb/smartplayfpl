@@ -650,7 +650,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 204676,Zeqiri,Andi,Zeqiri,FWD,9099,Andi,Zeqiri,Zeqiri,HIGH
 204716,Konaté,Ibrahima,Konaté,DEF,6326,Ibrahima,Konaté,Konaté,HIGH
 204727,M.Sarr,Malang,Sarr,DEF,5648,Malang,Sarr,Sarr,HIGH
-204813,Latibeaudiere,Joel,Latibeaudiere,DEF,14748,,,,MEDIUM
+204813,Latibeaudiere,Joel,Latibeaudiere,DEF,14748,Joel,Latibeaudiere,Latibeaudiere,HIGH
 204814,Brereton Díaz,Ben,Brereton Díaz,MID,11815,Ben,Brereton,Brereton Díaz,HIGH
 204822,O.Richards,Omar,Richards,DEF,9675,Omar,Richards,Richards,HIGH
 204863,Manning,Ryan,Manning,DEF,13134,Ryan,Manning,Manning,HIGH
@@ -1088,7 +1088,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 451340,Mitoma,Mitoma,Kaoru,MID,10806,Kaoru,Mitoma,Mitoma,LOW
 451432,David Carmo,David,Mota Veiga Teixeira do Carmo,DEF,,,,,NONE
 451490,Costinha,João Pedro,Loureiro da Costa,DEF,14854,,Costinha,Costinha,HIGH
-454490,Svoboda,Michael,Svoboda,DEF,9887,,,,MEDIUM
+454490,Svoboda,Michael,Svoboda,DEF,9887,Michael,Svoboda,Svoboda,HIGH
 454667,Cajuste,Jens,Cajuste,MID,10301,Jens,Cajuste,Cajuste,HIGH
 455084,Davis,Leif,Davis,DEF,8919,Leif,Davis,Davis,HIGH
 456350,Bazunu,Gavin,Bazunu,GK,10765,Gavin,Bazunu,Bazunu,HIGH
@@ -1545,7 +1545,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 565858,Cahill,Killian,Cahill,GK,13170,Killian,Cahill,Cahill,HIGH
 565863,Chambers,Sam,Chambers,MID,14306,,,,MEDIUM
 566164,Nypan,Sverre,Nypan,MID,,,,,NONE
-566213,Mfuni,Stephen,Mfuni,DEF,14054,,,,MEDIUM
+566213,Mfuni,Stephen,Mfuni,DEF,14054,Stephen,Mfuni,Mfuni,HIGH
 567119,Mheuka,Shumaira,Mheuka,FWD,13476,Shumaira,Mheuka,Mheuka,HIGH
 567121,Knight,Joe,Knight,MID,13399,Joe,Knight,Knight,HIGH
 568420,Diomande,Ousmane,Diomande,DEF,14775,Ousmane,Diomande,Diomande,HIGH
@@ -1627,6 +1627,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 597462,Herrington,Lucas,Herrington,DEF,14765,Lucas,Herrington,Herrington,HIGH
 599303,Neave,Sean,Neave,FWD,13532,Sean,Neave,Neave,HIGH
 600882,Gray,Harry,Gray,FWD,14073,,,,MEDIUM
+601767,Salia,Vakhtang,Salia,FWD,,,,,NONE
 601956,Olagunju,Saheed,Olagunju,DEF,14257,,,,MEDIUM
 602903,Mayers,Ezra,Mayers,DEF,13247,Ezra,Mayers,Mayers,HIGH
 604211,Tutierov,Tymur,Tutierov,MID,14277,,,,MEDIUM
@@ -1700,9 +1701,10 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 631786,Kusi-Asare,Jonah,Kusi-Asare,FWD,13262,Jonah,Kusi-Asare,Kusi-Asare,HIGH
 632794,Bamba,Aladji,Bamba,MID,13214,Aladji,Bamba,Bamba,HIGH
 632822,Harris,Archie,Harris,DEF,13300,Archie,Harris,Harris,HIGH
+636846,Nicoll-Jazuli,Mahdi,Nicoll-Jazuli,MID,,,,,NONE
 636852,Steur,Sean,Steur,MID,14875,Sean,Steur,Steur,HIGH
 637238,Bouaddi,Ayyoub,Bouaddi,MID,12162,Ayyoub,Bouaddi,Bouaddi,HIGH
-638411,Methalie,Dayann,Méthalie,DEF,12841,,,,MEDIUM
+638411,Methalie,Dayann,Méthalie,DEF,12841,Dayann,Methalie,Methalie,HIGH
 638987,Mbaye,Ibrahim,Mbaye,MID,12733,Ibrahim,Mbaye,Mbaye,HIGH
 640108,Antoñito C.,Antoñito,Cordero Campillo,MID,,,,,NONE
 640419,Byfield,Jun'ai,Byfield,DEF,14134,Jun&#039;ai,Byfield,Byfield,HIGH
@@ -1721,6 +1723,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 649208,Monga,Jeremy,Monga,MID,13579,Jeremy,Monga,Monga,HIGH
 651426,Canvot,Jaydee,Canvot,DEF,13091,Jaydee,Canvot,Canvot,HIGH
 653481,Alysson,Alysson Edward Franco,da Rocha dos Santos,MID,14446,Alysson,Edward,Edward,HIGH
+655585,Mills,Michael,Mills,MID,,,,,NONE
 658013,Stevens,Charlie,Stevens,MID,14367,,,,MEDIUM
 660392,Uche,Christantus,Uche,FWD,12726,Christantus,Uche,Uche,HIGH
 661016,Ibrahim,Younes,Ibrahim,MID,15078,,,,MEDIUM
@@ -1731,6 +1734,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 664015,Leon Routh,Leon,Routh,DEF,14265,,,,MEDIUM
 665243,Miley,Mason,Miley,MID,,,,,NONE
 666607,Alabi,Sam,Alabi,MID,14273,,,,MEDIUM
+671875,Thompson,Kyran,Thompson,MID,,,,,NONE
 672492,Drakes-Thomas,Joél,Drakes-Thomas,MID,14263,Joél,Drakes-Thomas,Drakes-Thomas,HIGH
 678552,DaCosta,Malcom,DaCosta,MID,14215,,,,MEDIUM
 684268,Shepherd,George,Shepherd,MID,,,,,NONE
