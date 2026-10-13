@@ -1291,7 +1291,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 494543,Ballard,Dominic,Ballard,FWD,11583,Dominic,Ballard,Ballard,HIGH
 494595,Wirtz,Florian,Wirtz,MID,8397,Florian,Wirtz,Wirtz,HIGH
 494779,Grønbæk,Albert,Grønbæk,MID,12880,Albert,Grønbæk,Grønbæk,HIGH
-494928,Sanchez,Juanlu,Sánchez,DEF,8409,,,,MEDIUM
+494928,Sanchez,Juanlu,Sánchez,DEF,8409,Juanlu,Sanchez,Sanchez,HIGH
 494950,Cartwright,Harvey,Cartwright,GKP,,,,,NONE
 494960,Hartman,Quilindschy,Hartman,DEF,13727,Quilindschy,Hartman,Hartman,HIGH
 495024,Jay Robinson,Jay,Robinson,FWD,13582,Jay,Robinson,Robinson,HIGH
@@ -1327,7 +1327,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 499726,Olusesi,Callum,Olusesi,MID,13224,Callum,Olusesi,Olusesi,HIGH
 499857,Sharman-Lowe,Teddy,Sharman-Lowe,GKP,12561,,,,MEDIUM
 500016,Welington,Welington Damascena,Santos,DEF,13403,Welington Damascena,Santos,Welington,HIGH
-500033,Ángel,Manuel Ángel,Morán Ibáñez,MID,14502,,,,MEDIUM
+500033,Ángel,Manuel Ángel,Morán Ibáñez,MID,14502,Manuel,Ángel,Ángel,HIGH
 500040,Mosquera,Cristhian,Mosquera,DEF,10024,Cristhian,Mosquera,Mosquera,HIGH
 500058,Danns,Jayden,Danns,FWD,12455,Jayden,Danns,Danns,HIGH
 500151,Savona,Nicolò,Savona,DEF,12905,Nicolò,Savona,Savona,HIGH
@@ -1368,7 +1368,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 510663,Ekitiké,Hugo,Ekitiké,FWD,8995,Hugo,Ekitike,Ekitike,HIGH
 511499,Tel,Mathys,Tel,MID,9780,Mathys,Tel,Tel,HIGH
 511783,Zaroury,Anass,Zaroury,MID,11703,Anass,Zaroury,Zaroury,HIGH
-512123,Hadjam,Jaouen,Hadjam,DEF,11344,,,,MEDIUM
+512123,Hadjam,Jaouen,Hadjam,DEF,11344,Jaouen,Hadjam,Hadjam,HIGH
 512462,O'Brien,Jake,O'Brien,DEF,12014,Jake,O'Brien,O'Brien,HIGH
 513046,Danilo,Danilo,dos Santos de Oliveira,MID,11317,Danilo,dos Santos de Oliveira,Danilo,HIGH
 513086,Schuster,Jannik,Schuster,DEF,14788,Jannik,Schuster,Schuster,HIGH
@@ -1678,7 +1678,7 @@ fpl_code,fpl_player_name,fpl_first_name,fpl_second_name,fpl_position,understat_p
 618873,Kone,Sékou,Koné,MID,13469,,,,MEDIUM
 619146,Olabade Aluko,Olabade,Aluko,DEF,13586,Olabade,Aluko,Aluko,HIGH
 619536,Ridgeon,Seth,Ridgeon,MID,14270,,,,MEDIUM
-620109,Palestra,Marco,Palestra,DEF,11551,,,,MEDIUM
+620109,Palestra,Marco,Palestra,DEF,11551,Marco,Palestra,Palestra,HIGH
 620408,Kayi Sanda,Joachim,Kayi-Sanda,DEF,13636,Joachim,Kayi-Sanda,Kayi Sanda,HIGH
 620487,Milosavljević,Veljko,Milosavljevic,DEF,14027,Veljko,Milosavljevic,Milosavljevic,HIGH
 622536,Arthur,Benjamin,Arthur,DEF,12533,Benjamin,Arthur,Arthur,HIGH
